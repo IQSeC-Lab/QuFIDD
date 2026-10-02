@@ -1,0 +1,44 @@
+{
+  "group": "Group17",
+  "weights": "trained",
+  "run_id": 0,
+  "split_id": 1,
+  "seed": 42,
+  "ood_family": "plankton",
+  "sim_time_sec": 327.44,
+  "scores": {
+    "current": {
+      "ROC_raw": 0.6345633333333333,
+      "PR_raw": 0.6856352512447781,
+      "TF_F1": 0.7936893203878678,
+      "ROC_mad": 0.43603499999999995,
+      "MAD_F1": 0.0,
+      "MAD_frac_flagged": 0.0
+    },
+    "sanity_max_abs_diff_vs_saved_raw": 1.0728836059570312e-06,
+    "leakage": {
+      "ROC_raw": 0.5697399999999999,
+      "PR_raw": 0.6595983057847957,
+      "TF_F1": 0.7826086956516942,
+      "ROC_mad": 0.467815,
+      "MAD_F1": 0.0,
+      "MAD_frac_flagged": 0.0
+    },
+    "prob_eucl": {
+      "ROC_raw": 0.4804616666666667,
+      "PR_raw": 0.5859851931902543,
+      "TF_F1": 0.7721470019337615,
+      "ROC_mad": 0.4610766666666667,
+      "MAD_F1": 0.0,
+      "MAD_frac_flagged": 0.000625
+    },
+    "hellinger": {
+      "ROC_raw": 0.5937666666666667,
+      "PR_raw": 0.7199973250041529,
+      "TF_F1": 0.7702390131066965,
+      "ROC_mad": 0.59594,
+      "MAD_F1": 0.011916583912611719,
+      "MAD_frac_flagged": 0.004375
+    }
+  }
+}

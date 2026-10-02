@@ -1,0 +1,49 @@
+========================================================================================
+Group17 ABLATION 1 -- PCA only (no VQC, no training), scored against known-class centroids
+data: /home/snowm001/projects/OOD/Data/cade_lamda_4class_vt
+========================================================================================
+  run0/split0 droidkungfu  PCA var=0.610  ROC eucl=0.744  cos=0.735  | trained G17=0.592
+  run0/split1 plankton     PCA var=0.603  ROC eucl=0.615  cos=0.618  | trained G17=0.635
+  run0/split2 smsreg       PCA var=0.709  ROC eucl=0.893  cos=0.845  | trained G17=0.858
+  run0/split3 airpush      PCA var=0.636  ROC eucl=0.930  cos=0.927  | trained G17=0.868
+  run1/split0 droidkungfu  PCA var=0.610  ROC eucl=0.744  cos=0.735  | trained G17=0.727
+  run1/split1 plankton     PCA var=0.603  ROC eucl=0.617  cos=0.619  | trained G17=0.560
+  run1/split2 smsreg       PCA var=0.709  ROC eucl=0.892  cos=0.845  | trained G17=0.860
+  run1/split3 airpush      PCA var=0.636  ROC eucl=0.930  cos=0.927  | trained G17=0.929
+  run2/split0 droidkungfu  PCA var=0.610  ROC eucl=0.744  cos=0.735  | trained G17=0.755
+  run2/split1 plankton     PCA var=0.603  ROC eucl=0.618  cos=0.621  | trained G17=0.557
+  run2/split2 smsreg       PCA var=0.709  ROC eucl=0.893  cos=0.846  | trained G17=0.871
+  run2/split3 airpush      PCA var=0.636  ROC eucl=0.930  cos=0.927  | trained G17=0.908
+
+Mean +- std over runs (population std). ROC_raw/PR_raw/TF_F1 rank by the raw distance;
+ROC_mad ranks by the MAD score; MAD_F1 = fixed threshold 3.5. Flag-all F1 floor = 0.769.
+
+  droidkungfu
+    variant                           ROC_raw        ROC_mad         PR_raw          TF_F1         MAD_F1
+    PCA-only (euclidean)         0.744+-0.000   0.644+-0.001   0.758+-0.000   0.822+-0.000   0.000+-0.000
+    PCA-only (cosine)            0.735+-0.000   0.653+-0.001   0.736+-0.000   0.827+-0.000   0.000+-0.000
+    Trained Group17              0.692+-0.071   0.536+-0.064   0.711+-0.056   0.829+-0.021   0.000+-0.000
+
+  plankton
+    variant                           ROC_raw        ROC_mad         PR_raw          TF_F1         MAD_F1
+    PCA-only (euclidean)         0.616+-0.001   0.456+-0.001   0.688+-0.001   0.799+-0.000   0.000+-0.000
+    PCA-only (cosine)            0.619+-0.001   0.459+-0.002   0.693+-0.001   0.795+-0.000   0.000+-0.000
+    Trained Group17              0.584+-0.036   0.482+-0.033   0.666+-0.014   0.784+-0.007   0.000+-0.000
+
+  smsreg
+    variant                           ROC_raw        ROC_mad         PR_raw          TF_F1         MAD_F1
+    PCA-only (euclidean)         0.893+-0.000   0.885+-0.001   0.923+-0.000   0.874+-0.000   0.007+-0.001
+    PCA-only (cosine)            0.845+-0.000   0.895+-0.000   0.861+-0.000   0.869+-0.000   0.041+-0.000
+    Trained Group17              0.863+-0.006   0.731+-0.007   0.886+-0.005   0.873+-0.001   0.000+-0.000
+
+  airpush
+    variant                           ROC_raw        ROC_mad         PR_raw          TF_F1         MAD_F1
+    PCA-only (euclidean)         0.930+-0.000   0.938+-0.000   0.935+-0.000   0.932+-0.000   0.065+-0.008
+    PCA-only (cosine)            0.927+-0.000   0.942+-0.000   0.937+-0.000   0.928+-0.000   0.722+-0.003
+    Trained Group17              0.902+-0.026   0.589+-0.019   0.938+-0.014   0.873+-0.029   0.000+-0.000
+
+  ALL
+    variant                           ROC_raw        ROC_mad         PR_raw          TF_F1         MAD_F1
+    PCA-only (euclidean)         0.796+-0.125   0.731+-0.194   0.826+-0.106   0.857+-0.051   0.018+-0.028
+    PCA-only (cosine)            0.782+-0.116   0.737+-0.194   0.807+-0.097   0.855+-0.050   0.191+-0.307
+    Trained Group17              0.760+-0.136   0.585+-0.100   0.800+-0.118   0.840+-0.041   0.000+-0.000

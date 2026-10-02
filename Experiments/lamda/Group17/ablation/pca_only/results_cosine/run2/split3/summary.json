@@ -1,0 +1,41 @@
+{
+  "model": "Group17_ablation_PCAonly_cosine",
+  "description": "Frozen PCA(32)+L2 norm only, no VQC, no training; cosine distance to known-class centroids",
+  "run_id": 2,
+  "split_id": 3,
+  "seed": 456,
+  "ood_family": "airpush",
+  "n_train": 2400,
+  "n_test": 1600,
+  "n_features": 1111,
+  "pca_source": "Group17 saved PCA (paired)",
+  "n_trainable_params": 0,
+  "MAD_Threshold": {
+    "threshold": 3.5,
+    "best_f1": 0.7263,
+    "best_precision": 0.9574,
+    "best_recall": 0.585,
+    "fpr": 0.0433,
+    "fnr": 0.415,
+    "norm_effort": 0.611,
+    "tp": 585,
+    "fp": 26,
+    "fn": 415,
+    "tn": 574
+  },
+  "Threshold_Free": {
+    "best_f1": 0.9286403085824493,
+    "best_precision": 0.8966480446927374,
+    "best_recall": 0.963,
+    "norm_effort": 1.074,
+    "fpr": 0.185,
+    "fnr": 0.037,
+    "roc_auc": 0.9267599999999998,
+    "pr_auc": 0.9369202690180837,
+    "n_ood": 1000,
+    "n_known": 600,
+    "n_total": 1600
+  },
+  "pca_explained_variance": 0.6358850598335266,
+  "roc_auc_mad_score": 0.9424641666666667
+}

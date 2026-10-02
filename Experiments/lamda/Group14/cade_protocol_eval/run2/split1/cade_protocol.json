@@ -1,0 +1,88 @@
+{
+  "group": "Group14",
+  "run_id": 2,
+  "split_id": 1,
+  "seed": 456,
+  "ood_family": "plankton",
+  "n_ood": 1000,
+  "n_known": 600,
+  "n_nan_mad": 0,
+  "reference_threshold_free": {
+    "ROC_AUC_raw": 0.46744833333333335,
+    "PR_AUC_raw": 0.5997738405110342,
+    "ROC_AUC_mad": 0.49463,
+    "PR_AUC_mad": 0.6153888969082344
+  },
+  "cade_protocol": [
+    {
+      "T_MAD": 0.0,
+      "n_flagged": 1600,
+      "Frac_flagged": 1.0,
+      "F1": 0.7700038654807781,
+      "Precision": 0.6275992438563327,
+      "Recall": 0.996,
+      "FPR": 0.985,
+      "FNR": 0.0040000000000000036,
+      "Effort": 1.587,
+      "k_best": 1587,
+      "TP": 996,
+      "FP": 591
+    },
+    {
+      "T_MAD": 2.0,
+      "n_flagged": 35,
+      "Frac_flagged": 0.021875,
+      "F1": 0.046376811594137556,
+      "Precision": 0.6857142857142857,
+      "Recall": 0.024,
+      "FPR": 0.018333333333333333,
+      "FNR": 0.976,
+      "Effort": 0.035,
+      "k_best": 35,
+      "TP": 24,
+      "FP": 11
+    },
+    {
+      "T_MAD": 2.5,
+      "n_flagged": 10,
+      "Frac_flagged": 0.00625,
+      "F1": 0.015841584158396236,
+      "Precision": 0.8,
+      "Recall": 0.008,
+      "FPR": 0.0033333333333333335,
+      "FNR": 0.992,
+      "Effort": 0.01,
+      "k_best": 10,
+      "TP": 8,
+      "FP": 2
+    },
+    {
+      "T_MAD": 3.0,
+      "n_flagged": 1,
+      "Frac_flagged": 0.000625,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0016666666666666668,
+      "FNR": 1.0,
+      "Effort": 0.001,
+      "k_best": 1,
+      "TP": 0,
+      "FP": 1
+    },
+    {
+      "T_MAD": 3.5,
+      "n_flagged": 0,
+      "Frac_flagged": 0.0,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0,
+      "FNR": 1.0,
+      "Effort": 0.0,
+      "k_best": 0,
+      "TP": 0,
+      "FP": 0
+    }
+  ]
+}

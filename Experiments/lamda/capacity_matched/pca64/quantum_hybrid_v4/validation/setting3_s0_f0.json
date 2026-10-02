@@ -1,0 +1,12 @@
+{
+  "setting": 3,
+  "cfg": {
+    "lam_n": 1.0,
+    "lam_g": 1.0
+  },
+  "split": 0,
+  "fold": 0,
+  "ROC_raw": 0.669375,
+  "ROC_mad": 0.5394179687499999,
+  "best_epoch": 61
+}

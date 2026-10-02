@@ -1,0 +1,23 @@
+Saved: results/all_results.csv
+Saved: results/per_family_summary.csv
+Saved: results/final_summary.json
+======================================================================
+FINAL RESULTS: Group6 PCA + VQC Fidelity Loss 5Q Three Scoring
+======================================================================
+Completed:   24/24
+Expval  F1:  0.6003 ± 0.0818
+Fidelity F1: 0.6695 ± 0.0971
+EnsBest F1:  0.6754 ± 0.0944
+Delta F1:    +0.0692
+
+Family               Expval   Fidelity    EnsBest    Delta
+----------------------------------------------------------
+droidkungfu         0.6341    0.6985    0.6985 +0.0645
+plankton            0.6328    0.7310    0.7310 +0.0982
+basebridge          0.3890    0.4473    0.4578 +0.0583
+smsreg              0.6360    0.7346    0.7366 +0.0986
+airpush             0.6629    0.7914    0.7921 +0.1285
+fakeinst            0.6115    0.6320    0.6433 +0.0206
+shedun              0.6284    0.6803    0.7033 +0.0519
+smssend             0.6078    0.6408    0.6408 +0.0330
+======================================================================

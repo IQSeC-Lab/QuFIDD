@@ -1,0 +1,19 @@
+{
+  "run_id": 0,
+  "split_id": 1,
+  "seed": 42,
+  "ood_family": "plankton",
+  "pca_source": "Group20 saved PCA",
+  "n_trainable_params": 0,
+  "MAD_F1_T3.5": 0.0,
+  "MAD_precision": 0.0,
+  "MAD_recall": 0.0,
+  "MAD_frac_flagged": 0.0,
+  "TF_F1": 0.780353634577126,
+  "TF_precision": 0.6427184466019418,
+  "TF_recall": 0.993,
+  "CADE_F1_T3.5": 0.0,
+  "ROC_raw": 0.5671483333333334,
+  "ROC_mad": 0.5011483333333333,
+  "PR_raw": 0.6662897540225456
+}

@@ -1,0 +1,88 @@
+{
+  "group": "Group14",
+  "run_id": 2,
+  "split_id": 0,
+  "seed": 456,
+  "ood_family": "droidkungfu",
+  "n_ood": 1000,
+  "n_known": 600,
+  "n_nan_mad": 0,
+  "reference_threshold_free": {
+    "ROC_AUC_raw": 0.6451083333333333,
+    "PR_AUC_raw": 0.6958269198073912,
+    "ROC_AUC_mad": 0.5299133333333332,
+    "PR_AUC_mad": 0.6353498764894565
+  },
+  "cade_protocol": [
+    {
+      "T_MAD": 0.0,
+      "n_flagged": 1600,
+      "Frac_flagged": 1.0,
+      "F1": 0.7823157894731966,
+      "Precision": 0.6756363636363636,
+      "Recall": 0.929,
+      "FPR": 0.7433333333333333,
+      "FNR": 0.07099999999999995,
+      "Effort": 1.375,
+      "k_best": 1375,
+      "TP": 929,
+      "FP": 446
+    },
+    {
+      "T_MAD": 2.0,
+      "n_flagged": 22,
+      "Frac_flagged": 0.01375,
+      "F1": 0.015717092337882748,
+      "Precision": 0.4444444444444444,
+      "Recall": 0.008,
+      "FPR": 0.016666666666666666,
+      "FNR": 0.992,
+      "Effort": 0.018,
+      "k_best": 18,
+      "TP": 8,
+      "FP": 10
+    },
+    {
+      "T_MAD": 2.5,
+      "n_flagged": 4,
+      "Frac_flagged": 0.0025,
+      "F1": 0.001992031872502024,
+      "Precision": 0.25,
+      "Recall": 0.001,
+      "FPR": 0.005,
+      "FNR": 0.999,
+      "Effort": 0.004,
+      "k_best": 4,
+      "TP": 1,
+      "FP": 3
+    },
+    {
+      "T_MAD": 3.0,
+      "n_flagged": 0,
+      "Frac_flagged": 0.0,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0,
+      "FNR": 1.0,
+      "Effort": 0.0,
+      "k_best": 0,
+      "TP": 0,
+      "FP": 0
+    },
+    {
+      "T_MAD": 3.5,
+      "n_flagged": 0,
+      "Frac_flagged": 0.0,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0,
+      "FNR": 1.0,
+      "Effort": 0.0,
+      "k_best": 0,
+      "TP": 0,
+      "FP": 0
+    }
+  ]
+}

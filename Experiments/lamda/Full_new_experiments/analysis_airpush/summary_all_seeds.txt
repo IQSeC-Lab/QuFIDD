@@ -1,0 +1,7 @@
+=== airpush held out: mean over 3 seeds ===
+  PCA-5 L2 (input)     ROC_raw 0.850  ROC_mad 0.888  median dist ratio 1.64  nearest: droidkungfu 13%, plankton 62%, smsreg 25%  | flagged@3.5 airpush 0%, known 0%
+  CADE-mini selected   ROC_raw 0.853  ROC_mad 0.901  median dist ratio 6.64  nearest: droidkungfu 8%, plankton 81%, smsreg 11%  | flagged@3.5 airpush 84%, known 12%
+  CADE-mini full       ROC_raw 0.896  ROC_mad 0.917  median dist ratio 2.79  nearest: droidkungfu 3%, plankton 47%, smsreg 50%  | flagged@3.5 airpush 42%, known 4%
+  Quantum v1           ROC_raw 0.915  ROC_mad 0.899  median dist ratio 2.13  nearest: droidkungfu 7%, plankton 77%, smsreg 16%  | flagged@3.5 airpush 69%, known 11%
+  Quantum v2           ROC_raw 0.923  ROC_mad 0.940  median dist ratio 2.76  nearest: droidkungfu 8%, plankton 68%, smsreg 24%  | flagged@3.5 airpush 91%, known 13%
+  Quantum v3           ROC_raw 0.921  ROC_mad 0.939  median dist ratio 2.75  nearest: droidkungfu 8%, plankton 67%, smsreg 25%  | flagged@3.5 airpush 90%, known 12%

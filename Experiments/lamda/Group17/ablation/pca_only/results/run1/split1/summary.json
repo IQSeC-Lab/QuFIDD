@@ -1,0 +1,41 @@
+{
+  "model": "Group17_ablation_PCAonly_euclidean",
+  "description": "Frozen PCA(32)+L2 norm only, no VQC, no training; euclidean distance to known-class centroids",
+  "run_id": 1,
+  "split_id": 1,
+  "seed": 123,
+  "ood_family": "plankton",
+  "n_train": 2400,
+  "n_test": 1600,
+  "n_features": 1388,
+  "pca_source": "Group17 saved PCA (paired)",
+  "n_trainable_params": 0,
+  "MAD_Threshold": {
+    "threshold": 3.5,
+    "best_f1": 0.0,
+    "best_precision": 0.0,
+    "best_recall": 0.0,
+    "fpr": 0.0,
+    "fnr": 1.0,
+    "norm_effort": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1000,
+    "tn": 600
+  },
+  "Threshold_Free": {
+    "best_f1": 0.7985136251032205,
+    "best_precision": 0.680028129395218,
+    "best_recall": 0.967,
+    "norm_effort": 1.422,
+    "fpr": 0.7583333333333333,
+    "fnr": 0.033,
+    "roc_auc": 0.6165116666666666,
+    "pr_auc": 0.6874769368365914,
+    "n_ood": 1000,
+    "n_known": 600,
+    "n_total": 1600
+  },
+  "pca_explained_variance": 0.6027705669403076,
+  "roc_auc_mad_score": 0.45768999999999993
+}

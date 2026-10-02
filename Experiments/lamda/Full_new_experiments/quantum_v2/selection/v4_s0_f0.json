@@ -1,0 +1,15 @@
+{
+  "variant_index": 4,
+  "variant": {
+    "scaling": true,
+    "distance": "fid_lin",
+    "margin": 1.0
+  },
+  "split": 0,
+  "fold": 0,
+  "ROC_raw": 0.46498046875,
+  "ROC_mad": 0.68573046875,
+  "CADE_F1@3.5": 0.5219683655531853,
+  "best_epoch": 241,
+  "n_params": 200
+}

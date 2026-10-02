@@ -1,0 +1,87 @@
+{
+  "model": "Group20_CADE_Matched_PCA5_4class",
+  "reference": "CADE (Yang et al., USENIX Security 2021, released code), capacity-matched to Group18 on PCA-5",
+  "architecture": "5-11-3 linear bottleneck; mirror decoder, linear output",
+  "input": "PCA-5 coordinates (explained variance 0.368)",
+  "pca_dim": 5,
+  "pca_explained_variance": 0.36797428131103516,
+  "hidden": [
+    11
+  ],
+  "baseline_pca_l2norm_centroid_roc": 0.7774566666666667,
+  "loss": "0.1*contrastive(margin=10.0) + MSE",
+  "protocol": "matched",
+  "run_id": 0,
+  "split_id": 2,
+  "ood_family": "smsreg",
+  "seed": 42,
+  "n_train": 2400,
+  "n_test": 1600,
+  "n_features": 5,
+  "n_trainable_params": 206,
+  "lr": 0.001,
+  "max_epochs": 250,
+  "actual_epochs": 46,
+  "stopped_early": true,
+  "best_epoch": 40,
+  "best_loss": 0.389800367752711,
+  "train_time_sec": 9.87,
+  "mad_stats": {
+    "median": [
+      1.5785157680511475,
+      2.3773088455200195,
+      1.237135648727417
+    ],
+    "mad": [
+      0.9370448589324951,
+      1.4693511724472046,
+      0.5225345492362976
+    ]
+  },
+  "roc_auc_mad_score": 0.8967833333333333,
+  "baseline_input_centroid_roc": 0.48636833333333335,
+  "CADE_protocol_T3.5": {
+    "T_MAD": 3.5,
+    "n_flagged": 503,
+    "best_f1": 0.6364846870834431,
+    "best_precision": 0.952191235059761,
+    "best_recall": 0.478,
+    "fpr": 0.04,
+    "norm_effort": 0.502
+  },
+  "CADE_protocol_T0": {
+    "T_MAD": 0.0,
+    "n_flagged": 1600,
+    "best_f1": 0.8605313092974138,
+    "best_precision": 0.8185920577617328,
+    "best_recall": 0.907,
+    "fpr": 0.335,
+    "norm_effort": 1.108
+  },
+  "MAD_Threshold": {
+    "threshold": 3.5,
+    "best_f1": 0.6361,
+    "best_precision": 0.9503,
+    "best_recall": 0.478,
+    "fpr": 0.0417,
+    "fnr": 0.522,
+    "norm_effort": 0.503,
+    "tp": 478,
+    "fp": 25,
+    "fn": 522,
+    "tn": 575
+  },
+  "Threshold_Free": {
+    "best_f1": 0.8605313092974138,
+    "best_precision": 0.8185920577617328,
+    "best_recall": 0.907,
+    "norm_effort": 1.108,
+    "fpr": 0.335,
+    "fnr": 0.09299999999999997,
+    "roc_auc": 0.8748833333333332,
+    "pr_auc": 0.8966593055252219,
+    "n_ood": 1000,
+    "n_known": 600,
+    "n_total": 1600
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "group": "Group17",
+  "weights": "trained",
+  "run_id": 1,
+  "split_id": 0,
+  "seed": 123,
+  "ood_family": "droidkungfu",
+  "sim_time_sec": 310.61,
+  "scores": {
+    "current": {
+      "ROC_raw": 0.7274349999999999,
+      "PR_raw": 0.7352630242094887,
+      "TF_F1": 0.8472522717433429,
+      "ROC_mad": 0.5910533333333334,
+      "MAD_F1": 0.0,
+      "MAD_frac_flagged": 0.0
+    },
+    "sanity_max_abs_diff_vs_saved_raw": 5.364418029785156e-07,
+    "leakage": {
+      "ROC_raw": 0.7512433333333333,
+      "PR_raw": 0.7509895313071262,
+      "TF_F1": 0.8554809843395502,
+      "ROC_mad": 0.45428833333333335,
+      "MAD_F1": 0.0,
+      "MAD_frac_flagged": 0.0
+    },
+    "prob_eucl": {
+      "ROC_raw": 0.5772708333333335,
+      "PR_raw": 0.6163756160447224,
+      "TF_F1": 0.7883986928099741,
+      "ROC_mad": 0.3310666666666667,
+      "MAD_F1": 0.0,
+      "MAD_frac_flagged": 0.001875
+    },
+    "hellinger": {
+      "ROC_raw": 0.6463366666666667,
+      "PR_raw": 0.7075756353669493,
+      "TF_F1": 0.7743205986604126,
+      "ROC_mad": 0.5172908333333334,
+      "MAD_F1": 0.0,
+      "MAD_frac_flagged": 0.000625
+    }
+  }
+}

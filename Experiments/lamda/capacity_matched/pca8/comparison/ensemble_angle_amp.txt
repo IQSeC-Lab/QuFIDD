@@ -1,0 +1,86 @@
+======================================================================================================================
+ANGLE + AMPLITUDE ENSEMBLE -- /home/snowm001/projects/OOD/Experiments/lamda/capacity_matched/pca8
+======================================================================================================================
+  folders: angle=quantum_angle_8, amp=quantum_amp_8, enc=cade_enc_8, tuned=cade_tuned_8, full=cade_full_8
+  rule: mean of the members' z-scores, z = (d - median_train) / (1.4826 MAD_train), per model (primary); max (secondary)
+  tasks: 12 (4 families x 3 seeds); seed ensembles pair seed i with seed i+1 on the same split  -- seed ensembles not built (use --seed-controls)
+
+OVERALL -- rule: mean of z-scores (single models: their own z-score)   mean over 12 tasks
+  model / ensemble                    ROC       PR       F1        P        R      FPR      FNR   Effort
+  amp alone                         0.800    0.830    0.846    0.777    0.936    0.472    0.064    1.220
+  angle alone                       0.779    0.829    0.853    0.785    0.949    0.481    0.051    1.238
+  Q: angle + amp                    0.824    0.859    0.859    0.802    0.932    0.410    0.068    1.178
+  enc alone                         0.750    0.846    0.833    0.802    0.893    0.440    0.107    1.157
+  tuned alone                       0.829    0.882    0.853    0.816    0.915    0.407    0.085    1.159
+  full alone                        0.729    0.802    0.833    0.776    0.915    0.485    0.085    1.206
+  C: enc + tuned                    0.803    0.870    0.847    0.813    0.904    0.409    0.096    1.149
+  C: enc + full                     0.784    0.860    0.852    0.800    0.929    0.441    0.071    1.193
+  C: tuned + full                   0.824    0.875    0.868    0.816    0.943    0.408    0.057    1.188
+
+OVERALL -- rule: max of z-scores (single models: their own z-score)   mean over 12 tasks
+  model / ensemble                    ROC       PR       F1        P        R      FPR      FNR   Effort
+  Q: angle + amp                    0.808    0.840    0.855    0.804    0.921    0.401    0.079    1.161
+  C: enc + tuned                    0.821    0.878    0.855    0.803    0.934    0.447    0.066    1.202
+  C: enc + full                     0.791    0.860    0.864    0.806    0.947    0.439    0.053    1.211
+  C: tuned + full                   0.830    0.877    0.872    0.815    0.951    0.409    0.049    1.196
+
+PER FAMILY -- raw ROC-AUC, rule: mean (mean over seeds)
+  family               amp alone     angle alone  Q: angle + amp       enc alone     tuned alone      full alone  C: enc + tuned   C: enc + full C: tuned + full
+  airpush                  0.932           0.936           0.955           0.829           0.933           0.873           0.910           0.899           0.944
+  droidkungfu              0.706           0.870           0.843           0.797           0.859           0.882           0.835           0.874           0.904
+  plankton                 0.694           0.433           0.586           0.460           0.639           0.336           0.560           0.432           0.528
+  smsreg                   0.870           0.878           0.913           0.914           0.888           0.823           0.908           0.928           0.921
+
+KEY COMPARISONS -- raw ROC-AUC, rule: mean (A minus B); hierarchical bootstrap n = 500
+  A                 B                            mean diff  A wins  Wilcoxon p   hierarchical 95% CI
+  Q: angle + amp    amp alone                       +0.024    9/12      0.3013   [-0.068, +0.111]  -> no clear difference
+  Q: angle + amp    angle alone                     +0.045    9/12      0.0522   [-0.015, +0.115]  -> no clear difference
+  Q: angle + amp    enc alone                       +0.074   10/12      0.0342   [+0.016, +0.147]  -> A better
+  Q: angle + amp    tuned alone                     -0.005    7/12      0.9097   [-0.044, +0.027]  -> no clear difference
+  Q: angle + amp    C: enc + tuned                  +0.021    9/12      0.0923   [-0.001, +0.049]  -> no clear difference
+  Q: angle + amp    C: enc + full                   +0.041    7/12      0.3804   [-0.024, +0.124]  -> no clear difference
+  Q: angle + amp    C: tuned + full                 +0.000    7/12      1.0000   [-0.044, +0.041]  -> no clear difference
+
+WEIGHT SENSITIVITY CURVE -- score = w * z_first + (1 - w) * z_second, every w on the TEST sets.
+  DESCRIPTIVE ONLY: no weight is selected here. w = 0.5 is the ensemble above; w = 0 and w = 1 are the two
+  members alone. A peak away from 0.5 is chosen with test labels and must not be reported as a model result.
+
+  Q: w * angle + (1 - w) * amp   (mean over 12 tasks)
+       w      ROC       PR       F1        P        R      FPR      FNR   Effort
+     0.0    0.800    0.830    0.846    0.777    0.936    0.472    0.064    1.220   <- amp alone
+     0.1    0.813    0.844    0.852    0.785    0.936    0.445    0.064    1.203
+     0.2    0.823    0.854    0.855    0.794    0.934    0.430    0.066    1.192
+     0.3    0.827    0.860    0.858    0.807    0.925    0.398    0.075    1.164
+     0.4    0.828    0.861    0.859    0.801    0.932    0.412    0.068    1.179
+     0.5    0.824    0.859    0.859    0.802    0.932    0.410    0.068    1.178   <- mean ensemble
+     0.6    0.818    0.854    0.861    0.806    0.932    0.409    0.068    1.178
+     0.7    0.810    0.848    0.861    0.808    0.933    0.411    0.067    1.180
+     0.8    0.801    0.842    0.859    0.807    0.934    0.424    0.066    1.188
+     0.9    0.790    0.836    0.856    0.804    0.931    0.431    0.069    1.190
+     1.0    0.779    0.829    0.853    0.785    0.949    0.481    0.051    1.238   <- angle alone
+  per family, raw ROC-AUC by w:
+  family            0.0    0.1    0.2    0.3    0.4    0.5    0.6    0.7    0.8    0.9    1.0   best w
+  airpush         0.932  0.947  0.955  0.959  0.958  0.955  0.951  0.947  0.944  0.940  0.936     0.3
+  droidkungfu     0.706  0.741  0.773  0.801  0.825  0.843  0.855  0.862  0.867  0.869  0.870     1.0
+  plankton        0.694  0.680  0.663  0.642  0.615  0.586  0.555  0.525  0.495  0.463  0.433     0.0
+  smsreg          0.870  0.885  0.898  0.908  0.913  0.913  0.911  0.906  0.898  0.889  0.878     0.5
+
+  C: w * enc + (1 - w) * tuned   (mean over 12 tasks)
+       w      ROC       PR       F1        P        R      FPR      FNR   Effort
+     0.0    0.829    0.882    0.853    0.816    0.915    0.407    0.085    1.159   <- tuned alone
+     0.1    0.826    0.880    0.853    0.813    0.916    0.412    0.084    1.163
+     0.2    0.822    0.878    0.852    0.814    0.913    0.407    0.087    1.157
+     0.3    0.817    0.876    0.851    0.813    0.911    0.408    0.089    1.156
+     0.4    0.811    0.873    0.849    0.811    0.909    0.412    0.091    1.157
+     0.5    0.803    0.870    0.847    0.813    0.904    0.409    0.096    1.149   <- mean ensemble
+     0.6    0.793    0.865    0.842    0.797    0.913    0.453    0.087    1.185
+     0.7    0.779    0.858    0.837    0.801    0.900    0.444    0.100    1.167
+     0.8    0.766    0.852    0.834    0.803    0.894    0.437    0.106    1.156
+     0.9    0.758    0.848    0.833    0.804    0.891    0.434    0.109    1.151
+     1.0    0.750    0.846    0.833    0.802    0.893    0.440    0.107    1.157   <- enc alone
+  per family, raw ROC-AUC by w:
+  family            0.0    0.1    0.2    0.3    0.4    0.5    0.6    0.7    0.8    0.9    1.0   best w
+  airpush         0.933  0.927  0.924  0.920  0.916  0.910  0.898  0.877  0.857  0.842  0.829     0.0
+  droidkungfu     0.859  0.856  0.852  0.847  0.841  0.835  0.829  0.822  0.814  0.807  0.797     0.0
+  plankton        0.639  0.628  0.616  0.600  0.582  0.560  0.533  0.505  0.480  0.468  0.460     0.0
+  smsreg          0.888  0.894  0.899  0.903  0.906  0.908  0.910  0.912  0.913  0.913  0.914     1.0

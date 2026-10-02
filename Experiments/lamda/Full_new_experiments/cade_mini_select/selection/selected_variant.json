@@ -1,0 +1,320 @@
+{
+  "selected": {
+    "variant_index": 4,
+    "variant": {
+      "design": "enc",
+      "margin": 20.0,
+      "lr": 0.001
+    },
+    "runs": 12,
+    "ROC_raw": 0.8082667643229167,
+    "ROC_mad": 0.8183334960937501,
+    "CADE_F1@3.5": 0.6402122871076277,
+    "epochs_run": 129.83333333333334,
+    "criterion": 0.8133001302083334
+  },
+  "all": [
+    {
+      "variant_index": 0,
+      "variant": {
+        "design": "enc",
+        "margin": 5.0,
+        "lr": 0.001
+      },
+      "runs": 12,
+      "ROC_raw": 0.6992508138020833,
+      "ROC_mad": 0.80568798828125,
+      "CADE_F1@3.5": 0.6699335371568685,
+      "epochs_run": 172.5,
+      "criterion": 0.7524694010416666
+    },
+    {
+      "variant_index": 1,
+      "variant": {
+        "design": "enc",
+        "margin": 5.0,
+        "lr": 0.003
+      },
+      "runs": 12,
+      "ROC_raw": 0.6970721028645833,
+      "ROC_mad": 0.7407664388020834,
+      "CADE_F1@3.5": 0.6029023974767481,
+      "epochs_run": 110.91666666666667,
+      "criterion": 0.7189192708333334
+    },
+    {
+      "variant_index": 2,
+      "variant": {
+        "design": "enc",
+        "margin": 10.0,
+        "lr": 0.001
+      },
+      "runs": 12,
+      "ROC_raw": 0.71715283203125,
+      "ROC_mad": 0.7876827799479167,
+      "CADE_F1@3.5": 0.638744909062153,
+      "epochs_run": 160.16666666666666,
+      "criterion": 0.7524178059895834
+    },
+    {
+      "variant_index": 3,
+      "variant": {
+        "design": "enc",
+        "margin": 10.0,
+        "lr": 0.003
+      },
+      "runs": 12,
+      "ROC_raw": 0.6992400716145833,
+      "ROC_mad": 0.7773787434895834,
+      "CADE_F1@3.5": 0.6267757086783817,
+      "epochs_run": 147.58333333333334,
+      "criterion": 0.7383094075520833
+    },
+    {
+      "variant_index": 4,
+      "variant": {
+        "design": "enc",
+        "margin": 20.0,
+        "lr": 0.001
+      },
+      "runs": 12,
+      "ROC_raw": 0.8082667643229167,
+      "ROC_mad": 0.8183334960937501,
+      "CADE_F1@3.5": 0.6402122871076277,
+      "epochs_run": 129.83333333333334,
+      "criterion": 0.8133001302083334
+    },
+    {
+      "variant_index": 5,
+      "variant": {
+        "design": "enc",
+        "margin": 20.0,
+        "lr": 0.003
+      },
+      "runs": 12,
+      "ROC_raw": 0.6969724934895832,
+      "ROC_mad": 0.7474536132812499,
+      "CADE_F1@3.5": 0.6073973352184231,
+      "epochs_run": 166.58333333333334,
+      "criterion": 0.7222130533854165
+    },
+    {
+      "variant_index": 6,
+      "variant": {
+        "design": "full_cade",
+        "margin": 5.0,
+        "lr": 0.001
+      },
+      "runs": 12,
+      "ROC_raw": 0.5319204101562499,
+      "ROC_mad": 0.5283318684895834,
+      "CADE_F1@3.5": 0.10186885625175986,
+      "epochs_run": 225.75,
+      "criterion": 0.5301261393229166
+    },
+    {
+      "variant_index": 7,
+      "variant": {
+        "design": "full_cade",
+        "margin": 5.0,
+        "lr": 0.003
+      },
+      "runs": 12,
+      "ROC_raw": 0.5023474934895834,
+      "ROC_mad": 0.5562456054687501,
+      "CADE_F1@3.5": 0.16593429329958495,
+      "epochs_run": 210.08333333333334,
+      "criterion": 0.5292965494791668
+    },
+    {
+      "variant_index": 8,
+      "variant": {
+        "design": "full_cade",
+        "margin": 10.0,
+        "lr": 0.001
+      },
+      "runs": 12,
+      "ROC_raw": 0.5782810872395834,
+      "ROC_mad": 0.5781495768229167,
+      "CADE_F1@3.5": 0.20142390189999324,
+      "epochs_run": 216.83333333333334,
+      "criterion": 0.57821533203125
+    },
+    {
+      "variant_index": 9,
+      "variant": {
+        "design": "full_cade",
+        "margin": 10.0,
+        "lr": 0.003
+      },
+      "runs": 12,
+      "ROC_raw": 0.6189194335937499,
+      "ROC_mad": 0.6501124674479167,
+      "CADE_F1@3.5": 0.36976923602722217,
+      "epochs_run": 193.33333333333334,
+      "criterion": 0.6345159505208333
+    },
+    {
+      "variant_index": 10,
+      "variant": {
+        "design": "full_cade",
+        "margin": 20.0,
+        "lr": 0.001
+      },
+      "runs": 12,
+      "ROC_raw": 0.58849462890625,
+      "ROC_mad": 0.6193181966145833,
+      "CADE_F1@3.5": 0.2289364598104298,
+      "epochs_run": 169.5,
+      "criterion": 0.6039064127604167
+    },
+    {
+      "variant_index": 11,
+      "variant": {
+        "design": "full_cade",
+        "margin": 20.0,
+        "lr": 0.003
+      },
+      "runs": 12,
+      "ROC_raw": 0.6551048177083333,
+      "ROC_mad": 0.7277350260416667,
+      "CADE_F1@3.5": 0.4215755789872493,
+      "epochs_run": 177.41666666666666,
+      "criterion": 0.691419921875
+    },
+    {
+      "variant_index": 12,
+      "variant": {
+        "design": "full_eq",
+        "margin": 5.0,
+        "lr": 0.001
+      },
+      "runs": 12,
+      "ROC_raw": 0.7200133463541666,
+      "ROC_mad": 0.7664640299479166,
+      "CADE_F1@3.5": 0.623515586624326,
+      "epochs_run": 215.33333333333334,
+      "criterion": 0.7432386881510415
+    },
+    {
+      "variant_index": 13,
+      "variant": {
+        "design": "full_eq",
+        "margin": 5.0,
+        "lr": 0.003
+      },
+      "runs": 12,
+      "ROC_raw": 0.6606486002604167,
+      "ROC_mad": 0.7310890299479166,
+      "CADE_F1@3.5": 0.5885539102950142,
+      "epochs_run": 183.25,
+      "criterion": 0.6958688151041666
+    },
+    {
+      "variant_index": 14,
+      "variant": {
+        "design": "full_eq",
+        "margin": 10.0,
+        "lr": 0.001
+      },
+      "runs": 12,
+      "ROC_raw": 0.7126876627604166,
+      "ROC_mad": 0.77603369140625,
+      "CADE_F1@3.5": 0.6466303692003514,
+      "epochs_run": 194.0,
+      "criterion": 0.7443606770833333
+    },
+    {
+      "variant_index": 15,
+      "variant": {
+        "design": "full_eq",
+        "margin": 10.0,
+        "lr": 0.003
+      },
+      "runs": 12,
+      "ROC_raw": 0.6686472981770833,
+      "ROC_mad": 0.7540428059895833,
+      "CADE_F1@3.5": 0.5997186790884,
+      "epochs_run": 192.66666666666666,
+      "criterion": 0.7113450520833333
+    },
+    {
+      "variant_index": 16,
+      "variant": {
+        "design": "full_eq",
+        "margin": 20.0,
+        "lr": 0.001
+      },
+      "runs": 12,
+      "ROC_raw": 0.8009103190104166,
+      "ROC_mad": 0.8181372070312499,
+      "CADE_F1@3.5": 0.6344638928427263,
+      "epochs_run": 137.5,
+      "criterion": 0.8095237630208333
+    },
+    {
+      "variant_index": 17,
+      "variant": {
+        "design": "full_eq",
+        "margin": 20.0,
+        "lr": 0.003
+      },
+      "runs": 12,
+      "ROC_raw": 0.6647755533854166,
+      "ROC_mad": 0.7721306966145832,
+      "CADE_F1@3.5": 0.6132078141852789,
+      "epochs_run": 196.33333333333334,
+      "criterion": 0.7184531249999999
+    }
+  ],
+  "shared_runs": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ]
+  ]
+}

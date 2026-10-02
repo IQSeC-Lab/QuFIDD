@@ -1,0 +1,80 @@
+{
+  "model": "Group16_CADE_Original_4class",
+  "reference": "Yang et al., USENIX Security 2021 (released code)",
+  "architecture": "1475-512-128-32-3 linear bottleneck; mirror decoder, linear output; no PCA",
+  "loss": "0.1*contrastive(margin=10.0) + MSE",
+  "protocol": "cade",
+  "run_id": 0,
+  "split_id": 0,
+  "ood_family": "droidkungfu",
+  "seed": 42,
+  "n_train": 2400,
+  "n_test": 1600,
+  "n_features": 1475,
+  "n_trainable_params": 1652678,
+  "lr": 0.0001,
+  "max_epochs": 250,
+  "actual_epochs": 250,
+  "stopped_early": false,
+  "best_epoch": 230,
+  "best_loss": 0.026358617129425208,
+  "train_time_sec": 1939.43,
+  "mad_stats": {
+    "median": [
+      0.05736154317855835,
+      0.03576105833053589,
+      0.061760175973176956
+    ],
+    "mad": [
+      0.04176237806677818,
+      0.02417023479938507,
+      0.031371574848890305
+    ]
+  },
+  "roc_auc_mad_score": 0.9644716666666666,
+  "baseline_raw_feature_centroid_roc": 0.38784083333333336,
+  "CADE_protocol_T3.5": {
+    "T_MAD": 3.5,
+    "n_flagged": 1191,
+    "best_f1": 0.9484226339504263,
+    "best_precision": 0.9498495486459378,
+    "best_recall": 0.947,
+    "fpr": 0.08333333333333333,
+    "norm_effort": 0.997
+  },
+  "CADE_protocol_T0": {
+    "T_MAD": 0.0,
+    "n_flagged": 1600,
+    "best_f1": 0.9484226339504263,
+    "best_precision": 0.9498495486459378,
+    "best_recall": 0.947,
+    "fpr": 0.08333333333333333,
+    "norm_effort": 0.997
+  },
+  "MAD_Threshold": {
+    "threshold": 3.5,
+    "best_f1": 0.9046,
+    "best_precision": 0.8321,
+    "best_recall": 0.991,
+    "fpr": 0.3333,
+    "fnr": 0.009,
+    "norm_effort": 1.191,
+    "tp": 991,
+    "fp": 200,
+    "fn": 9,
+    "tn": 400
+  },
+  "Threshold_Free": {
+    "best_f1": 0.9484226339504263,
+    "best_precision": 0.9498495486459378,
+    "best_recall": 0.947,
+    "norm_effort": 0.997,
+    "fpr": 0.08333333333333333,
+    "fnr": 0.05300000000000005,
+    "roc_auc": 0.9612883333333332,
+    "pr_auc": 0.9613616528198875,
+    "n_ood": 1000,
+    "n_known": 600,
+    "n_total": 1600
+  }
+}

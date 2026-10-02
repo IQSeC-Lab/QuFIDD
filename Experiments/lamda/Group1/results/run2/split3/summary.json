@@ -1,0 +1,90 @@
+{
+  "model": "Group1_CADEcomp_FidelityLoss_5Q_ThreeScoring",
+  "run_id": 2,
+  "split_id": 3,
+  "ood_family": "smsreg",
+  "families": [
+    "droidkungfu",
+    "plankton",
+    "basebridge",
+    "smsreg",
+    "airpush",
+    "fakeinst",
+    "shedun",
+    "smssend"
+  ],
+  "seed": 456,
+  "n_train": 4644,
+  "n_test": 2161,
+  "n_ood": 1000,
+  "n_features": 1026,
+  "compressor_dims": [
+    1026,
+    1024,
+    512,
+    128,
+    32
+  ],
+  "n_epochs": 200,
+  "n_qubits": 5,
+  "n_layers": 30,
+  "n_quantum_params": 300,
+  "encoding": "amplitude",
+  "latent_dim": 32,
+  "lambda_fid": 1.0,
+  "lambda_recon": 0.1,
+  "fid_margin": 0.8,
+  "train_time_sec": 455178.77,
+  "fid_time_sec": 0.27,
+  "M1a_Expval_Euclidean": {
+    "F1": 0.8563,
+    "Precision": 0.8217,
+    "Recall": 0.894,
+    "FPR": 0.1671,
+    "FNR": 0.106,
+    "ROC_AUC": 0.8924,
+    "PR_AUC": 0.7997,
+    "Effort": 1.088
+  },
+  "M1b_Cosine_Centroid": {
+    "F1": 0.8704,
+    "Precision": 0.8103,
+    "Recall": 0.94,
+    "FPR": 0.1895,
+    "FNR": 0.06,
+    "ROC_AUC": 0.902,
+    "PR_AUC": 0.8239,
+    "Effort": 1.16
+  },
+  "M1c_Fidelity_DensityPrototype": {
+    "F1": 0.8756,
+    "Precision": 0.8195,
+    "Recall": 0.94,
+    "FPR": 0.1783,
+    "FNR": 0.06,
+    "ROC_AUC": 0.9036,
+    "PR_AUC": 0.8261,
+    "Effort": 1.147
+  },
+  "Ensemble_alpha0.5": {
+    "F1": 0.8567,
+    "Precision": 0.8078,
+    "Recall": 0.912,
+    "FPR": 0.1869,
+    "FNR": 0.088,
+    "ROC_AUC": 0.8949,
+    "PR_AUC": 0.804,
+    "Effort": 1.129
+  },
+  "Ensemble_best_alpha": {
+    "alpha": 0.0,
+    "F1": 0.8756,
+    "Precision": 0.8195,
+    "Recall": 0.94,
+    "FPR": 0.1783,
+    "FNR": 0.06,
+    "ROC_AUC": 0.9036,
+    "PR_AUC": 0.8261,
+    "Effort": 1.147
+  }
+}

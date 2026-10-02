@@ -1,0 +1,16 @@
+{
+  "variant_index": 10,
+  "variant": {
+    "design": "full_cade",
+    "margin": 20.0,
+    "lr": 0.001
+  },
+  "split": 3,
+  "fold": 2,
+  "ROC_raw": 0.9644921875,
+  "ROC_mad": 0.9321953125,
+  "CADE_F1@3.5": 0.8456090651553162,
+  "best_epoch": 215,
+  "epochs_run": 235,
+  "n_params": 183
+}

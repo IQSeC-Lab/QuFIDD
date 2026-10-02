@@ -1,0 +1,19 @@
+{
+  "run_id": 0,
+  "split_id": 2,
+  "seed": 42,
+  "ood_family": "smsreg",
+  "pca_source": "Group20 saved PCA",
+  "n_trainable_params": 0,
+  "MAD_F1_T3.5": 0.0,
+  "MAD_precision": 0.0,
+  "MAD_recall": 0.0,
+  "MAD_frac_flagged": 0.0,
+  "TF_F1": 0.8022652194426352,
+  "TF_precision": 0.7596067917783735,
+  "TF_recall": 0.85,
+  "CADE_F1_T3.5": 0.0,
+  "ROC_raw": 0.7774566666666667,
+  "ROC_mad": 0.729455,
+  "PR_raw": 0.8503448687072851
+}

@@ -1,0 +1,16 @@
+{
+  "variant_index": 2,
+  "variant": {
+    "alpha": 0.3,
+    "pairing": "cade"
+  },
+  "split": 0,
+  "fold": 2,
+  "ROC_raw": 0.840064453125,
+  "ROC_mad": 0.832556640625,
+  "ROC_fused": 0.8401074218750001,
+  "CADE_F1@3.5": 0.7117601844730083,
+  "best_epoch": 191,
+  "epochs_run": 211,
+  "n_params": 200
+}

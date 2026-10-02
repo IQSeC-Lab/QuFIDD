@@ -1,0 +1,8 @@
+=== droidkungfu held out | run 1 (seed 123) split 0 | known: ['plankton', 'smsreg', 'airpush'] | models: ['PCA-5 L2 (input)', 'CADE-mini selected', 'CADE-mini full', 'Quantum v1', 'Quantum v2', 'Quantum v3']
+  PCA-5 L2 (input)     ROC_raw 0.723  ROC_mad 0.626  median dist droidkungfu/known 1.22  nearest family of droidkungfu: plankton 0%, smsreg 73%, airpush 27%  | flagged@3.5: droidkungfu 0%, known 0%
+  CADE-mini selected   ROC_raw 0.929  ROC_mad 0.908  median dist droidkungfu/known 3.16  nearest family of droidkungfu: plankton 0%, smsreg 72%, airpush 28%  | flagged@3.5: droidkungfu 38%, known 4%
+  CADE-mini full       ROC_raw 0.881  ROC_mad 0.897  median dist droidkungfu/known 3.35  nearest family of droidkungfu: plankton 0%, smsreg 62%, airpush 38%  | flagged@3.5: droidkungfu 61%, known 4%
+  Quantum v1           ROC_raw 0.780  ROC_mad 0.880  median dist droidkungfu/known 1.36  nearest family of droidkungfu: plankton 0%, smsreg 81%, airpush 19%  | flagged@3.5: droidkungfu 52%, known 7%
+  Quantum v2           ROC_raw 0.878  ROC_mad 0.931  median dist droidkungfu/known 1.71  nearest family of droidkungfu: plankton 0%, smsreg 86%, airpush 14%  | flagged@3.5: droidkungfu 77%, known 6%
+  Quantum v3           ROC_raw 0.877  ROC_mad 0.930  median dist droidkungfu/known 1.70  nearest family of droidkungfu: plankton 0%, smsreg 86%, airpush 14%  | flagged@3.5: droidkungfu 76%, known 6%
+  INPUT (PCA-5 cosine): droidkungfu vs known centroids median plankton -0.57, smsreg 0.54, airpush 0.24 | known families to own centroid median plankton 0.79, smsreg 0.81, airpush 0.61

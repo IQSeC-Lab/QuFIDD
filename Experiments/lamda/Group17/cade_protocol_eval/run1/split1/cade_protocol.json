@@ -1,0 +1,88 @@
+{
+  "group": "Group17",
+  "run_id": 1,
+  "split_id": 1,
+  "seed": 123,
+  "ood_family": "plankton",
+  "n_ood": 1000,
+  "n_known": 600,
+  "n_nan_mad": 0,
+  "reference_threshold_free": {
+    "ROC_AUC_raw": 0.55969,
+    "PR_AUC_raw": 0.6642682853670208,
+    "ROC_AUC_mad": 0.5015266666666667,
+    "PR_AUC_mad": 0.6302103947761055
+  },
+  "cade_protocol": [
+    {
+      "T_MAD": 0.0,
+      "n_flagged": 1600,
+      "Frac_flagged": 1.0,
+      "F1": 0.7797270955160934,
+      "Precision": 0.6389776357827476,
+      "Recall": 1.0,
+      "FPR": 0.9416666666666667,
+      "FNR": 0.0,
+      "Effort": 1.565,
+      "k_best": 1565,
+      "TP": 1000,
+      "FP": 565
+    },
+    {
+      "T_MAD": 2.0,
+      "n_flagged": 0,
+      "Frac_flagged": 0.0,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0,
+      "FNR": 1.0,
+      "Effort": 0.0,
+      "k_best": 0,
+      "TP": 0,
+      "FP": 0
+    },
+    {
+      "T_MAD": 2.5,
+      "n_flagged": 0,
+      "Frac_flagged": 0.0,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0,
+      "FNR": 1.0,
+      "Effort": 0.0,
+      "k_best": 0,
+      "TP": 0,
+      "FP": 0
+    },
+    {
+      "T_MAD": 3.0,
+      "n_flagged": 0,
+      "Frac_flagged": 0.0,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0,
+      "FNR": 1.0,
+      "Effort": 0.0,
+      "k_best": 0,
+      "TP": 0,
+      "FP": 0
+    },
+    {
+      "T_MAD": 3.5,
+      "n_flagged": 0,
+      "Frac_flagged": 0.0,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0,
+      "FNR": 1.0,
+      "Effort": 0.0,
+      "k_best": 0,
+      "TP": 0,
+      "FP": 0
+    }
+  ]
+}

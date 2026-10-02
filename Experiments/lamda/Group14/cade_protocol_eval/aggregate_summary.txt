@@ -1,0 +1,30 @@
+==========================================================================================
+Group14 -- CADE-protocol evaluation (flag A > T_MAD, rank flagged by raw distance, best F1 down the list)
+results: /home/snowm001/projects/OOD/Experiments/lamda/Group14/results
+data:    /home/snowm001/projects/OOD/Data/cade_lamda_4class_vt
+==========================================================================================
+Tasks evaluated: 12/12   Missing: none
+Sanity check (T_MAD=0 F1 vs threshold-free F1 in summary.json): max |diff| = 0.0000 over 12 tasks  OK
+
+Overall (mean +- std over all tasks; std = population std)
+T_MAD                 F1        Precision           Recall              FPR              FNR           Effort     Frac_flagged
+0.0        0.781+-0.011     0.667+-0.039     0.950+-0.048     0.805+-0.172     0.050+-0.048     1.433+-0.151     1.000+-0.000 
+2.0        0.146+-0.147     0.696+-0.228     0.088+-0.097     0.028+-0.010     0.912+-0.097     0.105+-0.101     0.068+-0.063 
+2.5        0.071+-0.095     0.609+-0.340     0.040+-0.057     0.010+-0.008     0.960+-0.057     0.046+-0.061     0.030+-0.038 
+3.0        0.028+-0.045     0.479+-0.480     0.015+-0.024     0.001+-0.001     0.985+-0.024     0.016+-0.024     0.010+-0.015 
+3.5        0.010+-0.017     0.469+-0.477     0.005+-0.009     0.001+-0.001     0.995+-0.009     0.005+-0.009     0.004+-0.005 
+
+Per family: F1 (mean +- std over runs) at each T_MAD
+family            n           T=0.0           T=2.0           T=2.5           T=3.0           T=3.5
+droidkungfu       3    0.778+-0.003    0.026+-0.019    0.001+-0.001    0.000+-0.000    0.000+-0.000
+plankton          3    0.770+-0.000    0.044+-0.016    0.013+-0.004    0.000+-0.000    0.000+-0.000
+smsreg            3    0.792+-0.011    0.307+-0.121    0.164+-0.107    0.061+-0.058    0.018+-0.019
+airpush           3    0.785+-0.006    0.208+-0.127    0.106+-0.081    0.051+-0.037    0.022+-0.021
+
+Reference: threshold-free AUCs over all test samples (mean +- std over runs)
+family                  ROC_raw        ROC_mad         PR_raw         PR_mad
+droidkungfu        0.593+-0.038   0.503+-0.059   0.658+-0.032   0.610+-0.044
+plankton           0.455+-0.023   0.490+-0.024   0.594+-0.004   0.614+-0.023
+smsreg             0.739+-0.033   0.632+-0.070   0.809+-0.028   0.759+-0.056
+airpush            0.672+-0.054   0.601+-0.101   0.753+-0.037   0.725+-0.065
+ALL                0.615+-0.113   0.556+-0.092   0.703+-0.088   0.677+-0.082

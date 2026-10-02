@@ -1,0 +1,88 @@
+{
+  "group": "Group14",
+  "run_id": 0,
+  "split_id": 2,
+  "seed": 42,
+  "ood_family": "smsreg",
+  "n_ood": 1000,
+  "n_known": 600,
+  "n_nan_mad": 0,
+  "reference_threshold_free": {
+    "ROC_AUC_raw": 0.7825116666666666,
+    "PR_AUC_raw": 0.8443034343641653,
+    "ROC_AUC_mad": 0.720185,
+    "PR_AUC_mad": 0.8296690917237828
+  },
+  "cade_protocol": [
+    {
+      "T_MAD": 0.0,
+      "n_flagged": 1600,
+      "Frac_flagged": 1.0,
+      "F1": 0.8078641644320347,
+      "Precision": 0.7302100161550888,
+      "Recall": 0.904,
+      "FPR": 0.5566666666666666,
+      "FNR": 0.09599999999999997,
+      "Effort": 1.238,
+      "k_best": 1238,
+      "TP": 904,
+      "FP": 334
+    },
+    {
+      "T_MAD": 2.0,
+      "n_flagged": 336,
+      "Frac_flagged": 0.21,
+      "F1": 0.46407185628704867,
+      "Precision": 0.9226190476190477,
+      "Recall": 0.31,
+      "FPR": 0.043333333333333335,
+      "FNR": 0.69,
+      "Effort": 0.336,
+      "k_best": 336,
+      "TP": 310,
+      "FP": 26
+    },
+    {
+      "T_MAD": 2.5,
+      "n_flagged": 208,
+      "Frac_flagged": 0.13,
+      "F1": 0.31456953642355595,
+      "Precision": 0.9134615384615384,
+      "Recall": 0.19,
+      "FPR": 0.03,
+      "FNR": 0.81,
+      "Effort": 0.208,
+      "k_best": 208,
+      "TP": 190,
+      "FP": 18
+    },
+    {
+      "T_MAD": 3.0,
+      "n_flagged": 78,
+      "Frac_flagged": 0.04875,
+      "F1": 0.14285714285700862,
+      "Precision": 0.9871794871794872,
+      "Recall": 0.077,
+      "FPR": 0.0016666666666666668,
+      "FNR": 0.923,
+      "Effort": 0.078,
+      "k_best": 78,
+      "TP": 77,
+      "FP": 1
+    },
+    {
+      "T_MAD": 3.5,
+      "n_flagged": 23,
+      "Frac_flagged": 0.014375,
+      "F1": 0.044965786901226816,
+      "Precision": 1.0,
+      "Recall": 0.023,
+      "FPR": 0.0,
+      "FNR": 0.977,
+      "Effort": 0.023,
+      "k_best": 23,
+      "TP": 23,
+      "FP": 0
+    }
+  ]
+}

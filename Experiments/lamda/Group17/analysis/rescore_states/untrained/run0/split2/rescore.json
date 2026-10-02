@@ -1,0 +1,43 @@
+{
+  "group": "Group17",
+  "weights": "untrained",
+  "run_id": 0,
+  "split_id": 2,
+  "seed": 42,
+  "ood_family": "smsreg",
+  "sim_time_sec": 311.98,
+  "scores": {
+    "current": {
+      "ROC_raw": 0.6247075,
+      "PR_raw": 0.6340414859078736,
+      "TF_F1": 0.8363479758823691,
+      "ROC_mad": 0.6811849999999999,
+      "MAD_F1": 0.0,
+      "MAD_frac_flagged": 0.0
+    },
+    "leakage": {
+      "ROC_raw": 0.5924583333333334,
+      "PR_raw": 0.6180512059071047,
+      "TF_F1": 0.818831441781774,
+      "ROC_mad": 0.30490833333333334,
+      "MAD_F1": 0.0,
+      "MAD_frac_flagged": 0.0
+    },
+    "prob_eucl": {
+      "ROC_raw": 0.6477816666666667,
+      "PR_raw": 0.6938298093585913,
+      "TF_F1": 0.7951096121411649,
+      "ROC_mad": 0.46276,
+      "MAD_F1": 0.0,
+      "MAD_frac_flagged": 0.0
+    },
+    "hellinger": {
+      "ROC_raw": 0.7552766666666667,
+      "PR_raw": 0.8189129080341795,
+      "TF_F1": 0.8048255062468168,
+      "ROC_mad": 0.6566416666666668,
+      "MAD_F1": 0.0019980019980019984,
+      "MAD_frac_flagged": 0.000625
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variant_index": 13,
+  "variant": {
+    "design": "full_eq",
+    "margin": 5.0,
+    "lr": 0.003
+  },
+  "split": 2,
+  "fold": 0,
+  "ROC_raw": 0.5733320312500001,
+  "ROC_mad": 0.7467226562499999,
+  "CADE_F1@3.5": 0.5669835782191065,
+  "best_epoch": 172,
+  "epochs_run": 192,
+  "n_params": 183
+}

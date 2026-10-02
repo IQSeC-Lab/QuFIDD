@@ -1,0 +1,19 @@
+{
+  "run_id": 0,
+  "split_id": 0,
+  "seed": 42,
+  "ood_family": "droidkungfu",
+  "pca_source": "Group20 saved PCA",
+  "n_trainable_params": 0,
+  "MAD_F1_T3.5": 0.0,
+  "MAD_precision": 0.0,
+  "MAD_recall": 0.0,
+  "MAD_frac_flagged": 0.0,
+  "TF_F1": 0.7984726347046451,
+  "TF_precision": 0.6934414148857775,
+  "TF_recall": 0.941,
+  "CADE_F1_T3.5": 0.0,
+  "ROC_raw": 0.7227583333333333,
+  "ROC_mad": 0.625845,
+  "PR_raw": 0.7589513452694265
+}

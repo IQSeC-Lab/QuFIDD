@@ -1,0 +1,38 @@
+{
+  "model": "Group15_CADEMini_4class_PyTorch",
+  "reference": "CADE architecture (Yang et al. USENIX Security 2021), capacity-shrunk to match VQC parameter count",
+  "architecture": "1111->PCA(32)->3->3  (bottleneck=3=n_classes-1, PCA frozen, 215 trainable params)",
+  "loss": "0.1*contrastive(Euclidean,margin=10.0) + reconstruction",
+  "run_id": 2,
+  "split_id": 3,
+  "ood_family": "airpush",
+  "seed": 456,
+  "n_train": 2400,
+  "n_test": 1600,
+  "n_features": 1111,
+  "bottleneck_dim": 3,
+  "cae_epochs": 250,
+  "train_time_sec": 65.25,
+  "CADE_MAD_Threshold": {
+    "threshold": 3.5,
+    "F1": 0.6944,
+    "Precision": 0.8957,
+    "Recall": 0.567,
+    "FPR": 0.11,
+    "FNR": 0.433,
+    "Effort": 0.633,
+    "TP": 567,
+    "FP": 66,
+    "FN": 433
+  },
+  "CADE_Threshold_Free": {
+    "F1": 0.7692,
+    "Precision": 0.625,
+    "Recall": 1.0,
+    "FPR": 1.0,
+    "FNR": 0.0,
+    "ROC_AUC": 0.3785,
+    "PR_AUC": 0.6546,
+    "Effort": 1.6
+  }
+}

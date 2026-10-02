@@ -1,0 +1,38 @@
+{
+  "model": "M0_CADE_Original_PyTorch",
+  "reference": "Yang et al. USENIX Security 2021",
+  "architecture": "1236->1024->512->128->32->7  (bottleneck=7=n_classes-1)",
+  "loss": "0.1*contrastive(Euclidean,margin=10.0) + reconstruction",
+  "run_id": 1,
+  "split_id": 5,
+  "ood_family": "fakeinst",
+  "seed": 123,
+  "n_train": 4725,
+  "n_test": 2080,
+  "n_features": 1236,
+  "bottleneck_dim": 7,
+  "cae_epochs": 250,
+  "train_time_sec": 11.61,
+  "CADE_MAD_Threshold": {
+    "threshold": 3.5,
+    "F1": 0.0312,
+    "Precision": 0.2344,
+    "Recall": 0.0167,
+    "FPR": 0.0415,
+    "FNR": 0.9833,
+    "Effort": 0.0712,
+    "TP": 15,
+    "FP": 49,
+    "FN": 884
+  },
+  "CADE_Threshold_Free": {
+    "F1": 0.6823,
+    "Precision": 0.5594,
+    "Recall": 0.8743,
+    "FPR": 0.5241,
+    "FNR": 0.1257,
+    "ROC_AUC": 0.6572,
+    "PR_AUC": 0.5032,
+    "Effort": 1.5628
+  }
+}
