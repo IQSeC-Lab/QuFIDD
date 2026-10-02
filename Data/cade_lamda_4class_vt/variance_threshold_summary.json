@@ -1,0 +1,30 @@
+{
+  "threshold": 0.003,
+  "source_dir": "cade_lamda_4class",
+  "splits": [
+    {
+      "file": "drebin_new_0.npz",
+      "heldout_family": "droidkungfu",
+      "n_features_before": 4561,
+      "n_features_after": 1475
+    },
+    {
+      "file": "drebin_new_1.npz",
+      "heldout_family": "plankton",
+      "n_features_before": 4561,
+      "n_features_after": 1388
+    },
+    {
+      "file": "drebin_new_2.npz",
+      "heldout_family": "smsreg",
+      "n_features_before": 4561,
+      "n_features_after": 896
+    },
+    {
+      "file": "drebin_new_3.npz",
+      "heldout_family": "airpush",
+      "n_features_before": 4561,
+      "n_features_after": 1111
+    }
+  ]
+}
