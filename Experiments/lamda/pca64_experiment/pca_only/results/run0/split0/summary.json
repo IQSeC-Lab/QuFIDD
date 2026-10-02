@@ -1,0 +1,99 @@
+{
+  "model": "PCA-64 only (coordinates)",
+  "run_id": 0,
+  "split_id": 0,
+  "seed": 42,
+  "input": "PCA-64",
+  "pca_explained_variance": 0.7339545488357544,
+  "architecture": "none (centroid distance on the input)",
+  "n_trainable_params": 0,
+  "l2_normalized": false,
+  "best_epoch": 0,
+  "ood_family": "droidkungfu",
+  "n_train": 2400,
+  "n_test": 1600,
+  "n_ood": 1000,
+  "n_known_test": 600,
+  "evaluation": {
+    "threshold_free": {
+      "F1": 0.7695267410537782,
+      "Precision": 0.6253908692933083,
+      "Recall": 1.0,
+      "FPR": 0.9983333333333333,
+      "FNR": 0.0,
+      "Effort": 1.599,
+      "k": 1599,
+      "ROC_AUC": 0.19694166666666663,
+      "PR_AUC": 0.45586949496952345
+    },
+    "ROC_AUC_mad": 0.28886500000000004,
+    "PR_AUC_mad": 0.484534811565811,
+    "mad_fixed": {
+      "T": 3.5,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.045,
+      "Frac_flagged": 0.016875,
+      "TP": 0,
+      "FP": 27
+    },
+    "sweep": [
+      {
+        "F1": 0.7695267410537782,
+        "Precision": 0.6253908692933083,
+        "Recall": 1.0,
+        "FPR": 0.9983333333333333,
+        "FNR": 0.0,
+        "Effort": 1.599,
+        "k": 1599,
+        "T_MAD": 0.0,
+        "Frac_flagged": 1.0
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0016666666666666668,
+        "FNR": 1.0,
+        "Effort": 0.001,
+        "k": 1,
+        "T_MAD": 2.0,
+        "Frac_flagged": 0.03375
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0016666666666666668,
+        "FNR": 1.0,
+        "Effort": 0.001,
+        "k": 1,
+        "T_MAD": 2.5,
+        "Frac_flagged": 0.0225
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0016666666666666668,
+        "FNR": 1.0,
+        "Effort": 0.001,
+        "k": 1,
+        "T_MAD": 3.0,
+        "Frac_flagged": 0.018125
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0016666666666666668,
+        "FNR": 1.0,
+        "Effort": 0.001,
+        "k": 1,
+        "T_MAD": 3.5,
+        "Frac_flagged": 0.016875
+      }
+    ]
+  }
+}
