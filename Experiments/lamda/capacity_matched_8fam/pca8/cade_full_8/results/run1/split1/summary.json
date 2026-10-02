@@ -1,0 +1,105 @@
+{
+  "model": "CADE-mini full 8-6-7 + decoder (207 params)",
+  "run_id": 1,
+  "split_id": 1,
+  "seed": 123,
+  "input": "PCA-8",
+  "pca_explained_variance": 0.37574273347854614,
+  "architecture": "encoder 8-6-7, decoder mirror",
+  "reconstruction": true,
+  "margin": 10.0,
+  "n_trainable_params": 207,
+  "lr": 0.001,
+  "epochs_run": 137,
+  "best_epoch": 117,
+  "best_loss": 0.4855500940618844,
+  "patience": 20,
+  "train_time_sec": 39.0,
+  "ood_family": "plankton",
+  "n_train": 4644,
+  "n_test": 2161,
+  "n_ood": 1000,
+  "n_known_test": 1161,
+  "evaluation": {
+    "threshold_free": {
+      "F1": 0.6345047923318335,
+      "Precision": 0.46619718309859154,
+      "Recall": 0.993,
+      "FPR": 0.979328165374677,
+      "FNR": 0.007000000000000006,
+      "Effort": 2.13,
+      "k": 2130,
+      "ROC_AUC": 0.40635055986218777,
+      "PR_AUC": 0.417595429490679
+    },
+    "ROC_AUC_mad": 0.6817114556416882,
+    "PR_AUC_mad": 0.620595245082837,
+    "mad_fixed": {
+      "T": 3.5,
+      "F1": 0.03512195121951219,
+      "Precision": 0.72,
+      "Recall": 0.018,
+      "FPR": 0.006029285099052541,
+      "Frac_flagged": 0.01156871818602499,
+      "TP": 18,
+      "FP": 7
+    },
+    "sweep": [
+      {
+        "F1": 0.6345047923318335,
+        "Precision": 0.46619718309859154,
+        "Recall": 0.993,
+        "FPR": 0.979328165374677,
+        "FNR": 0.007000000000000006,
+        "Effort": 2.13,
+        "k": 2130,
+        "T_MAD": 0.0,
+        "Frac_flagged": 1.0
+      },
+      {
+        "F1": 0.2690437601293523,
+        "Precision": 0.7094017094017094,
+        "Recall": 0.166,
+        "FPR": 0.05857019810508183,
+        "FNR": 0.834,
+        "Effort": 0.234,
+        "k": 234,
+        "T_MAD": 2.0,
+        "Frac_flagged": 0.10874595094863489
+      },
+      {
+        "F1": 0.1794425087105768,
+        "Precision": 0.6959459459459459,
+        "Recall": 0.103,
+        "FPR": 0.03875968992248062,
+        "FNR": 0.897,
+        "Effort": 0.148,
+        "k": 148,
+        "T_MAD": 2.5,
+        "Frac_flagged": 0.06848681166126794
+      },
+      {
+        "F1": 0.10526315789459531,
+        "Precision": 0.6867469879518072,
+        "Recall": 0.057,
+        "FPR": 0.02239448751076658,
+        "FNR": 0.943,
+        "Effort": 0.083,
+        "k": 83,
+        "T_MAD": 3.0,
+        "Frac_flagged": 0.03933364183248496
+      },
+      {
+        "F1": 0.035121951219464605,
+        "Precision": 0.72,
+        "Recall": 0.018,
+        "FPR": 0.006029285099052541,
+        "FNR": 0.982,
+        "Effort": 0.025,
+        "k": 25,
+        "T_MAD": 3.5,
+        "Frac_flagged": 0.01156871818602499
+      }
+    ]
+  }
+}

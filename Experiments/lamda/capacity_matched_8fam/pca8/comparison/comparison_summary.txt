@@ -1,0 +1,1209 @@
+======================================================================================================================
+capacity_matched_8fam/pca8: PCA-8, quantum 192 params vs CADE-mini versions -- paired by (run, split)
+======================================================================================================================
+  PCA-8 only (L2)        tasks 24   params 0
+  PCA-8 only (coords)    tasks 24   params 0
+  CADE-mini full 8-6-7 + decoder tasks 24   params 207
+  CADE-mini encoder-only 8-12-7 tasks 24   params 199
+  CADE-mini tuned 8-12-7 margin 20 tasks 24   params 199
+  Quantum angle-8        tasks 24   params 192
+  Quantum amp-8          tasks 24   params 192
+  Quantum hybrid v1      tasks 24   params 189
+  Quantum hybrid v2      tasks 24   params 189
+  Quantum hybrid v3      tasks 24   params 198
+  Quantum hybrid v4      tasks 24   params 189
+  Paired tasks (present for all main models): 24
+
+Calibrating thresholds (target 5% of known TRAINING samples flagged) ...
+
+OVERALL (mean +- population std over paired tasks)
+  metric                            PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  F1 threshold-free                   0.652+-0.081             0.615+-0.093             0.631+-0.121             0.649+-0.099             0.641+-0.108             0.669+-0.112             0.679+-0.087             0.659+-0.072             0.682+-0.082             0.651+-0.095             0.685+-0.083 
+  ROC-AUC (raw)                       0.639+-0.166             0.486+-0.182             0.580+-0.180             0.636+-0.157             0.625+-0.168             0.677+-0.164             0.687+-0.162             0.664+-0.142             0.707+-0.121             0.614+-0.198             0.710+-0.137 
+  PR-AUC (raw)                        0.524+-0.163             0.414+-0.134             0.491+-0.175             0.557+-0.174             0.549+-0.191             0.574+-0.180             0.566+-0.171             0.539+-0.150             0.580+-0.149             0.504+-0.163             0.585+-0.140 
+  ROC-AUC (MAD score)                 0.561+-0.147             0.456+-0.092             0.577+-0.179             0.608+-0.161             0.592+-0.165             0.604+-0.165             0.633+-0.161             0.590+-0.161             0.602+-0.164             0.620+-0.200             0.613+-0.166 
+  MAD F1 fixed T=3.5                  0.000+-0.000             0.001+-0.002             0.029+-0.089             0.145+-0.214             0.076+-0.164             0.111+-0.156             0.000+-0.000             0.000+-0.000             0.013+-0.063             0.000+-0.000             0.000+-0.000 
+  F1@T2.0                             0.092+-0.166             0.024+-0.035             0.204+-0.234             0.307+-0.243             0.248+-0.253             0.273+-0.261             0.142+-0.238             0.044+-0.104             0.113+-0.199             0.118+-0.195             0.130+-0.247 
+  F1@T2.5                             0.019+-0.049             0.012+-0.025             0.119+-0.188             0.230+-0.246             0.185+-0.238             0.218+-0.241             0.074+-0.203             0.000+-0.000             0.040+-0.136             0.038+-0.088             0.062+-0.171 
+  F1@T3.0                             0.000+-0.000             0.004+-0.007             0.064+-0.139             0.181+-0.240             0.127+-0.206             0.164+-0.209             0.021+-0.078             0.000+-0.000             0.021+-0.099             0.006+-0.027             0.018+-0.073 
+  F1 CADE protocol T=3.5              0.000+-0.000             0.001+-0.002             0.029+-0.090             0.146+-0.214             0.076+-0.164             0.111+-0.156             0.000+-0.000             0.000+-0.000             0.013+-0.063             0.000+-0.000             0.000+-0.000 
+  Flagged@T2.0                        0.037+-0.059             0.026+-0.007             0.090+-0.095             0.142+-0.107             0.113+-0.111             0.128+-0.109             0.066+-0.116             0.017+-0.031             0.052+-0.086             0.053+-0.065             0.059+-0.113 
+  Flagged@T2.5                        0.006+-0.013             0.018+-0.005             0.049+-0.071             0.101+-0.104             0.078+-0.098             0.094+-0.092             0.031+-0.084             0.000+-0.000             0.017+-0.056             0.017+-0.026             0.023+-0.064 
+  Flagged@T3.0                        0.000+-0.000             0.011+-0.002             0.025+-0.048             0.076+-0.094             0.051+-0.078             0.065+-0.071             0.006+-0.023             0.000+-0.000             0.008+-0.036             0.004+-0.007             0.005+-0.021 
+  Flagged@T3.5                        0.000+-0.000             0.009+-0.001             0.010+-0.028             0.057+-0.076             0.030+-0.059             0.042+-0.046             0.000+-0.000             0.000+-0.000             0.004+-0.019             0.001+-0.002             0.000+-0.001 
+  Threshold-free F1 flag-all floor = 0.5769305448902773.
+
+THRESHOLD CALIBRATION  (is 3.5 equally strict for every model? matched false-alarm budget = 5% of known TRAINING samples; the OOD family is never used)
+  metric                                PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  known-test FPR at 3.5                   0.000+-0.000             0.016+-0.003             0.003+-0.004             0.025+-0.026             0.012+-0.013             0.017+-0.009             0.000+-0.000             0.000+-0.000             0.001+-0.003             0.001+-0.003             0.000+-0.001 
+  train share A>3.5                       0.000+-0.000             0.016+-0.003             0.003+-0.004             0.025+-0.028             0.012+-0.013             0.017+-0.009             0.000+-0.000             0.000+-0.000             0.001+-0.003             0.001+-0.003             0.000+-0.001 
+  calibrated T_cal                        1.631+-0.142             1.662+-0.090             1.856+-0.154             3.157+-2.839             2.189+-0.633             2.267+-0.297             1.718+-0.329             1.494+-0.197             1.736+-0.279             1.681+-0.178             1.723+-0.259 
+  known-test FPR at T_cal                 0.047+-0.005             0.045+-0.003             0.049+-0.008             0.051+-0.006             0.051+-0.006             0.049+-0.006             0.054+-0.006             0.054+-0.006             0.049+-0.005             0.055+-0.005             0.051+-0.005 
+  MAD F1 fixed T=T_cal                    0.133+-0.172             0.045+-0.049             0.238+-0.254             0.264+-0.257             0.239+-0.253             0.236+-0.248             0.240+-0.224             0.168+-0.219             0.168+-0.190             0.214+-0.268             0.183+-0.221 
+  F1 CADE protocol T=T_cal                0.135+-0.174             0.045+-0.049             0.239+-0.255             0.266+-0.258             0.241+-0.255             0.237+-0.248             0.242+-0.225             0.169+-0.218             0.169+-0.191             0.214+-0.268             0.184+-0.221 
+  raw-distance T_rawcal                   0.903+-0.010             3.902+-0.192             4.054+-0.248             3.312+-0.520             7.115+-0.890             0.401+-0.040             0.691+-0.038             0.766+-0.035             0.665+-0.029             1.522+-0.137             0.648+-0.041 
+  known-test FPR raw-cal                  0.054+-0.004             0.042+-0.002             0.047+-0.006             0.053+-0.004             0.052+-0.004             0.047+-0.006             0.052+-0.005             0.052+-0.005             0.052+-0.006             0.056+-0.006             0.050+-0.005 
+  F1 fixed raw-cal                        0.174+-0.144             0.071+-0.072             0.185+-0.218             0.285+-0.237             0.288+-0.234             0.250+-0.221             0.228+-0.201             0.191+-0.140             0.222+-0.155             0.174+-0.229             0.216+-0.138 
+  F1 CADE protocol raw-cal                0.175+-0.144             0.072+-0.072             0.185+-0.218             0.286+-0.237             0.288+-0.234             0.250+-0.221             0.228+-0.201             0.191+-0.140             0.222+-0.155             0.174+-0.229             0.216+-0.138 
+  Read: similar "known-test FPR at 3.5" across models -> 3.5 is equally strict for all.  "known-test FPR at T_cal" above the target = the model is tighter on training than on unseen known data.
+
+PAIRED TESTS  (A minus B; two-sided Wilcoxon signed-rank; n = 24)
+
+  Quantum angle-8  vs  CADE-mini full 8-6-7 + decoder
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.038      17       7     0   0.0031
+    ROC-AUC (raw)                +0.097      18       6     0   0.0053
+    PR-AUC (raw)                 +0.083      18       6     0   0.0039
+    ROC-AUC (MAD score)          +0.027      13      11     0   0.3596
+    MAD F1 fixed T=3.5           +0.082      19       2     3   0.0006
+    F1@T2.0                      +0.069      18       5     1   0.0035
+    F1@T2.5                      +0.099      20       4     0   0.0001
+    F1@T3.0                      +0.100      19       5     0   0.0001
+    F1 CADE protocol T=3.5       +0.082      19       2     3   0.0006
+    F1 CADE protocol T=T_cal     -0.002      12      11     1   0.7610
+    MAD F1 fixed T=T_cal         -0.001      13      11     0   0.8774
+    F1 CADE protocol raw-cal     +0.065      14      10     0   0.2076
+    F1 fixed raw-cal             +0.065      14      10     0   0.2076
+
+  Quantum angle-8  vs  CADE-mini encoder-only 8-12-7
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.020      14      10     0   0.1780
+    ROC-AUC (raw)                +0.040      12      12     0   0.3902
+    PR-AUC (raw)                 +0.017      11      13     0   0.7469
+    ROC-AUC (MAD score)          -0.004      14      10     0   0.9441
+    MAD F1 fixed T=3.5           -0.034       7      16     1   0.1909
+    F1@T2.0                      -0.035       7      17     0   0.0894
+    F1@T2.5                      -0.012       8      16     0   0.3029
+    F1@T3.0                      -0.018       8      16     0   0.1688
+    F1 CADE protocol T=3.5       -0.034       7      16     1   0.1909
+    F1 CADE protocol T=T_cal     -0.029      10      14     0   0.2897
+    MAD F1 fixed T=T_cal         -0.028      11      13     0   0.3596
+    F1 CADE protocol raw-cal     -0.036       8      16     0   0.1780
+    F1 fixed raw-cal             -0.036       8      16     0   0.1780
+
+  Quantum angle-8  vs  CADE-mini tuned 8-12-7 margin 20
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.028      16       7     1   0.0553
+    ROC-AUC (raw)                +0.051      16       8     0   0.1515
+    PR-AUC (raw)                 +0.025      14      10     0   0.3305
+    ROC-AUC (MAD score)          +0.013      12      12     0   0.6840
+    MAD F1 fixed T=3.5           +0.035      12      11     1   0.5633
+    F1@T2.0                      +0.025      13      11     0   0.7469
+    F1@T2.5                      +0.033      10      14     0   0.8553
+    F1@T3.0                      +0.037      13      11     0   0.5271
+    F1 CADE protocol T=3.5       +0.035      12      11     1   0.5034
+    F1 CADE protocol T=T_cal     -0.004      10      14     0   0.4559
+    MAD F1 fixed T=T_cal         -0.003      11      13     0   0.5646
+    F1 CADE protocol raw-cal     -0.038       8      16     0   0.1280
+    F1 fixed raw-cal             -0.038       8      16     0   0.1280
+
+  Quantum angle-8  vs  PCA-8 only (L2)
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.017      14      10     0   0.1228
+    ROC-AUC (raw)                +0.038      14      10     0   0.1688
+    PR-AUC (raw)                 +0.050      18       6     0   0.0115
+    ROC-AUC (MAD score)          +0.043      18       6     0   0.1074
+    MAD F1 fixed T=3.5           +0.111      20       0     4   0.0001
+    F1@T2.0                      +0.181      23       1     0   0.0000
+    F1@T2.5                      +0.199      24       0     0   0.0000
+    F1@T3.0                      +0.164      22       0     2   0.0000
+    F1 CADE protocol T=3.5       +0.111      20       0     4   0.0001
+    F1 CADE protocol T=T_cal     +0.102      15       9     0   0.0194
+    MAD F1 fixed T=T_cal         +0.103      15       9     0   0.0194
+    F1 CADE protocol raw-cal     +0.075      16       8     0   0.0366
+    F1 fixed raw-cal             +0.075      16       8     0   0.0366
+
+  CADE-mini full 8-6-7 + decoder  vs  PCA-8 only (L2)
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            -0.021       3      21     0   0.0126
+    ROC-AUC (raw)                -0.059       7      17     0   0.0126
+    PR-AUC (raw)                 -0.033      11      13     0   0.2182
+    ROC-AUC (MAD score)          +0.016      11      13     0   0.4908
+    MAD F1 fixed T=3.5           +0.029      13       0    11   0.0015
+    F1@T2.0                      +0.113      21       3     0   0.0000
+    F1@T2.5                      +0.100      23       0     1   0.0000
+    F1@T3.0                      +0.064      17       0     7   0.0003
+    F1 CADE protocol T=3.5       +0.029      13       0    11   0.0015
+    F1 CADE protocol T=T_cal     +0.104      13      11     0   0.0194
+    MAD F1 fixed T=T_cal         +0.104      13      11     0   0.0179
+    F1 CADE protocol raw-cal     +0.011      11      13     0   0.9888
+    F1 fixed raw-cal             +0.011      11      13     0   1.0000
+
+  CADE-mini encoder-only 8-12-7  vs  PCA-8 only (L2)
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            -0.003      12      12     0   0.9664
+    ROC-AUC (raw)                -0.002      14      10     0   0.9664
+    PR-AUC (raw)                 +0.033      14      10     0   0.1974
+    ROC-AUC (MAD score)          +0.047      18       6     0   0.0249
+    MAD F1 fixed T=3.5           +0.145      19       0     5   0.0001
+    F1@T2.0                      +0.216      24       0     0   0.0000
+    F1@T2.5                      +0.211      24       0     0   0.0000
+    F1@T3.0                      +0.181      24       0     0   0.0000
+    F1 CADE protocol T=3.5       +0.146      19       0     5   0.0001
+    F1 CADE protocol T=T_cal     +0.131      18       6     0   0.0001
+    MAD F1 fixed T=T_cal         +0.131      19       5     0   0.0001
+    F1 CADE protocol raw-cal     +0.111      19       5     0   0.0039
+    F1 fixed raw-cal             +0.111      19       5     0   0.0043
+
+  CADE-mini tuned 8-12-7 margin 20  vs  PCA-8 only (L2)
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            -0.011      12      12     0   0.7317
+    ROC-AUC (raw)                -0.013      14      10     0   0.8553
+    PR-AUC (raw)                 +0.025      16       8     0   0.1688
+    ROC-AUC (MAD score)          +0.030      14      10     0   0.0894
+    MAD F1 fixed T=3.5           +0.076      19       0     5   0.0001
+    F1@T2.0                      +0.157      24       0     0   0.0000
+    F1@T2.5                      +0.166      24       0     0   0.0000
+    F1@T3.0                      +0.127      21       0     3   0.0001
+    F1 CADE protocol T=3.5       +0.076      19       0     5   0.0001
+    F1 CADE protocol T=T_cal     +0.106      20       4     0   0.0001
+    MAD F1 fixed T=T_cal         +0.106      19       5     0   0.0002
+    F1 CADE protocol raw-cal     +0.113      20       4     0   0.0004
+    F1 fixed raw-cal             +0.113      20       4     0   0.0004
+
+  Quantum amp-8  vs  CADE-mini full 8-6-7 + decoder
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.048      21       3     0   0.0004
+    ROC-AUC (raw)                +0.107      19       5     0   0.0001
+    PR-AUC (raw)                 +0.075      18       6     0   0.0053
+    ROC-AUC (MAD score)          +0.056      15       9     0   0.1355
+    MAD F1 fixed T=3.5           -0.029       0      13    11   0.0015
+    F1@T2.0                      -0.062      10      14     0   0.1355
+    F1@T2.5                      -0.045       5      18     1   0.0089
+    F1@T3.0                      -0.043       0      17     7   0.0003
+    F1 CADE protocol T=3.5       -0.029       0      13    11   0.0015
+    F1 CADE protocol T=T_cal     +0.003      13      11     0   0.9664
+    MAD F1 fixed T=T_cal         +0.002      13      11     0   0.9664
+    F1 CADE protocol raw-cal     +0.043      13      11     0   0.5457
+    F1 fixed raw-cal             +0.042      13      11     0   0.5457
+
+  Quantum amp-8  vs  CADE-mini encoder-only 8-12-7
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.029      15       9     0   0.1355
+    ROC-AUC (raw)                +0.051      16       8     0   0.1074
+    PR-AUC (raw)                 +0.009       8      16     0   0.6634
+    ROC-AUC (MAD score)          +0.024      11      13     0   0.8115
+    MAD F1 fixed T=3.5           -0.145       0      19     5   0.0001
+    F1@T2.0                      -0.166       6      18     0   0.0012
+    F1@T2.5                      -0.156       0      24     0   0.0000
+    F1@T3.0                      -0.161       0      24     0   0.0000
+    F1 CADE protocol T=3.5       -0.146       0      19     5   0.0001
+    F1 CADE protocol T=T_cal     -0.024      13      11     0   0.7469
+    MAD F1 fixed T=T_cal         -0.025      14      10     0   0.7469
+    F1 CADE protocol raw-cal     -0.058       8      16     0   0.1355
+    F1 fixed raw-cal             -0.058       8      16     0   0.1355
+
+  Quantum amp-8  vs  CADE-mini tuned 8-12-7 margin 20
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.038      19       5     0   0.0164
+    ROC-AUC (raw)                +0.061      14      10     0   0.1600
+    PR-AUC (raw)                 +0.017       8      16     0   0.5088
+    ROC-AUC (MAD score)          +0.041      13      11     0   0.2768
+    MAD F1 fixed T=3.5           -0.076       0      19     5   0.0001
+    F1@T2.0                      -0.106       9      15     0   0.0491
+    F1@T2.5                      -0.112       4      20     0   0.0003
+    F1@T3.0                      -0.106       1      21     2   0.0000
+    F1 CADE protocol T=3.5       -0.076       0      19     5   0.0001
+    F1 CADE protocol T=T_cal     +0.001      14      10     0   0.9664
+    MAD F1 fixed T=T_cal         +0.001      14      10     0   1.0000
+    F1 CADE protocol raw-cal     -0.060       7      17     0   0.0604
+    F1 fixed raw-cal             -0.060       7      17     0   0.0604
+
+  Quantum amp-8  vs  Quantum angle-8
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.010      14      10     0   0.4732
+    ROC-AUC (raw)                +0.010      11      13     0   0.7683
+    PR-AUC (raw)                 -0.008      10      14     0   0.5088
+    ROC-AUC (MAD score)          +0.029      15       9     0   0.1974
+    MAD F1 fixed T=3.5           -0.111       0      20     4   0.0001
+    F1@T2.0                      -0.131       7      17     0   0.0115
+    F1@T2.5                      -0.144       4      20     0   0.0001
+    F1@T3.0                      -0.143       1      21     2   0.0000
+    F1 CADE protocol T=3.5       -0.111       0      20     4   0.0001
+    F1 CADE protocol T=T_cal     +0.005      14      10     0   0.9218
+    MAD F1 fixed T=T_cal         +0.003      14      10     0   0.9441
+    F1 CADE protocol raw-cal     -0.022       8      16     0   0.1600
+    F1 fixed raw-cal             -0.022       8      16     0   0.1600
+
+  Quantum amp-8  vs  PCA-8 only (L2)
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.027      19       5     0   0.0025
+    ROC-AUC (raw)                +0.048      19       5     0   0.0002
+    PR-AUC (raw)                 +0.042      19       5     0   0.0025
+    ROC-AUC (MAD score)          +0.071      15       9     0   0.0491
+    MAD F1 fixed T=3.5           +0.000       0       0    24   1.0000
+    F1@T2.0                      +0.050      16       8     0   0.0951
+    F1@T2.5                      +0.055      10       3    11   0.0277
+    F1@T3.0                      +0.021       4       0    20   0.0679
+    F1 CADE protocol T=3.5       +0.000       0       0    24   1.0000
+    F1 CADE protocol T=T_cal     +0.107      19       5     0   0.0010
+    MAD F1 fixed T=T_cal         +0.106      19       5     0   0.0010
+    F1 CADE protocol raw-cal     +0.053      15       9     0   0.1688
+    F1 fixed raw-cal             +0.053      16       8     0   0.1600
+
+  Quantum hybrid v1  vs  CADE-mini full 8-6-7 + decoder
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.028      21       3     0   0.0126
+    ROC-AUC (raw)                +0.085      18       6     0   0.0016
+    PR-AUC (raw)                 +0.048      16       8     0   0.0491
+    ROC-AUC (MAD score)          +0.013      12      12     0   0.7048
+    MAD F1 fixed T=3.5           -0.029       0      13    11   0.0015
+    F1@T2.0                      -0.161       0      24     0   0.0000
+    F1@T2.5                      -0.119       0      23     1   0.0000
+    F1@T3.0                      -0.064       0      17     7   0.0003
+    F1 CADE protocol T=3.5       -0.029       0      13    11   0.0015
+    F1 CADE protocol T=T_cal     -0.070      11      13     0   0.1600
+    MAD F1 fixed T=T_cal         -0.070      11      13     0   0.1600
+    F1 CADE protocol raw-cal     +0.006      14      10     0   0.7898
+    F1 fixed raw-cal             +0.006      14      10     0   0.7898
+
+  Quantum hybrid v1  vs  CADE-mini encoder-only 8-12-7
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.009      14      10     0   0.4908
+    ROC-AUC (raw)                +0.028      13      11     0   0.4732
+    PR-AUC (raw)                 -0.018      11      13     0   0.1974
+    ROC-AUC (MAD score)          -0.018       7      17     0   0.1208
+    MAD F1 fixed T=3.5           -0.145       0      19     5   0.0001
+    F1@T2.0                      -0.264       0      24     0   0.0000
+    F1@T2.5                      -0.230       0      24     0   0.0000
+    F1@T3.0                      -0.181       0      24     0   0.0000
+    F1 CADE protocol T=3.5       -0.146       0      19     5   0.0001
+    F1 CADE protocol T=T_cal     -0.098      10      14     0   0.0457
+    MAD F1 fixed T=T_cal         -0.097      10      14     0   0.0425
+    F1 CADE protocol raw-cal     -0.095       9      15     0   0.0564
+    F1 fixed raw-cal             -0.094       9      15     0   0.0564
+
+  Quantum hybrid v1  vs  CADE-mini tuned 8-12-7 margin 20
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.017      15       9     0   0.2643
+    ROC-AUC (raw)                +0.039      13      11     0   0.6840
+    PR-AUC (raw)                 -0.010       8      16     0   0.2643
+    ROC-AUC (MAD score)          -0.001      10      14     0   0.5838
+    MAD F1 fixed T=3.5           -0.076       0      19     5   0.0001
+    F1@T2.0                      -0.205       0      24     0   0.0000
+    F1@T2.5                      -0.185       0      24     0   0.0000
+    F1@T3.0                      -0.127       0      21     3   0.0001
+    F1 CADE protocol T=3.5       -0.076       0      19     5   0.0001
+    F1 CADE protocol T=T_cal     -0.072      10      14     0   0.1280
+    MAD F1 fixed T=T_cal         -0.071      10      14     0   0.1208
+    F1 CADE protocol raw-cal     -0.097       8      16     0   0.0249
+    F1 fixed raw-cal             -0.097       8      16     0   0.0229
+
+  Quantum hybrid v2  vs  CADE-mini full 8-6-7 + decoder
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.051      21       3     0   0.0035
+    ROC-AUC (raw)                +0.127      21       3     0   0.0000
+    PR-AUC (raw)                 +0.089      21       3     0   0.0003
+    ROC-AUC (MAD score)          +0.025      13      11     0   0.3748
+    MAD F1 fixed T=3.5           -0.016       1      13    10   0.0132
+    F1@T2.0                      -0.091       7      17     0   0.0194
+    F1@T2.5                      -0.079       3      20     1   0.0008
+    F1@T3.0                      -0.043       1      17     6   0.0029
+    F1 CADE protocol T=3.5       -0.016       1      13    10   0.0132
+    F1 CADE protocol T=T_cal     -0.070       8      16     0   0.0564
+    MAD F1 fixed T=T_cal         -0.070       8      16     0   0.0604
+    F1 CADE protocol raw-cal     +0.037      14      10     0   0.3165
+    F1 fixed raw-cal             +0.037      14      10     0   0.3165
+
+  Quantum hybrid v2  vs  CADE-mini encoder-only 8-12-7
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.033      18       6     0   0.0425
+    ROC-AUC (raw)                +0.071      16       8     0   0.0340
+    PR-AUC (raw)                 +0.023      12      12     0   0.7469
+    ROC-AUC (MAD score)          -0.006      10      14     0   0.3165
+    MAD F1 fixed T=3.5           -0.132       0      19     5   0.0001
+    F1@T2.0                      -0.195       4      20     0   0.0000
+    F1@T2.5                      -0.190       0      24     0   0.0000
+    F1@T3.0                      -0.161       0      24     0   0.0000
+    F1 CADE protocol T=3.5       -0.132       0      19     5   0.0001
+    F1 CADE protocol T=T_cal     -0.097       7      17     0   0.0096
+    MAD F1 fixed T=T_cal         -0.097       7      17     0   0.0105
+    F1 CADE protocol raw-cal     -0.063      12      12     0   0.3748
+    F1 fixed raw-cal             -0.063      12      12     0   0.3748
+
+  Quantum hybrid v2  vs  CADE-mini tuned 8-12-7 margin 20
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.041      19       5     0   0.0087
+    ROC-AUC (raw)                +0.082      16       8     0   0.0150
+    PR-AUC (raw)                 +0.031      14      10     0   0.4908
+    ROC-AUC (MAD score)          +0.011      10      14     0   0.7683
+    MAD F1 fixed T=3.5           -0.063       0      19     5   0.0001
+    F1@T2.0                      -0.136       5      19     0   0.0005
+    F1@T2.5                      -0.146       0      24     0   0.0000
+    F1@T3.0                      -0.106       0      21     3   0.0001
+    F1 CADE protocol T=3.5       -0.063       0      19     5   0.0001
+    F1 CADE protocol T=T_cal     -0.072       8      16     0   0.0249
+    MAD F1 fixed T=T_cal         -0.072       8      16     0   0.0229
+    F1 CADE protocol raw-cal     -0.066      11      13     0   0.3165
+    F1 fixed raw-cal             -0.066      11      13     0   0.3165
+
+  Quantum hybrid v1  vs  Quantum angle-8
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            -0.011       9      15     0   0.3596
+    ROC-AUC (raw)                -0.012      10      14     0   0.5838
+    PR-AUC (raw)                 -0.035       7      17     0   0.0340
+    ROC-AUC (MAD score)          -0.014      11      13     0   0.5271
+    MAD F1 fixed T=3.5           -0.111       0      20     4   0.0001
+    F1@T2.0                      -0.229       0      24     0   0.0000
+    F1@T2.5                      -0.218       0      24     0   0.0000
+    F1@T3.0                      -0.164       0      22     2   0.0000
+    F1 CADE protocol T=3.5       -0.111       0      20     4   0.0001
+    F1 CADE protocol T=T_cal     -0.068      10      14     0   0.1974
+    MAD F1 fixed T=T_cal         -0.069      10      14     0   0.1780
+    F1 CADE protocol raw-cal     -0.059       8      16     0   0.0604
+    F1 fixed raw-cal             -0.059       8      16     0   0.0604
+
+  Quantum hybrid v1  vs  Quantum amp-8
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            -0.020       6      18     0   0.0031
+    ROC-AUC (raw)                -0.023       7      17     0   0.0366
+    PR-AUC (raw)                 -0.027       8      16     0   0.1600
+    ROC-AUC (MAD score)          -0.043       9      15     0   0.0787
+    MAD F1 fixed T=3.5           +0.000       0       0    24   1.0000
+    F1@T2.0                      -0.098       2      20     2   0.0005
+    F1@T2.5                      -0.074       0      10    14   0.0051
+    F1@T3.0                      -0.021       0       4    20   0.0679
+    F1 CADE protocol T=3.5       +0.000       0       0    24   1.0000
+    F1 CADE protocol T=T_cal     -0.073       6      18     0   0.0340
+    MAD F1 fixed T=T_cal         -0.072       6      18     0   0.0340
+    F1 CADE protocol raw-cal     -0.037      12      12     0   0.5646
+    F1 fixed raw-cal             -0.037      12      12     0   0.5646
+
+  Quantum hybrid v2  vs  Quantum angle-8
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.013      14      10     0   0.4389
+    ROC-AUC (raw)                +0.031      11      13     0   0.4389
+    PR-AUC (raw)                 +0.006      10      14     0   1.0000
+    ROC-AUC (MAD score)          -0.002      10      14     0   0.5271
+    MAD F1 fixed T=3.5           -0.098       0      20     4   0.0001
+    F1@T2.0                      -0.160       6      18     0   0.0011
+    F1@T2.5                      -0.178       1      23     0   0.0000
+    F1@T3.0                      -0.143       1      22     1   0.0000
+    F1 CADE protocol T=3.5       -0.098       0      20     4   0.0001
+    F1 CADE protocol T=T_cal     -0.068       8      16     0   0.0526
+    MAD F1 fixed T=T_cal         -0.069       8      16     0   0.0491
+    F1 CADE protocol raw-cal     -0.027      14      10     0   0.9441
+    F1 fixed raw-cal             -0.028      14      10     0   0.9218
+
+  Quantum hybrid v2  vs  Quantum amp-8
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.003      14      10     0   0.4908
+    ROC-AUC (raw)                +0.020      14      10     0   0.2522
+    PR-AUC (raw)                 +0.014      14      10     0   0.3748
+    ROC-AUC (MAD score)          -0.031       9      15     0   0.1600
+    MAD F1 fixed T=3.5           +0.013       1       0    23   0.3173
+    F1@T2.0                      -0.029       9      15     0   0.1515
+    F1@T2.5                      -0.034       5       9    10   0.2455
+    F1@T3.0                      +0.000       2       4    18   0.6002
+    F1 CADE protocol T=3.5       +0.013       1       0    23   0.3173
+    F1 CADE protocol T=T_cal     -0.073       6      18     0   0.0115
+    MAD F1 fixed T=T_cal         -0.072       6      18     0   0.0105
+    F1 CADE protocol raw-cal     -0.006      13      11     0   0.9888
+    F1 fixed raw-cal             -0.006      13      11     0   0.9888
+
+  Quantum hybrid v1  vs  Quantum hybrid v2
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            -0.024       2      22     0   0.0000
+    ROC-AUC (raw)                -0.043       4      20     0   0.0001
+    PR-AUC (raw)                 -0.041       6      18     0   0.0001
+    ROC-AUC (MAD score)          -0.012      11      13     0   0.4732
+    MAD F1 fixed T=3.5           -0.013       0       1    23   0.3173
+    F1@T2.0                      -0.069       4      18     2   0.0010
+    F1@T2.5                      -0.040       0      11    13   0.0033
+    F1@T3.0                      -0.021       0       2    22   0.1797
+    F1 CADE protocol T=3.5       -0.013       0       1    23   0.3173
+    F1 CADE protocol T=T_cal     -0.000      15       9     0   0.7898
+    MAD F1 fixed T=T_cal         +0.000      14      10     0   0.7898
+    F1 CADE protocol raw-cal     -0.031       7      17     0   0.0691
+    F1 fixed raw-cal             -0.031       7      17     0   0.0691
+
+  Quantum hybrid v1  vs  PCA-8 only (L2)
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.006      16       8     0   0.0839
+    ROC-AUC (raw)                +0.025      18       6     0   0.0096
+    PR-AUC (raw)                 +0.015      15       9     0   0.1208
+    ROC-AUC (MAD score)          +0.029      17       7     0   0.1515
+    MAD F1 fixed T=3.5           +0.000       0       0    24   1.0000
+    F1@T2.0                      -0.048       4      18     2   0.0017
+    F1@T2.5                      -0.019       0       6    18   0.0244
+    F1@T3.0                      +0.000       0       0    24   1.0000
+    F1 CADE protocol T=3.5       +0.000       0       0    24   1.0000
+    F1 CADE protocol T=T_cal     +0.034      16       8     0   0.0894
+    MAD F1 fixed T=T_cal         +0.034      17       7     0   0.0839
+    F1 CADE protocol raw-cal     +0.017      15       9     0   0.4559
+    F1 fixed raw-cal             +0.017      15       9     0   0.4559
+
+  Quantum hybrid v2  vs  PCA-8 only (L2)
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.030      21       3     0   0.0010
+    ROC-AUC (raw)                +0.068      19       5     0   0.0001
+    PR-AUC (raw)                 +0.056      20       4     0   0.0002
+    ROC-AUC (MAD score)          +0.041      18       6     0   0.0395
+    MAD F1 fixed T=3.5           +0.013       1       0    23   0.3173
+    F1@T2.0                      +0.021      13      11     0   0.4073
+    F1@T2.5                      +0.021       9       3    12   0.1579
+    F1@T3.0                      +0.021       2       0    22   0.1797
+    F1 CADE protocol T=3.5       +0.013       1       0    23   0.3173
+    F1 CADE protocol T=T_cal     +0.034      16       8     0   0.0526
+    MAD F1 fixed T=T_cal         +0.034      16       8     0   0.0491
+    F1 CADE protocol raw-cal     +0.048      17       7     0   0.0646
+    F1 fixed raw-cal             +0.048      17       7     0   0.0564
+
+  Quantum hybrid v3  vs  CADE-mini full 8-6-7 + decoder
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.021      17       7     0   0.0491
+    ROC-AUC (raw)                +0.034      15       9     0   0.2182
+    PR-AUC (raw)                 +0.013      12      12     0   0.8334
+    ROC-AUC (MAD score)          +0.043      13      11     0   0.4559
+    MAD F1 fixed T=3.5           -0.029       0      13    11   0.0015
+    F1@T2.0                      -0.086       4      20     0   0.0035
+    F1@T2.5                      -0.081       4      19     1   0.0089
+    F1@T3.0                      -0.058       1      17     6   0.0021
+    F1 CADE protocol T=3.5       -0.029       0      13    11   0.0015
+    F1 CADE protocol T=T_cal     -0.025       7      17     0   0.1600
+    MAD F1 fixed T=T_cal         -0.023       7      17     0   0.1600
+    F1 CADE protocol raw-cal     -0.011       9      15     0   0.2522
+    F1 fixed raw-cal             -0.012       9      15     0   0.2522
+
+  Quantum hybrid v3  vs  CADE-mini encoder-only 8-12-7
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.002      13      11     0   0.8334
+    ROC-AUC (raw)                -0.022      10      14     0   0.4559
+    PR-AUC (raw)                 -0.053       7      17     0   0.0738
+    ROC-AUC (MAD score)          +0.011      11      13     0   0.9441
+    MAD F1 fixed T=3.5           -0.145       0      19     5   0.0001
+    F1@T2.0                      -0.190       2      22     0   0.0002
+    F1@T2.5                      -0.192       2      22     0   0.0000
+    F1@T3.0                      -0.176       0      24     0   0.0000
+    F1 CADE protocol T=3.5       -0.146       0      19     5   0.0001
+    F1 CADE protocol T=T_cal     -0.052       8      16     0   0.1280
+    MAD F1 fixed T=T_cal         -0.050       8      16     0   0.1280
+    F1 CADE protocol raw-cal     -0.112       5      19     0   0.0194
+    F1 fixed raw-cal             -0.112       5      19     0   0.0194
+
+  Quantum hybrid v3  vs  CADE-mini tuned 8-12-7 margin 20
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.010      10      14     0   0.5838
+    ROC-AUC (raw)                -0.012      11      13     0   0.3902
+    PR-AUC (raw)                 -0.045       7      17     0   0.0425
+    ROC-AUC (MAD score)          +0.028      14      10     0   0.7257
+    MAD F1 fixed T=3.5           -0.076       0      19     5   0.0001
+    F1@T2.0                      -0.130       3      21     0   0.0006
+    F1@T2.5                      -0.148       4      20     0   0.0001
+    F1@T3.0                      -0.121       0      21     3   0.0001
+    F1 CADE protocol T=3.5       -0.076       0      19     5   0.0001
+    F1 CADE protocol T=T_cal     -0.027       7      17     0   0.1600
+    MAD F1 fixed T=T_cal         -0.025       8      16     0   0.1875
+    F1 CADE protocol raw-cal     -0.114       5      19     0   0.0072
+    F1 fixed raw-cal             -0.114       5      19     0   0.0072
+
+  Quantum hybrid v3  vs  Quantum angle-8
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            -0.018      11      13     0   0.2182
+    ROC-AUC (raw)                -0.063      12      12     0   0.0691
+    PR-AUC (raw)                 -0.070      10      14     0   0.0366
+    ROC-AUC (MAD score)          +0.016      13      11     0   0.7048
+    MAD F1 fixed T=3.5           -0.111       0      20     4   0.0001
+    F1@T2.0                      -0.155       3      21     0   0.0012
+    F1@T2.5                      -0.180       2      22     0   0.0001
+    F1@T3.0                      -0.158       0      22     2   0.0000
+    F1 CADE protocol T=3.5       -0.111       0      20     4   0.0001
+    F1 CADE protocol T=T_cal     -0.023       5      19     0   0.0395
+    MAD F1 fixed T=T_cal         -0.022       5      19     0   0.0425
+    F1 CADE protocol raw-cal     -0.076       7      17     0   0.1208
+    F1 fixed raw-cal             -0.076       7      17     0   0.1208
+
+  Quantum hybrid v3  vs  Quantum amp-8
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            -0.027       4      20     0   0.0039
+    ROC-AUC (raw)                -0.073       6      18     0   0.0003
+    PR-AUC (raw)                 -0.062       6      18     0   0.0018
+    ROC-AUC (MAD score)          -0.013       8      16     0   0.3449
+    MAD F1 fixed T=3.5           +0.000       0       0    24   1.0000
+    F1@T2.0                      -0.024       5      19     0   0.0951
+    F1@T2.5                      -0.036       8       9     7   0.7226
+    F1@T3.0                      -0.015       3       4    17   0.3980
+    F1 CADE protocol T=3.5       +0.000       0       0    24   1.0000
+    F1 CADE protocol T=T_cal     -0.028       6      18     0   0.1011
+    MAD F1 fixed T=T_cal         -0.026       6      18     0   0.1140
+    F1 CADE protocol raw-cal     -0.054       7      17     0   0.1074
+    F1 fixed raw-cal             -0.054       8      16     0   0.1140
+
+  Quantum hybrid v3  vs  Quantum hybrid v1
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            -0.007       5      19     0   0.0951
+    ROC-AUC (raw)                -0.050       7      17     0   0.0072
+    PR-AUC (raw)                 -0.035       7      17     0   0.0691
+    ROC-AUC (MAD score)          +0.030      12      12     0   0.7048
+    MAD F1 fixed T=3.5           +0.000       0       0    24   1.0000
+    F1@T2.0                      +0.074      20       4     0   0.0001
+    F1@T2.5                      +0.038      14       0    10   0.0010
+    F1@T3.0                      +0.006       5       0    19   0.0422
+    F1 CADE protocol T=3.5       +0.000       0       0    24   1.0000
+    F1 CADE protocol T=T_cal     +0.046       9      15     0   0.6634
+    MAD F1 fixed T=T_cal         +0.046       9      15     0   0.7048
+    F1 CADE protocol raw-cal     -0.017       7      17     0   0.2522
+    F1 fixed raw-cal             -0.017       7      17     0   0.2643
+
+  Quantum hybrid v3  vs  PCA-8 only (L2)
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            -0.001       9      15     0   0.4732
+    ROC-AUC (raw)                -0.025       9      15     0   0.1780
+    PR-AUC (raw)                 -0.020       9      15     0   0.3449
+    ROC-AUC (MAD score)          +0.058      18       6     0   0.0951
+    MAD F1 fixed T=3.5           +0.000       0       0    24   1.0000
+    F1@T2.0                      +0.026      13      11     0   0.4575
+    F1@T2.5                      +0.019      12       3     9   0.0609
+    F1@T3.0                      +0.006       5       0    19   0.0422
+    F1 CADE protocol T=3.5       +0.000       0       0    24   1.0000
+    F1 CADE protocol T=T_cal     +0.080      12      11     1   0.2478
+    MAD F1 fixed T=T_cal         +0.081      12      12     0   0.2643
+    F1 CADE protocol raw-cal     -0.001       9      15     0   0.5088
+    F1 fixed raw-cal             -0.001       9      15     0   0.5088
+
+  Quantum hybrid v4  vs  CADE-mini full 8-6-7 + decoder
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.054      21       3     0   0.0039
+    ROC-AUC (raw)                +0.130      19       5     0   0.0001
+    PR-AUC (raw)                 +0.094      18       6     0   0.0020
+    ROC-AUC (MAD score)          +0.036      13      11     0   0.4223
+    MAD F1 fixed T=3.5           -0.029       0      13    11   0.0015
+    F1@T2.0                      -0.074      10      14     0   0.0395
+    F1@T2.5                      -0.057       4      20     0   0.0018
+    F1@T3.0                      -0.046       2      17     5   0.0100
+    F1 CADE protocol T=3.5       -0.029       0      13    11   0.0015
+    F1 CADE protocol T=T_cal     -0.055      11      13     0   0.2292
+    MAD F1 fixed T=T_cal         -0.054      11      13     0   0.2076
+    F1 CADE protocol raw-cal     +0.031      15       9     0   0.4559
+    F1 fixed raw-cal             +0.031      15       9     0   0.4559
+
+  Quantum hybrid v4  vs  CADE-mini encoder-only 8-12-7
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.035      17       7     0   0.0340
+    ROC-AUC (raw)                +0.073      16       8     0   0.0491
+    PR-AUC (raw)                 +0.028      11      13     0   0.6634
+    ROC-AUC (MAD score)          +0.004       9      15     0   0.6431
+    MAD F1 fixed T=3.5           -0.145       0      19     5   0.0001
+    F1@T2.0                      -0.178       2      22     0   0.0000
+    F1@T2.5                      -0.168       0      24     0   0.0000
+    F1@T3.0                      -0.164       1      23     0   0.0000
+    F1 CADE protocol T=3.5       -0.146       0      19     5   0.0001
+    F1 CADE protocol T=T_cal     -0.082       9      15     0   0.0526
+    MAD F1 fixed T=T_cal         -0.081       9      15     0   0.0526
+    F1 CADE protocol raw-cal     -0.069      10      14     0   0.3029
+    F1 fixed raw-cal             -0.069      10      14     0   0.3029
+
+  Quantum hybrid v4  vs  CADE-mini tuned 8-12-7 margin 20
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.043      19       5     0   0.0079
+    ROC-AUC (raw)                +0.084      17       7     0   0.0126
+    PR-AUC (raw)                 +0.036      12      12     0   0.4908
+    ROC-AUC (MAD score)          +0.021      14      10     0   0.5271
+    MAD F1 fixed T=3.5           -0.076       0      19     5   0.0001
+    F1@T2.0                      -0.118       4      20     0   0.0006
+    F1@T2.5                      -0.123       2      22     0   0.0000
+    F1@T3.0                      -0.109       1      21     2   0.0000
+    F1 CADE protocol T=3.5       -0.076       0      19     5   0.0001
+    F1 CADE protocol T=T_cal     -0.057      11      13     0   0.1280
+    MAD F1 fixed T=T_cal         -0.056      11      13     0   0.1355
+    F1 CADE protocol raw-cal     -0.071      10      14     0   0.2292
+    F1 fixed raw-cal             -0.071      10      13     1   0.2015
+
+  Quantum hybrid v4  vs  Quantum angle-8
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.015      13      11     0   0.4061
+    ROC-AUC (raw)                +0.033      10      14     0   0.3596
+    PR-AUC (raw)                 +0.011      11      13     0   0.6431
+    ROC-AUC (MAD score)          +0.009      13      11     0   0.5457
+    MAD F1 fixed T=3.5           -0.111       0      20     4   0.0001
+    F1@T2.0                      -0.143       7      17     0   0.0018
+    F1@T2.5                      -0.156       1      23     0   0.0000
+    F1@T3.0                      -0.146       0      22     2   0.0000
+    F1 CADE protocol T=3.5       -0.111       0      20     4   0.0001
+    F1 CADE protocol T=T_cal     -0.053      12      12     0   0.3305
+    MAD F1 fixed T=T_cal         -0.053      12      12     0   0.3305
+    F1 CADE protocol raw-cal     -0.033      13      11     0   0.8553
+    F1 fixed raw-cal             -0.033      13      11     0   0.8334
+
+  Quantum hybrid v4  vs  Quantum amp-8
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.006      15       9     0   0.1688
+    ROC-AUC (raw)                +0.023      16       8     0   0.1011
+    PR-AUC (raw)                 +0.019      14      10     0   0.2292
+    ROC-AUC (MAD score)          -0.020       6      18     0   0.1011
+    MAD F1 fixed T=3.5           +0.000       0       0    24   1.0000
+    F1@T2.0                      -0.012      10      14     0   0.1875
+    F1@T2.5                      -0.012       8       8     8   0.7564
+    F1@T3.0                      -0.003       3       4    17   0.6121
+    F1 CADE protocol T=3.5       +0.000       0       0    24   1.0000
+    F1 CADE protocol T=T_cal     -0.058       9      15     0   0.0646
+    MAD F1 fixed T=T_cal         -0.057       8      16     0   0.0526
+    F1 CADE protocol raw-cal     -0.011      15       9     0   1.0000
+    F1 fixed raw-cal             -0.011      15       9     0   1.0000
+
+  Quantum hybrid v4  vs  Quantum hybrid v2
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.002      11      13     0   0.9441
+    ROC-AUC (raw)                +0.003      12      12     0   0.7469
+    PR-AUC (raw)                 +0.005      12      12     0   0.7683
+    ROC-AUC (MAD score)          +0.011      14      10     0   0.4389
+    MAD F1 fixed T=3.5           -0.013       0       1    23   0.3173
+    F1@T2.0                      +0.017      11      11     2   0.5481
+    F1@T2.5                      +0.022       8       8     8   0.9176
+    F1@T3.0                      -0.003       3       2    19   0.8927
+    F1 CADE protocol T=3.5       -0.013       0       1    23   0.3173
+    F1 CADE protocol T=T_cal     +0.015      14      10     0   0.3902
+    MAD F1 fixed T=T_cal         +0.015      14      10     0   0.3902
+    F1 CADE protocol raw-cal     -0.006      14      10     0   0.6840
+    F1 fixed raw-cal             -0.006      14      10     0   0.6840
+
+  Quantum hybrid v4  vs  Quantum hybrid v3
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.033      21       3     0   0.0053
+    ROC-AUC (raw)                +0.096      20       4     0   0.0001
+    PR-AUC (raw)                 +0.081      19       5     0   0.0006
+    ROC-AUC (MAD score)          -0.007      12      12     0   0.9218
+    MAD F1 fixed T=3.5           +0.000       0       0    24   1.0000
+    F1@T2.0                      +0.012      15       9     0   0.3449
+    F1@T2.5                      +0.024      10       8     6   0.5566
+    F1@T3.0                      +0.012       4       3    17   0.1755
+    F1 CADE protocol T=3.5       +0.000       0       0    24   1.0000
+    F1 CADE protocol T=T_cal     -0.030      16       8     0   0.3902
+    MAD F1 fixed T=T_cal         -0.031      16       8     0   0.3902
+    F1 CADE protocol raw-cal     +0.043      17       7     0   0.1780
+    F1 fixed raw-cal             +0.043      17       7     0   0.1780
+
+  Quantum hybrid v4  vs  PCA-8 only (L2)
+    metric                    mean diff  A wins  B wins  ties        p
+    F1 threshold-free            +0.032      18       6     0   0.0011
+    ROC-AUC (raw)                +0.071      20       4     0   0.0000
+    PR-AUC (raw)                 +0.061      20       4     0   0.0001
+    ROC-AUC (MAD score)          +0.051      18       6     0   0.0491
+    MAD F1 fixed T=3.5           +0.000       0       0    24   1.0000
+    F1@T2.0                      +0.038      14       8     2   0.0619
+    F1@T2.5                      +0.043      10       1    13   0.0262
+    F1@T3.0                      +0.018       4       0    20   0.0679
+    F1 CADE protocol T=3.5       +0.000       0       0    24   1.0000
+    F1 CADE protocol T=T_cal     +0.049      20       4     0   0.0018
+    MAD F1 fixed T=T_cal         +0.050      20       4     0   0.0016
+    F1 CADE protocol raw-cal     +0.042      18       6     0   0.0604
+    F1 fixed raw-cal             +0.042      18       6     0   0.0604
+
+  n = 24 -> smallest possible two-sided Wilcoxon p ~ 1e-7; n = 8 (one seed) -> 0.008.
+
+PER FAMILY: ROC-AUC (raw) (mean +- std over runs)
+  family                  PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  droidkungfu               0.765+-0.000             0.361+-0.000             0.719+-0.031             0.870+-0.022             0.861+-0.019             0.854+-0.006             0.843+-0.010             0.797+-0.018             0.804+-0.005             0.686+-0.019             0.818+-0.028 
+  plankton                  0.533+-0.000             0.531+-0.000             0.531+-0.088             0.505+-0.060             0.538+-0.020             0.373+-0.044             0.571+-0.046             0.567+-0.016             0.626+-0.034             0.486+-0.027             0.587+-0.059 
+  basebridge                0.611+-0.000             0.382+-0.000             0.561+-0.033             0.678+-0.034             0.663+-0.037             0.570+-0.013             0.695+-0.018             0.666+-0.003             0.708+-0.027             0.687+-0.027             0.740+-0.005 
+  smsreg                    0.757+-0.000             0.562+-0.000             0.575+-0.015             0.624+-0.038             0.665+-0.044             0.768+-0.035             0.723+-0.015             0.707+-0.015             0.743+-0.043             0.606+-0.009             0.759+-0.017 
+  airpush                   0.812+-0.000             0.773+-0.000             0.917+-0.030             0.827+-0.070             0.883+-0.023             0.887+-0.023             0.867+-0.039             0.814+-0.009             0.839+-0.051             0.907+-0.014             0.833+-0.037 
+  fakeinst                  0.285+-0.000             0.168+-0.000             0.308+-0.080             0.585+-0.052             0.485+-0.031             0.556+-0.050             0.378+-0.034             0.366+-0.026             0.463+-0.010             0.236+-0.011             0.453+-0.020 
+  shedun                    0.777+-0.000             0.690+-0.000             0.594+-0.091             0.489+-0.174             0.425+-0.065             0.728+-0.030             0.840+-0.014             0.790+-0.029             0.812+-0.062             0.811+-0.006             0.856+-0.023 
+  smssend                   0.569+-0.000             0.417+-0.000             0.433+-0.058             0.512+-0.045             0.484+-0.064             0.677+-0.051             0.579+-0.031             0.608+-0.004             0.661+-0.016             0.491+-0.035             0.632+-0.065 
+
+PER FAMILY: ROC-AUC (MAD score) (mean +- std over runs)
+  family                  PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  droidkungfu               0.565+-0.000             0.309+-0.000             0.666+-0.096             0.726+-0.020             0.702+-0.019             0.726+-0.011             0.715+-0.043             0.634+-0.062             0.637+-0.010             0.690+-0.018             0.616+-0.083 
+  plankton                  0.578+-0.000             0.485+-0.000             0.671+-0.009             0.665+-0.024             0.680+-0.003             0.646+-0.018             0.541+-0.011             0.579+-0.018             0.573+-0.019             0.493+-0.029             0.587+-0.043 
+  basebridge                0.638+-0.000             0.409+-0.000             0.585+-0.031             0.605+-0.051             0.587+-0.022             0.554+-0.030             0.601+-0.128             0.553+-0.109             0.679+-0.059             0.702+-0.014             0.700+-0.060 
+  smsreg                    0.504+-0.000             0.550+-0.000             0.468+-0.017             0.541+-0.064             0.490+-0.027             0.557+-0.024             0.646+-0.018             0.611+-0.023             0.589+-0.045             0.613+-0.015             0.575+-0.011 
+  airpush                   0.890+-0.000             0.478+-0.000             0.935+-0.003             0.915+-0.017             0.931+-0.012             0.928+-0.002             0.924+-0.028             0.914+-0.018             0.914+-0.007             0.909+-0.013             0.926+-0.012 
+  fakeinst                  0.513+-0.000             0.351+-0.000             0.511+-0.090             0.479+-0.081             0.467+-0.022             0.362+-0.054             0.401+-0.030             0.362+-0.018             0.343+-0.017             0.240+-0.020             0.351+-0.005 
+  shedun                    0.378+-0.000             0.607+-0.000             0.381+-0.072             0.443+-0.135             0.417+-0.082             0.596+-0.081             0.726+-0.037             0.580+-0.141             0.597+-0.151             0.828+-0.002             0.657+-0.120 
+  smssend                   0.425+-0.000             0.458+-0.000             0.401+-0.038             0.493+-0.033             0.458+-0.024             0.463+-0.021             0.508+-0.077             0.489+-0.014             0.484+-0.030             0.482+-0.024             0.492+-0.036 
+
+PER FAMILY: F1 threshold-free (mean +- std over runs)
+  family                  PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  droidkungfu               0.724+-0.000             0.649+-0.000             0.700+-0.006             0.801+-0.024             0.780+-0.019             0.773+-0.013             0.775+-0.016             0.741+-0.003             0.761+-0.011             0.686+-0.012             0.783+-0.020 
+  plankton                  0.655+-0.000             0.643+-0.000             0.636+-0.003             0.633+-0.000             0.635+-0.003             0.634+-0.002             0.658+-0.006             0.661+-0.006             0.677+-0.004             0.636+-0.001             0.659+-0.002 
+  basebridge                0.468+-0.000             0.399+-0.000             0.415+-0.029             0.502+-0.015             0.501+-0.014             0.435+-0.004             0.514+-0.021             0.506+-0.008             0.521+-0.003             0.493+-0.021             0.525+-0.003 
+  smsreg                    0.723+-0.000             0.643+-0.000             0.638+-0.002             0.648+-0.002             0.656+-0.012             0.734+-0.013             0.685+-0.007             0.680+-0.015             0.689+-0.027             0.649+-0.006             0.700+-0.005 
+  airpush                   0.734+-0.000             0.756+-0.000             0.869+-0.043             0.772+-0.070             0.819+-0.027             0.829+-0.026             0.805+-0.033             0.747+-0.005             0.789+-0.042             0.852+-0.016             0.767+-0.029 
+  fakeinst                  0.607+-0.000             0.605+-0.000             0.604+-0.001             0.664+-0.024             0.625+-0.008             0.658+-0.014             0.626+-0.006             0.620+-0.005             0.639+-0.005             0.604+-0.000             0.628+-0.003 
+  shedun                    0.661+-0.000             0.619+-0.000             0.577+-0.044             0.553+-0.044             0.501+-0.017             0.650+-0.023             0.722+-0.016             0.672+-0.019             0.735+-0.041             0.683+-0.016             0.762+-0.021 
+  smssend                   0.645+-0.000             0.608+-0.000             0.607+-0.000             0.622+-0.021             0.612+-0.005             0.641+-0.028             0.646+-0.006             0.640+-0.005             0.648+-0.006             0.608+-0.001             0.651+-0.018 
+
+PER FAMILY: MAD F1 fixed T=3.5 (mean +- std over runs)
+  family                  PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  droidkungfu               0.000+-0.000             0.000+-0.000             0.036+-0.051             0.000+-0.000             0.009+-0.013             0.309+-0.071             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  plankton                  0.000+-0.000             0.000+-0.000             0.015+-0.014             0.093+-0.077             0.051+-0.055             0.102+-0.039             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  basebridge                0.000+-0.000             0.005+-0.000             0.000+-0.000             0.168+-0.181             0.061+-0.056             0.009+-0.004             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  smsreg                    0.000+-0.000             0.006+-0.000             0.005+-0.002             0.055+-0.039             0.024+-0.021             0.043+-0.035             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  airpush                   0.000+-0.000             0.000+-0.000             0.166+-0.196             0.645+-0.016             0.448+-0.214             0.420+-0.037             0.000+-0.000             0.000+-0.000             0.105+-0.149             0.000+-0.000             0.000+-0.000 
+  fakeinst                  0.000+-0.000             0.000+-0.000             0.000+-0.000             0.020+-0.021             0.001+-0.002             0.001+-0.001             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  shedun                    0.000+-0.000             0.000+-0.000             0.002+-0.003             0.085+-0.086             0.014+-0.009             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  smssend                   0.000+-0.000             0.000+-0.000             0.008+-0.003             0.096+-0.116             0.002+-0.002             0.007+-0.004             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+
+PER FAMILY: F1 CADE protocol T=3.5 (mean +- std over runs)
+  family                  PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  droidkungfu               0.000+-0.000             0.000+-0.000             0.036+-0.051             0.000+-0.000             0.009+-0.013             0.309+-0.071             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  plankton                  0.000+-0.000             0.000+-0.000             0.015+-0.014             0.093+-0.076             0.051+-0.055             0.102+-0.039             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  basebridge                0.000+-0.000             0.005+-0.000             0.000+-0.000             0.169+-0.182             0.061+-0.056             0.009+-0.004             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  smsreg                    0.000+-0.000             0.006+-0.000             0.005+-0.002             0.055+-0.039             0.024+-0.021             0.043+-0.035             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  airpush                   0.000+-0.000             0.000+-0.000             0.166+-0.197             0.645+-0.016             0.448+-0.214             0.420+-0.037             0.000+-0.000             0.000+-0.000             0.106+-0.149             0.000+-0.000             0.000+-0.000 
+  fakeinst                  0.000+-0.000             0.000+-0.000             0.000+-0.000             0.020+-0.021             0.001+-0.002             0.001+-0.001             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  shedun                    0.000+-0.000             0.000+-0.000             0.002+-0.003             0.085+-0.086             0.014+-0.010             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  smssend                   0.000+-0.000             0.000+-0.000             0.008+-0.003             0.096+-0.116             0.002+-0.002             0.007+-0.004             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+
+PER FAMILY: known-test FPR at 3.5 (mean +- std over runs)
+  family                  PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  droidkungfu               0.000+-0.000             0.022+-0.000             0.003+-0.003             0.002+-0.002             0.007+-0.004             0.022+-0.004             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.003+-0.003             0.000+-0.000 
+  plankton                  0.000+-0.000             0.016+-0.000             0.005+-0.001             0.012+-0.009             0.008+-0.008             0.030+-0.006             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  basebridge                0.000+-0.000             0.014+-0.000             0.001+-0.001             0.017+-0.013             0.013+-0.004             0.025+-0.003             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.003+-0.003             0.002+-0.003 
+  smsreg                    0.000+-0.000             0.013+-0.000             0.004+-0.004             0.037+-0.023             0.013+-0.009             0.009+-0.006             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.005+-0.003             0.000+-0.000 
+  airpush                   0.000+-0.000             0.016+-0.000             0.006+-0.007             0.021+-0.002             0.013+-0.010             0.011+-0.003             0.000+-0.000             0.000+-0.000             0.005+-0.008             0.000+-0.000             0.000+-0.000 
+  fakeinst                  0.000+-0.000             0.015+-0.000             0.001+-0.002             0.029+-0.017             0.005+-0.004             0.019+-0.009             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+  shedun                    0.000+-0.000             0.015+-0.000             0.006+-0.004             0.033+-0.021             0.028+-0.027             0.008+-0.003             0.000+-0.000             0.000+-0.000             0.001+-0.001             0.000+-0.000             0.000+-0.000 
+  smssend                   0.000+-0.000             0.014+-0.000             0.003+-0.002             0.047+-0.047             0.007+-0.007             0.012+-0.006             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000             0.000+-0.000 
+
+PER FAMILY: calibrated T_cal (mean +- std over runs)
+  family                  PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  droidkungfu               1.455+-0.000             1.862+-0.000             1.649+-0.063             1.919+-0.074             2.035+-0.191             2.397+-0.111             1.796+-0.071             1.563+-0.190             1.825+-0.283             1.698+-0.134             1.514+-0.044 
+  plankton                  1.600+-0.000             1.617+-0.000             1.970+-0.115             2.344+-0.393             2.025+-0.136             2.675+-0.164             1.581+-0.095             1.461+-0.087             1.481+-0.131             1.725+-0.212             1.570+-0.185 
+  basebridge                1.736+-0.000             1.604+-0.000             1.886+-0.077             2.470+-0.551             2.254+-0.234             2.448+-0.042             1.394+-0.361             1.357+-0.374             1.624+-0.037             1.796+-0.179             1.839+-0.293 
+  smsreg                    1.507+-0.000             1.586+-0.000             1.985+-0.043             3.883+-1.737             2.189+-0.314             2.127+-0.097             2.065+-0.128             1.530+-0.066             1.631+-0.275             1.662+-0.040             1.563+-0.085 
+  airpush                   1.924+-0.000             1.587+-0.000             1.796+-0.201             2.307+-0.173             2.137+-0.105             2.244+-0.023             2.042+-0.456             1.663+-0.089             2.064+-0.427             1.749+-0.127             2.116+-0.244 
+  fakeinst                  1.618+-0.000             1.743+-0.000             1.756+-0.035             2.603+-0.371             1.892+-0.061             2.238+-0.223             1.700+-0.128             1.538+-0.016             1.663+-0.076             1.484+-0.055             1.763+-0.191 
+  shedun                    1.516+-0.000             1.671+-0.000             2.016+-0.067             2.914+-0.952             2.980+-1.456             1.843+-0.137             1.442+-0.115             1.268+-0.031             1.835+-0.169             1.542+-0.215             1.576+-0.052 
+  smssend                   1.692+-0.000             1.628+-0.000             1.793+-0.031             6.817+-6.500             2.001+-0.235             2.166+-0.397             1.726+-0.185             1.574+-0.026             1.761+-0.106             1.792+-0.032             1.847+-0.084 
+
+PER FAMILY: F1 CADE protocol T=T_cal (mean +- std over runs)
+  family                  PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  droidkungfu               0.028+-0.000             0.000+-0.000             0.367+-0.135             0.421+-0.092             0.269+-0.176             0.493+-0.037             0.256+-0.069             0.063+-0.069             0.101+-0.056             0.052+-0.009             0.061+-0.040 
+  plankton                  0.105+-0.000             0.024+-0.000             0.248+-0.012             0.290+-0.055             0.322+-0.018             0.200+-0.045             0.101+-0.070             0.128+-0.027             0.100+-0.028             0.049+-0.035             0.127+-0.073 
+  basebridge                0.214+-0.000             0.072+-0.000             0.161+-0.021             0.340+-0.083             0.251+-0.019             0.134+-0.034             0.135+-0.104             0.012+-0.009             0.129+-0.009             0.082+-0.059             0.177+-0.116 
+  smsreg                    0.042+-0.000             0.163+-0.000             0.107+-0.012             0.064+-0.014             0.097+-0.008             0.182+-0.039             0.214+-0.070             0.191+-0.068             0.164+-0.107             0.130+-0.031             0.116+-0.048 
+  airpush                   0.567+-0.000             0.030+-0.000             0.821+-0.026             0.823+-0.041             0.829+-0.041             0.772+-0.010             0.749+-0.089             0.709+-0.106             0.646+-0.018             0.700+-0.049             0.737+-0.035 
+  fakeinst                  0.032+-0.000             0.004+-0.000             0.141+-0.166             0.045+-0.027             0.023+-0.010             0.026+-0.007             0.057+-0.013             0.038+-0.003             0.026+-0.011             0.014+-0.005             0.056+-0.021 
+  shedun                    0.031+-0.000             0.043+-0.000             0.018+-0.002             0.091+-0.087             0.073+-0.069             0.020+-0.002             0.296+-0.175             0.103+-0.068             0.114+-0.060             0.639+-0.080             0.130+-0.065 
+  smssend                   0.060+-0.000             0.023+-0.000             0.049+-0.003             0.057+-0.016             0.064+-0.004             0.069+-0.013             0.127+-0.056             0.104+-0.005             0.070+-0.015             0.049+-0.008             0.068+-0.004 
+
+PER FAMILY: F1 CADE protocol raw-cal (mean +- std over runs)
+  family                  PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  droidkungfu               0.264+-0.000             0.000+-0.000             0.225+-0.102             0.642+-0.016             0.612+-0.026             0.606+-0.025             0.425+-0.060             0.283+-0.106             0.203+-0.034             0.048+-0.015             0.172+-0.050 
+  plankton                  0.126+-0.000             0.063+-0.000             0.116+-0.035             0.222+-0.017             0.248+-0.063             0.066+-0.020             0.106+-0.033             0.090+-0.052             0.144+-0.040             0.075+-0.004             0.126+-0.086 
+  basebridge                0.116+-0.000             0.032+-0.000             0.240+-0.119             0.424+-0.017             0.342+-0.042             0.173+-0.013             0.081+-0.059             0.088+-0.009             0.140+-0.087             0.071+-0.045             0.231+-0.055 
+  smsreg                    0.220+-0.000             0.218+-0.000             0.082+-0.013             0.160+-0.027             0.216+-0.026             0.268+-0.070             0.246+-0.114             0.266+-0.063             0.363+-0.027             0.080+-0.018             0.414+-0.051 
+  airpush                   0.496+-0.000             0.043+-0.000             0.692+-0.097             0.633+-0.114             0.690+-0.024             0.578+-0.066             0.501+-0.147             0.421+-0.015             0.469+-0.136             0.685+-0.050             0.410+-0.130 
+  fakeinst                  0.011+-0.000             0.008+-0.000             0.014+-0.006             0.037+-0.007             0.034+-0.002             0.046+-0.014             0.032+-0.011             0.058+-0.011             0.059+-0.018             0.010+-0.003             0.086+-0.003 
+  shedun                    0.115+-0.000             0.162+-0.000             0.017+-0.006             0.086+-0.064             0.080+-0.061             0.019+-0.004             0.374+-0.202             0.243+-0.127             0.303+-0.140             0.380+-0.142             0.189+-0.044 
+  smssend                   0.048+-0.000             0.047+-0.000             0.095+-0.053             0.082+-0.013             0.081+-0.016             0.240+-0.096             0.057+-0.011             0.078+-0.029             0.097+-0.013             0.041+-0.007             0.104+-0.037 
+
+PER FAMILY: F1 fixed raw-cal (mean +- std over runs)
+  family                  PCA-8 only (L2)      PCA-8 only (coords)CADE-mini full 8-6-7 + decoderCADE-mini encoder-only 8-12-7CADE-mini tuned 8-12-7 margin 20          Quantum angle-8            Quantum amp-8        Quantum hybrid v1        Quantum hybrid v2        Quantum hybrid v3        Quantum hybrid v4
+  droidkungfu               0.264+-0.000             0.000+-0.000             0.225+-0.101             0.642+-0.016             0.611+-0.026             0.606+-0.025             0.425+-0.060             0.283+-0.106             0.203+-0.034             0.047+-0.015             0.172+-0.049 
+  plankton                  0.125+-0.000             0.063+-0.000             0.116+-0.035             0.222+-0.017             0.247+-0.063             0.066+-0.020             0.106+-0.033             0.090+-0.052             0.144+-0.040             0.074+-0.004             0.125+-0.086 
+  basebridge                0.116+-0.000             0.030+-0.000             0.240+-0.119             0.422+-0.014             0.341+-0.042             0.172+-0.013             0.081+-0.059             0.088+-0.009             0.138+-0.086             0.071+-0.045             0.230+-0.056 
+  smsreg                    0.220+-0.000             0.218+-0.000             0.082+-0.013             0.159+-0.027             0.216+-0.026             0.268+-0.070             0.246+-0.114             0.266+-0.063             0.362+-0.027             0.080+-0.018             0.414+-0.051 
+  airpush                   0.495+-0.000             0.043+-0.000             0.692+-0.097             0.632+-0.114             0.690+-0.024             0.578+-0.066             0.501+-0.147             0.421+-0.015             0.469+-0.136             0.685+-0.050             0.410+-0.130 
+  fakeinst                  0.010+-0.000             0.008+-0.000             0.014+-0.006             0.037+-0.007             0.034+-0.003             0.046+-0.014             0.032+-0.011             0.058+-0.011             0.058+-0.019             0.010+-0.003             0.086+-0.003 
+  shedun                    0.114+-0.000             0.161+-0.000             0.017+-0.006             0.086+-0.064             0.079+-0.061             0.019+-0.004             0.373+-0.202             0.243+-0.127             0.302+-0.140             0.379+-0.142             0.189+-0.044 
+  smssend                   0.048+-0.000             0.047+-0.000             0.094+-0.053             0.082+-0.013             0.081+-0.016             0.240+-0.096             0.057+-0.011             0.078+-0.029             0.097+-0.013             0.041+-0.007             0.104+-0.037 
+
+======================================================================================================================
+STRUCTURE-AWARE STATISTICS  (n_boot = 500)
+  DeLong: per task, same test samples, p < 0.05. Per-family string: one character per seed (A = A sig. better, B = B sig. better, - = n.s.).
+  Boot: per task, paired bootstrap over test samples, 95% CI of the difference.
+  Hierarchical bootstrap: families -> seeds -> test samples resampled; the CI accounts for all three levels.
+======================================================================================================================
+
+  Quantum angle-8  vs  CADE-mini full 8-6-7 + decoder   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 17 | B>A:  6 | n.s.:  1   families with every seed sig: A 5, B 1   [airpush:BBB  basebridge:B-A  droidkungfu:AAA  fakeinst:AAA  plankton:BAB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 10 | B>A:  5 | n.s.:  9   families with every seed sig: A 1, B 0   [airpush:---  basebridge:-AB  droidkungfu:-BA  fakeinst:BBA  plankton:-B-  shedun:A-A  smsreg:AAA  smssend:A-A]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0: 10 | below 0:  0 | incl. 0: 14   [airpush:A-A  basebridge:---  droidkungfu:AAA  fakeinst:---  plankton:AAA  shedun:---  smsreg:AA-  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 16 | below 0:  3 | incl. 0:  5   [airpush:B-B  basebridge:-AA  droidkungfu:AAA  fakeinst:AAA  plankton:--B  shedun:AA-  smsreg:AAA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.097   95% CI [-0.015, +0.186]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.027   95% CI [-0.055, +0.113]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.082   95% CI [+0.016, +0.176]   -> A better
+    Hierarchical bootstrap TF_F1       mean diff +0.038   95% CI [+0.001, +0.070]   -> A better
+
+  Quantum angle-8  vs  CADE-mini encoder-only 8-12-7   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 12 | B>A: 10 | n.s.:  2   families with every seed sig: A 3, B 2   [airpush:ABA  basebridge:BBB  droidkungfu:BAB  fakeinst:--B  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B:  6 | B>A:  6 | n.s.: 12   families with every seed sig: A 1, B 0   [airpush:--A  basebridge:--B  droidkungfu:---  fakeinst:BB-  plankton:-B-  shedun:AAA  smsreg:-A-  smssend:ABB]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  6 | below 0: 15 | incl. 0:  3   [airpush:BBB  basebridge:-BB  droidkungfu:AAA  fakeinst:-BB  plankton:AAB  shedun:BBB  smsreg:BAB  smssend:-BB]
+    Boot   TF_F1       tasks with 95% CI above 0: 11 | below 0:  8 | incl. 0:  5   [airpush:ABA  basebridge:BBB  droidkungfu:B-B  fakeinst:--B  plankton:-A-  shedun:AAA  smsreg:AAA  smssend:AAB]
+    Hierarchical bootstrap ROC_raw     mean diff +0.040   95% CI [-0.052, +0.136]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff -0.004   95% CI [-0.059, +0.060]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.034   95% CI [-0.136, +0.089]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.020   95% CI [-0.017, +0.065]   -> no clear difference
+
+  Quantum angle-8  vs  CADE-mini tuned 8-12-7 margin 20   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 14 | B>A:  8 | n.s.:  2   families with every seed sig: A 3, B 2   [airpush:ABA  basebridge:BBB  droidkungfu:A-B  fakeinst:-AA  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B:  7 | B>A:  6 | n.s.: 11   families with every seed sig: A 2, B 0   [airpush:---  basebridge:-BB  droidkungfu:--A  fakeinst:BB-  plankton:-BB  shedun:AAA  smsreg:AAA  smssend:---]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  8 | below 0:  6 | incl. 0: 10   [airpush:B-A  basebridge:-B-  droidkungfu:AAA  fakeinst:---  plankton:AAB  shedun:B-B  smsreg:AAB  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 14 | below 0:  6 | incl. 0:  4   [airpush:ABA  basebridge:BBB  droidkungfu:--B  fakeinst:AAA  plankton:BA-  shedun:AAA  smsreg:AAA  smssend:AA-]
+    Hierarchical bootstrap ROC_raw     mean diff +0.051   95% CI [-0.048, +0.142]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.013   95% CI [-0.035, +0.072]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.035   95% CI [-0.042, +0.119]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.028   95% CI [-0.013, +0.070]   -> no clear difference
+
+  Quantum angle-8  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 13 | B>A:  8 | n.s.:  3   families with every seed sig: A 4, B 1   [airpush:AAA  basebridge:-BB  droidkungfu:AAA  fakeinst:AAA  plankton:BBB  shedun:-BB  smsreg:AB-  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 16 | B>A:  6 | n.s.:  2   families with every seed sig: A 4, B 2   [airpush:AAA  basebridge:BBB  droidkungfu:AAA  fakeinst:BBB  plankton:AAA  shedun:AAA  smsreg:A-A  smssend:AA-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0: 12 | below 0:  0 | incl. 0: 12   [airpush:AAA  basebridge:---  droidkungfu:AAA  fakeinst:---  plankton:AAA  shedun:---  smsreg:AA-  smssend:--A]
+    Boot   TF_F1       tasks with 95% CI above 0: 11 | below 0:  6 | incl. 0:  7   [airpush:AAA  basebridge:B--  droidkungfu:AAA  fakeinst:AAA  plankton:BBB  shedun:--B  smsreg:A--  smssend:-AB]
+    Hierarchical bootstrap ROC_raw     mean diff +0.038   95% CI [-0.045, +0.114]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.043   95% CI [-0.032, +0.118]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.111   95% CI [+0.021, +0.228]   -> A better
+    Hierarchical bootstrap TF_F1       mean diff +0.017   95% CI [-0.008, +0.047]   -> no clear difference
+
+  CADE-mini full 8-6-7 + decoder  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B:  6 | B>A: 15 | n.s.:  3   families with every seed sig: A 1, B 3   [airpush:AAA  basebridge:-BB  droidkungfu:-BB  fakeinst:-AB  plankton:ABA  shedun:BBB  smsreg:BBB  smssend:BBB]
+    DeLong ROC_mad  tasks sig A>B: 10 | B>A:  9 | n.s.:  5   families with every seed sig: A 2, B 0   [airpush:AAA  basebridge:BB-  droidkungfu:AAB  fakeinst:A-B  plankton:AAA  shedun:BAB  smsreg:-B-  smssend:B-B]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  7 | below 0:  0 | incl. 0: 17   [airpush:-AA  basebridge:---  droidkungfu:-A-  fakeinst:---  plankton:-A-  shedun:---  smsreg:-A-  smssend:A-A]
+    Boot   TF_F1       tasks with 95% CI above 0:  3 | below 0: 18 | incl. 0:  3   [airpush:AAA  basebridge:-BB  droidkungfu:-BB  fakeinst:B-B  plankton:BBB  shedun:BBB  smsreg:BBB  smssend:BBB]
+    Hierarchical bootstrap ROC_raw     mean diff -0.059   95% CI [-0.133, +0.007]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.016   95% CI [-0.028, +0.059]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.029   95% CI [+0.002, +0.085]   -> A better
+    Hierarchical bootstrap TF_F1       mean diff -0.021   95% CI [-0.058, +0.027]   -> no clear difference
+
+  CADE-mini encoder-only 8-12-7  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 10 | B>A: 10 | n.s.:  4   families with every seed sig: A 2, B 2   [airpush:AAB  basebridge:A-A  droidkungfu:AAA  fakeinst:AAA  plankton:--B  shedun:BBB  smsreg:BBB  smssend:BB-]
+    DeLong ROC_mad  tasks sig A>B: 15 | B>A:  6 | n.s.:  3   families with every seed sig: A 2, B 0   [airpush:AA-  basebridge:BBA  droidkungfu:AAA  fakeinst:BAB  plankton:AAA  shedun:AB-  smsreg:ABA  smssend:-AA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0: 16 | below 0:  0 | incl. 0:  8   [airpush:AAA  basebridge:-AA  droidkungfu:---  fakeinst:-AA  plankton:A-A  shedun:AAA  smsreg:A-A  smssend:-AA]
+    Boot   TF_F1       tasks with 95% CI above 0: 10 | below 0: 12 | incl. 0:  2   [airpush:AAB  basebridge:A-A  droidkungfu:AAA  fakeinst:AAA  plankton:BBB  shedun:BBB  smsreg:BBB  smssend:BB-]
+    Hierarchical bootstrap ROC_raw     mean diff -0.002   95% CI [-0.129, +0.105]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.047   95% CI [+0.004, +0.096]   -> A better
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.146   95% CI [+0.040, +0.314]   -> A better
+    Hierarchical bootstrap TF_F1       mean diff -0.003   95% CI [-0.048, +0.040]   -> no clear difference
+
+  CADE-mini tuned 8-12-7 margin 20  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 12 | B>A:  8 | n.s.:  4   families with every seed sig: A 3, B 2   [airpush:AAA  basebridge:A-A  droidkungfu:AAA  fakeinst:AAA  plankton:A--  shedun:BBB  smsreg:BBB  smssend:B-B]
+    DeLong ROC_mad  tasks sig A>B: 13 | B>A:  6 | n.s.:  5   families with every seed sig: A 3, B 0   [airpush:AAA  basebridge:B-B  droidkungfu:AAA  fakeinst:-BB  plankton:AAA  shedun:ABA  smsreg:-B-  smssend:AA-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0: 15 | below 0:  0 | incl. 0:  9   [airpush:AAA  basebridge:AAA  droidkungfu:--A  fakeinst:---  plankton:AAA  shedun:A-A  smsreg:AAA  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 10 | below 0: 12 | incl. 0:  2   [airpush:AAA  basebridge:--A  droidkungfu:AAA  fakeinst:AAA  plankton:BBB  shedun:BBB  smsreg:BBB  smssend:BBB]
+    Hierarchical bootstrap ROC_raw     mean diff -0.013   95% CI [-0.147, +0.091]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.030   95% CI [-0.014, +0.076]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.076   95% CI [+0.009, +0.199]   -> A better
+    Hierarchical bootstrap TF_F1       mean diff -0.011   95% CI [-0.063, +0.039]   -> no clear difference
+
+  Quantum amp-8  vs  CADE-mini full 8-6-7 + decoder   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 18 | B>A:  4 | n.s.:  2   families with every seed sig: A 5, B 0   [airpush:B-B  basebridge:AAA  droidkungfu:AAA  fakeinst:ABA  plankton:-AB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 12 | B>A:  7 | n.s.:  5   families with every seed sig: A 3, B 1   [airpush:B-A  basebridge:AB-  droidkungfu:--A  fakeinst:BB-  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  7 | incl. 0: 17   [airpush:-BB  basebridge:---  droidkungfu:-B-  fakeinst:---  plankton:-B-  shedun:---  smsreg:-B-  smssend:B-B]
+    Boot   TF_F1       tasks with 95% CI above 0: 21 | below 0:  2 | incl. 0:  1   [airpush:B-B  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.107   95% CI [+0.030, +0.175]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff +0.056   95% CI [-0.050, +0.161]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.029   95% CI [-0.083, -0.002]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.048   95% CI [+0.005, +0.087]   -> A better
+
+  Quantum amp-8  vs  CADE-mini encoder-only 8-12-7   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 14 | B>A:  8 | n.s.:  2   families with every seed sig: A 3, B 1   [airpush:BBA  basebridge:AAB  droidkungfu:B-B  fakeinst:BBB  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AA-]
+    DeLong ROC_mad  tasks sig A>B: 10 | B>A: 11 | n.s.:  3   families with every seed sig: A 2, B 2   [airpush:B-A  basebridge:ABB  droidkungfu:-AB  fakeinst:BBB  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:-AB]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 16 | incl. 0:  8   [airpush:BBB  basebridge:-BB  droidkungfu:---  fakeinst:-BB  plankton:B-B  shedun:BBB  smsreg:B-B  smssend:-BB]
+    Boot   TF_F1       tasks with 95% CI above 0: 13 | below 0:  5 | incl. 0:  6   [airpush:-BA  basebridge:---  droidkungfu:BAB  fakeinst:-BB  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AA-]
+    Hierarchical bootstrap ROC_raw     mean diff +0.051   95% CI [-0.048, +0.170]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.024   95% CI [-0.046, +0.119]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.146   95% CI [-0.319, -0.044]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.029   95% CI [-0.010, +0.071]   -> no clear difference
+
+  Quantum amp-8  vs  CADE-mini tuned 8-12-7 margin 20   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 12 | B>A:  7 | n.s.:  5   families with every seed sig: A 1, B 1   [airpush:BBA  basebridge:AAB  droidkungfu:--B  fakeinst:BBB  plankton:AA-  shedun:AAA  smsreg:A-A  smssend:A-A]
+    DeLong ROC_mad  tasks sig A>B: 12 | B>A:  8 | n.s.:  4   families with every seed sig: A 2, B 1   [airpush:B-A  basebridge:ABA  droidkungfu:-A-  fakeinst:B-B  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:BAA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 15 | incl. 0:  9   [airpush:BBB  basebridge:BBB  droidkungfu:--B  fakeinst:---  plankton:BBB  shedun:B-B  smsreg:BBB  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 14 | below 0:  2 | incl. 0:  8   [airpush:-BA  basebridge:---  droidkungfu:A-B  fakeinst:---  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.061   95% CI [-0.024, +0.177]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.041   95% CI [-0.053, +0.139]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.076   95% CI [-0.188, -0.010]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.038   95% CI [+0.002, +0.105]   -> A better
+
+  Quantum amp-8  vs  Quantum angle-8   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B:  9 | B>A: 10 | n.s.:  5   families with every seed sig: A 3, B 2   [airpush:B--  basebridge:AAA  droidkungfu:--B  fakeinst:BBB  plankton:AAA  shedun:AAA  smsreg:B-B  smssend:BBB]
+    DeLong ROC_mad  tasks sig A>B: 13 | B>A:  8 | n.s.:  3   families with every seed sig: A 2, B 1   [airpush:B-A  basebridge:ABA  droidkungfu:-AB  fakeinst:AAB  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:BA-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 12 | incl. 0: 12   [airpush:BBB  basebridge:---  droidkungfu:BBB  fakeinst:---  plankton:BBB  shedun:---  smsreg:BB-  smssend:--B]
+    Boot   TF_F1       tasks with 95% CI above 0: 10 | below 0:  8 | incl. 0:  6   [airpush:B--  basebridge:AAA  droidkungfu:---  fakeinst:BBB  plankton:AAA  shedun:-AA  smsreg:BBB  smssend:ABA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.010   95% CI [-0.063, +0.094]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.029   95% CI [-0.028, +0.085]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.111   95% CI [-0.231, -0.018]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.010   95% CI [-0.019, +0.040]   -> no clear difference
+
+  Quantum amp-8  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 17 | B>A:  5 | n.s.:  2   families with every seed sig: A 4, B 1   [airpush:-AA  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AAB  shedun:AAA  smsreg:BBB  smssend:AB-]
+    DeLong ROC_mad  tasks sig A>B: 14 | B>A:  6 | n.s.:  4   families with every seed sig: A 3, B 1   [airpush:-AA  basebridge:AB-  droidkungfu:AAA  fakeinst:BBB  plankton:BB-  shedun:AAA  smsreg:AAA  smssend:-AA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  0 | incl. 0: 24   [airpush:---  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 18 | below 0:  3 | incl. 0:  3   [airpush:AAA  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AA-  shedun:AAA  smsreg:BBB  smssend:A--]
+    Hierarchical bootstrap ROC_raw     mean diff +0.048   95% CI [+0.018, +0.073]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff +0.071   95% CI [-0.017, +0.168]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.000   95% CI [+0.000, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.027   95% CI [+0.003, +0.052]   -> A better
+
+  Quantum hybrid v1  vs  CADE-mini full 8-6-7 + decoder   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 16 | B>A:  3 | n.s.:  5   families with every seed sig: A 4, B 1   [airpush:BBB  basebridge:AAA  droidkungfu:-AA  fakeinst:--A  plankton:-A-  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 11 | B>A: 11 | n.s.:  2   families with every seed sig: A 3, B 1   [airpush:BB-  basebridge:BAB  droidkungfu:BBA  fakeinst:BB-  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  7 | incl. 0: 17   [airpush:-BB  basebridge:---  droidkungfu:-B-  fakeinst:---  plankton:-B-  shedun:---  smsreg:-B-  smssend:B-B]
+    Boot   TF_F1       tasks with 95% CI above 0: 20 | below 0:  3 | incl. 0:  1   [airpush:BBB  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:AA-  smsreg:AAA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.085   95% CI [+0.017, +0.146]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff +0.013   95% CI [-0.074, +0.091]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.029   95% CI [-0.090, -0.003]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.028   95% CI [-0.016, +0.064]   -> no clear difference
+
+  Quantum hybrid v1  vs  CADE-mini encoder-only 8-12-7   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 12 | B>A:  9 | n.s.:  3   families with every seed sig: A 3, B 2   [airpush:BBA  basebridge:--B  droidkungfu:BBB  fakeinst:BBB  plankton:A-A  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B:  5 | B>A: 12 | n.s.:  7   families with every seed sig: A 0, B 3   [airpush:-BA  basebridge:BAB  droidkungfu:BBB  fakeinst:BBB  plankton:BBB  shedun:-A-  smsreg:-AA  smssend:---]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 16 | incl. 0:  8   [airpush:BBB  basebridge:-BB  droidkungfu:---  fakeinst:-BB  plankton:B-B  shedun:BBB  smsreg:B-B  smssend:-BB]
+    Boot   TF_F1       tasks with 95% CI above 0: 11 | below 0:  8 | incl. 0:  5   [airpush:BBA  basebridge:---  droidkungfu:BBB  fakeinst:BBB  plankton:AAA  shedun:AAA  smsreg:AA-  smssend:AA-]
+    Hierarchical bootstrap ROC_raw     mean diff +0.028   95% CI [-0.068, +0.130]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff -0.018   95% CI [-0.083, +0.054]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.146   95% CI [-0.300, -0.037]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.009   95% CI [-0.024, +0.051]   -> no clear difference
+
+  Quantum hybrid v1  vs  CADE-mini tuned 8-12-7 margin 20   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 10 | B>A: 10 | n.s.:  4   families with every seed sig: A 2, B 3   [airpush:BBB  basebridge:-AB  droidkungfu:BBB  fakeinst:BBB  plankton:--A  shedun:AAA  smsreg:-AA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 10 | B>A: 12 | n.s.:  2   families with every seed sig: A 1, B 2   [airpush:BBA  basebridge:BA-  droidkungfu:BBA  fakeinst:BBB  plankton:BBB  shedun:AAB  smsreg:AAA  smssend:-AA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 14 | incl. 0: 10   [airpush:BBB  basebridge:BBB  droidkungfu:--B  fakeinst:---  plankton:-BB  shedun:B-B  smsreg:BBB  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 12 | below 0:  7 | incl. 0:  5   [airpush:BBB  basebridge:---  droidkungfu:-BB  fakeinst:BAB  plankton:AAA  shedun:AAA  smsreg:-AA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.039   95% CI [-0.052, +0.154]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff -0.001   95% CI [-0.062, +0.088]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.076   95% CI [-0.192, -0.010]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.017   95% CI [-0.026, +0.069]   -> no clear difference
+
+  Quantum hybrid v2  vs  CADE-mini full 8-6-7 + decoder   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 21 | B>A:  3 | n.s.:  0   families with every seed sig: A 7, B 1   [airpush:BBB  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 11 | B>A: 10 | n.s.:  3   families with every seed sig: A 2, B 2   [airpush:BB-  basebridge:-AA  droidkungfu:BBA  fakeinst:BBB  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:A-A]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  1 | below 0:  7 | incl. 0: 16   [airpush:ABB  basebridge:---  droidkungfu:-B-  fakeinst:---  plankton:-B-  shedun:---  smsreg:-B-  smssend:B-B]
+    Boot   TF_F1       tasks with 95% CI above 0: 21 | below 0:  3 | incl. 0:  0   [airpush:BBB  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.127   95% CI [+0.056, +0.188]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff +0.025   95% CI [-0.061, +0.111]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.016   95% CI [-0.067, +0.028]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.051   95% CI [+0.008, +0.100]   -> A better
+
+  Quantum hybrid v2  vs  CADE-mini encoder-only 8-12-7   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 16 | B>A:  8 | n.s.:  0   families with every seed sig: A 4, B 2   [airpush:ABA  basebridge:AAB  droidkungfu:BBB  fakeinst:BBB  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B:  7 | B>A: 14 | n.s.:  3   families with every seed sig: A 0, B 3   [airpush:-BA  basebridge:AA-  droidkungfu:BBB  fakeinst:BBB  plankton:BBB  shedun:BAA  smsreg:-AB  smssend:ABB]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 16 | incl. 0:  8   [airpush:BBB  basebridge:-BB  droidkungfu:---  fakeinst:-BB  plankton:B-B  shedun:BBB  smsreg:B-B  smssend:-BB]
+    Boot   TF_F1       tasks with 95% CI above 0: 12 | below 0:  5 | incl. 0:  7   [airpush:ABA  basebridge:---  droidkungfu:B-B  fakeinst:-BB  plankton:AAA  shedun:AAA  smsreg:-AA  smssend:AA-]
+    Hierarchical bootstrap ROC_raw     mean diff +0.071   95% CI [-0.016, +0.172]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff -0.006   95% CI [-0.076, +0.085]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.132   95% CI [-0.269, -0.042]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.033   95% CI [-0.009, +0.081]   -> no clear difference
+
+  Quantum hybrid v2  vs  CADE-mini tuned 8-12-7 margin 20   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 14 | B>A:  7 | n.s.:  3   families with every seed sig: A 3, B 1   [airpush:ABB  basebridge:AAB  droidkungfu:BBB  fakeinst:--B  plankton:AAA  shedun:AAA  smsreg:-AA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B:  9 | B>A: 11 | n.s.:  4   families with every seed sig: A 1, B 3   [airpush:BB-  basebridge:AAA  droidkungfu:BBB  fakeinst:BBB  plankton:BBB  shedun:-AA  smsreg:AA-  smssend:A-A]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 15 | incl. 0:  9   [airpush:BBB  basebridge:BBB  droidkungfu:--B  fakeinst:---  plankton:BBB  shedun:B-B  smsreg:BBB  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 14 | below 0:  3 | incl. 0:  7   [airpush:ABB  basebridge:---  droidkungfu:--B  fakeinst:AA-  plankton:AAA  shedun:AAA  smsreg:-AA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.082   95% CI [-0.014, +0.180]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.011   95% CI [-0.062, +0.097]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.063   95% CI [-0.154, -0.011]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.041   95% CI [-0.005, +0.106]   -> no clear difference
+
+  Quantum hybrid v1  vs  Quantum angle-8   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B:  8 | B>A: 13 | n.s.:  3   families with every seed sig: A 2, B 3   [airpush:BBB  basebridge:AAA  droidkungfu:BBB  fakeinst:BBB  plankton:AAA  shedun:-AA  smsreg:B-B  smssend:BB-]
+    DeLong ROC_mad  tasks sig A>B:  8 | B>A: 11 | n.s.:  5   families with every seed sig: A 0, B 1   [airpush:BB-  basebridge:BAA  droidkungfu:BB-  fakeinst:-AB  plankton:BBB  shedun:BAB  smsreg:-AA  smssend:-AA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 12 | incl. 0: 12   [airpush:BBB  basebridge:---  droidkungfu:BBB  fakeinst:---  plankton:BBB  shedun:---  smsreg:BB-  smssend:--B]
+    Boot   TF_F1       tasks with 95% CI above 0:  9 | below 0: 13 | incl. 0:  2   [airpush:BBB  basebridge:AAA  droidkungfu:BBB  fakeinst:BBB  plankton:AAA  shedun:-AA  smsreg:BBB  smssend:-BA]
+    Hierarchical bootstrap ROC_raw     mean diff -0.012   95% CI [-0.086, +0.078]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff -0.014   95% CI [-0.061, +0.033]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.111   95% CI [-0.228, -0.016]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff -0.011   95% CI [-0.042, +0.020]   -> no clear difference
+
+  Quantum hybrid v1  vs  Quantum amp-8   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B:  6 | B>A: 15 | n.s.:  3   families with every seed sig: A 0, B 1   [airpush:-BB  basebridge:BB-  droidkungfu:BBB  fakeinst:BAA  plankton:BBA  shedun:B-B  smsreg:BAB  smssend:BAA]
+    DeLong ROC_mad  tasks sig A>B:  7 | B>A: 14 | n.s.:  3   families with every seed sig: A 0, B 1   [airpush:ABB  basebridge:BAB  droidkungfu:BBA  fakeinst:BB-  plankton:A-A  shedun:B-B  smsreg:BBB  smssend:ABA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  0 | incl. 0: 24   [airpush:---  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0:  4 | below 0: 17 | incl. 0:  3   [airpush:BBB  basebridge:BBA  droidkungfu:BBB  fakeinst:BAB  plankton:-BA  shedun:BBB  smsreg:BAB  smssend:B--]
+    Hierarchical bootstrap ROC_raw     mean diff -0.023   95% CI [-0.048, +0.001]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff -0.043   95% CI [-0.105, +0.009]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.000   95% CI [+0.000, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff -0.020   95% CI [-0.037, -0.005]   -> B better
+
+  Quantum hybrid v2  vs  Quantum angle-8   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 11 | B>A: 11 | n.s.:  2   families with every seed sig: A 2, B 1   [airpush:ABB  basebridge:AAA  droidkungfu:BBB  fakeinst:-BB  plankton:AAA  shedun:-AA  smsreg:BAB  smssend:BBA]
+    DeLong ROC_mad  tasks sig A>B:  8 | B>A: 11 | n.s.:  5   families with every seed sig: A 0, B 2   [airpush:-B-  basebridge:-AA  droidkungfu:BBB  fakeinst:-AB  plankton:BBB  shedun:BAB  smsreg:AAB  smssend:A-A]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 12 | incl. 0: 12   [airpush:BBB  basebridge:---  droidkungfu:BBB  fakeinst:---  plankton:BBB  shedun:---  smsreg:BB-  smssend:--B]
+    Boot   TF_F1       tasks with 95% CI above 0:  9 | below 0:  8 | incl. 0:  7   [airpush:-BB  basebridge:AAA  droidkungfu:B--  fakeinst:-BB  plankton:AAA  shedun:-AA  smsreg:B-B  smssend:-BA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.031   95% CI [-0.045, +0.122]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff -0.002   95% CI [-0.058, +0.059]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.098   95% CI [-0.195, -0.016]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.013   95% CI [-0.021, +0.047]   -> no clear difference
+
+  Quantum hybrid v2  vs  Quantum amp-8   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 12 | B>A:  8 | n.s.:  4   families with every seed sig: A 2, B 1   [airpush:ABB  basebridge:-A-  droidkungfu:BBB  fakeinst:AAA  plankton:A-A  shedun:BAB  smsreg:BA-  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B:  6 | B>A: 13 | n.s.:  5   families with every seed sig: A 0, B 2   [airpush:ABB  basebridge:BAA  droidkungfu:BBB  fakeinst:BBB  plankton:A--  shedun:BAB  smsreg:--B  smssend:AB-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  1 | below 0:  0 | incl. 0: 23   [airpush:A--  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 11 | below 0:  6 | incl. 0:  7   [airpush:ABB  basebridge:--A  droidkungfu:BB-  fakeinst:AAA  plankton:AAA  shedun:-A-  smsreg:BA-  smssend:B-A]
+    Hierarchical bootstrap ROC_raw     mean diff +0.020   95% CI [-0.015, +0.058]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff -0.031   95% CI [-0.087, +0.031]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.013   95% CI [+0.000, +0.053]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.003   95% CI [-0.013, +0.017]   -> no clear difference
+
+  Quantum hybrid v1  vs  Quantum hybrid v2   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B:  3 | B>A: 17 | n.s.:  4   families with every seed sig: A 0, B 3   [airpush:BA-  basebridge:BB-  droidkungfu:B-A  fakeinst:BBB  plankton:BBB  shedun:ABB  smsreg:-BB  smssend:BBB]
+    DeLong ROC_mad  tasks sig A>B:  8 | B>A: 10 | n.s.:  6   families with every seed sig: A 0, B 1   [airpush:--A  basebridge:BBB  droidkungfu:BBA  fakeinst:--A  plankton:B-A  shedun:ABB  smsreg:B-A  smssend:BAA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  1 | incl. 0: 23   [airpush:B--  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0:  1 | below 0: 18 | incl. 0:  5   [airpush:B-B  basebridge:-B-  droidkungfu:BBB  fakeinst:BBB  plankton:BBB  shedun:-BB  smsreg:ABB  smssend:B-B]
+    Hierarchical bootstrap ROC_raw     mean diff -0.043   95% CI [-0.066, -0.021]   -> B better
+    Hierarchical bootstrap ROC_mad     mean diff -0.012   95% CI [-0.059, +0.027]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.013   95% CI [-0.054, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff -0.024   95% CI [-0.040, -0.012]   -> B better
+
+  Quantum hybrid v1  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 16 | B>A:  4 | n.s.:  4   families with every seed sig: A 4, B 1   [airpush:-AB  basebridge:AAA  droidkungfu:-AA  fakeinst:AAA  plankton:AAA  shedun:-A-  smsreg:BBB  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 15 | B>A:  5 | n.s.:  4   families with every seed sig: A 3, B 1   [airpush:A-A  basebridge:BAB  droidkungfu:AAA  fakeinst:BBB  plankton:--A  shedun:AA-  smsreg:AAA  smssend:AAA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  0 | incl. 0: 24   [airpush:---  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 14 | below 0:  4 | incl. 0:  6   [airpush:AA-  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:A-A  shedun:-A-  smsreg:BBB  smssend:B--]
+    Hierarchical bootstrap ROC_raw     mean diff +0.025   95% CI [-0.001, +0.051]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.029   95% CI [-0.043, +0.101]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.000   95% CI [+0.000, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.006   95% CI [-0.013, +0.021]   -> no clear difference
+
+  Quantum hybrid v2  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 19 | B>A:  4 | n.s.:  1   families with every seed sig: A 5, B 0   [airpush:AB-  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:BAA  smsreg:BAB  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 16 | B>A:  5 | n.s.:  3   families with every seed sig: A 4, B 1   [airpush:AAA  basebridge:BAA  droidkungfu:AAA  fakeinst:BBB  plankton:--B  shedun:AAA  smsreg:AA-  smssend:AAA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  1 | below 0:  0 | incl. 0: 23   [airpush:A--  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 18 | below 0:  2 | incl. 0:  4   [airpush:AAA  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:-AA  smsreg:B-B  smssend:--A]
+    Hierarchical bootstrap ROC_raw     mean diff +0.068   95% CI [+0.032, +0.109]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff +0.041   95% CI [-0.028, +0.113]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.013   95% CI [+0.000, +0.053]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.030   95% CI [+0.005, +0.054]   -> A better
+
+  Quantum hybrid v3  vs  CADE-mini full 8-6-7 + decoder   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 11 | B>A:  8 | n.s.:  5   families with every seed sig: A 2, B 0   [airpush:B--  basebridge:AAA  droidkungfu:BB-  fakeinst:BB-  plankton:BAB  shedun:AAA  smsreg:A-A  smssend:AAB]
+    DeLong ROC_mad  tasks sig A>B: 13 | B>A: 10 | n.s.:  1   families with every seed sig: A 4, B 2   [airpush:BB-  basebridge:AAA  droidkungfu:BBA  fakeinst:BBB  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  7 | incl. 0: 17   [airpush:-BB  basebridge:---  droidkungfu:-B-  fakeinst:---  plankton:-B-  shedun:---  smsreg:-B-  smssend:B-B]
+    Boot   TF_F1       tasks with 95% CI above 0:  8 | below 0:  4 | incl. 0: 12   [airpush:BA-  basebridge:-AA  droidkungfu:BB-  fakeinst:-B-  plankton:---  shedun:AAA  smsreg:AA-  smssend:---]
+    Hierarchical bootstrap ROC_raw     mean diff +0.034   95% CI [-0.030, +0.097]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.043   95% CI [-0.098, +0.197]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.029   95% CI [-0.087, -0.003]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.021   95% CI [-0.005, +0.054]   -> no clear difference
+
+  Quantum hybrid v3  vs  CADE-mini encoder-only 8-12-7   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B:  9 | B>A: 10 | n.s.:  5   families with every seed sig: A 1, B 2   [airpush:A-A  basebridge:-A-  droidkungfu:BBB  fakeinst:BBB  plankton:BBA  shedun:AAA  smsreg:AB-  smssend:A-B]
+    DeLong ROC_mad  tasks sig A>B: 10 | B>A: 10 | n.s.:  4   families with every seed sig: A 2, B 2   [airpush:-BA  basebridge:AAA  droidkungfu:B-B  fakeinst:BBB  plankton:BBB  shedun:AAA  smsreg:-AA  smssend:A-B]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 16 | incl. 0:  8   [airpush:BBB  basebridge:-BB  droidkungfu:---  fakeinst:-BB  plankton:B-B  shedun:BBB  smsreg:B-B  smssend:-BB]
+    Boot   TF_F1       tasks with 95% CI above 0:  8 | below 0:  8 | incl. 0:  8   [airpush:A-A  basebridge:B--  droidkungfu:BBB  fakeinst:BBB  plankton:AAA  shedun:AAA  smsreg:---  smssend:--B]
+    Hierarchical bootstrap ROC_raw     mean diff -0.022   95% CI [-0.143, +0.108]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.011   95% CI [-0.105, +0.142]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.146   95% CI [-0.295, -0.038]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.002   95% CI [-0.048, +0.061]   -> no clear difference
+
+  Quantum hybrid v3  vs  CADE-mini tuned 8-12-7 margin 20   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B:  7 | B>A: 11 | n.s.:  6   families with every seed sig: A 1, B 2   [airpush:A-A  basebridge:-A-  droidkungfu:BBB  fakeinst:BBB  plankton:BB-  shedun:AAA  smsreg:BB-  smssend:AB-]
+    DeLong ROC_mad  tasks sig A>B: 11 | B>A:  9 | n.s.:  4   families with every seed sig: A 3, B 2   [airpush:BBA  basebridge:AAA  droidkungfu:B-A  fakeinst:BBB  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:---]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 14 | incl. 0: 10   [airpush:BBB  basebridge:-BB  droidkungfu:--B  fakeinst:---  plankton:BBB  shedun:B-B  smsreg:BBB  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0:  8 | below 0:  9 | incl. 0:  7   [airpush:ABA  basebridge:---  droidkungfu:BBB  fakeinst:BBB  plankton:-AA  shedun:AAA  smsreg:-B-  smssend:AB-]
+    Hierarchical bootstrap ROC_raw     mean diff -0.012   95% CI [-0.116, +0.120]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.028   95% CI [-0.096, +0.163]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.076   95% CI [-0.190, -0.009]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.010   95% CI [-0.031, +0.069]   -> no clear difference
+
+  Quantum hybrid v3  vs  Quantum angle-8   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 11 | B>A: 12 | n.s.:  1   families with every seed sig: A 3, B 4   [airpush:-AA  basebridge:AAA  droidkungfu:BBB  fakeinst:BBB  plankton:AAA  shedun:AAA  smsreg:BBB  smssend:BBB]
+    DeLong ROC_mad  tasks sig A>B: 10 | B>A: 11 | n.s.:  3   families with every seed sig: A 3, B 3   [airpush:BB-  basebridge:AAA  droidkungfu:BBB  fakeinst:BBB  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:-A-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 12 | incl. 0: 12   [airpush:BBB  basebridge:---  droidkungfu:BBB  fakeinst:---  plankton:BBB  shedun:---  smsreg:BB-  smssend:--B]
+    Boot   TF_F1       tasks with 95% CI above 0:  9 | below 0: 11 | incl. 0:  4   [airpush:-AA  basebridge:AAA  droidkungfu:BBB  fakeinst:BBB  plankton:A-A  shedun:-AA  smsreg:BBB  smssend:BB-]
+    Hierarchical bootstrap ROC_raw     mean diff -0.063   95% CI [-0.180, +0.037]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.016   95% CI [-0.060, +0.108]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.111   95% CI [-0.227, -0.018]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff -0.018   95% CI [-0.053, +0.019]   -> no clear difference
+
+  Quantum hybrid v3  vs  Quantum amp-8   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B:  4 | B>A: 17 | n.s.:  3   families with every seed sig: A 1, B 4   [airpush:AAA  basebridge:B-A  droidkungfu:BBB  fakeinst:BBB  plankton:BB-  shedun:B-B  smsreg:BBB  smssend:BBB]
+    DeLong ROC_mad  tasks sig A>B:  8 | B>A: 13 | n.s.:  3   families with every seed sig: A 1, B 1   [airpush:ABB  basebridge:BAA  droidkungfu:BBA  fakeinst:BBB  plankton:BB-  shedun:AAA  smsreg:-BB  smssend:AB-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  0 | incl. 0: 24   [airpush:---  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0:  4 | below 0: 20 | incl. 0:  0   [airpush:AAA  basebridge:BBA  droidkungfu:BBB  fakeinst:BBB  plankton:BBB  shedun:BBB  smsreg:BBB  smssend:BBB]
+    Hierarchical bootstrap ROC_raw     mean diff -0.073   95% CI [-0.118, -0.026]   -> B better
+    Hierarchical bootstrap ROC_mad     mean diff -0.013   95% CI [-0.076, +0.041]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.000   95% CI [+0.000, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff -0.027   95% CI [-0.051, +0.001]   -> no clear difference
+
+  Quantum hybrid v3  vs  Quantum hybrid v1   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B:  7 | B>A: 15 | n.s.:  2   families with every seed sig: A 1, B 5   [airpush:AAA  basebridge:-AA  droidkungfu:BBB  fakeinst:BBB  plankton:BBB  shedun:A-A  smsreg:BBB  smssend:BBB]
+    DeLong ROC_mad  tasks sig A>B:  8 | B>A:  9 | n.s.:  7   families with every seed sig: A 1, B 2   [airpush:--B  basebridge:A-A  droidkungfu:AA-  fakeinst:BBB  plankton:BBB  shedun:AAA  smsreg:A-B  smssend:--B]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  0 | incl. 0: 24   [airpush:---  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0:  4 | below 0: 16 | incl. 0:  4   [airpush:AAA  basebridge:B--  droidkungfu:BBB  fakeinst:BBB  plankton:BBB  shedun:--A  smsreg:BBB  smssend:BBB]
+    Hierarchical bootstrap ROC_raw     mean diff -0.050   95% CI [-0.103, +0.010]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.030   95% CI [-0.050, +0.129]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.000   95% CI [+0.000, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff -0.007   95% CI [-0.034, +0.023]   -> no clear difference
+
+  Quantum hybrid v3  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B:  9 | B>A: 14 | n.s.:  1   families with every seed sig: A 3, B 4   [airpush:AAA  basebridge:AAA  droidkungfu:BBB  fakeinst:BBB  plankton:BB-  shedun:AAA  smsreg:BBB  smssend:BBB]
+    DeLong ROC_mad  tasks sig A>B: 16 | B>A:  6 | n.s.:  2   families with every seed sig: A 4, B 2   [airpush:A-A  basebridge:AAA  droidkungfu:AAA  fakeinst:BBB  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:AA-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  0 | incl. 0: 24   [airpush:---  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0:  6 | below 0: 15 | incl. 0:  3   [airpush:AAA  basebridge:--A  droidkungfu:BBB  fakeinst:BBB  plankton:BBB  shedun:-AA  smsreg:BBB  smssend:BBB]
+    Hierarchical bootstrap ROC_raw     mean diff -0.025   95% CI [-0.084, +0.029]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.058   95% CI [-0.068, +0.203]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.000   95% CI [+0.000, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff -0.001   95% CI [-0.032, +0.041]   -> no clear difference
+
+  Quantum hybrid v4  vs  CADE-mini full 8-6-7 + decoder   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 19 | B>A:  4 | n.s.:  1   families with every seed sig: A 6, B 1   [airpush:BBB  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:-AB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 11 | B>A:  8 | n.s.:  5   families with every seed sig: A 3, B 2   [airpush:-B-  basebridge:AA-  droidkungfu:-B-  fakeinst:BBB  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  7 | incl. 0: 17   [airpush:-BB  basebridge:---  droidkungfu:-B-  fakeinst:---  plankton:-B-  shedun:---  smsreg:-B-  smssend:B-B]
+    Boot   TF_F1       tasks with 95% CI above 0: 21 | below 0:  3 | incl. 0:  0   [airpush:BBB  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.130   95% CI [+0.050, +0.197]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff +0.036   95% CI [-0.048, +0.135]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.029   95% CI [-0.087, -0.002]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.054   95% CI [-0.007, +0.106]   -> no clear difference
+
+  Quantum hybrid v4  vs  CADE-mini encoder-only 8-12-7   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 14 | B>A:  6 | n.s.:  4   families with every seed sig: A 2, B 1   [airpush:ABA  basebridge:AA-  droidkungfu:B-B  fakeinst:BBB  plankton:-AA  shedun:AAA  smsreg:AAA  smssend:AA-]
+    DeLong ROC_mad  tasks sig A>B:  8 | B>A: 13 | n.s.:  3   families with every seed sig: A 0, B 3   [airpush:ABA  basebridge:AAB  droidkungfu:BBB  fakeinst:BBB  plankton:BBB  shedun:-AA  smsreg:BA-  smssend:A-B]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 16 | incl. 0:  8   [airpush:BBB  basebridge:-BB  droidkungfu:---  fakeinst:-BB  plankton:B-B  shedun:BBB  smsreg:B-B  smssend:-BB]
+    Boot   TF_F1       tasks with 95% CI above 0: 13 | below 0:  6 | incl. 0:  5   [airpush:-BA  basebridge:---  droidkungfu:BAB  fakeinst:-BB  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAB]
+    Hierarchical bootstrap ROC_raw     mean diff +0.073   95% CI [-0.014, +0.187]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.004   95% CI [-0.066, +0.090]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.146   95% CI [-0.291, -0.037]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.035   95% CI [-0.007, +0.091]   -> no clear difference
+
+  Quantum hybrid v4  vs  CADE-mini tuned 8-12-7 margin 20   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 13 | B>A:  6 | n.s.:  5   families with every seed sig: A 3, B 0   [airpush:ABB  basebridge:AA-  droidkungfu:-BB  fakeinst:B-B  plankton:-A-  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 11 | B>A:  9 | n.s.:  4   families with every seed sig: A 3, B 2   [airpush:-B-  basebridge:AAA  droidkungfu:-BB  fakeinst:BBB  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:AA-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 15 | incl. 0:  9   [airpush:BBB  basebridge:BBB  droidkungfu:--B  fakeinst:---  plankton:BBB  shedun:B-B  smsreg:BBB  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 15 | below 0:  4 | incl. 0:  5   [airpush:-BB  basebridge:---  droidkungfu:AAB  fakeinst:-AB  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.084   95% CI [-0.004, +0.205]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.021   95% CI [-0.051, +0.107]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.076   95% CI [-0.180, -0.010]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.043   95% CI [-0.008, +0.106]   -> no clear difference
+
+  Quantum hybrid v4  vs  Quantum angle-8   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 10 | B>A: 13 | n.s.:  1   families with every seed sig: A 3, B 3   [airpush:BBB  basebridge:AAA  droidkungfu:-BB  fakeinst:BBB  plankton:AAA  shedun:AAA  smsreg:BAB  smssend:BBB]
+    DeLong ROC_mad  tasks sig A>B:  9 | B>A:  6 | n.s.:  9   families with every seed sig: A 1, B 0   [airpush:AB-  basebridge:AAA  droidkungfu:-BB  fakeinst:A-B  plankton:B-B  shedun:--A  smsreg:-A-  smssend:AA-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0: 12 | incl. 0: 12   [airpush:BBB  basebridge:---  droidkungfu:BBB  fakeinst:---  plankton:BBB  shedun:---  smsreg:BB-  smssend:--B]
+    Boot   TF_F1       tasks with 95% CI above 0: 10 | below 0:  9 | incl. 0:  5   [airpush:BBB  basebridge:AAA  droidkungfu:---  fakeinst:BBB  plankton:AAA  shedun:AAA  smsreg:BBB  smssend:--A]
+    Hierarchical bootstrap ROC_raw     mean diff +0.033   95% CI [-0.043, +0.110]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.009   95% CI [-0.044, +0.065]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.111   95% CI [-0.224, -0.023]   -> B better
+    Hierarchical bootstrap TF_F1       mean diff +0.015   95% CI [-0.023, +0.056]   -> no clear difference
+
+  Quantum hybrid v4  vs  Quantum amp-8   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 12 | B>A:  6 | n.s.:  6   families with every seed sig: A 0, B 0   [airpush:ABB  basebridge:-AA  droidkungfu:-BB  fakeinst:-AA  plankton:BAA  shedun:A-A  smsreg:AA-  smssend:-AB]
+    DeLong ROC_mad  tasks sig A>B:  6 | B>A: 14 | n.s.:  4   families with every seed sig: A 0, B 1   [airpush:ABB  basebridge:BA-  droidkungfu:-BB  fakeinst:-BB  plankton:AA-  shedun:BBA  smsreg:BBB  smssend:ABB]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  0 | incl. 0: 24   [airpush:---  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0:  9 | below 0:  4 | incl. 0: 11   [airpush:ABB  basebridge:--A  droidkungfu:---  fakeinst:BA-  plankton:--A  shedun:A-A  smsreg:AA-  smssend:BA-]
+    Hierarchical bootstrap ROC_raw     mean diff +0.023   95% CI [-0.006, +0.053]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff -0.020   95% CI [-0.075, +0.049]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.000   95% CI [+0.000, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.006   95% CI [-0.014, +0.021]   -> no clear difference
+
+  Quantum hybrid v4  vs  Quantum hybrid v2   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 10 | B>A:  9 | n.s.:  5   families with every seed sig: A 0, B 0   [airpush:BBA  basebridge:--A  droidkungfu:AAB  fakeinst:B-A  plankton:BAB  shedun:ABA  smsreg:AB-  smssend:-AB]
+    DeLong ROC_mad  tasks sig A>B: 11 | B>A:  5 | n.s.:  8   families with every seed sig: A 0, B 0   [airpush:AA-  basebridge:AAB  droidkungfu:A-B  fakeinst:A--  plankton:-A-  shedun:ABA  smsreg:B-A  smssend:-AB]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  1 | incl. 0: 23   [airpush:B--  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0:  6 | below 0: 10 | incl. 0:  8   [airpush:BB-  basebridge:---  droidkungfu:AA-  fakeinst:B-B  plankton:BBB  shedun:ABA  smsreg:AB-  smssend:-AB]
+    Hierarchical bootstrap ROC_raw     mean diff +0.003   95% CI [-0.026, +0.032]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff +0.011   95% CI [-0.035, +0.060]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.013   95% CI [-0.054, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.002   95% CI [-0.013, +0.020]   -> no clear difference
+
+  Quantum hybrid v4  vs  Quantum hybrid v3   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 19 | B>A:  3 | n.s.:  2   families with every seed sig: A 5, B 1   [airpush:BBB  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AA-  shedun:A-A  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B:  9 | B>A:  7 | n.s.:  8   families with every seed sig: A 1, B 0   [airpush:AA-  basebridge:-AB  droidkungfu:-BB  fakeinst:AAA  plankton:AA-  shedun:BB-  smsreg:B-B  smssend:A--]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  0 | incl. 0: 24   [airpush:---  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 20 | below 0:  3 | incl. 0:  1   [airpush:BBB  basebridge:AA-  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.096   95% CI [+0.043, +0.154]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff -0.007   95% CI [-0.075, +0.053]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.000   95% CI [+0.000, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.033   95% CI [-0.006, +0.062]   -> no clear difference
+
+  Quantum hybrid v4  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 19 | B>A:  2 | n.s.:  3   families with every seed sig: A 4, B 0   [airpush:ABA  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AA-  shedun:AAA  smsreg:A-B  smssend:AA-]
+    DeLong ROC_mad  tasks sig A>B: 16 | B>A:  5 | n.s.:  3   families with every seed sig: A 3, B 1   [airpush:AAA  basebridge:AA-  droidkungfu:AAB  fakeinst:BBB  plankton:-AB  shedun:AAA  smsreg:AAA  smssend:AA-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  0 | incl. 0: 24   [airpush:---  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 16 | below 0:  3 | incl. 0:  5   [airpush:A-A  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:-A-  shedun:AAA  smsreg:BBB  smssend:-A-]
+    Hierarchical bootstrap ROC_raw     mean diff +0.071   95% CI [+0.037, +0.111]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff +0.051   95% CI [-0.026, +0.132]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.000   95% CI [+0.000, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.032   95% CI [+0.008, +0.061]   -> A better
