@@ -1,0 +1,5 @@
+A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
+Classical fidelity twin (complex),PCA-8 only (L2),ROC_raw,0.13087268134323024,0.03570944313829919,0.2562321351841103,A better,8,24
+Classical fidelity twin (complex),PCA-8 only (L2),ROC_mad,0.12548210546705374,0.08795584732598422,0.1674602717704365,A better,8,24
+Classical fidelity twin (complex),PCA-8 only (L2),CADE_F1@3.5,0.3160019211420834,0.17511902979789903,0.47501992963943285,A better,8,24
+Classical fidelity twin (complex),PCA-8 only (L2),TF_F1,0.054022443462190546,0.018056737581167357,0.09062926869777278,A better,8,24

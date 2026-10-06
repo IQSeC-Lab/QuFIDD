@@ -1,0 +1,10 @@
+
+  Quantum angle-8  vs  CADE-mini encoder-only 8-12-7   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 12 | B>A: 10 | n.s.:  2   families with every seed sig: A 3, B 2   [airpush:ABA  basebridge:BBB  droidkungfu:BAB  fakeinst:--B  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B:  6 | B>A:  6 | n.s.: 12   families with every seed sig: A 1, B 0   [airpush:--A  basebridge:--B  droidkungfu:---  fakeinst:BB-  plankton:-B-  shedun:AAA  smsreg:-A-  smssend:ABB]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  6 | below 0: 15 | incl. 0:  3   [airpush:BBB  basebridge:-BB  droidkungfu:AAA  fakeinst:-BB  plankton:AAB  shedun:BBB  smsreg:BAB  smssend:-BB]
+    Boot   TF_F1       tasks with 95% CI above 0: 11 | below 0:  8 | incl. 0:  5   [airpush:ABA  basebridge:BBB  droidkungfu:B-B  fakeinst:--B  plankton:-A-  shedun:AAA  smsreg:AAA  smssend:AAB]
+    Hierarchical bootstrap ROC_raw     mean diff +0.040   95% CI [-0.053, +0.139]   -> no clear difference
+    Hierarchical bootstrap ROC_mad     mean diff -0.004   95% CI [-0.059, +0.051]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff -0.034   95% CI [-0.137, +0.072]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.020   95% CI [-0.017, +0.064]   -> no clear difference

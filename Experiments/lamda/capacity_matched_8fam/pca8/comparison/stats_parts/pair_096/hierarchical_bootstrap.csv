@@ -1,0 +1,5 @@
+A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
+Classical fidelity twin (real),CADE-mini tuned 8-24-7 margin 20,ROC_raw,0.12902468549282256,0.050174461741416154,0.20671905747410038,A better,8,24
+Classical fidelity twin (real),CADE-mini tuned 8-24-7 margin 20,ROC_mad,-0.0004332102616061752,-0.049469923155347255,0.03961727112956534,no clear difference,8,24
+Classical fidelity twin (real),CADE-mini tuned 8-24-7 margin 20,CADE_F1@3.5,0.06382177392516153,-0.01839769302224816,0.15094337177759473,no clear difference,8,24
+Classical fidelity twin (real),CADE-mini tuned 8-24-7 margin 20,TF_F1,0.05945354091353392,0.028387024227406174,0.08824815444072552,A better,8,24

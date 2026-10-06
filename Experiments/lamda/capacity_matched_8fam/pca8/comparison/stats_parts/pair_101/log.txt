@@ -1,0 +1,10 @@
+
+  Classical fidelity twin (real)  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 17 | B>A:  6 | n.s.:  1   families with every seed sig: A 4, B 0   [airpush:BBA  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:-AA  shedun:BBA  smsreg:BAB  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 22 | B>A:  0 | n.s.:  2   families with every seed sig: A 6, B 0   [airpush:AAA  basebridge:AA-  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:A-A  smsreg:AAA  smssend:AAA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0: 24 | below 0:  0 | incl. 0:  0   [airpush:AAA  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Boot   TF_F1       tasks with 95% CI above 0: 16 | below 0:  5 | incl. 0:  3   [airpush:A-A  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:B-A  shedun:BBA  smsreg:B-B  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.113   95% CI [+0.008, +0.245]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff +0.102   95% CI [+0.062, +0.143]   -> A better
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.289   95% CI [+0.156, +0.434]   -> A better
+    Hierarchical bootstrap TF_F1       mean diff +0.039   95% CI [-0.002, +0.078]   -> no clear difference

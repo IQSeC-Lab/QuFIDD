@@ -471,10 +471,19 @@ MODELS = [('PCA-8 only (L2)', 'pca_only/results_l2'),
           ('Quantum hybrid v4', 'quantum_hybrid_v4/results'),
           ('Quantum hybrid v5', 'quantum_hybrid_v5/results'),
           ('Quantum hybrid v6', 'quantum_hybrid_v6/results'),
-          ('Quantum hybrid v7', 'quantum_hybrid_v7/results')]
+          ('Quantum hybrid v7', 'quantum_hybrid_v7/results'),
+          ('CADE-mini encoder-only 8-24-7', 'cade_enc_8_384/results'),
+          ('CADE-mini tuned 8-24-7 margin 20', 'cade_tuned_8_384/results'),
+          ('CADE-mini full 8-12-7 + decoder', 'cade_full_8_384/results'),
+          ('CADE-mini deep encoder-only 8-16-10-7', 'cade_deep_8_384/results'),
+          ('Classical fidelity twin (complex)', 'classical_fidtwin_c/results'),
+          ('Classical fidelity twin (plain)', 'classical_fidtwin_p/results'),
+          ('Classical fidelity twin (real)', 'classical_fidtwin_r/results')]
 BASE = 'PCA-8 only (L2)'                  # primary zero-parameter baseline
 QUANTUM = 'Quantum angle-8'
 CADES = ['CADE-mini full 8-6-7 + decoder', 'CADE-mini encoder-only 8-12-7', 'CADE-mini tuned 8-12-7 margin 20']
+CADES384 = ['CADE-mini encoder-only 8-24-7', 'CADE-mini tuned 8-24-7 margin 20', 'CADE-mini full 8-12-7 + decoder', 'CADE-mini deep encoder-only 8-16-10-7']   # capacity-matched to hybrid v7 (384 params); not required for pairing
+TWINS = ['Classical fidelity twin (complex)', 'Classical fidelity twin (plain)', 'Classical fidelity twin (real)']   # v7 with the circuit replaced by an MLP
 TESTS = [(QUANTUM, c) for c in CADES] + [(QUANTUM, BASE)] + [(c, BASE) for c in CADES] + \
         [('Quantum amp-8', c) for c in CADES] + [('Quantum amp-8', QUANTUM), ('Quantum amp-8', BASE)] + \
         [(h, c) for h in ('Quantum hybrid v1', 'Quantum hybrid v2') for c in CADES] + \
@@ -486,7 +495,10 @@ TESTS = [(QUANTUM, c) for c in CADES] + [(QUANTUM, BASE)] + [(c, BASE) for c in 
         [('Quantum hybrid v4', q) for q in (QUANTUM, 'Quantum amp-8', 'Quantum hybrid v2', 'Quantum hybrid v3')] + [('Quantum hybrid v4', BASE)] + \
         [('Quantum hybrid v5', c) for c in CADES] + [('Quantum hybrid v5', q) for q in (QUANTUM, 'Quantum amp-8', 'Quantum hybrid v2', 'Quantum hybrid v4')] + [('Quantum hybrid v5', BASE)] + \
         [('Quantum hybrid v6', c) for c in CADES] + [('Quantum hybrid v6', q) for q in (QUANTUM, 'Quantum amp-8', 'Quantum hybrid v2', 'Quantum hybrid v4')] + [('Quantum hybrid v6', BASE)] + \
-        [('Quantum hybrid v7', c) for c in CADES] + [('Quantum hybrid v7', q) for q in (QUANTUM, 'Quantum amp-8', 'Quantum hybrid v2', 'Quantum hybrid v4')] + [('Quantum hybrid v7', BASE)]
+        [('Quantum hybrid v7', c) for c in CADES] + [('Quantum hybrid v7', q) for q in (QUANTUM, 'Quantum amp-8', 'Quantum hybrid v2', 'Quantum hybrid v4')] + [('Quantum hybrid v7', BASE)] + \
+        [(h, c) for h in ('Quantum hybrid v7', 'Quantum hybrid v6', 'Quantum hybrid v5') for c in CADES384] + \
+        [(c, BASE) for c in CADES384] + [(c384, c) for c384, c in zip(CADES384, ['CADE-mini encoder-only 8-12-7', 'CADE-mini tuned 8-12-7 margin 20', 'CADE-mini full 8-6-7 + decoder', 'CADE-mini encoder-only 8-12-7'])] + \
+        [('Quantum hybrid v7', t) for t in TWINS] + [(t, c) for t in TWINS for c in CADES384] + [(t, BASE) for t in TWINS] + [('Classical fidelity twin (complex)', 'Classical fidelity twin (real)')]
 MAIN = ['TF_F1', 'ROC_raw', 'PR_raw', 'ROC_mad', 'MAD_F1_fixed'] + [f'F1@T{T}' for T in THRESHOLDS[1:]]
 CAL = ['CADE_F1@Tcal', 'F1fixed@Tcal', 'FPR_known@Tcal', 'T_cal', 'FPR_known@3.5', 'TrainExceed@3.5',
        'CADE_F1@RawCal', 'F1fixed@RawCal', 'FPR_known@RawCal', 'T_rawcal']

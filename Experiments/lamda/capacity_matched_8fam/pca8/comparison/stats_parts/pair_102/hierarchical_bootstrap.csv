@@ -1,0 +1,5 @@
+A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
+Classical fidelity twin (complex),Classical fidelity twin (real),ROC_raw,0.017647932878010295,-0.02231466294652881,0.060381797083659074,no clear difference,8,24
+Classical fidelity twin (complex),Classical fidelity twin (real),ROC_mad,0.02307978837494838,-0.0035843575547734774,0.05170989555538903,no clear difference,8,24
+Classical fidelity twin (complex),Classical fidelity twin (real),CADE_F1@3.5,0.02688644787211251,-0.057663026117971465,0.11287036574086086,no clear difference,8,24
+Classical fidelity twin (complex),Classical fidelity twin (real),TF_F1,0.01467438898708412,-0.010199204597365676,0.040816953125451395,no clear difference,8,24

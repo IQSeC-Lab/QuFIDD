@@ -1,0 +1,5 @@
+A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
+Quantum amp-64,CADE-mini tuned 64-6-7 margin 20,ROC_raw,0.05317418523279436,-0.048125370125997505,0.16383096193867513,no clear difference,8,24
+Quantum amp-64,CADE-mini tuned 64-6-7 margin 20,ROC_mad,-0.0074210204935026836,-0.0905947087646143,0.09339800073541768,no clear difference,8,24
+Quantum amp-64,CADE-mini tuned 64-6-7 margin 20,CADE_F1@3.5,-0.29805049006242784,-0.4547798417218353,-0.14781582862685044,B better,8,24
+Quantum amp-64,CADE-mini tuned 64-6-7 margin 20,TF_F1,0.03976953084422573,-0.03829410515212458,0.12778229148252251,no clear difference,8,24

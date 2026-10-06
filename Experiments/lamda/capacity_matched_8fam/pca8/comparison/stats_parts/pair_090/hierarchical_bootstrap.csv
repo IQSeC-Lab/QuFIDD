@@ -1,0 +1,5 @@
+A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
+Classical fidelity twin (complex),CADE-mini deep encoder-only 8-16-10-7,ROC_raw,0.21783236675762896,0.13515161368865988,0.3028382251646587,A better,8,24
+Classical fidelity twin (complex),CADE-mini deep encoder-only 8-16-10-7,ROC_mad,0.028439188613411184,-0.02379743278249728,0.07675715288524823,no clear difference,8,24
+Classical fidelity twin (complex),CADE-mini deep encoder-only 8-16-10-7,CADE_F1@3.5,-0.0380849125844317,-0.1360389795184815,0.06657299364146663,no clear difference,8,24
+Classical fidelity twin (complex),CADE-mini deep encoder-only 8-16-10-7,TF_F1,0.0823544672424651,0.04861240366540131,0.12349459935411582,A better,8,24

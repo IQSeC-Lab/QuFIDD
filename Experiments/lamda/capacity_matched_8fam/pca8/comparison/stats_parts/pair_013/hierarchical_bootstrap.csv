@@ -1,0 +1,5 @@
+A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
+Quantum hybrid v1,CADE-mini encoder-only 8-12-7,ROC_raw,0.027936138646946346,-0.07501267016977324,0.1387892061929018,no clear difference,8,24
+Quantum hybrid v1,CADE-mini encoder-only 8-12-7,ROC_mad,-0.018267628849771282,-0.08279911856761374,0.05132627678323804,no clear difference,8,24
+Quantum hybrid v1,CADE-mini encoder-only 8-12-7,CADE_F1@3.5,-0.14556676548872152,-0.2875508246691327,-0.03684171595956525,B better,8,24
+Quantum hybrid v1,CADE-mini encoder-only 8-12-7,TF_F1,0.009047318386536192,-0.029134087930345984,0.049555499700941974,no clear difference,8,24

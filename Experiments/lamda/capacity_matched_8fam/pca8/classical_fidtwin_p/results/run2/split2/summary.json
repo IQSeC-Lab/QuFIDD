@@ -1,0 +1,103 @@
+{
+  "model": "Classical fidelity twin of hybrid v7, plain (MLP 16-11-16 -> unit vector in C^8, no residual, 379 params)",
+  "run_id": 2,
+  "split_id": 2,
+  "seed": 456,
+  "input": "PCA-8: L2-normalized amplitudes + arctan(shared-scale PCs) angles (identical to hybrid v7)",
+  "architecture": "psi = normalize(MLP 16-11-16 tanh as C^8), no residual, standard init; fidelity, pure-state prototypes",
+  "pca_explained_variance": 0.3820299208164215,
+  "n_trainable_params": 379,
+  "lr": 0.001,
+  "epochs_run": 71,
+  "best_epoch": 51,
+  "best_loss": 0.6567554730921984,
+  "patience": 20,
+  "train_time_sec": 26.5,
+  "ood_family": "basebridge",
+  "n_train": 5123,
+  "n_test": 1682,
+  "n_ood": 401,
+  "n_known_test": 1281,
+  "evaluation": {
+    "threshold_free": {
+      "F1": 0.6047745358085206,
+      "Precision": 0.6458923512747875,
+      "Recall": 0.5685785536159601,
+      "FPR": 0.0975800156128025,
+      "FNR": 0.4314214463840399,
+      "Effort": 0.8802992518703242,
+      "k": 353,
+      "ROC_AUC": 0.8167948590662297,
+      "PR_AUC": 0.6183935850423437
+    },
+    "ROC_AUC_mad": 0.6924764591254106,
+    "PR_AUC_mad": 0.5623181085613173,
+    "mad_fixed": {
+      "T": 3.5,
+      "F1": 0.5258215962441315,
+      "Precision": 0.7058823529411765,
+      "Recall": 0.41895261845386533,
+      "FPR": 0.0546448087431694,
+      "Frac_flagged": 0.14149821640903687,
+      "TP": 168,
+      "FP": 70
+    },
+    "sweep": [
+      {
+        "F1": 0.6047745358085206,
+        "Precision": 0.6458923512747875,
+        "Recall": 0.5685785536159601,
+        "FPR": 0.0975800156128025,
+        "FNR": 0.4314214463840399,
+        "Effort": 0.8802992518703242,
+        "k": 353,
+        "T_MAD": 0.0,
+        "Frac_flagged": 1.0
+      },
+      {
+        "F1": 0.5991902834003131,
+        "Precision": 0.6529411764705882,
+        "Recall": 0.5536159600997507,
+        "FPR": 0.09211553473848556,
+        "FNR": 0.44638403990024933,
+        "Effort": 0.8478802992518704,
+        "k": 340,
+        "T_MAD": 2.0,
+        "Frac_flagged": 0.2235434007134364
+      },
+      {
+        "F1": 0.5489051094885655,
+        "Precision": 0.6619718309859155,
+        "Recall": 0.4688279301745636,
+        "FPR": 0.07494145199063232,
+        "FNR": 0.5311720698254364,
+        "Effort": 0.7082294264339152,
+        "k": 284,
+        "T_MAD": 2.5,
+        "Frac_flagged": 0.1789536266349584
+      },
+      {
+        "F1": 0.5424242424237655,
+        "Precision": 0.6911196911196911,
+        "Recall": 0.4463840399002494,
+        "FPR": 0.0624512099921936,
+        "FNR": 0.5536159600997506,
+        "Effort": 0.6458852867830424,
+        "k": 259,
+        "T_MAD": 3.0,
+        "Frac_flagged": 0.15873959571938168
+      },
+      {
+        "F1": 0.5291338582672511,
+        "Precision": 0.717948717948718,
+        "Recall": 0.41895261845386533,
+        "FPR": 0.05152224824355972,
+        "FNR": 0.5810473815461347,
+        "Effort": 0.5835411471321695,
+        "k": 234,
+        "T_MAD": 3.5,
+        "Frac_flagged": 0.14149821640903687
+      }
+    ]
+  }
+}

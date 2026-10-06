@@ -1,0 +1,10 @@
+
+  Quantum hybrid v4  vs  PCA-8 only (L2)   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 19 | B>A:  2 | n.s.:  3   families with every seed sig: A 4, B 0   [airpush:ABA  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AA-  shedun:AAA  smsreg:A-B  smssend:AA-]
+    DeLong ROC_mad  tasks sig A>B: 16 | B>A:  5 | n.s.:  3   families with every seed sig: A 3, B 1   [airpush:AAA  basebridge:AA-  droidkungfu:AAB  fakeinst:BBB  plankton:-AB  shedun:AAA  smsreg:AAA  smssend:AA-]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0:  0 | below 0:  0 | incl. 0: 24   [airpush:---  basebridge:---  droidkungfu:---  fakeinst:---  plankton:---  shedun:---  smsreg:---  smssend:---]
+    Boot   TF_F1       tasks with 95% CI above 0: 16 | below 0:  2 | incl. 0:  6   [airpush:A-A  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:-A-  shedun:AAA  smsreg:-BB  smssend:-A-]
+    Hierarchical bootstrap ROC_raw     mean diff +0.071   95% CI [+0.033, +0.112]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff +0.051   95% CI [-0.025, +0.131]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.000   95% CI [+0.000, +0.000]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.032   95% CI [+0.009, +0.059]   -> A better

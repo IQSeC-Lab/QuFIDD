@@ -1,0 +1,123 @@
+{
+  "model": "Quantum hybrid v5 (stacked angle-8 + amp-8, combiner learned on validation folds, 389 params)",
+  "run_id": 2,
+  "split_id": 1,
+  "seed": 456,
+  "input": "saved scores of angle-8 and amp-8 (same seed and split), z-standardized by their training scores",
+  "architecture": "logistic-regression combiner on [z_angle, z_amp, z_angle*z_amp, |z_angle - z_amp|], fitted on split 1 validation folds only",
+  "combiner": {
+    "split": 1,
+    "feature_mean": [
+      0.5167902831982716,
+      0.4079252862350436,
+      0.6294787383368959,
+      0.9597013345088458
+    ],
+    "feature_std": [
+      1.1923232890972488,
+      0.91076849409029,
+      1.260286709485182,
+      0.7103697511680974
+    ],
+    "coef": [
+      0.9487876996076899,
+      0.8394905445313655,
+      -0.31089914496768,
+      -0.3570585259588103
+    ],
+    "intercept": -0.12317178449192492,
+    "n_val_samples": 4321,
+    "n_val_drift": 1921,
+    "val_ROC_in_sample": 0.7899239762276593
+  },
+  "n_trainable_params": 389,
+  "members_params": 384,
+  "combiner_params": 5,
+  "ood_family": "plankton",
+  "n_train": 4644,
+  "n_test": 2161,
+  "n_ood": 1000,
+  "n_known_test": 1161,
+  "evaluation": {
+    "threshold_free": {
+      "F1": 0.6327111673516712,
+      "Precision": 0.46274872744099954,
+      "Recall": 1.0,
+      "FPR": 1.0,
+      "FNR": 0.0,
+      "Effort": 2.161,
+      "k": 2161,
+      "ROC_AUC": 0.44752196382428944,
+      "PR_AUC": 0.4577307000059315
+    },
+    "ROC_AUC_mad": 0.44752196382428944,
+    "PR_AUC_mad": 0.4577307000059315,
+    "mad_fixed": {
+      "T": 3.5,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0,
+      "Frac_flagged": 0.0,
+      "TP": 0,
+      "FP": 0
+    },
+    "sweep": [
+      {
+        "F1": 0.6327111673516712,
+        "Precision": 0.46274872744099954,
+        "Recall": 1.0,
+        "FPR": 1.0,
+        "FNR": 0.0,
+        "Effort": 2.161,
+        "k": 2161,
+        "T_MAD": 0.0,
+        "Frac_flagged": 1.0
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0,
+        "FNR": 1.0,
+        "Effort": 0.0,
+        "k": 0,
+        "T_MAD": 2.0,
+        "Frac_flagged": 0.0
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0,
+        "FNR": 1.0,
+        "Effort": 0.0,
+        "k": 0,
+        "T_MAD": 2.5,
+        "Frac_flagged": 0.0
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0,
+        "FNR": 1.0,
+        "Effort": 0.0,
+        "k": 0,
+        "T_MAD": 3.0,
+        "Frac_flagged": 0.0
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0,
+        "FNR": 1.0,
+        "Effort": 0.0,
+        "k": 0,
+        "T_MAD": 3.5,
+        "Frac_flagged": 0.0
+      }
+    ]
+  }
+}

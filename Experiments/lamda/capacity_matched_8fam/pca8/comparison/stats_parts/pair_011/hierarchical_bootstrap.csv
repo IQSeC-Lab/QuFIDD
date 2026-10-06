@@ -1,0 +1,5 @@
+A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
+Quantum amp-8,PCA-8 only (L2),ROC_raw,0.04818385106534371,0.017128241609157727,0.07776899972281996,A better,8,24
+Quantum amp-8,PCA-8 only (L2),ROC_mad,0.07131944228500885,-0.022116102510724614,0.16706130659016144,no clear difference,8,24
+Quantum amp-8,PCA-8 only (L2),CADE_F1@3.5,0.0,0.0,0.0,no clear difference,8,24
+Quantum amp-8,PCA-8 only (L2),TF_F1,0.026858314923288357,0.0022341959401031676,0.05060798908460821,A better,8,24

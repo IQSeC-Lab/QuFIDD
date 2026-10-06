@@ -1,0 +1,10 @@
+
+  Quantum hybrid v7  vs  CADE-mini full 8-6-7 + decoder   (24 paired tasks, 8 families)
+    DeLong ROC_raw  tasks sig A>B: 20 | B>A:  3 | n.s.:  1   families with every seed sig: A 6, B 0   [airpush:B-B  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:BAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    DeLong ROC_mad  tasks sig A>B: 17 | B>A:  6 | n.s.:  1   families with every seed sig: A 5, B 1   [airpush:B-A  basebridge:AAA  droidkungfu:AAA  fakeinst:BBA  plankton:BBB  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Boot   CADE_F1@3.5 tasks with 95% CI above 0: 10 | below 0:  3 | incl. 0: 11   [airpush:ABA  basebridge:---  droidkungfu:ABA  fakeinst:A--  plankton:-BA  shedun:-A-  smsreg:AA-  smssend:-A-]
+    Boot   TF_F1       tasks with 95% CI above 0: 21 | below 0:  2 | incl. 0:  1   [airpush:B-B  basebridge:AAA  droidkungfu:AAA  fakeinst:AAA  plankton:AAA  shedun:AAA  smsreg:AAA  smssend:AAA]
+    Hierarchical bootstrap ROC_raw     mean diff +0.184   95% CI [+0.096, +0.262]   -> A better
+    Hierarchical bootstrap ROC_mad     mean diff +0.108   95% CI [-0.000, +0.207]   -> no clear difference
+    Hierarchical bootstrap CADE_F1@3.5 mean diff +0.031   95% CI [-0.029, +0.093]   -> no clear difference
+    Hierarchical bootstrap TF_F1       mean diff +0.086   95% CI [+0.030, +0.145]   -> A better

@@ -1,0 +1,27 @@
+======================================================================================================================
+capacity_matched_8fam/pca8: PCA-8, quantum 192 params vs CADE-mini versions -- paired by (run, split)
+======================================================================================================================
+  PCA-8 only (L2)        tasks 24   params 0
+  PCA-8 only (coords)    tasks 24   params 0
+  CADE-mini full 8-6-7 + decoder tasks 24   params 207
+  CADE-mini encoder-only 8-12-7 tasks 24   params 199
+  CADE-mini tuned 8-12-7 margin 20 tasks 24   params 199
+  Quantum angle-8        tasks 24   params 192
+  Quantum amp-8          tasks 24   params 192
+  Quantum hybrid v1      tasks 24   params 189
+  Quantum hybrid v2      tasks 24   params 189
+  Quantum hybrid v3      tasks 24   params 198
+  Quantum hybrid v4      tasks 24   params 189
+  Quantum hybrid v5      tasks 24   params 389
+  Quantum hybrid v6      tasks 24   params 384
+  Quantum hybrid v7      tasks 24   params 384
+  CADE-mini encoder-only 8-24-7 tasks 24   params 391
+  CADE-mini tuned 8-24-7 margin 20 tasks 24   params 391
+  CADE-mini full 8-12-7 + decoder tasks 24   params 399
+  CADE-mini deep encoder-only 8-16-10-7 tasks 24   params 391
+  Classical fidelity twin (complex) tasks 24   params 379
+  Classical fidelity twin (plain) tasks 24   params 379
+  Classical fidelity twin (real) tasks 24   params 383
+  Paired tasks (present for all main models): 24
+
+Calibrating thresholds (target 5% of known TRAINING samples flagged) ...

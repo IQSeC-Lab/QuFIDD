@@ -1,0 +1,5 @@
+A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
+Quantum angle-8,CADE-mini tuned 8-12-7 margin 20,ROC_raw,0.051071556524197426,-0.04967717298746404,0.1552831406168911,no clear difference,8,24
+Quantum angle-8,CADE-mini tuned 8-12-7 margin 20,ROC_mad,0.01256972826976707,-0.03617586488352967,0.07118242458898164,no clear difference,8,24
+Quantum angle-8,CADE-mini tuned 8-12-7 margin 20,CADE_F1@3.5,0.03509403478612486,-0.03894721657516978,0.1192005020988479,no clear difference,8,24
+Quantum angle-8,CADE-mini tuned 8-12-7 margin 20,TF_F1,0.02789218073952519,-0.01474462896726642,0.07466838318115848,no clear difference,8,24

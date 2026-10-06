@@ -1,0 +1,5 @@
+A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
+Quantum amp-8,CADE-mini full 8-6-7 + decoder,ROC_raw,0.1073009217752779,0.04100759364508597,0.16412152646192177,A better,8,24
+Quantum amp-8,CADE-mini full 8-6-7 + decoder,ROC_mad,0.05571921735078842,-0.0367599475563338,0.16459879857720827,no clear difference,8,24
+Quantum amp-8,CADE-mini full 8-6-7 + decoder,CADE_F1@3.5,-0.029057346479574836,-0.09366270595372021,-0.002850164762877973,B better,8,24
+Quantum amp-8,CADE-mini full 8-6-7 + decoder,TF_F1,0.04805470986778629,0.004527729767109955,0.08714421024267258,A better,8,24
