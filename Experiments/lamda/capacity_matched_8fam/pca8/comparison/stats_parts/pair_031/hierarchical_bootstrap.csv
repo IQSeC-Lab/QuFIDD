@@ -1,5 +1,0 @@
-A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
-Quantum hybrid v3,PCA-8 only (L2),ROC_raw,-0.024963117200594017,-0.07738496236285998,0.03554375372628551,no clear difference,8,24
-Quantum hybrid v3,PCA-8 only (L2),ROC_mad,0.05823535623585332,-0.07584481169655928,0.1888407762733253,no clear difference,8,24
-Quantum hybrid v3,PCA-8 only (L2),CADE_F1@3.5,0.0,0.0,0.0,no clear difference,8,24
-Quantum hybrid v3,PCA-8 only (L2),TF_F1,-0.0006120592493040524,-0.03525091677213912,0.03852987398036845,no clear difference,8,24

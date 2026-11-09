@@ -1,5 +1,0 @@
-A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
-Quantum amp-8,Quantum angle-8,ROC_raw,0.010360125693735156,-0.07734375359502527,0.09583072779390679,no clear difference,8,24
-Quantum amp-8,Quantum angle-8,ROC_mad,0.028715361425137143,-0.021677148781605732,0.08236815108757779,no clear difference,8,24
-Quantum amp-8,Quantum angle-8,CADE_F1@3.5,-0.11147180053532607,-0.22937302713458785,-0.015783667289522785,B better,8,24
-Quantum amp-8,Quantum angle-8,TF_F1,0.00977561734292826,-0.018151065935083078,0.04187065937386453,no clear difference,8,24

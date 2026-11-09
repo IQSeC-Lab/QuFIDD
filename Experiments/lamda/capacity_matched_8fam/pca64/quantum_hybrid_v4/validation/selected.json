@@ -1,9 +1,0 @@
-{
-  "setting": 5,
-  "cfg": {
-    "lam_n": 2.0,
-    "lam_g": 1.0
-  },
-  "mean_val_ROC_raw": 0.7740468213990788,
-  "n_folds": 24
-}

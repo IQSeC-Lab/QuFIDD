@@ -1,5 +1,0 @@
-A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
-Quantum angle-8,CADE-mini full 8-6-7 + decoder,ROC_raw,0.09694079608154277,-0.014695480621066655,0.18619646282208457,no clear difference,8,24
-Quantum angle-8,CADE-mini full 8-6-7 + decoder,ROC_mad,0.02700385592565128,-0.05468472516432726,0.11291362054657882,no clear difference,8,24
-Quantum angle-8,CADE-mini full 8-6-7 + decoder,CADE_F1@3.5,0.08241445405575125,0.016484981487795487,0.17554757490942768,A better,8,24
-Quantum angle-8,CADE-mini full 8-6-7 + decoder,TF_F1,0.038279092524858026,0.0011088656264069546,0.06996673738910104,A better,8,24

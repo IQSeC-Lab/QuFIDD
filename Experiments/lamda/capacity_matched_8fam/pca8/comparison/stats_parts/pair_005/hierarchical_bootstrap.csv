@@ -1,5 +1,0 @@
-A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
-CADE-mini encoder-only 8-12-7,PCA-8 only (L2),ROC_raw,-0.00246847347437684,-0.12275170018428216,0.10608929114152336,no clear difference,8,24
-CADE-mini encoder-only 8-12-7,PCA-8 only (L2),ROC_mad,0.0469449342988508,-0.0004129836455131202,0.09483442665163708,no clear difference,8,24
-CADE-mini encoder-only 8-12-7,PCA-8 only (L2),CADE_F1@3.5,0.14556676548872152,0.03917223245585779,0.28370067653602177,A better,8,24
-CADE-mini encoder-only 8-12-7,PCA-8 only (L2),TF_F1,-0.0025573846009424423,-0.047265312604201075,0.044799141708915545,no clear difference,8,24

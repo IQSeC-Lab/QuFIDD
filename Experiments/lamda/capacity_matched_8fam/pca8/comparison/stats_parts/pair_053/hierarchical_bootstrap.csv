@@ -1,5 +1,0 @@
-A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
-Quantum hybrid v6,Quantum hybrid v2,ROC_raw,-0.06894681367008283,-0.1435264890686467,-0.0030271434957717357,B better,8,24
-Quantum hybrid v6,Quantum hybrid v2,ROC_mad,0.03394933503597131,-0.027186421045594992,0.0983320693767182,no clear difference,8,24
-Quantum hybrid v6,Quantum hybrid v2,CADE_F1@3.5,-0.00971867861561508,-0.041426885481698816,0.0017591304548780964,no clear difference,8,24
-Quantum hybrid v6,Quantum hybrid v2,TF_F1,-0.024285440202287133,-0.049617117927109745,0.0051821855258945915,no clear difference,8,24

@@ -1,5 +1,0 @@
-A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
-CADE-mini tuned 8-12-7 margin 20,PCA-8 only (L2),ROC_raw,-0.013247831152588865,-0.11024617334413124,0.0872357394702766,no clear difference,8,24
-CADE-mini tuned 8-12-7 margin 20,PCA-8 only (L2),ROC_mad,0.030034352590104636,-0.012744348778861804,0.07646808437261027,no clear difference,8,24
-CADE-mini tuned 8-12-7 margin 20,PCA-8 only (L2),CADE_F1@3.5,0.07637776574920122,0.010636456130947656,0.18168329521889653,A better,8,24
-CADE-mini tuned 8-12-7 margin 20,PCA-8 only (L2),TF_F1,-0.01080948315916509,-0.0641768386068488,0.03802133556565165,no clear difference,8,24

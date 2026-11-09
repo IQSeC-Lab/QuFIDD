@@ -1,5 +1,0 @@
-A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
-Quantum hybrid v7,Classical fidelity twin (complex),ROC_raw,-0.00585502487704256,-0.08347765762238142,0.06049660007657634,no clear difference,8,24
-Quantum hybrid v7,Classical fidelity twin (complex),ROC_mad,-0.0018685657693281454,-0.08160223581788655,0.07744026179170407,no clear difference,8,24
-Quantum hybrid v7,Classical fidelity twin (complex),CADE_F1@3.5,-0.2557108669860159,-0.41062913792940925,-0.12309445497382861,B better,8,24
-Quantum hybrid v7,Classical fidelity twin (complex),TF_F1,0.011152851318837037,-0.030171172936331692,0.054727466606469134,no clear difference,8,24

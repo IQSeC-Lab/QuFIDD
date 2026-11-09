@@ -1,5 +1,0 @@
-A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
-Quantum amp-64,CADE-mini encoder-only 64-6-7,ROC_raw,0.045656542321735015,-0.06235757398225312,0.15174318092055997,no clear difference,8,24
-Quantum amp-64,CADE-mini encoder-only 64-6-7,ROC_mad,-0.024958050171352695,-0.12614495289799396,0.07214404996975267,no clear difference,8,24
-Quantum amp-64,CADE-mini encoder-only 64-6-7,CADE_F1@3.5,-0.28598611537165347,-0.449480591085539,-0.12441017706633928,B better,8,24
-Quantum amp-64,CADE-mini encoder-only 64-6-7,TF_F1,0.028850002688589806,-0.041949576023727085,0.12502731792761404,no clear difference,8,24

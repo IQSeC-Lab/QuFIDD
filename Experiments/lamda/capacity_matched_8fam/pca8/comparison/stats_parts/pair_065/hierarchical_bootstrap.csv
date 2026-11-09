@@ -1,5 +1,0 @@
-A,B,metric,mean_diff,ci_lo,ci_hi,verdict,families,tasks
-Quantum hybrid v7,CADE-mini tuned 8-24-7 margin 20,ROC_raw,0.1408175934937903,0.05957582789190651,0.22345721584621187,A better,8,24
-Quantum hybrid v7,CADE-mini tuned 8-24-7 margin 20,ROC_mad,0.020778012344014055,-0.048556433318472064,0.07998459486982662,no clear difference,8,24
-Quantum hybrid v7,CADE-mini tuned 8-24-7 margin 20,CADE_F1@3.5,-0.1650026451887419,-0.329223744778532,-0.04102894886178333,B better,8,24
-Quantum hybrid v7,CADE-mini tuned 8-24-7 margin 20,TF_F1,0.08528078121945509,0.0393131276279431,0.14839852172398973,A better,8,24
