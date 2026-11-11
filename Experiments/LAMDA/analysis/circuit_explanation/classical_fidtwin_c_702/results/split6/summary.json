@@ -1,0 +1,36 @@
+{
+  "model": "classical_fidtwin_c_702",
+  "dataset": "lamda",
+  "split": 6,
+  "withheld_family": "shedun",
+  "run": 0,
+  "reload_rel_diff": 9.962109878599518e-06,
+  "roc_auc": 0.7120764814001529,
+  "n_test": 1836,
+  "n_drift": 594,
+  "M3": {
+    "auc_residual": 0.8380517466668834,
+    "auc_entropy": 0.6152236264957681,
+    "auc_score": 0.7120764814001529,
+    "residual_gap": 0.004234225400702401,
+    "entropy_gap": 0.06909621862064086,
+    "drifting_family_resembles": {
+      "smsreg": 0.3574457908044161,
+      "smssend": 0.32507513719225833,
+      "fakeinst": 0.1840451200666378,
+      "basebridge": 0.0638888670891345,
+      "airpush": 0.02941875683621305,
+      "droidkungfu": 0.020807962123833408,
+      "plankton": 0.019318365887506735
+    },
+    "nearest_family_of_drifting": {
+      "droidkungfu": 2,
+      "plankton": 2,
+      "basebridge": 2,
+      "smsreg": 503,
+      "airpush": 2,
+      "fakeinst": 25,
+      "smssend": 58
+    }
+  }
+}

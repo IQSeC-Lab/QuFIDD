@@ -1,0 +1,85 @@
+# test sample 4 (droidkungfu), nearest family basebridge, score 0.2481 = s0(x_ref) 0.1907 + PCs [0.11, -0.1251, 0.1009, 0.011, -0.1215, -0.0111, 0.0929, 0.0003]
+f707,attribution +0.07395,value 1,reference 0
+f1130,attribution +0.07201,value 1,reference 0
+f705,attribution +0.06621,value 1,reference 0
+f712,attribution +0.04732,value 1,reference 0
+f695,attribution +0.04676,value 1,reference 0
+f1119,attribution +0.04659,value 1,reference 0
+f1118,attribution +0.03994,value 1,reference 0
+f711,attribution +0.03537,value 1,reference 0
+f474,attribution +0.0252,value 0,reference 1
+f700,attribution +0.02008,value 1,reference 0
+f692,attribution +0.02003,value 1,reference 0
+f1128,attribution +0.01955,value 1,reference 0
+f423,attribution +0.01627,value 0,reference 1
+f395,attribution +0.01021,value 1,reference 0
+f268,attribution +0.009425,value 0,reference 1
+
+# test sample 11 (droidkungfu), nearest family smsreg, score 0.5238 = s0(x_ref) 0.2835 + PCs [-0.0058, 0.0125, 0.2384, -0.0212, -0.02, 0.1374, -0.0059, -0.095]
+f1138,attribution +0.3007,value 0,reference 1
+f473,attribution +0.2649,value 0,reference 1
+f323,attribution +0.1868,value 0,reference 1
+f703,attribution +0.1245,value 0,reference 1
+f244,attribution +0.1012,value 0,reference 1
+f246,attribution +0.1006,value 0,reference 1
+f326,attribution +0.07018,value 0,reference 1
+f628,attribution +0.06518,value 0,reference 1
+f483,attribution +0.06385,value 0,reference 1
+f629,attribution +0.06169,value 0,reference 1
+f458,attribution +0.04277,value 0,reference 1
+f890,attribution +0.02999,value 1,reference 0
+f802,attribution +0.02918,value 1,reference 0
+f794,attribution +0.02861,value 1,reference 0
+f983,attribution +0.02861,value 1,reference 0
+
+# test sample 70 (droidkungfu), nearest family basebridge, score 0.2865 = s0(x_ref) 0.1907 + PCs [0.2583, -0.1181, 0.0018, 0.0783, -0.0746, -0.0142, 0.0068, -0.0426]
+f464,attribution +0.04314,value 0,reference 1
+f646,attribution +0.03517,value 1,reference 0
+f645,attribution +0.03507,value 1,reference 0
+f641,attribution +0.03324,value 1,reference 0
+f643,attribution +0.02784,value 1,reference 0
+f1128,attribution +0.02334,value 1,reference 0
+f455,attribution +0.02163,value 0,reference 1
+f413,attribution +0.01653,value 0,reference 1
+f462,attribution +0.01506,value 0,reference 1
+f477,attribution +0.01121,value 0,reference 1
+f443,attribution +0.0108,value 0,reference 1
+f450,attribution +0.01025,value 0,reference 1
+f713,attribution +0.007278,value 1,reference 0
+f85,attribution +0.005174,value 1,reference 0
+f331,attribution +0.00446,value 0,reference 1
+
+# test sample 73 (droidkungfu), nearest family airpush, score 0.5206 = s0(x_ref) 0.3243 + PCs [0.288, 0.1477, -0.0087, 0.0393, -0.1041, -0.1608, 0.002, -0.0071]
+f450,attribution +0.07686,value 1,reference 0
+f484,attribution +0.05292,value 1,reference 0
+f419,attribution +0.04847,value 1,reference 0
+f429,attribution +0.04169,value 1,reference 0
+f416,attribution +0.02948,value 1,reference 0
+f933,attribution +0.0244,value 0,reference 1
+f1084,attribution +0.02325,value 0,reference 1
+f596,attribution +0.02282,value 0,reference 1
+f599,attribution +0.02207,value 0,reference 1
+f644,attribution +0.02116,value 0,reference 1
+f972,attribution +0.0197,value 0,reference 1
+f552,attribution +0.01887,value 0,reference 1
+f699,attribution +0.01576,value 1,reference 0
+f62,attribution +0.01539,value 0,reference 1
+f1124,attribution +0.01537,value 1,reference 0
+
+# test sample 75 (droidkungfu), nearest family basebridge, score 0.4756 = s0(x_ref) 0.1907 + PCs [0.0911, -0.0466, -0.1169, 0.2009, -0.0195, 0.0133, 0.1038, 0.0586]
+f398,attribution +0.1123,value 1,reference 0
+f464,attribution +0.04599,value 0,reference 1
+f455,attribution +0.03769,value 0,reference 1
+f444,attribution +0.03224,value 1,reference 0
+f400,attribution +0.03156,value 1,reference 0
+f429,attribution +0.0269,value 1,reference 0
+f419,attribution +0.02494,value 1,reference 0
+f450,attribution +0.02267,value 0,reference 1
+f331,attribution +0.02058,value 0,reference 1
+f443,attribution +0.01688,value 0,reference 1
+f413,attribution +0.01634,value 0,reference 1
+f462,attribution +0.008909,value 0,reference 1
+f477,attribution +0.008803,value 0,reference 1
+f30,attribution +0.006822,value 1,reference 0
+f21,attribution +0.004922,value 1,reference 0
+

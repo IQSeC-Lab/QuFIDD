@@ -1,0 +1,34 @@
+# test sample 20 (family basebridge), closest family smssend, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f347,0,0.0399,0.5262,1
+f615,0,0.1097,0.449,1
+f996,0,0.04738,0.5685,1
+f1001,0,0.03491,0.3907,1
+
+# test sample 39 (family basebridge), closest family fakeinst, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f219,0,0.6284,0.689,1
+f378,0,0.6085,0.5274,1
+f381,0,0.5162,0.4009,1
+f383,0,0.5037,0.7927,1
+f392,0,0.5112,0.904,1
+f419,0,0.01746,0.468,1
+f1010,0,0.1446,0.7729,1
+
+# test sample 92 (family basebridge), closest family droidkungfu, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f603,0,0.02993,0.6009,1
+f996,0,0.04738,0.6798,1
+
+# test sample 117 (family basebridge), closest family fakeinst, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f392,0,0.5112,0.904,1
+f400,0,0.5736,0.1951,1
+f1010,0,0.1446,0.7729,1
+
+# test sample 127 (family basebridge), closest family smssend, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f333,0,0.2643,0.7478,1
+f420,0,0.02494,0.2697,1
+f1010,0,0.1446,0.8134,1
+

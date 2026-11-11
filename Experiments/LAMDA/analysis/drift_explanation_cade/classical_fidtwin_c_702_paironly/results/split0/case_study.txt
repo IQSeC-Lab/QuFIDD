@@ -1,0 +1,42 @@
+# test sample 8 (family droidkungfu), closest family smssend, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f395,1,0.678,0.5354,0
+f444,1,0.377,0.2344,0
+f453,0,0.526,0.5756,1
+f704,0,0.002,0.4827,1
+f956,0,0.001,0.2885,1
+
+# test sample 12 (family droidkungfu), closest family basebridge, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f398,1,0.479,0.1809,0
+f419,1,0.771,0.02128,0
+f446,1,0.044,0.4043,0
+f697,0,0.546,0.7527,1
+
+# test sample 23 (family droidkungfu), closest family basebridge, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f395,1,0.678,0.1543,0
+f398,1,0.479,0.1809,0
+f419,1,0.771,0.02128,0
+f427,1,0.02,0,0
+f453,1,0.526,0.508,0
+f472,1,0.16,0.5612,0
+f697,0,0.546,0.7527,1
+
+# test sample 26 (family droidkungfu), closest family airpush, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f490,0,0.05,0.3912,1
+f491,0,0.002,0.2166,1
+f492,0,0.017,0.4532,1
+f791,0,0.007,0.5152,1
+f1137,0,0.115,0.4963,1
+
+# test sample 55 (family droidkungfu), closest family basebridge, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f405,1,0.934,0.25,0
+f429,1,0.313,0.07181,0
+f692,1,0.647,0.1915,0
+f713,1,0.682,0.1809,0
+f714,1,0.357,0,0
+f1119,1,0.693,0.02926,0
+

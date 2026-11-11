@@ -1,0 +1,26 @@
+{
+  "model": "Quantum hybrid v7 cycle a=0.5 (PCA-8, 3 qubits, 62 layers, 24 re-uploads, 702 params) [PennyLane] [ABLATION pair loss only]",
+  "simulator": "pennylane default.qubit",
+  "run_id": 2,
+  "split_id": 7,
+  "seed": 456,
+  "ood_family": "smssend",
+  "n_trainable_params": 702,
+  "epochs_run": 146,
+  "best_epoch": 126,
+  "best_loss": 0.15872416101992043,
+  "train_time_sec": 10408.1,
+  "evaluation": {
+    "threshold_free": {
+      "F1": 0.6640685892435014,
+      "Precision": 0.5148036253776435,
+      "Recall": 0.9352360043907794,
+      "FPR": 0.6810856658184903,
+      "FNR": 0.06476399560922064,
+      "Effort": 1.8166849615806806,
+      "k": 1655,
+      "ROC_AUC": 0.6292421622819392,
+      "PR_AUC": 0.5099407284672903
+    }
+  }
+}

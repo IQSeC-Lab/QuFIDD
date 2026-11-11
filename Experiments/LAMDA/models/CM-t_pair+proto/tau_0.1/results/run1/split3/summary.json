@@ -1,0 +1,105 @@
+{
+  "model": "CADE-mini tuned 8-44-7 margin 20 (711 params) + prototype CE [ABLATION]",
+  "run_id": 1,
+  "split_id": 3,
+  "seed": 123,
+  "input": "PCA-8",
+  "pca_explained_variance": 0.42262768745422363,
+  "architecture": "encoder 8-44-7, decoder none",
+  "reconstruction": false,
+  "margin": 20.0,
+  "n_trainable_params": 711,
+  "lr": 0.001,
+  "epochs_run": 22,
+  "best_epoch": 2,
+  "best_loss": 10.656505065128721,
+  "patience": 20,
+  "train_time_sec": 5.4,
+  "ood_family": "smsreg",
+  "n_train": 4644,
+  "n_test": 2161,
+  "n_ood": 1000,
+  "n_known_test": 1161,
+  "evaluation": {
+    "threshold_free": {
+      "F1": 0.6497645780509687,
+      "Precision": 0.5093696763202725,
+      "Recall": 0.897,
+      "FPR": 0.7441860465116279,
+      "FNR": 0.10299999999999998,
+      "Effort": 1.761,
+      "k": 1761,
+      "ROC_AUC": 0.55057278208441,
+      "PR_AUC": 0.4689549586494976
+    },
+    "ROC_AUC_mad": 0.4913794142980189,
+    "PR_AUC_mad": 0.4714655559580808,
+    "mad_fixed": {
+      "T": 3.5,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0,
+      "Frac_flagged": 0.0,
+      "TP": 0,
+      "FP": 0
+    },
+    "sweep": [
+      {
+        "F1": 0.6497645780509687,
+        "Precision": 0.5093696763202725,
+        "Recall": 0.897,
+        "FPR": 0.7441860465116279,
+        "FNR": 0.10299999999999998,
+        "Effort": 1.761,
+        "k": 1761,
+        "T_MAD": 0.0,
+        "Frac_flagged": 1.0
+      },
+      {
+        "F1": 0.007858546168924004,
+        "Precision": 0.2222222222222222,
+        "Recall": 0.004,
+        "FPR": 0.012058570198105082,
+        "FNR": 0.996,
+        "Effort": 0.018,
+        "k": 18,
+        "T_MAD": 2.0,
+        "Frac_flagged": 0.008792225821378992
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0008613264427217916,
+        "FNR": 1.0,
+        "Effort": 0.001,
+        "k": 1,
+        "T_MAD": 2.5,
+        "Frac_flagged": 0.0013882461823229986
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0,
+        "FNR": 1.0,
+        "Effort": 0.0,
+        "k": 0,
+        "T_MAD": 3.0,
+        "Frac_flagged": 0.0
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0,
+        "FNR": 1.0,
+        "Effort": 0.0,
+        "k": 0,
+        "T_MAD": 3.5,
+        "Frac_flagged": 0.0
+      }
+    ]
+  }
+}

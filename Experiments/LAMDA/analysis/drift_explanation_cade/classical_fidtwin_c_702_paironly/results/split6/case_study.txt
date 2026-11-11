@@ -1,0 +1,31 @@
+# test sample 19 (family shedun), closest family smsreg, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f406,0,0.298,0.2934,1
+f408,0,0.7391,0.8089,1
+f411,0,0.8704,0.5714,1
+f599,0,0.1936,0.8977,1
+f606,0,0.1313,0.8938,1
+f608,0,0.09091,0.8649,1
+f1017,0,0.07407,0.3958,1
+
+# test sample 40 (family shedun), closest family fakeinst, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f473,0,0.0404,0.531,1
+
+# test sample 61 (family shedun), closest family fakeinst, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 104 (family shedun), closest family smsreg, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f443,1,0.07239,0.01931,0
+f447,1,0.07239,0.02896,0
+f452,1,0.07239,0.01931,0
+f602,0,0.1902,0.8977,1
+f608,0,0.09091,0.8649,1
+f612,0,0.2071,0.9595,1
+f1020,0,0.138,0.888,1
+f1027,0,0.08418,0.473,1
+
+# test sample 119 (family shedun), closest family fakeinst, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+

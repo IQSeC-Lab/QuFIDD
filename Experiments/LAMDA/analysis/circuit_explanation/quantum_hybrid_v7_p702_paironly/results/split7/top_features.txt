@@ -1,0 +1,85 @@
+# test sample 47 (smssend), nearest family smsreg, score 0.0723 = s0(x_ref) 0.0798 + PCs [0.0231, -0.0216, -0.0024, 0.0544, -0.0328, 0.0076, -0.031, -0.0048]
+f507,attribution +0.02443,value 0,reference 1
+f508,attribution +0.02404,value 0,reference 1
+f561,attribution +0.02149,value 0,reference 1
+f336,attribution +0.01758,value 0,reference 1
+f948,attribution +0.01415,value 0,reference 1
+f939,attribution +0.009531,value 0,reference 1
+f300,attribution +0.007837,value 0,reference 1
+f256,attribution +0.007497,value 0,reference 1
+f343,attribution +0.007361,value 0,reference 1
+f799,attribution +0.005948,value 0,reference 1
+f261,attribution +0.00499,value 1,reference 0
+f796,attribution +0.004886,value 0,reference 1
+f334,attribution +0.004166,value 0,reference 1
+f341,attribution +0.00369,value 0,reference 1
+f795,attribution +0.003553,value 0,reference 1
+
+# test sample 59 (smssend), nearest family smsreg, score 0.0793 = s0(x_ref) 0.0798 + PCs [0.0107, -0.0021, -0.0499, 0.0471, -0.0214, 0.0511, -0.0164, -0.0197]
+f561,attribution +0.02699,value 0,reference 1
+f507,attribution +0.02696,value 0,reference 1
+f508,attribution +0.02666,value 0,reference 1
+f948,attribution +0.02381,value 0,reference 1
+f336,attribution +0.0193,value 0,reference 1
+f343,attribution +0.009399,value 0,reference 1
+f261,attribution +0.00812,value 1,reference 0
+f478,attribution +0.006602,value 0,reference 1
+f341,attribution +0.006459,value 0,reference 1
+f796,attribution +0.006165,value 0,reference 1
+f256,attribution +0.00606,value 0,reference 1
+f334,attribution +0.004898,value 0,reference 1
+f479,attribution +0.004711,value 0,reference 1
+f795,attribution +0.004565,value 0,reference 1
+f476,attribution +0.003921,value 0,reference 1
+
+# test sample 85 (smssend), nearest family smsreg, score 0.0590 = s0(x_ref) 0.0798 + PCs [0.0165, -0.0107, -0.0375, 0.0432, -0.0239, 0.0286, -0.0196, -0.0174]
+f507,attribution +0.02299,value 0,reference 1
+f508,attribution +0.02268,value 0,reference 1
+f561,attribution +0.02256,value 0,reference 1
+f948,attribution +0.02113,value 0,reference 1
+f336,attribution +0.01759,value 0,reference 1
+f939,attribution +0.009093,value 0,reference 1
+f343,attribution +0.009079,value 0,reference 1
+f256,attribution +0.006533,value 0,reference 1
+f341,attribution +0.006414,value 0,reference 1
+f261,attribution +0.006131,value 1,reference 0
+f796,attribution +0.005617,value 0,reference 1
+f334,attribution +0.004558,value 0,reference 1
+f795,attribution +0.004141,value 0,reference 1
+f354,attribution +0.003971,value 0,reference 1
+f952,attribution +0.00361,value 0,reference 1
+
+# test sample 111 (smssend), nearest family smsreg, score 0.0513 = s0(x_ref) 0.0798 + PCs [0.011, 0.0629, -0.0991, 0.0122, -0.0267, 0.0309, 0.0063, -0.026]
+f375,attribution +0.03741,value 0,reference 1
+f954,attribution +0.03136,value 0,reference 1
+f562,attribution +0.02679,value 0,reference 1
+f256,attribution +0.02403,value 0,reference 1
+f297,attribution +0.02055,value 1,reference 0
+f959,attribution +0.01813,value 1,reference 0
+f932,attribution +0.01621,value 1,reference 0
+f937,attribution +0.01491,value 1,reference 0
+f441,attribution +0.0146,value 1,reference 0
+f313,attribution +0.01239,value 0,reference 1
+f301,attribution +0.008945,value 1,reference 0
+f799,attribution +0.006931,value 0,reference 1
+f367,attribution +0.003808,value 1,reference 0
+f334,attribution +0.002791,value 0,reference 1
+f831,attribution +0.002603,value 1,reference 0
+
+# test sample 131 (smssend), nearest family smsreg, score 0.0557 = s0(x_ref) 0.0798 + PCs [0.0197, 0.124, -0.1662, 0.019, -0.028, -0.0027, 0.0194, -0.0095]
+f374,attribution +0.0133,value 1,reference 0
+f962,attribution +0.007522,value 1,reference 0
+f507,attribution +0.007074,value 0,reference 1
+f383,attribution +0.007024,value 1,reference 0
+f508,attribution +0.006969,value 0,reference 1
+f317,attribution +0.006778,value 1,reference 0
+f937,attribution +0.006463,value 1,reference 0
+f944,attribution +0.006463,value 1,reference 0
+f350,attribution +0.006272,value 1,reference 0
+f309,attribution +0.006113,value 1,reference 0
+f310,attribution +0.005901,value 1,reference 0
+f214,attribution +0.005835,value 1,reference 0
+f942,attribution +0.005687,value 1,reference 0
+f961,attribution +0.005626,value 1,reference 0
+f254,attribution +0.005608,value 1,reference 0
+

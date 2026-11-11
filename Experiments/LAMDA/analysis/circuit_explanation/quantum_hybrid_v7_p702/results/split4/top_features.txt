@@ -1,0 +1,85 @@
+# test sample 24 (airpush), nearest family plankton, score 0.6538 = s0(x_ref) 0.0647 + PCs [0.4192, -0.0065, 0.3501, -0.0514, -0.1072, -0.0182, -0.0086, 0.0118]
+f372,attribution +0.06231,value 0,reference 1
+f362,attribution +0.06044,value 0,reference 1
+f358,attribution +0.05929,value 0,reference 1
+f391,attribution +0.05924,value 0,reference 1
+f496,attribution +0.05881,value 0,reference 1
+f377,attribution +0.05877,value 0,reference 1
+f375,attribution +0.05857,value 0,reference 1
+f376,attribution +0.05808,value 0,reference 1
+f41,attribution +0.05776,value 0,reference 1
+f374,attribution +0.05769,value 0,reference 1
+f371,attribution +0.0573,value 0,reference 1
+f816,attribution +0.05533,value 0,reference 1
+f342,attribution +0.05487,value 0,reference 1
+f343,attribution +0.0521,value 0,reference 1
+f563,attribution +0.04162,value 0,reference 1
+
+# test sample 27 (airpush), nearest family droidkungfu, score 0.6350 = s0(x_ref) 0.0703 + PCs [0.1745, 0.3329, 0.1439, -0.0265, -0.0512, 0.0359, -0.036, -0.0087]
+f140,attribution +0.084,value 0,reference 1
+f183,attribution +0.08308,value 0,reference 1
+f102,attribution +0.06861,value 0,reference 1
+f271,attribution +0.05725,value 0,reference 1
+f523,attribution +0.05585,value 0,reference 1
+f839,attribution +0.05294,value 0,reference 1
+f343,attribution +0.05099,value 1,reference 0
+f325,attribution +0.05086,value 1,reference 0
+f342,attribution +0.05068,value 1,reference 0
+f326,attribution +0.04542,value 1,reference 0
+f851,attribution +0.04518,value 1,reference 0
+f852,attribution +0.03882,value 1,reference 0
+f409,attribution +0.0375,value 0,reference 1
+f563,attribution +0.03532,value 1,reference 0
+f587,attribution +0.03421,value 1,reference 0
+
+# test sample 30 (airpush), nearest family plankton, score 0.4857 = s0(x_ref) 0.0647 + PCs [0.2598, -0.0545, 0.1954, 0.0816, -0.056, 0.0274, -0.0001, -0.0325]
+f372,attribution +0.03388,value 0,reference 1
+f362,attribution +0.03311,value 0,reference 1
+f496,attribution +0.03264,value 0,reference 1
+f377,attribution +0.03212,value 0,reference 1
+f358,attribution +0.03207,value 0,reference 1
+f391,attribution +0.03207,value 0,reference 1
+f375,attribution +0.03193,value 0,reference 1
+f376,attribution +0.0318,value 0,reference 1
+f374,attribution +0.03153,value 0,reference 1
+f371,attribution +0.03126,value 0,reference 1
+f816,attribution +0.02992,value 0,reference 1
+f343,attribution +0.02811,value 0,reference 1
+f346,attribution +0.02283,value 0,reference 1
+f36,attribution +0.02099,value 0,reference 1
+f587,attribution +0.0206,value 0,reference 1
+
+# test sample 33 (airpush), nearest family plankton, score 0.4430 = s0(x_ref) 0.0647 + PCs [0.1642, -0.1714, 0.1019, 0.1836, 0.0415, 0.0085, 0.0136, 0.0365]
+f190,attribution +0.03427,value 1,reference 0
+f247,attribution +0.03005,value 0,reference 1
+f250,attribution +0.0273,value 0,reference 1
+f554,attribution +0.02438,value 1,reference 0
+f553,attribution +0.02327,value 1,reference 0
+f716,attribution +0.02277,value 1,reference 0
+f715,attribution +0.02235,value 1,reference 0
+f377,attribution +0.02107,value 0,reference 1
+f375,attribution +0.02096,value 0,reference 1
+f496,attribution +0.02063,value 0,reference 1
+f376,attribution +0.02061,value 0,reference 1
+f374,attribution +0.02043,value 0,reference 1
+f371,attribution +0.02029,value 0,reference 1
+f342,attribution +0.02028,value 0,reference 1
+f816,attribution +0.01966,value 0,reference 1
+
+# test sample 51 (airpush), nearest family smsreg, score 0.4987 = s0(x_ref) 0.5807 + PCs [-0.1691, -0.1435, 0.0319, 0.0897, 0.0274, 0.0532, -0.0082, 0.0365]
+f530,attribution +0.0605,value 0,reference 1
+f292,attribution +0.05557,value 0,reference 1
+f525,attribution +0.0527,value 0,reference 1
+f409,attribution +0.04036,value 1,reference 0
+f526,attribution +0.02979,value 0,reference 1
+f315,attribution +0.02508,value 0,reference 1
+f621,attribution +0.02144,value 0,reference 1
+f720,attribution +0.01983,value 0,reference 1
+f848,attribution +0.01669,value 0,reference 1
+f360,attribution +0.01496,value 1,reference 0
+f297,attribution +0.01291,value 0,reference 1
+f228,attribution +0.01268,value 1,reference 0
+f229,attribution +0.01226,value 1,reference 0
+f317,attribution +0.006697,value 0,reference 1
+f746,attribution +0.006575,value 1,reference 0
+

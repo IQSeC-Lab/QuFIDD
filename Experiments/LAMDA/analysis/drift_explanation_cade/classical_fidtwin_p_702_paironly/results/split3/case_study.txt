@@ -1,0 +1,52 @@
+# test sample 1 (family smsreg), closest family smssend, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f298,0,0.504,0.3633,1
+f400,0,0.595,0.6799,1
+f410,0,0.282,0.5225,1
+f601,0,0.592,0.8547,1
+f984,0,0.593,0.7958,1
+
+# test sample 69 (family smsreg), closest family smssend, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f348,1,0.613,0.5536,0
+f358,1,0.689,0.5415,0
+f417,0,0.025,0.01211,1
+f421,1,0.066,0.0346,0
+f597,1,0.208,0.1782,0
+f598,1,0.246,0.3304,0
+f612,1,0.236,0.2197,0
+f975,1,0.354,0.4031,0
+
+# test sample 196 (family smsreg), closest family shedun, 16 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f348,0,0.613,0.8172,1
+f367,0,0.738,0.7823,1
+f372,0,0.437,0.7742,1
+f378,0,0.41,0.7016,1
+f381,0,0.457,0.7715,1
+f389,0,0.27,0.2984,1
+f400,0,0.595,0.664,1
+f410,0,0.282,0.6989,1
+f511,1,0.281,0.02419,0
+f512,1,0.282,0.03226,0
+f514,1,0.31,0.0457,0
+f594,1,0.922,0.1935,0
+f596,1,0.901,0.1882,0
+f600,1,0.422,0.1022,0
+f969,1,0.885,0.1694,0
+f981,1,0.894,0.1156,0
+
+# test sample 202 (family smsreg), closest family smssend, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f348,1,0.613,0.5536,0
+f358,1,0.689,0.5415,0
+f597,1,0.208,0.1782,0
+f601,0,0.592,0.8547,1
+f961,0,0.017,0.0173,1
+f984,0,0.593,0.7958,1
+
+# test sample 227 (family smsreg), closest family smssend, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f400,0,0.595,0.6799,1
+f989,0,0.526,0.4913,1
+

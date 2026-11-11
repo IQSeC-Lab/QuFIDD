@@ -1,0 +1,32 @@
+% Requires \usepackage{booktabs} and \usepackage{graphicx}
+\begin{table*}[t]
+  \centering
+  \caption{Ranked F1 under a false positive budget for the PCA-8 models with about 702 parameters. Following
+  CADE, test samples are ranked by their raw drift score and an analyst inspects the list from the top; the
+  reported F1 is the best F1 among stopping points whose false positive rate on the known families does not
+  exceed the budget. ``None'' imposes no budget and equals CADE's ranked F1 on the full list. Mean $\pm$
+  standard deviation over 24 tasks. Parentheses: recall (TPR) at the budget; brackets: FPR at the best stopping point.}
+  \label{tab:fpr_ranked_f1_pca8_p702}
+  \small
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{@{}lrccccc@{}}
+    \toprule
+    & & \multicolumn{5}{c}{Ranked F1 at FPR budget} \\
+    \cmidrule(l){3-7}
+    Model & Params & 10\% & 20\% & 30\% & 40\% & None \\
+    \midrule
+    Quantum hybrid & 702 & 0.315\,{\scriptsize$\pm$0.167} {\scriptsize(0.23)} & 0.496\,{\scriptsize$\pm$0.189} {\scriptsize(0.46)} & 0.573\,{\scriptsize$\pm$0.163} {\scriptsize(0.61)} & 0.612\,{\scriptsize$\pm$0.128} {\scriptsize(0.71)} & 0.685\,{\scriptsize$\pm$0.061} {\scriptsize[0.54]} \\
+    \midrule
+    Quantum amplitude (fixed) & 702 & 0.351\,{\scriptsize$\pm$0.226} {\scriptsize(0.27)} & 0.484\,{\scriptsize$\pm$0.202} {\scriptsize(0.44)} & 0.539\,{\scriptsize$\pm$0.187} {\scriptsize(0.56)} & 0.593\,{\scriptsize$\pm$0.150} {\scriptsize(0.67)} & 0.665\,{\scriptsize$\pm$0.097} {\scriptsize[0.52]} \\
+    \midrule
+    Fidelity twin, complex & 709 & 0.467\,{\scriptsize$\pm$0.178} {\scriptsize(0.37)} & 0.584\,{\scriptsize$\pm$0.144} {\scriptsize(0.55)} & 0.636\,{\scriptsize$\pm$0.132} {\scriptsize(0.68)} & 0.654\,{\scriptsize$\pm$0.124} {\scriptsize(0.76)} & 0.695\,{\scriptsize$\pm$0.084} {\scriptsize[0.50]} \\
+    Fidelity twin, plain & 709 & \textbf{0.504}\,{\scriptsize$\pm$0.186} {\scriptsize(0.41)} & \textbf{0.618}\,{\scriptsize$\pm$0.143} {\scriptsize(0.60)} & \textbf{0.649}\,{\scriptsize$\pm$0.132} {\scriptsize(0.70)} & \textbf{0.664}\,{\scriptsize$\pm$0.125} {\scriptsize(0.77)} & \textbf{0.703}\,{\scriptsize$\pm$0.093} {\scriptsize[0.48]} \\
+    Fidelity twin, real & 708 & 0.453\,{\scriptsize$\pm$0.168} {\scriptsize(0.35)} & 0.570\,{\scriptsize$\pm$0.136} {\scriptsize(0.53)} & 0.613\,{\scriptsize$\pm$0.122} {\scriptsize(0.65)} & 0.644\,{\scriptsize$\pm$0.116} {\scriptsize(0.75)} & 0.678\,{\scriptsize$\pm$0.085} {\scriptsize[0.53]} \\
+    \midrule
+    CADE-mini, full & 719 & 0.366\,{\scriptsize$\pm$0.197} {\scriptsize(0.28)} & 0.462\,{\scriptsize$\pm$0.155} {\scriptsize(0.40)} & 0.518\,{\scriptsize$\pm$0.125} {\scriptsize(0.51)} & 0.544\,{\scriptsize$\pm$0.116} {\scriptsize(0.59)} & 0.622\,{\scriptsize$\pm$0.074} {\scriptsize[0.64]} \\
+    CADE-mini, encoder & 711 & 0.400\,{\scriptsize$\pm$0.152} {\scriptsize(0.30)} & 0.452\,{\scriptsize$\pm$0.160} {\scriptsize(0.39)} & 0.472\,{\scriptsize$\pm$0.156} {\scriptsize(0.45)} & 0.489\,{\scriptsize$\pm$0.152} {\scriptsize(0.51)} & 0.604\,{\scriptsize$\pm$0.084} {\scriptsize[0.66]} \\
+    CADE-mini, tuned & 711 & 0.393\,{\scriptsize$\pm$0.178} {\scriptsize(0.30)} & 0.460\,{\scriptsize$\pm$0.165} {\scriptsize(0.40)} & 0.487\,{\scriptsize$\pm$0.150} {\scriptsize(0.47)} & 0.511\,{\scriptsize$\pm$0.144} {\scriptsize(0.54)} & 0.612\,{\scriptsize$\pm$0.086} {\scriptsize[0.64]} \\
+    CADE-mini, deep & 710 & 0.368\,{\scriptsize$\pm$0.111} {\scriptsize(0.26)} & 0.427\,{\scriptsize$\pm$0.128} {\scriptsize(0.36)} & 0.455\,{\scriptsize$\pm$0.128} {\scriptsize(0.42)} & 0.466\,{\scriptsize$\pm$0.129} {\scriptsize(0.47)} & 0.601\,{\scriptsize$\pm$0.065} {\scriptsize[0.77]} \\
+    \bottomrule
+  \end{tabular}}
+\end{table*}

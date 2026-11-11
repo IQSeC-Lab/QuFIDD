@@ -1,0 +1,64 @@
+# test sample 11 (family plankton), closest family airpush, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f285,0,0.093,0.1367,1
+f477,0,0.843,0.4532,1
+f732,0,0.565,0.6183,1
+f762,0,0.521,0.5142,1
+f950,0,0.54,0.8076,1
+
+# test sample 79 (family plankton), closest family airpush, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f413,0,0.422,0.4185,1
+f478,1,0.821,0.0368,0
+f563,1,0.245,0.2671,0
+f566,1,0.096,0.1703,0
+f567,1,0.229,0.2744,0
+f616,1,0.021,0.02734,0
+f683,1,0.254,0.3186,0
+f1062,0,0.566,0.7203,1
+
+# test sample 109 (family plankton), closest family airpush, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f384,0,0.575,0.7203,1
+f580,0,0.149,0.3743,1
+f686,0,0.912,0.9054,1
+f694,0,0.922,0.9716,1
+f1062,0,0.566,0.7203,1
+f1065,0,0.883,0.5836,1
+
+# test sample 129 (family plankton), closest family basebridge, 16 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f252,0,0.003,0.5505,1
+f260,0,0.636,0.617,1
+f312,0,0.058,0.5745,1
+f319,0,0.001,0.09043,1
+f389,0,0.95,0.8537,1
+f390,1,0.904,0.25,0
+f436,0,0.071,0.6144,1
+f439,0,0.642,0.508,1
+f441,0,0.05,0.5106,1
+f447,0,0.005,0.4548,1
+f463,0,0.589,0.5319,1
+f469,0,0.006,0.6117,1
+f475,1,0.775,0,0
+f476,1,0.751,0,0
+f1065,1,0.883,0.02926,0
+f1074,1,0.982,0.3324,0
+
+# test sample 156 (family plankton), closest family airpush, 14 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f413,0,0.422,0.4185,1
+f457,1,0.565,0.5037,0
+f478,1,0.821,0.0368,0
+f539,0,0.265,0.4658,1
+f579,0,0.198,0.2576,1
+f580,0,0.149,0.3743,1
+f624,0,0.21,0.3975,1
+f626,0,0.213,0.3323,1
+f628,0,0.246,0.4522,1
+f629,0,0.242,0.4427,1
+f841,0,0.057,0.3985,1
+f950,0,0.54,0.8076,1
+f1083,1,0.537,0.4963,0
+f1084,1,0.539,0.4374,0
+

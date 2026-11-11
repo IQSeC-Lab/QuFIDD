@@ -1,0 +1,67 @@
+# test sample 9 (family basebridge), closest family fakeinst, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f330,0,0.04239,0.007622,1
+f378,0,0.6085,0.5274,1
+f606,0,0.1022,0.7012,1
+f1010,0,0.1446,0.7729,1
+
+# test sample 10 (family basebridge), closest family smsreg, 19 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f242,0,0.03491,0.3025,1
+f272,0,0.4863,0.2514,1
+f324,0,0.1646,0.5709,1
+f327,0,0.192,0.5274,1
+f345,0,0.02244,0.4764,1
+f347,0,0.0399,0.6125,1
+f355,0,0.01247,0.2004,1
+f357,0,0.08978,0.6862,1
+f383,0,0.5037,0.4594,1
+f395,0,0.04239,0.5671,1
+f410,0,0.06234,0.4216,1
+f419,0,0.01746,0.3989,1
+f516,0,0.07232,0.2647,1
+f544,0,0.009975,0.4008,1
+f596,0,0.2095,0.5728,1
+f604,0,0.3367,0.8941,1
+f605,0,0.009975,0.448,1
+f996,0,0.04738,0.8166,1
+f1014,0,0.2145,0.4745,1
+
+# test sample 61 (family basebridge), closest family smssend, 16 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f212,1,0.5387,0.0277,0
+f272,0,0.4863,0.5306,1
+f357,0,0.08978,0.516,1
+f383,0,0.5037,0.6778,1
+f401,0,0.5187,0.672,1
+f419,0,0.01746,0.5292,1
+f421,0,0.01496,0.188,1
+f544,0,0.009975,0.395,1
+f604,0,0.3367,0.8353,1
+f606,0,0.1022,0.863,1
+f607,0,0.01247,0.4781,1
+f616,0,0.1945,0.7595,1
+f994,0,0.1496,0.3397,1
+f1001,0,0.03491,0.3907,1
+f1010,0,0.1446,0.8134,1
+f1015,0,0.1322,0.4985,1
+
+# test sample 74 (family basebridge), closest family fakeinst, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f4,0,0.04239,0.3598,1
+f219,1,0.6284,0.689,0
+f264,1,0.5736,0.1524,0
+f381,1,0.5162,0.4009,0
+f406,1,0.5362,0.7607,0
+f411,1,0.5985,0.1098,0
+f604,1,0.3367,0.2957,0
+f610,1,0.5486,0.2378,0
+
+# test sample 81 (family basebridge), closest family fakeinst, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f264,1,0.5736,0.1524,0
+f267,1,0.5835,0.2576,0
+f525,1,0.06733,0.004573,0
+f606,0,0.1022,0.7012,1
+f610,1,0.5486,0.2378,0
+

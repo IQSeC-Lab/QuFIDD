@@ -1,0 +1,85 @@
+# test sample 11 (shedun), nearest family smsreg, score 0.3984 = s0(x_ref) 0.4175 + PCs [0.0548, -0.0168, -0.0522, -0.2237, 0.0742, 0.0288, 0.0446, 0.0712]
+f374,attribution +0.1104,value 1,reference 0
+f364,attribution +0.1064,value 1,reference 0
+f411,attribution +0.09285,value 1,reference 0
+f395,attribution +0.08793,value 1,reference 0
+f362,attribution +0.08397,value 1,reference 0
+f400,attribution +0.07983,value 1,reference 0
+f344,attribution +0.07845,value 1,reference 0
+f427,attribution +0.07171,value 1,reference 0
+f288,attribution +0.07088,value 1,reference 0
+f341,attribution +0.06886,value 1,reference 0
+f258,attribution +0.05876,value 1,reference 0
+f389,attribution +0.05798,value 1,reference 0
+f280,attribution +0.05416,value 1,reference 0
+f368,attribution +0.05136,value 1,reference 0
+f372,attribution +0.04978,value 1,reference 0
+
+# test sample 14 (shedun), nearest family smsreg, score 0.2906 = s0(x_ref) 0.4175 + PCs [0.0292, -0.024, -0.171, -0.1071, 0.0167, 0.0891, 0.0593, -0.019]
+f447,attribution +4.468,value 1,reference 0
+f452,attribution +4.463,value 1,reference 0
+f436,attribution +4.424,value 1,reference 0
+f461,attribution +4.307,value 1,reference 0
+f443,attribution +4.304,value 1,reference 0
+f435,attribution +4.115,value 1,reference 0
+f344,attribution +3.732,value 1,reference 0
+f341,attribution +3.394,value 1,reference 0
+f1023,attribution +3.111,value 0,reference 1
+f372,attribution +2.866,value 1,reference 0
+f398,attribution +2.553,value 1,reference 0
+f608,attribution +1.172,value 0,reference 1
+f453,attribution +1.109,value 1,reference 0
+f438,attribution +1.106,value 1,reference 0
+f462,attribution +1.09,value 1,reference 0
+
+# test sample 17 (shedun), nearest family smsreg, score 0.3260 = s0(x_ref) 0.4175 + PCs [0.1179, -0.0598, -0.0316, -0.1655, 0.0787, -0.0339, 0.046, -0.0432]
+f416,attribution +0.04715,value 0,reference 1
+f417,attribution +0.04695,value 0,reference 1
+f1023,attribution +0.03716,value 0,reference 1
+f1027,attribution +0.03606,value 0,reference 1
+f1028,attribution +0.03308,value 0,reference 1
+f358,attribution +0.02655,value 0,reference 1
+f364,attribution +0.02398,value 1,reference 0
+f426,attribution +0.01974,value 0,reference 1
+f283,attribution +0.01476,value 0,reference 1
+f344,attribution +0.01473,value 1,reference 0
+f1031,attribution +0.01217,value 0,reference 1
+f643,attribution +0.01035,value 0,reference 1
+f849,attribution +0.01027,value 0,reference 1
+f644,attribution +0.009964,value 0,reference 1
+f850,attribution +0.009858,value 0,reference 1
+
+# test sample 46 (shedun), nearest family smsreg, score 0.3938 = s0(x_ref) 0.4175 + PCs [0.0533, -0.0743, -0.0338, -0.232, 0.0767, 0.0211, 0.0399, 0.1254]
+f608,attribution +0.07647,value 0,reference 1
+f613,attribution +0.07309,value 0,reference 1
+f1027,attribution +0.05671,value 0,reference 1
+f1020,attribution +0.04818,value 0,reference 1
+f606,attribution +0.04678,value 0,reference 1
+f1009,attribution +0.04452,value 0,reference 1
+f594,attribution +0.0303,value 0,reference 1
+f614,attribution +0.02957,value 0,reference 1
+f1008,attribution +0.02053,value 0,reference 1
+f1028,attribution +0.02044,value 0,reference 1
+f602,attribution +0.01993,value 0,reference 1
+f372,attribution +0.01979,value 1,reference 0
+f644,attribution +0.01915,value 0,reference 1
+f612,attribution +0.01904,value 0,reference 1
+f643,attribution +0.01894,value 0,reference 1
+
+# test sample 50 (shedun), nearest family smsreg, score 0.3984 = s0(x_ref) 0.4175 + PCs [0.0548, -0.0168, -0.0522, -0.2237, 0.0742, 0.0288, 0.0446, 0.0712]
+f374,attribution +0.1104,value 1,reference 0
+f364,attribution +0.1064,value 1,reference 0
+f411,attribution +0.09285,value 1,reference 0
+f395,attribution +0.08793,value 1,reference 0
+f362,attribution +0.08397,value 1,reference 0
+f400,attribution +0.07983,value 1,reference 0
+f344,attribution +0.07845,value 1,reference 0
+f427,attribution +0.07171,value 1,reference 0
+f288,attribution +0.07088,value 1,reference 0
+f341,attribution +0.06886,value 1,reference 0
+f258,attribution +0.05876,value 1,reference 0
+f389,attribution +0.05798,value 1,reference 0
+f280,attribution +0.05416,value 1,reference 0
+f368,attribution +0.05136,value 1,reference 0
+f372,attribution +0.04978,value 1,reference 0
+

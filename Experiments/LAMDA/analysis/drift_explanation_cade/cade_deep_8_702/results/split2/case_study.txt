@@ -1,0 +1,64 @@
+# test sample 22 (family basebridge), closest family fakeinst, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f212,1,0.5387,0.004573,0
+f345,0,0.02244,0.06098,1
+f347,0,0.0399,0.08079,1
+f372,0,0.02494,0.09451,1
+f381,0,0.5162,0.4009,1
+f392,0,0.5112,0.904,1
+f601,1,0.7656,0.4482,0
+f1005,1,0.3516,0.2317,0
+f1014,1,0.2145,0.1357,0
+
+# test sample 39 (family basebridge), closest family smssend, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f376,0,0.783,0.8601,1
+f392,0,0.5112,0.8994,1
+f467,0,0.002494,0.005831,1
+f596,1,0.2095,0.4009,0
+f610,0,0.5486,0.5714,1
+f1010,0,0.1446,0.8134,1
+
+# test sample 67 (family basebridge), closest family fakeinst, 13 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f5,0,0.05486,0.07317,1
+f267,1,0.5835,0.2576,0
+f347,0,0.0399,0.08079,1
+f372,0,0.02494,0.09451,1
+f405,1,0.5661,0.08841,0
+f599,1,0.7082,0.8948,0
+f608,1,0.5436,0.4162,0
+f614,1,0.3591,0.4588,0
+f616,1,0.1945,0.3186,0
+f1008,1,0.08479,0.0122,0
+f1010,1,0.1446,0.7729,0
+f1014,1,0.2145,0.1357,0
+f1015,1,0.1322,0.4482,0
+
+# test sample 89 (family basebridge), closest family fakeinst, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f264,1,0.5736,0.1524,0
+f347,0,0.0399,0.08079,1
+f372,0,0.02494,0.09451,1
+f405,1,0.5661,0.08841,0
+f525,1,0.06733,0.004573,0
+f604,1,0.3367,0.2957,0
+f616,1,0.1945,0.3186,0
+f995,1,0.6185,0.4893,0
+
+# test sample 96 (family basebridge), closest family fakeinst, 13 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f264,1,0.5736,0.1524,0
+f267,1,0.5835,0.2576,0
+f347,0,0.0399,0.08079,1
+f372,0,0.02494,0.09451,1
+f390,1,0.4589,0.08994,0
+f406,0,0.5362,0.7607,1
+f499,1,0.08728,0.02439,0
+f504,1,0.08728,0.02591,0
+f599,1,0.7082,0.8948,0
+f601,1,0.7656,0.4482,0
+f608,1,0.5436,0.4162,0
+f614,1,0.3591,0.4588,0
+f995,1,0.6185,0.4893,0
+

@@ -1,0 +1,67 @@
+# test sample 11 (family shedun), closest family smsreg, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f201,0,0.03535,0.1004,1
+f542,0,0.08586,0.3938,1
+f601,0,0.02694,0.2529,1
+f602,0,0.1902,0.8977,1
+f603,0,0.1061,0.4498,1
+f1009,0,0.1364,0.8205,1
+f1028,0,0.1044,0.5097,1
+
+# test sample 142 (family shedun), closest family smsreg, 18 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f201,0,0.03535,0.1004,1
+f203,0,0.02357,0.07529,1
+f391,0,0.2997,0.3012,1
+f400,1,0.697,0.4537,0
+f542,0,0.08586,0.3938,1
+f599,0,0.1936,0.8977,1
+f601,0,0.02694,0.2529,1
+f602,0,0.1902,0.8977,1
+f604,0,0.01347,0.668,1
+f606,0,0.1313,0.8938,1
+f608,0,0.09091,0.8649,1
+f612,0,0.2071,0.9595,1
+f1008,0,0.1751,0.8861,1
+f1009,0,0.1364,0.8205,1
+f1014,0,0.04209,0.3359,1
+f1018,0,0.101,0.7085,1
+f1020,0,0.138,0.888,1
+f1027,0,0.08418,0.473,1
+
+# test sample 184 (family shedun), closest family smsreg, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f261,0,0.2811,0.2355,1
+f408,1,0.7391,0.8089,0
+f541,0,0.08923,0.4015,1
+f601,0,0.02694,0.2529,1
+f602,0,0.1902,0.8977,1
+f603,0,0.1061,0.4498,1
+f604,0,0.01347,0.668,1
+f1014,0,0.04209,0.3359,1
+
+# test sample 188 (family shedun), closest family smsreg, 12 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f233,1,0.5488,0.3822,0
+f372,1,0.6987,0.195,0
+f403,0,0.06061,0.1718,1
+f435,1,0.904,0.39,0
+f436,1,0.1599,0.2046,0
+f438,1,0.08754,0.04826,0
+f447,1,0.07239,0.02896,0
+f452,1,0.07239,0.01931,0
+f453,1,0.06902,0.01544,0
+f542,0,0.08586,0.3938,1
+f602,0,0.1902,0.8977,1
+f608,0,0.09091,0.8649,1
+
+# test sample 214 (family shedun), closest family smsreg, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f372,1,0.6987,0.195,0
+f391,0,0.2997,0.3012,1
+f542,0,0.08586,0.3938,1
+f601,0,0.02694,0.2529,1
+f603,0,0.1061,0.4498,1
+f606,0,0.1313,0.8938,1
+f1009,0,0.1364,0.8205,1
+

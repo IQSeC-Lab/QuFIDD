@@ -1,0 +1,65 @@
+# test sample 6 (family smsreg), closest family fakeinst, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f383,0,0.388,0.7886,1
+f392,0,0.037,0.02574,1
+f405,1,0.979,0.7426,0
+f511,1,0.281,0.009191,0
+f512,1,0.282,0.009191,0
+f514,1,0.31,0.01103,0
+f515,1,0.266,0.02022,0
+f596,1,0.901,0.4485,0
+f605,1,0.876,0.2574,0
+
+# test sample 21 (family smsreg), closest family smssend, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f255,0,0.399,0.5225,1
+f348,0,0.613,0.5536,1
+f418,0,0.371,0.5363,1
+f493,1,0.124,0.02422,0
+f498,1,0.069,0.05882,0
+f499,1,0.241,0.1194,0
+f503,1,0.175,0.07439,0
+
+# test sample 24 (family smsreg), closest family fakeinst, 19 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f329,1,0.533,0.1176,0
+f334,1,0.979,0.5478,0
+f335,1,0.949,0.1103,0
+f358,1,0.689,0.1618,0
+f383,0,0.388,0.7886,1
+f394,1,0.576,0.0625,0
+f405,1,0.979,0.7426,0
+f493,1,0.124,0.005515,0
+f510,1,0.11,0.005515,0
+f529,1,0.117,0.03493,0
+f530,1,0.107,0.03493,0
+f591,1,0.572,0.07169,0
+f599,1,0.896,0.3125,0
+f968,1,0.431,0.1011,0
+f970,1,0.822,0.06985,0
+f978,1,0.432,0.1121,0
+f979,1,0.701,0.2426,0
+f984,0,0.593,0.7518,1
+f985,0,0.015,0.01471,1
+
+# test sample 56 (family smsreg), closest family smssend, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f346,0,0.201,0.0692,1
+f359,0,0.063,0.05882,1
+f378,0,0.41,0.5917,1
+f399,1,0.617,0.5346,0
+f511,1,0.281,0.04152,0
+f512,1,0.282,0.0519,0
+f515,1,0.266,0.03979,0
+f970,0,0.822,0.59,1
+
+# test sample 83 (family smsreg), closest family smssend, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f383,0,0.388,0.6678,1
+f419,1,0.203,0.2837,0
+f543,1,0.425,0.3893,0
+f544,1,0.406,0.3893,0
+f601,0,0.592,0.8547,1
+f858,1,0.168,0.07612,0
+f978,1,0.432,0.218,0
+

@@ -1,0 +1,46 @@
+# test sample 4 (family droidkungfu), closest family basebridge, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f331,0,0.013,0.492,1
+f395,1,0.678,0.1543,0
+f413,0,0.039,0.4787,1
+f453,0,0.526,0.508,1
+f472,0,0.16,0.5612,1
+f1119,1,0.693,0.02926,0
+
+# test sample 47 (family droidkungfu), closest family shedun, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f417,0,0.037,0.8294,1
+f439,0,0.024,0.823,1
+f449,0,0,0.5778,1
+f464,0,0.033,0.7591,1
+f492,0,0.017,0.9488,1
+
+# test sample 52 (family droidkungfu), closest family fakeinst, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f395,1,0.678,0.1077,0
+f419,1,0.771,0.07817,0
+f444,1,0.377,0.09587,0
+f455,0,0.025,0.7994,1
+f1130,0,0.78,0.5147,1
+f1133,0,0.024,0.767,1
+
+# test sample 62 (family droidkungfu), closest family basebridge, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f326,0,0.022,0.5745,1
+f419,1,0.771,0.02128,0
+f443,0,0.104,0.4628,1
+f453,0,0.526,0.508,1
+f472,0,0.16,0.5612,1
+f474,0,0.026,0.4309,1
+f484,0,0.448,0.6117,1
+f700,1,0.764,0.3165,0
+f1119,1,0.693,0.02926,0
+
+# test sample 70 (family droidkungfu), closest family basebridge, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f331,0,0.013,0.492,1
+f413,0,0.039,0.4787,1
+f645,1,0.111,0.05053,0
+f646,1,0.101,0.03457,0
+f705,1,0.792,0.5399,0
+

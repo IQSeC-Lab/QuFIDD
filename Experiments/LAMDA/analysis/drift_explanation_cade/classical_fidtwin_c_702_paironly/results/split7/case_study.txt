@@ -1,0 +1,31 @@
+# test sample 5 (family smssend), closest family fakeinst, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f344,0,0.8705,0.8929,1
+f351,0,0.6663,0.7938,1
+f493,1,0.08672,0.03084,0
+f494,1,0.08562,0.03084,0
+f507,1,0.4094,0.0974,0
+f508,1,0.4029,0.0974,0
+f561,1,0.4731,0.1039,0
+
+# test sample 15 (family smssend), closest family shedun, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 30 (family smssend), closest family smsreg, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f256,0,0.3974,0.501,1
+f300,1,0.4929,0.5246,0
+f552,1,0.4336,0.5776,0
+f828,1,0.08452,0.1218,0
+f939,1,0.3875,0.4263,0
+
+# test sample 59 (family smssend), closest family shedun, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 95 (family smssend), closest family fakeinst, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f383,1,0.4951,0.4578,0
+f560,1,0.8189,0.3084,0
+f572,1,0.7442,0.3214,0
+f945,1,0.4149,0.02922,0
+

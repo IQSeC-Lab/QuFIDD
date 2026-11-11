@@ -1,0 +1,99 @@
+{
+  "model": "PCA-8 only (L2-normalized)",
+  "run_id": 2,
+  "split_id": 2,
+  "seed": 456,
+  "input": "PCA-8",
+  "pca_explained_variance": 0.40861397981643677,
+  "architecture": "none (centroid distance on the input)",
+  "n_trainable_params": 0,
+  "l2_normalized": true,
+  "best_epoch": 0,
+  "ood_family": "basebridge",
+  "n_train": 5123,
+  "n_test": 1682,
+  "n_ood": 401,
+  "n_known_test": 1281,
+  "evaluation": {
+    "threshold_free": {
+      "F1": 0.4458977407844169,
+      "Precision": 0.2927400468384075,
+      "Recall": 0.9351620947630923,
+      "FPR": 0.7072599531615925,
+      "FNR": 0.06483790523690769,
+      "Effort": 3.1945137157107233,
+      "k": 1281,
+      "ROC_AUC": 0.63542743453622,
+      "PR_AUC": 0.3244444787356544
+    },
+    "ROC_AUC_mad": 0.7175425993953446,
+    "PR_AUC_mad": 0.45627301187670594,
+    "mad_fixed": {
+      "T": 3.5,
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "FPR": 0.0,
+      "Frac_flagged": 0.0,
+      "TP": 0,
+      "FP": 0
+    },
+    "sweep": [
+      {
+        "F1": 0.4458977407844169,
+        "Precision": 0.2927400468384075,
+        "Recall": 0.9351620947630923,
+        "FPR": 0.7072599531615925,
+        "FNR": 0.06483790523690769,
+        "Effort": 3.1945137157107233,
+        "k": 1281,
+        "T_MAD": 0.0,
+        "Frac_flagged": 1.0
+      },
+      {
+        "F1": 0.18614718614695694,
+        "Precision": 0.7049180327868853,
+        "Recall": 0.10723192019950124,
+        "FPR": 0.01405152224824356,
+        "FNR": 0.8927680798004988,
+        "Effort": 0.15211970074812967,
+        "k": 61,
+        "T_MAD": 2.0,
+        "Frac_flagged": 0.041617122473246136
+      },
+      {
+        "F1": 0.00990099009899516,
+        "Precision": 0.6666666666666666,
+        "Recall": 0.004987531172069825,
+        "FPR": 0.00078064012490242,
+        "FNR": 0.9950124688279302,
+        "Effort": 0.007481296758104738,
+        "k": 3,
+        "T_MAD": 2.5,
+        "Frac_flagged": 0.0017835909631391202
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0,
+        "FNR": 1.0,
+        "Effort": 0.0,
+        "k": 0,
+        "T_MAD": 3.0,
+        "Frac_flagged": 0.0
+      },
+      {
+        "F1": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "FPR": 0.0,
+        "FNR": 1.0,
+        "Effort": 0.0,
+        "k": 0,
+        "T_MAD": 3.5,
+        "Frac_flagged": 0.0
+      }
+    ]
+  }
+}

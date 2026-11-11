@@ -1,0 +1,12 @@
+classical_fidtwin_c_702 (lamda) -- quantum-native drift explanation, 8/8 splits
+
+  withheld          AUC  AUC res  AUC ent
+  droidkungfu     0.883    0.685    0.872
+  plankton        0.533    0.568    0.180
+  basebridge      0.750    0.618    0.629
+  smsreg          0.762    0.675    0.755
+  airpush         0.815    0.614    0.467
+  fakeinst        0.718    0.440    0.813
+  shedun          0.712    0.838    0.615
+  smssend         0.703    0.638    0.760
+  MEAN            0.735    0.635    0.636

@@ -1,0 +1,32 @@
+# test sample 6 (family airpush), closest family plankton, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f372,0,0.022,0.8031,1
+f516,1,0.567,0.5766,0
+f522,1,0.042,0.006565,0
+f530,1,0.146,0.09081,0
+f535,1,0.28,0.3217,0
+
+# test sample 33 (family airpush), closest family plankton, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f335,0,0.05,0.08534,1
+f376,0,0.022,0.7867,1
+f716,1,0.022,0.04705,0
+
+# test sample 35 (family airpush), closest family plankton, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f190,1,0.087,0.06018,0
+f308,1,0.016,0.0547,0
+
+# test sample 40 (family airpush), closest family smsreg, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f526,0,0.034,0.6685,1
+f587,1,0.52,0,0
+f839,0,0.027,0.3427,1
+
+# test sample 46 (family airpush), closest family plankton, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f250,0,0.72,0.5646,1
+f371,0,0.022,0.7768,1
+f377,0,0.022,0.8009,1
+f472,1,0.398,0.2626,0
+

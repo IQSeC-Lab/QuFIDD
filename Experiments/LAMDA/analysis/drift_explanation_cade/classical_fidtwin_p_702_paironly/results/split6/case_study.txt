@@ -1,0 +1,21 @@
+# test sample 17 (family shedun), closest family smsreg, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f608,0,0.09091,0.8649,1
+f1020,0,0.138,0.888,1
+
+# test sample 62 (family shedun), closest family fakeinst, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f398,1,0.7879,0.4102,0
+
+# test sample 72 (family shedun), closest family fakeinst, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 83 (family shedun), closest family fakeinst, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f233,1,0.5488,0.682,0
+f436,1,0.1599,0.0159,0
+
+# test sample 144 (family shedun), closest family smsreg, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+f604,0,0.01347,0.668,1
+

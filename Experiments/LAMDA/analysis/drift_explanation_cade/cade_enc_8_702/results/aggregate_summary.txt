@@ -1,0 +1,34 @@
+cade_enc_8_702 (lamda) -- CADE Sec. 5 explanation analysis, 8/8 splits
+
+Table 4: distance of the perturbed sample to the anchor of its closest family (mean +- std)
+  withheld           n      k           original             random           boundary               coin               cade           gradient
+  droidkungfu      200   25.5    2.564 +- 1.25      3.091 +- 1.94      5.694 +- 3.01      2.994 +- 2.09     0.1547 +- 0.125     6.169 +- 4.4   
+  plankton         200   17.1    1.047 +- 1.16      1.166 +- 1.42      6.335 +- 3.71       1.64 +- 2.26      0.147 +- 0.114     2.952 +- 3.64  
+  basebridge       200   24.5    3.411 +- 0.906     3.871 +- 1.88      4.724 +- 2.07      3.963 +- 2.27     0.1637 +- 0.0841    8.558 +- 5.01  
+  smsreg           200   17.0    1.158 +- 0.939     1.246 +- 1.16      6.581 +- 3.19       1.65 +- 2.01     0.1529 +- 0.0801    5.798 +- 4.3   
+  airpush          200   20.7    3.037 +- 1.18      3.172 +- 1.69      4.742 +- 2.36      4.162 +- 2.69     0.1447 +- 0.103     4.032 +- 4.49  
+  fakeinst         200   18.8    1.518 +- 0.924     1.638 +- 1.42      7.382 +- 3.04      2.946 +- 2.62     0.1118 +- 0.0842    10.83 +- 6.32  
+  shedun           200   18.1   0.6936 +- 0.767    0.9078 +- 0.961     5.257 +- 2.89      1.573 +- 2.4      0.1355 +- 0.105      5.95 +- 3.57  
+  smssend          200   19.8    0.843 +- 0.977     1.056 +- 1.34      3.745 +- 3.13      1.761 +- 2.22     0.1082 +- 0.0756    6.614 +- 5.29  
+
+Table 6: share of perturbed samples that cross the detection boundary (distance <= median + 3.5 MAD of the closest family)
+  withheld          random  boundary      coin      cade  gradient
+  droidkungfu        57.9%     21.8%     70.5%    100.0%     36.0%
+  plankton           81.9%     19.4%     76.0%    100.0%     55.0%
+  basebridge         31.1%      9.6%     35.0%    100.0%     21.5%
+  smsreg             90.7%     18.8%     82.5%    100.0%     35.5%
+  airpush            27.7%      7.4%     30.0%    100.0%     38.5%
+  fakeinst           59.5%      5.9%     41.0%    100.0%     10.0%
+  shedun             86.2%     16.7%     78.0%    100.0%     16.5%
+  smssend            78.5%     36.0%     63.5%    100.0%     18.0%
+
+Extra: share no longer flagged at the FPR-10% boundary
+  withheld          random  boundary      coin      cade  gradient
+  droidkungfu        38.8%     42.3%     59.0%    100.0%     71.0%
+  plankton           86.7%     38.7%     84.0%    100.0%     78.5%
+  basebridge         20.4%     15.4%     38.5%    100.0%     51.0%
+  smsreg             83.9%     43.8%     85.5%    100.0%     54.0%
+  airpush            44.7%     22.8%     43.0%    100.0%     77.0%
+  fakeinst           63.3%     20.0%     49.0%    100.0%     30.0%
+  shedun             86.8%     58.3%     85.5%    100.0%     33.0%
+  smssend            84.1%     72.0%     74.0%    100.0%     50.0%
