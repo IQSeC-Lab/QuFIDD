@@ -1,0 +1,501 @@
+{
+  "protocol": "CADE (Sec. 4.1, verified on its released Drebin splits): per-split time-based 80:20 split of the known families, withheld family only in the test set, VarianceThreshold fitted on each split's training set",
+  "ratio_mode": "known",
+  "tie": "random",
+  "train_ratio": 0.8,
+  "var_threshold": 0.003,
+  "max_samples_per_family": 1000,
+  "seed": 20,
+  "families": [
+    {
+      "family": "droidkungfu",
+      "label": 0,
+      "available": 1677,
+      "selected": 1000,
+      "months": [
+        201306,
+        202301
+      ]
+    },
+    {
+      "family": "plankton",
+      "label": 1,
+      "available": 3684,
+      "selected": 1000,
+      "months": [
+        201306,
+        202312
+      ]
+    },
+    {
+      "family": "basebridge",
+      "label": 2,
+      "available": 401,
+      "selected": 401,
+      "months": [
+        201306,
+        202205
+      ]
+    },
+    {
+      "family": "smsreg",
+      "label": 3,
+      "available": 15114,
+      "selected": 1000,
+      "months": [
+        201306,
+        202312
+      ]
+    },
+    {
+      "family": "airpush",
+      "label": 4,
+      "available": 18086,
+      "selected": 1000,
+      "months": [
+        201306,
+        202312
+      ]
+    },
+    {
+      "family": "fakeinst",
+      "label": 5,
+      "available": 899,
+      "selected": 899,
+      "months": [
+        201306,
+        202312
+      ]
+    },
+    {
+      "family": "shedun",
+      "label": 6,
+      "available": 594,
+      "selected": 594,
+      "months": [
+        201405,
+        202208
+      ]
+    },
+    {
+      "family": "smssend",
+      "label": 7,
+      "available": 911,
+      "selected": 911,
+      "months": [
+        201306,
+        202312
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "split": 0,
+      "heldout_family": "droidkungfu",
+      "target_train": 4644,
+      "train": 4644,
+      "test_known": 1161,
+      "last_train_month": 201906,
+      "first_test_month": 201906,
+      "boundary_month_split": true,
+      "test_heldout": 1000,
+      "n_train": 4644,
+      "n_test": 2161,
+      "train_share": 0.6824,
+      "drift_share_of_test": 0.4627,
+      "features_seen_in_train": 2386,
+      "features_after_vt": 1144,
+      "per_family": {
+        "droidkungfu": {
+          "train": 0,
+          "test": 1000
+        },
+        "plankton": {
+          "train": 914,
+          "test": 86
+        },
+        "basebridge": {
+          "train": 376,
+          "test": 25
+        },
+        "smsreg": {
+          "train": 535,
+          "test": 465
+        },
+        "airpush": {
+          "train": 951,
+          "test": 49
+        },
+        "fakeinst": {
+          "train": 678,
+          "test": 221
+        },
+        "shedun": {
+          "train": 469,
+          "test": 125
+        },
+        "smssend": {
+          "train": 721,
+          "test": 190
+        }
+      }
+    },
+    {
+      "split": 1,
+      "heldout_family": "plankton",
+      "target_train": 4644,
+      "train": 4644,
+      "test_known": 1161,
+      "last_train_month": 201906,
+      "first_test_month": 201906,
+      "boundary_month_split": true,
+      "test_heldout": 1000,
+      "n_train": 4644,
+      "n_test": 2161,
+      "train_share": 0.6824,
+      "drift_share_of_test": 0.4627,
+      "features_seen_in_train": 2373,
+      "features_after_vt": 1090,
+      "per_family": {
+        "droidkungfu": {
+          "train": 937,
+          "test": 63
+        },
+        "plankton": {
+          "train": 0,
+          "test": 1000
+        },
+        "basebridge": {
+          "train": 376,
+          "test": 25
+        },
+        "smsreg": {
+          "train": 530,
+          "test": 470
+        },
+        "airpush": {
+          "train": 951,
+          "test": 49
+        },
+        "fakeinst": {
+          "train": 678,
+          "test": 221
+        },
+        "shedun": {
+          "train": 467,
+          "test": 127
+        },
+        "smssend": {
+          "train": 705,
+          "test": 206
+        }
+      }
+    },
+    {
+      "split": 2,
+      "heldout_family": "basebridge",
+      "target_train": 5123,
+      "train": 5123,
+      "test_known": 1281,
+      "last_train_month": 201906,
+      "first_test_month": 201906,
+      "boundary_month_split": true,
+      "test_heldout": 401,
+      "n_train": 5123,
+      "n_test": 1682,
+      "train_share": 0.7528,
+      "drift_share_of_test": 0.2384,
+      "features_seen_in_train": 2386,
+      "features_after_vt": 1021,
+      "per_family": {
+        "droidkungfu": {
+          "train": 937,
+          "test": 63
+        },
+        "plankton": {
+          "train": 916,
+          "test": 84
+        },
+        "basebridge": {
+          "train": 0,
+          "test": 401
+        },
+        "smsreg": {
+          "train": 529,
+          "test": 471
+        },
+        "airpush": {
+          "train": 948,
+          "test": 52
+        },
+        "fakeinst": {
+          "train": 656,
+          "test": 243
+        },
+        "shedun": {
+          "train": 451,
+          "test": 143
+        },
+        "smssend": {
+          "train": 686,
+          "test": 225
+        }
+      }
+    },
+    {
+      "split": 3,
+      "heldout_family": "smsreg",
+      "target_train": 4644,
+      "train": 4644,
+      "test_known": 1161,
+      "last_train_month": 201906,
+      "first_test_month": 201906,
+      "boundary_month_split": true,
+      "test_heldout": 1000,
+      "n_train": 4644,
+      "n_test": 2161,
+      "train_share": 0.6824,
+      "drift_share_of_test": 0.4627,
+      "features_seen_in_train": 2095,
+      "features_after_vt": 994,
+      "per_family": {
+        "droidkungfu": {
+          "train": 934,
+          "test": 66
+        },
+        "plankton": {
+          "train": 902,
+          "test": 98
+        },
+        "basebridge": {
+          "train": 373,
+          "test": 28
+        },
+        "smsreg": {
+          "train": 0,
+          "test": 1000
+        },
+        "airpush": {
+          "train": 941,
+          "test": 59
+        },
+        "fakeinst": {
+          "train": 544,
+          "test": 355
+        },
+        "shedun": {
+          "train": 372,
+          "test": 222
+        },
+        "smssend": {
+          "train": 578,
+          "test": 333
+        }
+      }
+    },
+    {
+      "split": 4,
+      "heldout_family": "airpush",
+      "target_train": 4644,
+      "train": 4644,
+      "test_known": 1161,
+      "last_train_month": 201906,
+      "first_test_month": 201906,
+      "boundary_month_split": true,
+      "test_heldout": 1000,
+      "n_train": 4644,
+      "n_test": 2161,
+      "train_share": 0.6824,
+      "drift_share_of_test": 0.4627,
+      "features_seen_in_train": 2116,
+      "features_after_vt": 858,
+      "per_family": {
+        "droidkungfu": {
+          "train": 937,
+          "test": 63
+        },
+        "plankton": {
+          "train": 914,
+          "test": 86
+        },
+        "basebridge": {
+          "train": 376,
+          "test": 25
+        },
+        "smsreg": {
+          "train": 534,
+          "test": 466
+        },
+        "airpush": {
+          "train": 0,
+          "test": 1000
+        },
+        "fakeinst": {
+          "train": 686,
+          "test": 213
+        },
+        "shedun": {
+          "train": 476,
+          "test": 118
+        },
+        "smssend": {
+          "train": 721,
+          "test": 190
+        }
+      }
+    },
+    {
+      "split": 5,
+      "heldout_family": "fakeinst",
+      "target_train": 4725,
+      "train": 4725,
+      "test_known": 1181,
+      "last_train_month": 201906,
+      "first_test_month": 201906,
+      "boundary_month_split": true,
+      "test_heldout": 899,
+      "n_train": 4725,
+      "n_test": 2080,
+      "train_share": 0.6943,
+      "drift_share_of_test": 0.4322,
+      "features_seen_in_train": 2353,
+      "features_after_vt": 1048,
+      "per_family": {
+        "droidkungfu": {
+          "train": 935,
+          "test": 65
+        },
+        "plankton": {
+          "train": 910,
+          "test": 90
+        },
+        "basebridge": {
+          "train": 376,
+          "test": 25
+        },
+        "smsreg": {
+          "train": 502,
+          "test": 498
+        },
+        "airpush": {
+          "train": 942,
+          "test": 58
+        },
+        "fakeinst": {
+          "train": 0,
+          "test": 899
+        },
+        "shedun": {
+          "train": 413,
+          "test": 181
+        },
+        "smssend": {
+          "train": 647,
+          "test": 264
+        }
+      }
+    },
+    {
+      "split": 6,
+      "heldout_family": "shedun",
+      "target_train": 4969,
+      "train": 4969,
+      "test_known": 1242,
+      "last_train_month": 201906,
+      "first_test_month": 201906,
+      "boundary_month_split": true,
+      "test_heldout": 594,
+      "n_train": 4969,
+      "n_test": 1836,
+      "train_share": 0.7302,
+      "drift_share_of_test": 0.3235,
+      "features_seen_in_train": 2382,
+      "features_after_vt": 1034,
+      "per_family": {
+        "droidkungfu": {
+          "train": 935,
+          "test": 65
+        },
+        "plankton": {
+          "train": 909,
+          "test": 91
+        },
+        "basebridge": {
+          "train": 375,
+          "test": 26
+        },
+        "smsreg": {
+          "train": 518,
+          "test": 482
+        },
+        "airpush": {
+          "train": 951,
+          "test": 49
+        },
+        "fakeinst": {
+          "train": 629,
+          "test": 270
+        },
+        "shedun": {
+          "train": 0,
+          "test": 594
+        },
+        "smssend": {
+          "train": 652,
+          "test": 259
+        }
+      }
+    },
+    {
+      "split": 7,
+      "heldout_family": "smssend",
+      "target_train": 4715,
+      "train": 4715,
+      "test_known": 1179,
+      "last_train_month": 201906,
+      "first_test_month": 201906,
+      "boundary_month_split": true,
+      "test_heldout": 911,
+      "n_train": 4715,
+      "n_test": 2090,
+      "train_share": 0.6929,
+      "drift_share_of_test": 0.4359,
+      "features_seen_in_train": 2245,
+      "features_after_vt": 964,
+      "per_family": {
+        "droidkungfu": {
+          "train": 935,
+          "test": 65
+        },
+        "plankton": {
+          "train": 913,
+          "test": 87
+        },
+        "basebridge": {
+          "train": 375,
+          "test": 26
+        },
+        "smsreg": {
+          "train": 509,
+          "test": 491
+        },
+        "airpush": {
+          "train": 940,
+          "test": 60
+        },
+        "fakeinst": {
+          "train": 616,
+          "test": 283
+        },
+        "shedun": {
+          "train": 427,
+          "test": 167
+        },
+        "smssend": {
+          "train": 0,
+          "test": 911
+        }
+      }
+    }
+  ]
+}

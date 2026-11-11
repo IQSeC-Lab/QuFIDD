@@ -1,0 +1,413 @@
+{
+  "source": "EMBER 2018 (train file)",
+  "excluded_families": [
+    "zusy",
+    "razy",
+    "ursu",
+    "ulise",
+    "sivis",
+    "high",
+    "moderate",
+    "agen",
+    "tiggre",
+    "scar",
+    "chapak",
+    "autoit",
+    "delf",
+    "gamehack"
+  ],
+  "families": [
+    "xtrat",
+    "zbot",
+    "ramnit",
+    "sality",
+    "wapomi",
+    "lethic",
+    "ursnif",
+    "kovter"
+  ],
+  "max_samples": 1000,
+  "seed": 20,
+  "transform": "standard",
+  "min_nonzero_frac": 0.003,
+  "split_mode": "cade",
+  "scaling": "minmax_vt",
+  "var_threshold": 0.003,
+  "rule": {
+    "k": 8,
+    "min_train": 100,
+    "min_test": 100,
+    "train_ratio": 0.8
+  },
+  "cut_last_train_timestamp": "2018-10",
+  "splits": [
+    {
+      "file": "drebin_new_0.npz",
+      "heldout_family": "xtrat",
+      "cut": "cut after 2018-10 (first test 2018-10)",
+      "n_train": 5600,
+      "n_test": 2400,
+      "n_drift": 1000,
+      "train_share": 0.7,
+      "drift_share_of_test": 0.4167,
+      "features_seen_in_train": 2284,
+      "n_features": 804,
+      "per_family": {
+        "xtrat": {
+          "train": 0,
+          "test": 1000
+        },
+        "zbot": {
+          "train": 802,
+          "test": 198
+        },
+        "ramnit": {
+          "train": 787,
+          "test": 213
+        },
+        "sality": {
+          "train": 829,
+          "test": 171
+        },
+        "wapomi": {
+          "train": 817,
+          "test": 183
+        },
+        "lethic": {
+          "train": 795,
+          "test": 205
+        },
+        "ursnif": {
+          "train": 769,
+          "test": 231
+        },
+        "kovter": {
+          "train": 801,
+          "test": 199
+        }
+      }
+    },
+    {
+      "file": "drebin_new_1.npz",
+      "heldout_family": "zbot",
+      "cut": "cut after 2018-10 (first test 2018-10)",
+      "n_train": 5600,
+      "n_test": 2400,
+      "n_drift": 1000,
+      "train_share": 0.7,
+      "drift_share_of_test": 0.4167,
+      "features_seen_in_train": 2282,
+      "n_features": 728,
+      "per_family": {
+        "xtrat": {
+          "train": 784,
+          "test": 216
+        },
+        "zbot": {
+          "train": 0,
+          "test": 1000
+        },
+        "ramnit": {
+          "train": 811,
+          "test": 189
+        },
+        "sality": {
+          "train": 819,
+          "test": 181
+        },
+        "wapomi": {
+          "train": 806,
+          "test": 194
+        },
+        "lethic": {
+          "train": 788,
+          "test": 212
+        },
+        "ursnif": {
+          "train": 782,
+          "test": 218
+        },
+        "kovter": {
+          "train": 810,
+          "test": 190
+        }
+      }
+    },
+    {
+      "file": "drebin_new_2.npz",
+      "heldout_family": "ramnit",
+      "cut": "cut after 2018-10 (first test 2018-10)",
+      "n_train": 5600,
+      "n_test": 2400,
+      "n_drift": 1000,
+      "train_share": 0.7,
+      "drift_share_of_test": 0.4167,
+      "features_seen_in_train": 2261,
+      "n_features": 487,
+      "per_family": {
+        "xtrat": {
+          "train": 761,
+          "test": 239
+        },
+        "zbot": {
+          "train": 812,
+          "test": 188
+        },
+        "ramnit": {
+          "train": 0,
+          "test": 1000
+        },
+        "sality": {
+          "train": 821,
+          "test": 179
+        },
+        "wapomi": {
+          "train": 811,
+          "test": 189
+        },
+        "lethic": {
+          "train": 805,
+          "test": 195
+        },
+        "ursnif": {
+          "train": 786,
+          "test": 214
+        },
+        "kovter": {
+          "train": 804,
+          "test": 196
+        }
+      }
+    },
+    {
+      "file": "drebin_new_3.npz",
+      "heldout_family": "sality",
+      "cut": "cut after 2018-10 (first test 2018-10)",
+      "n_train": 5600,
+      "n_test": 2400,
+      "n_drift": 1000,
+      "train_share": 0.7,
+      "drift_share_of_test": 0.4167,
+      "features_seen_in_train": 2263,
+      "n_features": 423,
+      "per_family": {
+        "xtrat": {
+          "train": 786,
+          "test": 214
+        },
+        "zbot": {
+          "train": 814,
+          "test": 186
+        },
+        "ramnit": {
+          "train": 810,
+          "test": 190
+        },
+        "sality": {
+          "train": 0,
+          "test": 1000
+        },
+        "wapomi": {
+          "train": 817,
+          "test": 183
+        },
+        "lethic": {
+          "train": 784,
+          "test": 216
+        },
+        "ursnif": {
+          "train": 775,
+          "test": 225
+        },
+        "kovter": {
+          "train": 814,
+          "test": 186
+        }
+      }
+    },
+    {
+      "file": "drebin_new_4.npz",
+      "heldout_family": "wapomi",
+      "cut": "cut after 2018-10 (first test 2018-10)",
+      "n_train": 5600,
+      "n_test": 2400,
+      "n_drift": 1000,
+      "train_share": 0.7,
+      "drift_share_of_test": 0.4167,
+      "features_seen_in_train": 2266,
+      "n_features": 388,
+      "per_family": {
+        "xtrat": {
+          "train": 783,
+          "test": 217
+        },
+        "zbot": {
+          "train": 810,
+          "test": 190
+        },
+        "ramnit": {
+          "train": 797,
+          "test": 203
+        },
+        "sality": {
+          "train": 823,
+          "test": 177
+        },
+        "wapomi": {
+          "train": 0,
+          "test": 1000
+        },
+        "lethic": {
+          "train": 809,
+          "test": 191
+        },
+        "ursnif": {
+          "train": 784,
+          "test": 216
+        },
+        "kovter": {
+          "train": 794,
+          "test": 206
+        }
+      }
+    },
+    {
+      "file": "drebin_new_5.npz",
+      "heldout_family": "lethic",
+      "cut": "cut after 2018-10 (first test 2018-10)",
+      "n_train": 5600,
+      "n_test": 2400,
+      "n_drift": 1000,
+      "train_share": 0.7,
+      "drift_share_of_test": 0.4167,
+      "features_seen_in_train": 2284,
+      "n_features": 411,
+      "per_family": {
+        "xtrat": {
+          "train": 784,
+          "test": 216
+        },
+        "zbot": {
+          "train": 829,
+          "test": 171
+        },
+        "ramnit": {
+          "train": 796,
+          "test": 204
+        },
+        "sality": {
+          "train": 816,
+          "test": 184
+        },
+        "wapomi": {
+          "train": 811,
+          "test": 189
+        },
+        "lethic": {
+          "train": 0,
+          "test": 1000
+        },
+        "ursnif": {
+          "train": 785,
+          "test": 215
+        },
+        "kovter": {
+          "train": 779,
+          "test": 221
+        }
+      }
+    },
+    {
+      "file": "drebin_new_6.npz",
+      "heldout_family": "ursnif",
+      "cut": "cut after 2018-10 (first test 2018-10)",
+      "n_train": 5600,
+      "n_test": 2400,
+      "n_drift": 1000,
+      "train_share": 0.7,
+      "drift_share_of_test": 0.4167,
+      "features_seen_in_train": 2287,
+      "n_features": 403,
+      "per_family": {
+        "xtrat": {
+          "train": 784,
+          "test": 216
+        },
+        "zbot": {
+          "train": 797,
+          "test": 203
+        },
+        "ramnit": {
+          "train": 791,
+          "test": 209
+        },
+        "sality": {
+          "train": 823,
+          "test": 177
+        },
+        "wapomi": {
+          "train": 815,
+          "test": 185
+        },
+        "lethic": {
+          "train": 799,
+          "test": 201
+        },
+        "ursnif": {
+          "train": 0,
+          "test": 1000
+        },
+        "kovter": {
+          "train": 791,
+          "test": 209
+        }
+      }
+    },
+    {
+      "file": "drebin_new_7.npz",
+      "heldout_family": "kovter",
+      "cut": "cut after 2018-10 (first test 2018-10)",
+      "n_train": 5600,
+      "n_test": 2400,
+      "n_drift": 1000,
+      "train_share": 0.7,
+      "drift_share_of_test": 0.4167,
+      "features_seen_in_train": 2287,
+      "n_features": 842,
+      "per_family": {
+        "xtrat": {
+          "train": 751,
+          "test": 249
+        },
+        "zbot": {
+          "train": 832,
+          "test": 168
+        },
+        "ramnit": {
+          "train": 800,
+          "test": 200
+        },
+        "sality": {
+          "train": 810,
+          "test": 190
+        },
+        "wapomi": {
+          "train": 819,
+          "test": 181
+        },
+        "lethic": {
+          "train": 785,
+          "test": 215
+        },
+        "ursnif": {
+          "train": 803,
+          "test": 197
+        },
+        "kovter": {
+          "train": 0,
+          "test": 1000
+        }
+      }
+    }
+  ]
+}
