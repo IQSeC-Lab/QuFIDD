@@ -1,0 +1,70 @@
+# test sample 595 (family GinMaster), closest family DroidKungFu, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/webkit/WebView,0,0.3274,0.3348,1
+call::Cipher(AES),0,0.02655,0.9219,1
+permission::android.permission.READ_SMS,0,0.00885,0.4129,1
+url::www.adwo.com,0,0.059,0.7042,1
+
+# test sample 598 (family GinMaster), closest family DroidKungFu, 14 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/wifi/WifiManager;->getConnectionInfo,0,0.2035,0.4444,1
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,0,0.01475,0.7192,1
+api_call::android/webkit/WebView,0,0.3274,0.3348,1
+call::setWifiEnabled,0,0.0177,0.7192,1
+feature::android.hardware.location,0,0.233,0.6877,1
+feature::android.hardware.wifi,0,0.5428,0.8859,1
+permission::android.permission.ACCESS_COARSE_LOCATION,0,0.1799,0.6291,1
+permission::android.permission.ACCESS_FINE_LOCATION,0,0.1327,0.4955,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0.5428,0.9144,1
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,1,0.6726,0.03604,0
+real_permission::android.permission.ACCESS_WIFI_STATE,0,0.2389,0.8844,1
+real_permission::android.permission.CHANGE_WIFI_STATE,0,0.02655,0.7192,1
+url::http://www.adwo.com,0,0.059,0.7042,1
+url::schemas.android.com,0,0.5133,0.7868,1
+
+# test sample 601 (family GinMaster), closest family DroidKungFu, 14 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/wifi/WifiManager;->getConnectionInfo,0,0.2035,0.4444,1
+call::Execution of external commands,0,0.6136,0.9835,1
+feature::android.hardware.location.network,0,0.2094,0.6246,1
+feature::android.hardware.wifi,0,0.5428,0.8859,1
+intent::android.intent.action.BOOT_COMPLETED,0,0.5133,0.9174,1
+intent::android.intent.action.SIG_STR,0,0,0.8724,1
+permission::android.permission.ACCESS_FINE_LOCATION,0,0.1327,0.4955,1
+permission::android.permission.ACCESS_NETWORK_STATE,0,0.9558,0.9414,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0.5428,0.9144,1
+permission::android.permission.VIBRATE,1,0.2212,0.1607,0
+permission::android.permission.WRITE_SMS,0,0.00885,0.4069,1
+real_permission::android.permission.ACCESS_NETWORK_STATE,0,0.9469,0.9505,1
+real_permission::android.permission.ACCESS_WIFI_STATE,0,0.2389,0.8844,1
+real_permission::android.permission.READ_LOGS,0,0.6136,0.9835,1
+
+# test sample 602 (family GinMaster), closest family DroidKungFu, 10 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/Context;->startActivity,0,0.7404,0.7538,1
+call::getWifiState,0,0,0.7087,1
+call::system/bin/su,0,0.2507,0.7508,1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,0,0,0.8724,1
+permission::android.permission.RECEIVE_BOOT_COMPLETED,1,0.5044,0.5405,0
+permission::android.permission.RESTART_PACKAGES,1,0.03245,0.02252,0
+service_receiver::com.google.update.Receiver,0,0,0.5991,1
+service_receiver::com.google.update.UpdateService,0,0,0.5991,1
+url::http://maps.google.com/maps?q%3D,0,0.118,0.7117,1
+url::www.adwo.com,0,0.059,0.7042,1
+
+# test sample 603 (family GinMaster), closest family DroidKungFu, 13 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/ConnectivityManager;->getNetworkInfo,1,0.4779,0.1156,0
+feature::android.hardware.location,0,0.233,0.6877,1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,0,0,0.8724,1
+permission::android.permission.ACCESS_COARSE_LOCATION,0,0.1799,0.6291,1
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS,0,0.0059,0.3288,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0.5428,0.9144,1
+permission::android.permission.CHANGE_WIFI_STATE,0,0.03245,0.7102,1
+permission::android.permission.SET_WALLPAPER,1,0.2507,0.03604,0
+permission::android.permission.WRITE_SMS,0,0.00885,0.4069,1
+real_permission::android.permission.CHANGE_WIFI_STATE,0,0.02655,0.7192,1
+service_receiver::com.google.update.UpdateService,0,0,0.5991,1
+url::http://cn.ad.adon.vpon.com/api/webviewAdClick,0,0.0649,0.2673,1
+url::market.android.com,0,0.174,0.7327,1
+

@@ -1,0 +1,33 @@
+# test sample 601 (family GinMaster), closest family DroidKungFu, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,0,0.4572,0.8348,1
+api_call::java/lang/Runtime;->exec,0,0.6136,0.9835,1
+call::Execution of external commands,0,0.6136,0.9835,1
+feature::android.hardware.wifi,0,0.5428,0.8859,1
+permission::android.permission.ACCESS_NETWORK_STATE,0,0.9558,0.9414,1
+real_permission::android.permission.READ_LOGS,0,0.6136,0.9835,1
+
+# test sample 602 (family GinMaster), closest family DroidKungFu, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 605 (family GinMaster), closest family DroidKungFu, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/wifi/WifiManager;->getWifiState,0,0,0.4384,1
+call::Execution of external commands,0,0.6136,0.9835,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0.5428,0.9144,1
+permission::android.permission.WRITE_SMS,0,0.00885,0.4069,1
+real_permission::android.permission.ACCESS_NETWORK_STATE,0,0.9469,0.9505,1
+real_permission::android.permission.ACCESS_WIFI_STATE,0,0.2389,0.8844,1
+real_permission::android.permission.READ_LOGS,0,0.6136,0.9835,1
+
+# test sample 607 (family GinMaster), closest family DroidKungFu, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+feature::android.hardware.telephony,0,0.0708,0.4219,1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,0,0,0.8724,1
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,1,0.6726,0.03604,0
+
+# test sample 613 (family GinMaster), closest family DroidKungFu, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+permission::android.permission.ACCESS_WIFI_STATE,0,0.5428,0.9144,1
+permission::android.permission.CHANGE_WIFI_STATE,0,0.03245,0.7102,1
+

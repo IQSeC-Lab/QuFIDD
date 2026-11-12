@@ -1,0 +1,59 @@
+# test sample 539 (family Plankton), closest family GinMaster, 10 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/Context;->startActivity,0,0.072,0.7263,1
+api_call::android/webkit/WebView,0,0.2016,0.2847,1
+call::Cipher(AES/CBC/PKCS5Padding),0,0.2224,0.4599,1
+call::getPackageInfo,0,0.6176,1,1
+call::getSubscriberId,0,0.0672,1,1
+call::system/bin/su,0,0,0.3102,1
+feature::android.hardware.wifi,1,0.9264,0.562,0
+real_permission::android.permission.READ_LOGS,0,0.272,0.7153,1
+url::10.0.0.172,0,0,0.5839,1
+url::http://10.0.0.172/,0,0,0.5292,1
+
+# test sample 544 (family Plankton), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+permission::android.permission.READ_LOGS,0,0.0304,0.365,1
+real_permission::android.permission.ACCESS_WIFI_STATE,1,1,0.2372,0
+url::10.0.0.172,0,0,0.5839,1
+
+# test sample 547 (family Plankton), closest family GinMaster, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::com.millennialmedia.android.VideoPlayer,1,0.0304,0.04745,0
+call::getSubscriberId,0,0.0672,1,1
+feature::android.hardware.location.gps,1,0.6688,0.1314,0
+feature::android.hardware.screen.portrait,0,0.4528,0.8978,1
+real_permission::android.permission.READ_LOGS,0,0.272,0.7153,1
+url::ads.mp.mydas.mobi,1,0.0544,0.0365,0
+url::http://androidsdk.ads.mp.mydas.mobi/getAd.php5?sdkapid%3D,1,0.0528,0.0365,0
+
+# test sample 554 (family Plankton), closest family GinMaster, 10 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/accounts/AccountManager;->getAccounts,1,0.4192,0.06569,0
+api_call::android/content/Context;->startActivity,0,0.072,0.7263,1
+call::getSubscriberId,0,0.0672,1,1
+call::sendSMS,1,0.096,0.06934,0
+call::system/bin/su,0,0,0.3102,1
+permission::android.permission.GET_ACCOUNTS,1,0.272,0.0219,0
+permission::android.permission.VIBRATE,1,0.7152,0.1898,0
+real_permission::android.permission.SEND_SMS,1,0.0944,0.06934,0
+url::http://10.0.0.172/,0,0,0.5292,1
+url::http://10.0.0.172:80,0,0,0.4599,1
+
+# test sample 569 (family Plankton), closest family GinMaster, 14 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/Context;->startActivity,0,0.072,0.7263,1
+api_call::android/content/Context;->startService,1,0.8352,0.03285,0
+api_call::android/os/PowerManager$WakeLock;->acquire,1,0.4528,0.05839,0
+api_call::android/webkit/WebView,0,0.2016,0.2847,1
+api_call::java/lang/Runtime;->exec,0,0.272,0.7153,1
+call::getSubscriberId,0,0.0672,1,1
+call::sendSMS,1,0.096,0.06934,0
+feature::android.hardware.screen.portrait,0,0.4528,0.8978,1
+feature::android.hardware.telephony,1,0.2176,0.08029,0
+permission::android.permission.VIBRATE,1,0.7152,0.1898,0
+permission::android.permission.WAKE_LOCK,1,0.6448,0.1679,0
+real_permission::android.permission.READ_LOGS,0,0.272,0.7153,1
+real_permission::android.permission.SEND_SMS,1,0.0944,0.06934,0
+url::http://10.0.0.172:80,0,0,0.4599,1
+

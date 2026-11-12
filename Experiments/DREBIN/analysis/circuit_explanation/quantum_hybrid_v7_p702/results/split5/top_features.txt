@@ -1,0 +1,85 @@
+# test sample 644 (Iconosys), nearest family BaseBridge, score 0.6463 = s0(x_ref) 0.0131 + PCs [0.0501, 0.0594, 0.5647, 0.0785, -0.0179, 0.0099, -0.1174, 0.0059]
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.03356,value 0,reference 1
+permission::android.permission.RECEIVE_SMS,attribution +0.02351,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.0227,value 0,reference 1
+permission::android.permission.WRITE_CONTACTS,attribution +0.02221,value 0,reference 1
+permission::android.permission.CALL_PHONE,attribution +0.02219,value 0,reference 1
+intent::android.intent.action.INPUT_METHOD_CHANGED,attribution +0.02198,value 0,reference 1
+intent::android.intent.action.ACTION_POWER_CONNECTED,attribution +0.02189,value 0,reference 1
+intent::android.net.conn.CONNECTIVITY_CHANGE,attribution +0.02188,value 0,reference 1
+intent::android.intent.action.USER_PRESENT,attribution +0.02165,value 0,reference 1
+url::schemas.android.com,attribution +0.02072,value 0,reference 1
+permission::android.permission.VIBRATE,attribution +0.01935,value 0,reference 1
+url::http://schemas.android.com/apk/res/android,attribution +0.01926,value 0,reference 1
+call::getSubscriberId,attribution +0.01789,value 0,reference 1
+intent::android.net.wifi.PICK_WIFI_WORK,attribution +0.01756,value 0,reference 1
+intent::android.intent.action.UMS_DISCONNECTED,attribution +0.0175,value 0,reference 1
+
+# test sample 726 (Iconosys), nearest family BaseBridge, score 0.6463 = s0(x_ref) 0.0131 + PCs [0.0501, 0.0594, 0.5647, 0.0785, -0.0179, 0.0099, -0.1174, 0.0059]
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.03356,value 0,reference 1
+permission::android.permission.RECEIVE_SMS,attribution +0.02351,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.0227,value 0,reference 1
+permission::android.permission.WRITE_CONTACTS,attribution +0.02221,value 0,reference 1
+permission::android.permission.CALL_PHONE,attribution +0.02219,value 0,reference 1
+intent::android.intent.action.INPUT_METHOD_CHANGED,attribution +0.02198,value 0,reference 1
+intent::android.intent.action.ACTION_POWER_CONNECTED,attribution +0.02189,value 0,reference 1
+intent::android.net.conn.CONNECTIVITY_CHANGE,attribution +0.02188,value 0,reference 1
+intent::android.intent.action.USER_PRESENT,attribution +0.02165,value 0,reference 1
+url::schemas.android.com,attribution +0.02072,value 0,reference 1
+permission::android.permission.VIBRATE,attribution +0.01935,value 0,reference 1
+url::http://schemas.android.com/apk/res/android,attribution +0.01926,value 0,reference 1
+call::getSubscriberId,attribution +0.01789,value 0,reference 1
+intent::android.net.wifi.PICK_WIFI_WORK,attribution +0.01756,value 0,reference 1
+intent::android.intent.action.UMS_DISCONNECTED,attribution +0.0175,value 0,reference 1
+
+# test sample 735 (Iconosys), nearest family BaseBridge, score 0.6463 = s0(x_ref) 0.0131 + PCs [0.0501, 0.0594, 0.5647, 0.0785, -0.0179, 0.0099, -0.1174, 0.0059]
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.03356,value 0,reference 1
+permission::android.permission.RECEIVE_SMS,attribution +0.02351,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.0227,value 0,reference 1
+permission::android.permission.WRITE_CONTACTS,attribution +0.02221,value 0,reference 1
+permission::android.permission.CALL_PHONE,attribution +0.02219,value 0,reference 1
+intent::android.intent.action.INPUT_METHOD_CHANGED,attribution +0.02198,value 0,reference 1
+intent::android.intent.action.ACTION_POWER_CONNECTED,attribution +0.02189,value 0,reference 1
+intent::android.net.conn.CONNECTIVITY_CHANGE,attribution +0.02188,value 0,reference 1
+intent::android.intent.action.USER_PRESENT,attribution +0.02165,value 0,reference 1
+url::schemas.android.com,attribution +0.02072,value 0,reference 1
+permission::android.permission.VIBRATE,attribution +0.01935,value 0,reference 1
+url::http://schemas.android.com/apk/res/android,attribution +0.01926,value 0,reference 1
+call::getSubscriberId,attribution +0.01789,value 0,reference 1
+intent::android.net.wifi.PICK_WIFI_WORK,attribution +0.01756,value 0,reference 1
+intent::android.intent.action.UMS_DISCONNECTED,attribution +0.0175,value 0,reference 1
+
+# test sample 741 (Iconosys), nearest family BaseBridge, score 0.6463 = s0(x_ref) 0.0131 + PCs [0.0501, 0.0594, 0.5647, 0.0785, -0.0179, 0.0099, -0.1174, 0.0059]
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.03356,value 0,reference 1
+permission::android.permission.RECEIVE_SMS,attribution +0.02351,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.0227,value 0,reference 1
+permission::android.permission.WRITE_CONTACTS,attribution +0.02221,value 0,reference 1
+permission::android.permission.CALL_PHONE,attribution +0.02219,value 0,reference 1
+intent::android.intent.action.INPUT_METHOD_CHANGED,attribution +0.02198,value 0,reference 1
+intent::android.intent.action.ACTION_POWER_CONNECTED,attribution +0.02189,value 0,reference 1
+intent::android.net.conn.CONNECTIVITY_CHANGE,attribution +0.02188,value 0,reference 1
+intent::android.intent.action.USER_PRESENT,attribution +0.02165,value 0,reference 1
+url::schemas.android.com,attribution +0.02072,value 0,reference 1
+permission::android.permission.VIBRATE,attribution +0.01935,value 0,reference 1
+url::http://schemas.android.com/apk/res/android,attribution +0.01926,value 0,reference 1
+call::getSubscriberId,attribution +0.01789,value 0,reference 1
+intent::android.net.wifi.PICK_WIFI_WORK,attribution +0.01756,value 0,reference 1
+intent::android.intent.action.UMS_DISCONNECTED,attribution +0.0175,value 0,reference 1
+
+# test sample 764 (Iconosys), nearest family BaseBridge, score 0.6463 = s0(x_ref) 0.0131 + PCs [0.0501, 0.0594, 0.5647, 0.0785, -0.0179, 0.0099, -0.1174, 0.0059]
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.03356,value 0,reference 1
+permission::android.permission.RECEIVE_SMS,attribution +0.02351,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.0227,value 0,reference 1
+permission::android.permission.WRITE_CONTACTS,attribution +0.02221,value 0,reference 1
+permission::android.permission.CALL_PHONE,attribution +0.02219,value 0,reference 1
+intent::android.intent.action.INPUT_METHOD_CHANGED,attribution +0.02198,value 0,reference 1
+intent::android.intent.action.ACTION_POWER_CONNECTED,attribution +0.02189,value 0,reference 1
+intent::android.net.conn.CONNECTIVITY_CHANGE,attribution +0.02188,value 0,reference 1
+intent::android.intent.action.USER_PRESENT,attribution +0.02165,value 0,reference 1
+url::schemas.android.com,attribution +0.02072,value 0,reference 1
+permission::android.permission.VIBRATE,attribution +0.01935,value 0,reference 1
+url::http://schemas.android.com/apk/res/android,attribution +0.01926,value 0,reference 1
+call::getSubscriberId,attribution +0.01789,value 0,reference 1
+intent::android.net.wifi.PICK_WIFI_WORK,attribution +0.01756,value 0,reference 1
+intent::android.intent.action.UMS_DISCONNECTED,attribution +0.0175,value 0,reference 1
+

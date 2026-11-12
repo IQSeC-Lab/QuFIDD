@@ -1,0 +1,85 @@
+# test sample 600 (BaseBridge), nearest family Iconosys, score 0.6153 = s0(x_ref) 0.0564 + PCs [0.0041, 0.0205, 0.0093, 0.2957, -0.0323, -0.0356, 0.1021, 0.1951]
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.05744,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.05561,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.04043,value 1,reference 0
+call::getSubscriberId,attribution +0.03934,value 1,reference 0
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.03394,value 1,reference 0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,attribution +0.03383,value 1,reference 0
+permission::android.permission.VIBRATE,attribution +0.03043,value 1,reference 0
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.02967,value 1,reference 0
+permission::android.permission.RECEIVE_SMS,attribution +0.02292,value 1,reference 0
+feature::android.hardware.location.gps,attribution +0.02283,value 0,reference 1
+permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02266,value 0,reference 1
+url::smsreplier.net,attribution +0.01821,value 0,reference 1
+permission::android.permission.RESTART_PACKAGES,attribution +0.0177,value 1,reference 0
+provider::android.provider.Telephony.SMS_RECEIVED,attribution +0.01766,value 1,reference 0
+permission::android.permission.DISABLE_KEYGUARD,attribution +0.01587,value 1,reference 0
+
+# test sample 601 (BaseBridge), nearest family Iconosys, score 0.6439 = s0(x_ref) 0.0564 + PCs [0.2188, 0.0338, 0.0361, 0.1148, -0.0033, 0.0007, 0.2563, -0.0698]
+call::Obfuscation(Base64),attribution +0.07698,value 1,reference 0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,attribution +0.0739,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.04608,value 1,reference 0
+api_call::android/app/NotificationManager;->notify,attribution +0.04552,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.04475,value 1,reference 0
+real_permission::android.permission.VIBRATE,attribution +0.04466,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.04392,value 1,reference 0
+intent::android.intent.category.HOME,attribution +0.03546,value 1,reference 0
+permission::android.permission.VIBRATE,attribution +0.03264,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02967,value 1,reference 0
+api_call::android/location/LocationManager;->getLastKnownLocation,attribution +0.02872,value 1,reference 0
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.02529,value 1,reference 0
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS,attribution +0.01622,value 1,reference 0
+call::readSMS,attribution +0.01357,value 1,reference 0
+url::smsreplier.net,attribution +0.0132,value 0,reference 1
+
+# test sample 602 (BaseBridge), nearest family GinMaster, score 0.5111 = s0(x_ref) 0.1613 + PCs [-0.0066, -0.1526, 0.0341, 0.3876, 0.1995, -0.0617, -0.1973, 0.1467]
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.06201,value 1,reference 0
+feature::android.hardware.wifi,attribution +0.05973,value 1,reference 0
+real_permission::android.permission.READ_CONTACTS,attribution +0.04441,value 1,reference 0
+api_call::android/content/ContentResolver;->query,attribution +0.04307,value 1,reference 0
+permission::android.permission.WRITE_SMS,attribution +0.04067,value 1,reference 0
+permission::android.permission.READ_SMS,attribution +0.03397,value 1,reference 0
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,attribution +0.02932,value 0,reference 1
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,attribution +0.02763,value 0,reference 1
+api_call::android/webkit/WebView,attribution +0.02191,value 1,reference 0
+url::10.0.0.172,attribution +0.01834,value 0,reference 1
+url::http://10.0.0.172/,attribution +0.01745,value 0,reference 1
+url::http://10.0.0.172:80,attribution +0.01471,value 0,reference 1
+url::client.go360days.com,attribution +0.01372,value 0,reference 1
+url::http://client.go360days.com/client.php?action%3Dsoft&soft_id%3D,attribution +0.01372,value 0,reference 1
+url::http://client.go360days.com/report/down_apk.do,attribution +0.01372,value 0,reference 1
+
+# test sample 603 (BaseBridge), nearest family Iconosys, score 0.6153 = s0(x_ref) 0.0564 + PCs [0.0041, 0.0205, 0.0093, 0.2957, -0.0323, -0.0356, 0.1021, 0.1951]
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.05744,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.05561,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.04043,value 1,reference 0
+call::getSubscriberId,attribution +0.03934,value 1,reference 0
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.03394,value 1,reference 0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,attribution +0.03383,value 1,reference 0
+permission::android.permission.VIBRATE,attribution +0.03043,value 1,reference 0
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.02967,value 1,reference 0
+permission::android.permission.RECEIVE_SMS,attribution +0.02292,value 1,reference 0
+feature::android.hardware.location.gps,attribution +0.02283,value 0,reference 1
+permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02266,value 0,reference 1
+url::smsreplier.net,attribution +0.01821,value 0,reference 1
+permission::android.permission.RESTART_PACKAGES,attribution +0.0177,value 1,reference 0
+provider::android.provider.Telephony.SMS_RECEIVED,attribution +0.01766,value 1,reference 0
+permission::android.permission.DISABLE_KEYGUARD,attribution +0.01587,value 1,reference 0
+
+# test sample 610 (BaseBridge), nearest family Kmin, score 0.4511 = s0(x_ref) 0.3162 + PCs [-0.0131, -0.0613, 0.0161, 0.0418, 0.0598, 0.0696, 0.0435, -0.0218]
+call::getPackageInfo,attribution +0.02827,value 1,reference 0
+api_call::android/webkit/WebChromeClient;->onGeolocationPermissionsShowPrompt,attribution +0.02743,value 0,reference 1
+permission::android.permission.READ_SMS,attribution +0.02547,value 1,reference 0
+permission::android.permission.WRITE_SMS,attribution +0.0212,value 1,reference 0
+url::r2.adwo.com,attribution +0.01376,value 0,reference 1
+url::http://r2.adwo.com/ad,attribution +0.01253,value 0,reference 1
+permission::android.permission.RECEIVE_MMS,attribution +0.00944,value 0,reference 1
+call::printStackTrace,attribution +0.008407,value 0,reference 1
+url::http://schemas.android.com/apk/res/android,attribution +0.007682,value 1,reference 0
+activity::.MainActivity,attribution +0.007677,value 0,reference 1
+url::http://www.adwo.com,attribution +0.007406,value 0,reference 1
+url::www.adwo.com,attribution +0.007406,value 0,reference 1
+permission::android.permission.SET_WALLPAPER,attribution +0.006858,value 0,reference 1
+api_call::android/os/PowerManager$WakeLock;->release,attribution +0.005692,value 0,reference 1
+permission::android.permission.DISABLE_KEYGUARD,attribution +0.005189,value 1,reference 0
+

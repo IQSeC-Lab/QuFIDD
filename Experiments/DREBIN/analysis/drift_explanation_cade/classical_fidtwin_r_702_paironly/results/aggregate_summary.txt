@@ -1,0 +1,34 @@
+classical_fidtwin_r_702_paironly (Drebin) -- CADE Sec. 5 explanation analysis, 8/8 splits
+
+Table 4: distance of the perturbed sample to the anchor of its closest family (mean +- std)
+  withheld           n      k           original             random           boundary               coin               cade           gradient
+  FakeInstaller    200    8.9   0.3634 +- 0.16     0.3946 +- 0.191    0.4968 +- 0.229    0.2777 +- 0.176   0.02063 +- 0.0142   0.8012 +- 0.223 
+  DroidKungFu      200    3.5  0.07268 +- 0.114   0.07712 +- 0.126    0.2935 +- 0.289   0.08389 +- 0.181   0.01053 +- 0.00634   0.1463 +- 0.214 
+  Plankton         200    5.1   0.1282 +- 0.159    0.1346 +- 0.174    0.5469 +- 0.35     0.1662 +- 0.227   0.01329 +- 0.011    0.4546 +- 0.388 
+  GinMaster        200    9.5   0.3031 +- 0.179    0.3269 +- 0.205    0.4884 +- 0.385    0.3593 +- 0.312   0.01222 +- 0.00909   0.6562 +- 0.325 
+  BaseBridge       200    9.8   0.3075 +- 0.155    0.3188 +- 0.166    0.3348 +- 0.305    0.4055 +- 0.317    0.0148 +- 0.00972   0.7592 +- 0.266 
+  Iconosys         100   16.3   0.6241 +- 0.0511   0.6624 +- 0.127    0.2546 +- 0.395    0.3704 +- 0.343   0.01606 +- 0.0242   0.9639 +- 0.145 
+  Kmin             192    8.9   0.5798 +- 0.105    0.6043 +- 0.154    0.6351 +- 0.317    0.6731 +- 0.266   0.02383 +- 0.0396   0.6874 +- 0.373 
+  FakeDoc          170   13.1    0.585 +- 0.0677    0.579 +- 0.118     0.538 +- 0.438    0.7456 +- 0.201   0.02413 +- 0.013    0.8471 +- 0.144 
+
+Table 6: share of perturbed samples that cross the detection boundary (distance <= median + 3.5 MAD of the closest family)
+  withheld          random  boundary      coin      cade  gradient
+  FakeInstaller       0.0%      0.0%      0.0%     61.5%      0.0%
+  DroidKungFu        47.9%      4.7%     47.5%     94.5%     40.0%
+  Plankton           36.8%      0.6%     34.0%     84.5%     17.5%
+  GinMaster           0.0%      0.0%      0.0%     33.5%      0.0%
+  BaseBridge          2.2%     19.8%      5.0%     85.0%      1.5%
+  Iconosys            0.0%      1.0%      0.0%     24.0%      0.0%
+  Kmin                0.0%      3.1%      0.5%     65.6%     14.1%
+  FakeDoc             0.0%     16.5%      0.0%     70.6%      0.0%
+
+Extra: share no longer flagged at the FPR-10% boundary
+  withheld          random  boundary      coin      cade  gradient
+  FakeInstaller      33.6%     21.0%     63.0%    100.0%     18.0%
+  DroidKungFu        86.3%     37.6%     91.0%    100.0%     67.5%
+  Plankton           78.6%     34.0%     77.0%    100.0%     49.5%
+  GinMaster          57.7%     85.4%     84.5%    100.0%     53.5%
+  BaseBridge         37.1%     62.0%     55.0%    100.0%     34.5%
+  Iconosys           10.0%     90.0%     91.0%    100.0%     86.0%
+  Kmin                1.0%     43.2%     18.8%     99.0%     49.0%
+  FakeDoc             2.8%     78.8%     29.4%    100.0%     38.2%

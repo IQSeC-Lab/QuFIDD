@@ -1,0 +1,85 @@
+# test sample 596 (GinMaster), nearest family DroidKungFu, score 0.6369 = s0(x_ref) 0.7035 + PCs [0.1425, 0.2155, 0.0043, -0.0022, -0.3003, -0.0748, -0.0156, -0.036]
+call::Execution of external commands,attribution +0.01514,value 0,reference 1
+real_permission::android.permission.READ_LOGS,attribution +0.01514,value 0,reference 1
+api_call::java/lang/Runtime;->exec,attribution +0.01514,value 0,reference 1
+call::Cipher(AES),attribution +0.01254,value 0,reference 1
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.01214,value 0,reference 1
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.01191,value 0,reference 1
+intent::android.intent.action.SIG_STR,attribution +0.01114,value 0,reference 1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,attribution +0.01114,value 0,reference 1
+url::r2.adwo.com,attribution +0.01103,value 0,reference 1
+url::http://r2.adwo.com/ad,attribution +0.009965,value 0,reference 1
+url::http://www.adwo.com,attribution +0.008925,value 0,reference 1
+url::www.adwo.com,attribution +0.008925,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,attribution +0.008911,value 0,reference 1
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.008593,value 0,reference 1
+call::setWifiEnabled,attribution +0.008538,value 0,reference 1
+
+# test sample 597 (GinMaster), nearest family Iconosys, score 0.4670 = s0(x_ref) 0.0935 + PCs [0.1373, 0.1275, 0.0011, -0.0049, 0.1315, -0.0169, -0.0959, 0.0939]
+permission::android.permission.SEND_SMS,attribution +0.0719,value 0,reference 1
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.05906,value 1,reference 0
+real_permission::android.permission.SEND_SMS,attribution +0.05644,value 0,reference 1
+feature::android.hardware.telephony,attribution +0.04347,value 0,reference 1
+real_permission::android.permission.VIBRATE,attribution +0.04118,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.0404,value 1,reference 0
+api_call::android/app/NotificationManager;->notify,attribution +0.03699,value 1,reference 0
+call::Obfuscation(Base64),attribution +0.03341,value 1,reference 0
+url::schemas.android.com,attribution +0.03072,value 1,reference 0
+call::getSubscriberId,attribution +0.02674,value 1,reference 0
+api_call::android/content/Context;->startActivity,attribution +0.02311,value 1,reference 0
+api_call::java/net/HttpURLConnection,attribution +0.02222,value 1,reference 0
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,attribution +0.01897,value 1,reference 0
+api_call::android/location/LocationManager;->getBestProvider,attribution +0.01885,value 1,reference 0
+permission::android.permission.GET_TASKS,attribution +0.01691,value 1,reference 0
+
+# test sample 598 (GinMaster), nearest family DroidKungFu, score 0.5532 = s0(x_ref) 0.7035 + PCs [0.0087, 0.1441, 0.0029, 0.0014, -0.2342, -0.0349, -0.008, -0.0304]
+url::r2.adwo.com,attribution +0.006934,value 0,reference 1
+call::Cipher(AES),attribution +0.006737,value 0,reference 1
+url::maps.google.com,attribution +0.006416,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.006369,value 0,reference 1
+url::http://r2.adwo.com/ad,attribution +0.006362,value 0,reference 1
+intent::android.intent.action.SIG_STR,attribution +0.006135,value 0,reference 1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,attribution +0.006135,value 0,reference 1
+url::schemas.android.com,attribution +0.00568,value 0,reference 1
+url::http://schemas.android.com/apk/res/,attribution +0.005653,value 0,reference 1
+url::http://www.adwo.com,attribution +0.005483,value 0,reference 1
+url::www.adwo.com,attribution +0.005483,value 0,reference 1
+call::system/bin/su,attribution +0.004831,value 0,reference 1
+call::getWifiState,attribution +0.004479,value 0,reference 1
+url::https://market.android.com,attribution +0.004145,value 0,reference 1
+url::http://market.android.com,attribution +0.004124,value 0,reference 1
+
+# test sample 601 (GinMaster), nearest family Iconosys, score 0.4941 = s0(x_ref) 0.0935 + PCs [0.1418, 0.0944, 0.0014, -0.0083, 0.117, -0.0057, -0.0686, 0.1286]
+permission::android.permission.SEND_SMS,attribution +0.07941,value 0,reference 1
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.06836,value 1,reference 0
+real_permission::android.permission.SEND_SMS,attribution +0.06075,value 0,reference 1
+real_permission::android.permission.VIBRATE,attribution +0.05068,value 1,reference 0
+feature::android.hardware.telephony,attribution +0.04987,value 0,reference 1
+call::Obfuscation(Base64),attribution +0.04556,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.03844,value 1,reference 0
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,attribution +0.03107,value 1,reference 0
+url::schemas.android.com,attribution +0.02839,value 1,reference 0
+call::getSubscriberId,attribution +0.02171,value 1,reference 0
+permission::android.permission.WAKE_LOCK,attribution +0.02145,value 0,reference 1
+api_call::java/net/HttpURLConnection,attribution +0.0209,value 1,reference 0
+permission::android.permission.GET_TASKS,attribution +0.01989,value 1,reference 0
+permission::android.permission.READ_CONTACTS,attribution +0.01861,value 0,reference 1
+permission::android.permission.READ_SMS,attribution +0.01805,value 0,reference 1
+
+# test sample 602 (GinMaster), nearest family DroidKungFu, score 0.5064 = s0(x_ref) 0.7035 + PCs [0.0022, 0.5414, -0.004, 0.0302, -0.5314, -0.1253, -0.0237, -0.0863]
+url::r2.adwo.com,attribution +0.02407,value 0,reference 1
+call::Cipher(AES),attribution +0.02341,value 0,reference 1
+url::http://r2.adwo.com/ad,attribution +0.02255,value 0,reference 1
+intent::android.intent.action.SIG_STR,attribution +0.02201,value 0,reference 1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,attribution +0.02201,value 0,reference 1
+url::http://www.adwo.com,attribution +0.02079,value 0,reference 1
+url::www.adwo.com,attribution +0.02079,value 0,reference 1
+url::maps.google.com,attribution +0.01833,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.01822,value 0,reference 1
+call::system/bin/su,attribution +0.01786,value 0,reference 1
+intent::android.intent.category.HOME,attribution +0.01677,value 1,reference 0
+call::getWifiState,attribution +0.0167,value 0,reference 1
+api_call::android/content/Context;->startActivity,attribution +0.01611,value 0,reference 1
+call::setWifiEnabled,attribution +0.01453,value 0,reference 1
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.01453,value 0,reference 1
+

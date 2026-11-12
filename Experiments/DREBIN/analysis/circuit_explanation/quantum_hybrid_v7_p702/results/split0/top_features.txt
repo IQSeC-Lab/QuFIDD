@@ -1,0 +1,85 @@
+# test sample 480 (FakeInstaller), nearest family Iconosys, score 0.4255 = s0(x_ref) 0.0077 + PCs [-0.0258, -0.0033, -0.0225, -0.0012, 0.1842, 0.055, 0.1548, 0.0766]
+permission::android.permission.RECEIVE_SMS,attribution +0.05442,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.04374,value 1,reference 0
+intent::android.intent.category.HOME,attribution +0.03688,value 1,reference 0
+call::sendSMS,attribution +0.02786,value 1,reference 0
+url::smsreplier.net,attribution +0.02501,value 0,reference 1
+url::http://smsreplier.net/smsreply/regandwelcome.php,attribution +0.02121,value 0,reference 1
+url::blackflyday.com,attribution +0.02107,value 0,reference 1
+url::http://blackflyday.com/new/,attribution +0.02107,value 0,reference 1
+api_call::android/app/NotificationManager;->notify,attribution +0.02008,value 1,reference 0
+feature::android.hardware.camera,attribution +0.01913,value 0,reference 1
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage,attribution +0.01826,value 0,reference 1
+permission::android.permission.GET_ACCOUNTS,attribution +0.01821,value 0,reference 1
+api_call::android/accounts/AccountManager;->getAccounts,attribution +0.01818,value 0,reference 1
+real_permission::android.permission.GET_ACCOUNTS,attribution +0.01818,value 0,reference 1
+api_call::android/webkit/WebView,attribution +0.01727,value 0,reference 1
+
+# test sample 481 (FakeInstaller), nearest family BaseBridge, score 0.4306 = s0(x_ref) 0.0386 + PCs [0.1085, 0.0754, 0.0931, 0.1839, 0.0091, -0.0655, -0.0076, -0.0048]
+permission::android.permission.WAKE_LOCK,attribution +0.01541,value 0,reference 1
+permission::android.permission.READ_CONTACTS,attribution +0.01398,value 0,reference 1
+permission::android.permission.READ_SMS,attribution +0.01344,value 0,reference 1
+permission::android.permission.WRITE_SMS,attribution +0.01311,value 0,reference 1
+real_permission::android.permission.VIBRATE,attribution +0.01292,value 1,reference 0
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.01253,value 0,reference 1
+api_call::android/app/NotificationManager;->notify,attribution +0.01251,value 1,reference 0
+call::printStackTrace,attribution +0.01248,value 1,reference 0
+permission::android.permission.WRITE_CONTACTS,attribution +0.01182,value 0,reference 1
+provider::android.provider.Telephony.SMS_RECEIVED,attribution +0.01171,value 0,reference 1
+intent::android.intent.action.INPUT_METHOD_CHANGED,attribution +0.01171,value 0,reference 1
+intent::android.intent.action.ACTION_POWER_CONNECTED,attribution +0.01155,value 0,reference 1
+intent::android.net.conn.CONNECTIVITY_CHANGE,attribution +0.01144,value 0,reference 1
+permission::android.permission.DISABLE_KEYGUARD,attribution +0.01125,value 0,reference 1
+permission::android.permission.CALL_PHONE,attribution +0.01121,value 0,reference 1
+
+# test sample 489 (FakeInstaller), nearest family Kmin, score 0.3153 = s0(x_ref) 0.1654 + PCs [0.0266, -0.0074, -0.0109, -0.0008, -0.0212, -0.0018, 0.0334, 0.1321]
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.189,value 0,reference 1
+permission::android.permission.VIBRATE,attribution +0.1781,value 0,reference 1
+permission::android.permission.CALL_PHONE,attribution +0.1655,value 0,reference 1
+api_call::android/content/Context;->startActivity,attribution +0.1282,value 1,reference 0
+permission::android.permission.INSTALL_PACKAGES,attribution +0.1227,value 1,reference 0
+api_call::android/webkit/WebView,attribution +0.1134,value 1,reference 0
+permission::android.permission.WRITE_SMS,attribution +0.06263,value 0,reference 1
+permission::android.permission.READ_SMS,attribution +0.06224,value 0,reference 1
+permission::android.permission.WRITE_SETTINGS,attribution +0.05411,value 0,reference 1
+permission::android.permission.RECEIVE_MMS,attribution +0.04699,value 0,reference 1
+permission::android.permission.SET_WALLPAPER,attribution +0.04404,value 0,reference 1
+permission::com.android.launcher.permission.READ_SETTINGS,attribution +0.04074,value 0,reference 1
+real_permission::android.permission.SET_WALLPAPER,attribution +0.03981,value 0,reference 1
+api_call::android/content/Context;->setWallpaper,attribution +0.03823,value 0,reference 1
+intent::android.intent.category.HOME,attribution +0.03787,value 0,reference 1
+
+# test sample 491 (FakeInstaller), nearest family Iconosys, score 0.2767 = s0(x_ref) 0.0077 + PCs [-0.0246, 0.0162, -0.0081, 0.003, 0.1453, 0.0395, 0.0588, 0.0391]
+call::printStackTrace,attribution +0.3477,value 1,reference 0
+feature::android.hardware.screen.portrait,attribution +0.3206,value 0,reference 1
+call::sendSMS,attribution +0.3033,value 1,reference 0
+permission::android.permission.READ_CONTACTS,attribution +0.257,value 0,reference 1
+api_call::android/telephony/SmsManager;->sendTextMessage,attribution +0.2501,value 1,reference 0
+call::getSimCountryIso,attribution +0.2345,value 1,reference 0
+api_call::org/apache/http/impl/client/DefaultHttpClient,attribution +0.1913,value 1,reference 0
+permission::android.permission.WAKE_LOCK,attribution +0.1381,value 0,reference 1
+api_call::android/webkit/WebView,attribution +0.02348,value 0,reference 1
+api_call::android/accounts/AccountManager;->getAccounts,attribution +0.01794,value 0,reference 1
+real_permission::android.permission.GET_ACCOUNTS,attribution +0.01794,value 0,reference 1
+permission::android.permission.FLASHLIGHT,attribution +0.007362,value 0,reference 1
+activity::.Preferences,attribution +0.006829,value 0,reference 1
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.006468,value 0,reference 1
+api_call::android/hardware/Camera;->open,attribution +0.006141,value 0,reference 1
+
+# test sample 498 (FakeInstaller), nearest family Iconosys, score 0.2767 = s0(x_ref) 0.0077 + PCs [-0.0246, 0.0162, -0.0081, 0.003, 0.1453, 0.0395, 0.0588, 0.0391]
+call::printStackTrace,attribution +0.3477,value 1,reference 0
+feature::android.hardware.screen.portrait,attribution +0.3206,value 0,reference 1
+call::sendSMS,attribution +0.3033,value 1,reference 0
+permission::android.permission.READ_CONTACTS,attribution +0.257,value 0,reference 1
+api_call::android/telephony/SmsManager;->sendTextMessage,attribution +0.2501,value 1,reference 0
+call::getSimCountryIso,attribution +0.2345,value 1,reference 0
+api_call::org/apache/http/impl/client/DefaultHttpClient,attribution +0.1913,value 1,reference 0
+permission::android.permission.WAKE_LOCK,attribution +0.1381,value 0,reference 1
+api_call::android/webkit/WebView,attribution +0.02348,value 0,reference 1
+api_call::android/accounts/AccountManager;->getAccounts,attribution +0.01794,value 0,reference 1
+real_permission::android.permission.GET_ACCOUNTS,attribution +0.01794,value 0,reference 1
+permission::android.permission.FLASHLIGHT,attribution +0.007362,value 0,reference 1
+activity::.Preferences,attribution +0.006829,value 0,reference 1
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.006468,value 0,reference 1
+api_call::android/hardware/Camera;->open,attribution +0.006141,value 0,reference 1
+

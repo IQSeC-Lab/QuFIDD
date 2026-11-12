@@ -1,0 +1,85 @@
+# test sample 656 (FakeDoc), nearest family DroidKungFu, score 0.7894 = s0(x_ref) 0.3526 + PCs [-0.0055, 0.5803, -0.0033, -0.0548, 0.0859, -0.1133, 0.0022, -0.0547]
+feature::android.hardware.telephony,attribution +0.04464,value 1,reference 0
+call::getSubscriberId,attribution +0.04459,value 0,reference 1
+real_permission::android.permission.SEND_SMS,attribution +0.04167,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.03883,value 0,reference 1
+call::system/bin/su,attribution +0.03744,value 0,reference 1
+permission::android.permission.SEND_SMS,attribution +0.03341,value 1,reference 0
+api_call::android/os/PowerManager$WakeLock;->acquire,attribution +0.03186,value 1,reference 0
+call::sendSMS,attribution +0.03176,value 1,reference 0
+api_call::android/telephony/SmsManager;->sendTextMessage,attribution +0.03042,value 1,reference 0
+url::maps.google.com,attribution +0.02907,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.02888,value 0,reference 1
+url::schemas.android.com,attribution +0.02856,value 0,reference 1
+api_call::android/content/Context;->startActivity,attribution +0.02805,value 0,reference 1
+intent::android.intent.action.SIG_STR,attribution +0.02781,value 0,reference 1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,attribution +0.02781,value 0,reference 1
+
+# test sample 745 (FakeDoc), nearest family DroidKungFu, score 0.7568 = s0(x_ref) 0.3526 + PCs [0.0283, 0.6403, -0.0527, -0.0786, 0.0644, -0.1249, -0.0024, -0.0701]
+call::getSubscriberId,attribution +0.04885,value 0,reference 1
+real_permission::android.permission.SEND_SMS,attribution +0.04429,value 1,reference 0
+feature::android.hardware.telephony,attribution +0.04246,value 1,reference 0
+permission::android.permission.SEND_SMS,attribution +0.03628,value 1,reference 0
+call::sendSMS,attribution +0.03588,value 1,reference 0
+api_call::android/telephony/SmsManager;->sendTextMessage,attribution +0.03534,value 1,reference 0
+call::system/bin/su,attribution +0.03525,value 0,reference 1
+url::schemas.android.com,attribution +0.03024,value 0,reference 1
+api_call::android/os/PowerManager$WakeLock;->acquire,attribution +0.02972,value 1,reference 0
+url::maps.google.com,attribution +0.02807,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.0279,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,attribution +0.02679,value 0,reference 1
+intent::android.intent.action.SIG_STR,attribution +0.02606,value 0,reference 1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,attribution +0.02606,value 0,reference 1
+url::r2.adwo.com,attribution +0.02561,value 0,reference 1
+
+# test sample 661 (FakeDoc), nearest family DroidKungFu, score 0.7433 = s0(x_ref) 0.3526 + PCs [-0.0027, 0.6059, -0.0164, -0.0484, 0.0575, -0.0958, -0.0111, -0.0984]
+call::getSubscriberId,attribution +0.03584,value 0,reference 1
+url::maps.google.com,attribution +0.03283,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.03266,value 0,reference 1
+url::schemas.android.com,attribution +0.03029,value 0,reference 1
+real_permission::android.permission.SEND_SMS,attribution +0.02844,value 1,reference 0
+intent::android.intent.action.SIG_STR,attribution +0.02629,value 0,reference 1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,attribution +0.02629,value 0,reference 1
+url::r2.adwo.com,attribution +0.02581,value 0,reference 1
+call::Cipher(AES),attribution +0.02493,value 0,reference 1
+call::system/bin/su,attribution +0.02474,value 0,reference 1
+url::http://r2.adwo.com/ad,attribution +0.02456,value 0,reference 1
+api_call::android/content/Context;->startActivity,attribution +0.02413,value 0,reference 1
+call::getWifiState,attribution +0.02371,value 0,reference 1
+api_call::android/telephony/SmsManager;->sendTextMessage,attribution +0.02255,value 1,reference 0
+call::sendSMS,attribution +0.02246,value 1,reference 0
+
+# test sample 663 (FakeDoc), nearest family DroidKungFu, score 0.7433 = s0(x_ref) 0.3526 + PCs [-0.0027, 0.6059, -0.0164, -0.0484, 0.0575, -0.0958, -0.0111, -0.0984]
+call::getSubscriberId,attribution +0.03584,value 0,reference 1
+url::maps.google.com,attribution +0.03283,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.03266,value 0,reference 1
+url::schemas.android.com,attribution +0.03029,value 0,reference 1
+real_permission::android.permission.SEND_SMS,attribution +0.02844,value 1,reference 0
+intent::android.intent.action.SIG_STR,attribution +0.02629,value 0,reference 1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,attribution +0.02629,value 0,reference 1
+url::r2.adwo.com,attribution +0.02581,value 0,reference 1
+call::Cipher(AES),attribution +0.02493,value 0,reference 1
+call::system/bin/su,attribution +0.02474,value 0,reference 1
+url::http://r2.adwo.com/ad,attribution +0.02456,value 0,reference 1
+api_call::android/content/Context;->startActivity,attribution +0.02413,value 0,reference 1
+call::getWifiState,attribution +0.02371,value 0,reference 1
+api_call::android/telephony/SmsManager;->sendTextMessage,attribution +0.02255,value 1,reference 0
+call::sendSMS,attribution +0.02246,value 1,reference 0
+
+# test sample 666 (FakeDoc), nearest family DroidKungFu, score 0.7433 = s0(x_ref) 0.3526 + PCs [-0.0027, 0.6059, -0.0164, -0.0484, 0.0575, -0.0958, -0.0111, -0.0984]
+call::getSubscriberId,attribution +0.03584,value 0,reference 1
+url::maps.google.com,attribution +0.03283,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.03266,value 0,reference 1
+url::schemas.android.com,attribution +0.03029,value 0,reference 1
+real_permission::android.permission.SEND_SMS,attribution +0.02844,value 1,reference 0
+intent::android.intent.action.SIG_STR,attribution +0.02629,value 0,reference 1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,attribution +0.02629,value 0,reference 1
+url::r2.adwo.com,attribution +0.02581,value 0,reference 1
+call::Cipher(AES),attribution +0.02493,value 0,reference 1
+call::system/bin/su,attribution +0.02474,value 0,reference 1
+url::http://r2.adwo.com/ad,attribution +0.02456,value 0,reference 1
+api_call::android/content/Context;->startActivity,attribution +0.02413,value 0,reference 1
+call::getWifiState,attribution +0.02371,value 0,reference 1
+api_call::android/telephony/SmsManager;->sendTextMessage,attribution +0.02255,value 1,reference 0
+call::sendSMS,attribution +0.02246,value 1,reference 0
+

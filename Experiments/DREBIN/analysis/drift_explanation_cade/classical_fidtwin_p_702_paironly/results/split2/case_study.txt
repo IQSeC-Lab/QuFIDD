@@ -1,0 +1,36 @@
+# test sample 538 (family Plankton), closest family GinMaster, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/Context;->startActivity,0,0.072,0.7263,1
+call::getPackageInfo,0,0.6176,1,1
+call::getSubscriberId,0,0.0672,1,1
+url::http://market.android.com,1,0.5904,0.06204,0
+
+# test sample 544 (family Plankton), closest family GinMaster, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/Context;->startActivity,0,0.072,0.7263,1
+permission::android.permission.READ_LOGS,0,0.0304,0.365,1
+real_permission::android.permission.ACCESS_FINE_LOCATION,1,0.9312,0.3212,0
+url::http://market.android.com,1,0.5904,0.06204,0
+url::http://www.adwo.com,1,0.0016,0.06204,0
+
+# test sample 546 (family Plankton), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+feature::android.hardware.location,1,0.7456,0.219,0
+feature::android.hardware.telephony,1,0.2176,0.08029,0
+real_permission::android.permission.READ_CONTACTS,1,0.984,0.292,0
+
+# test sample 555 (family Plankton), closest family GinMaster, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/Context;->startActivity,0,0.072,0.7263,1
+call::getSubscriberId,0,0.0672,1,1
+feature::android.hardware.location.network,1,0.7344,0.208,0
+permission::android.permission.READ_LOGS,0,0.0304,0.365,1
+permission::android.permission.SET_WALLPAPER,0,0.16,0.2883,1
+url::http://client.go360days.com/report/install_success.do,0,0,0.354,1
+
+# test sample 556 (family Plankton), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.Main,1,0.0752,0,0
+call::Execution of external commands,0,0.272,0.7153,1
+permission::android.permission.RECEIVE_BOOT_COMPLETED,0,0.8448,0.6058,1
+

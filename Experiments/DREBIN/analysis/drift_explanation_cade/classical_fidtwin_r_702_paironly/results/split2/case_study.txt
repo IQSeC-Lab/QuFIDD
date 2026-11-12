@@ -1,0 +1,39 @@
+# test sample 540 (family Plankton), closest family GinMaster, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/ConnectivityManager;->getNetworkInfo,0,0.0336,0.573,1
+url::market.android.com,1,0.768,0.1606,0
+
+# test sample 547 (family Plankton), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/ConnectivityManager;->getNetworkInfo,0,0.0336,0.573,1
+call::getSubscriberId,0,0.0672,1,1
+feature::android.hardware.screen.portrait,0,0.4528,0.8978,1
+
+# test sample 551 (family Plankton), closest family GinMaster, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/Context;->startActivity,0,0.072,0.7263,1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,0,0.0336,0.573,1
+feature::android.hardware.screen.portrait,0,0.4528,0.8978,1
+permission::android.permission.ACCESS_NETWORK_STATE,0,0.9392,0.9927,1
+permission::android.permission.RECEIVE_BOOT_COMPLETED,0,0.8448,0.6058,1
+real_permission::android.permission.ACCESS_NETWORK_STATE,0,0.9392,0.9927,1
+url::http://10.0.0.172:80,0,0,0.4599,1
+url::http://client.go360days.com/report/return_alert.do,0,0,0.3358,1
+url::http://client.go360days.com/request/push.do,0,0,0.354,1
+
+# test sample 559 (family Plankton), closest family GinMaster, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/ConnectivityManager;->getNetworkInfo,0,0.0336,0.573,1
+call::getPackageInfo,0,0.6176,1,1
+call::getSubscriberId,0,0.0672,1,1
+feature::android.hardware.screen.portrait,0,0.4528,0.8978,1
+
+# test sample 560 (family Plankton), closest family GinMaster, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/ContentResolver;->query,1,0.9744,0.2774,0
+api_call::android/net/ConnectivityManager;->getNetworkInfo,0,0.0336,0.573,1
+api_call::android/telephony/SmsManager;->sendTextMessage,1,0.0864,0.06204,0
+real_permission::android.permission.SEND_SMS,1,0.0944,0.06934,0
+real_permission::android.permission.WAKE_LOCK,1,0.8192,0.3905,0
+url::http://schemas.android.com/apk/res/android,1,0.096,0.09854,0
+

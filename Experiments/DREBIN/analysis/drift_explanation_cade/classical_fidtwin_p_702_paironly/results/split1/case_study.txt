@@ -1,0 +1,33 @@
+# test sample 530 (family DroidKungFu), closest family GinMaster, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/ConnectivityManager;->getNetworkInfo,0,0.1154,0.53,1
+call::Obfuscation(Base64),0,0.5112,0.87,1
+
+# test sample 531 (family DroidKungFu), closest family GinMaster, 10 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,1,0.7196,0.01,0
+feature::android.hardware.telephony,1,0.4213,0.07333,0
+permission::android.permission.DISABLE_KEYGUARD,1,0.01499,0.003333,0
+permission::android.permission.READ_SMS,1,0.4123,0.01,0
+permission::android.permission.RECEIVE_SMS,1,0.01349,0.02667,0
+permission::android.permission.SEND_SMS,1,0.02699,0.01667,0
+permission::android.permission.VIBRATE,1,0.1604,0.22,0
+provider::android.provider.Telephony.SMS_RECEIVED,1,0.008996,0.003333,0
+real_permission::android.permission.READ_CONTACTS,1,0.6117,0.3067,0
+real_permission::android.permission.SEND_SMS,1,0.04048,0.06667,0
+
+# test sample 534 (family DroidKungFu), closest family GinMaster, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::getPackageInfo,0,0.7061,1,1
+
+# test sample 537 (family DroidKungFu), closest family GinMaster, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+feature::android.hardware.screen.portrait,0,0.5352,0.88,1
+url::10.0.0.172,0,0.02849,0.5367,1
+
+# test sample 543 (family DroidKungFu), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/ContentResolver;->query,1,0.5922,0.2933,0
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,0,0,0.5567,1
+url::maps.google.com,1,0.7181,0.1233,0
+

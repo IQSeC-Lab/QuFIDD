@@ -1,0 +1,65 @@
+# test sample 743 (family Kmin), closest family BaseBridge, 13 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/ContentResolver;->query,1,1,0.3465,0
+api_call::android/os/PowerManager$WakeLock;->acquire,1,0.006803,0.02128,0
+api_call::android/webkit/WebView,1,0.2925,0.1672,0
+call::Read/Write External Storage,1,0.966,0.1246,0
+intent::android.intent.action.ACTION_POWER_CONNECTED,0,0,0.8602,1
+intent::android.intent.category.HOME,1,0.4014,0.009119,0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,0,0.483,0.7508,1
+permission::android.permission.WRITE_EXTERNAL_STORAGE,1,0.7755,0.3587,0
+real_permission::android.permission.READ_LOGS,1,0.3605,0.0304,0
+real_permission::android.permission.SEND_SMS,1,1,0.2006,0
+real_permission::android.permission.WAKE_LOCK,1,0.4966,0.07903,0
+url::http://maps.google.com/maps?q%3D,0,0.4898,0.6535,1
+url::http://mobile.91.com/soft/Android/search/1_5_0_0_,0,0,0.5015,1
+
+# test sample 732 (family Kmin), closest family Iconosys, 15 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/Context;->startActivity,1,0.2041,0.1842,0
+api_call::android/net/ConnectivityManager;->getNetworkInfo,1,0.4898,0,0
+api_call::android/os/PowerManager$WakeLock;->acquire,0,0.006803,0.6711,1
+call::getPackageInfo,0,0.3469,0.8816,1
+call::getSubscriberId,1,1,0,0
+call::printStackTrace,1,1,0.4671,0
+call::readSMS,1,0.4966,0,0
+feature::android.hardware.camera,0,0,0.5592,1
+permission::android.permission.CAMERA,0,0,0.4868,1
+permission::android.permission.FLASHLIGHT,0,0,0.06579,1
+permission::android.permission.WRITE_EXTERNAL_STORAGE,1,0.7755,0.5987,0
+url::http://maps.google.com/maps?q%3D,1,0.4898,0.09211,0
+url::maps.google.com,1,0.4898,0.09211,0
+url::schemas.android.com,1,0.4898,0,0
+url::smsreplier.net,0,0,1,1
+
+# test sample 638 (family Kmin), closest family GinMaster, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+feature::android.hardware.screen.portrait,0,0.4898,0.906,1
+intent::android.intent.category.HOME,1,0.4014,0.01128,0
+permission::android.permission.READ_CONTACTS,1,0.3469,0.02256,0
+permission::android.permission.READ_SMS,1,0.5102,0.01128,0
+permission::android.permission.RECEIVE_SMS,1,1,0.03008,0
+permission::android.permission.SEND_SMS,1,1,0.0188,0
+permission::android.permission.VIBRATE,1,0.4014,0.1917,0
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,0,0,0.6278,1
+
+# test sample 676 (family Kmin), closest family GinMaster, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::Cipher(AES/CBC/PKCS5Padding),0,0,0.4624,1
+call::HttpPost,0,0.4898,1,1
+call::system/bin/su,0,0,0.3195,1
+feature::android.hardware.telephony,1,1,0.08271,0
+permission::android.permission.WRITE_APN_SETTINGS,1,1,0.03008,0
+permission::android.permission.WRITE_SMS,1,0.5102,0.01128,0
+real_permission::android.permission.SEND_SMS,1,1,0.07143,0
+
+# test sample 683 (family Kmin), closest family GinMaster, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::Cipher(AES/CBC/PKCS5Padding),0,0,0.4624,1
+call::HttpPost,0,0.4898,1,1
+call::Obfuscation(Base64),0,0.4966,0.8722,1
+call::system/bin/su,0,0,0.3195,1
+permission::android.permission.READ_CONTACTS,1,0.3469,0.02256,0
+permission::android.permission.READ_SMS,1,0.5102,0.01128,0
+permission::android.permission.RECEIVE_SMS,1,1,0.03008,0
+

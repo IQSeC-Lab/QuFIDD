@@ -1,0 +1,34 @@
+# test sample 603 (family GinMaster), closest family DroidKungFu, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,0,0.01475,0.7192,1
+permission::android.permission.CHANGE_WIFI_STATE,0,0.03245,0.7102,1
+url::http://maps.google.com/maps?q%3D,0,0.118,0.7117,1
+
+# test sample 605 (family GinMaster), closest family DroidKungFu, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::Execution of external commands,0,0.6136,0.9835,1
+feature::android.hardware.wifi,0,0.5428,0.8859,1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,0,0,0.8724,1
+real_permission::android.permission.ACCESS_WIFI_STATE,0,0.2389,0.8844,1
+real_permission::android.permission.CHANGE_WIFI_STATE,0,0.02655,0.7192,1
+real_permission::android.permission.READ_LOGS,0,0.6136,0.9835,1
+
+# test sample 607 (family GinMaster), closest family DroidKungFu, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/location/LocationManager;->getLastKnownLocation,1,0.1209,0.1081,0
+url::http://maps.google.com/maps?q%3D,0,0.118,0.7117,1
+url::maps.google.com,0,0.1209,0.7192,1
+
+# test sample 609 (family GinMaster), closest family DroidKungFu, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::getWifiState,0,0,0.7087,1
+feature::android.hardware.wifi,0,0.5428,0.8859,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0.5428,0.9144,1
+permission::android.permission.SET_WALLPAPER,1,0.2507,0.03604,0
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,1,0.4985,0,0
+
+# test sample 612 (family GinMaster), closest family DroidKungFu, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+permission::android.permission.CHANGE_WIFI_STATE,0,0.03245,0.7102,1
+real_permission::android.permission.CHANGE_WIFI_STATE,0,0.02655,0.7192,1
+

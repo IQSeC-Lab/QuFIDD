@@ -1,0 +1,12 @@
+classical_fidtwin_p_702 (Drebin) -- quantum-native drift explanation, 8/8 splits
+
+  withheld          AUC  AUC res  AUC ent
+  FakeInstaller   0.885    0.637    0.833
+  DroidKungFu     0.722    0.853    0.701
+  Plankton        0.805    0.803    0.874
+  GinMaster       0.793    0.824    0.433
+  BaseBridge      0.953    0.937    0.948
+  Iconosys        0.889    0.929    0.905
+  Kmin            0.924    0.971    0.906
+  FakeDoc         0.942    0.514    0.922
+  MEAN            0.864    0.808    0.815

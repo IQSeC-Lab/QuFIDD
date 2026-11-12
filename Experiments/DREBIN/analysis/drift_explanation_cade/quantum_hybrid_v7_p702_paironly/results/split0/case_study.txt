@@ -1,0 +1,64 @@
+# test sample 479 (family FakeInstaller), closest family BaseBridge, 13 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::com.keji.danti.Boutique,0,0,0.7477,1
+api_call::java/net/HttpURLConnection,1,0.2011,0.08815,0
+call::printStackTrace,1,0.4703,0.2736,0
+feature::android.hardware.screen.portrait,0,0.0227,0.9149,1
+permission::android.permission.CALL_PHONE,0,0.0573,0.7447,1
+permission::android.permission.READ_CONTACTS,0,0.08108,0.6322,1
+permission::android.permission.READ_LOGS,0,0,0.5957,1
+permission::android.permission.READ_SMS,0,0.4335,0.8967,1
+permission::android.permission.WAKE_LOCK,0,0.3286,0.7568,1
+permission::android.permission.WRITE_CONTACTS,0,0,0.8815,1
+real_permission::android.permission.ACCESS_NETWORK_STATE,0,0.05405,0.9362,1
+service_receiver::com.android.view.custom.ThirdAService,0,0,0.5714,1
+url::http://schemas.android.com/apk/res/android,0,0,0.6383,1
+
+# test sample 482 (family FakeInstaller), closest family Iconosys, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.ShowTerms,0,0,0.4803,1
+api_call::android/content/ContentResolver;->query,0,0.08973,0.7829,1
+api_call::android/telephony/SmsManager;->sendTextMessage,1,0.8389,0.3092,0
+call::sendSMS,1,0.8714,0.4342,0
+intent::android.intent.category.DEFAULT,0,0.001081,0.4145,1
+permission::android.permission.ACCESS_COARSE_LOCATION,0,0.003243,0.5855,1
+permission::android.permission.CAMERA,0,0.01189,0.4868,1
+real_permission::android.permission.READ_CONTACTS,0,0.08973,0.7829,1
+url::http://blackflyday.com/new/,0,0,0.6316,1
+
+# test sample 488 (family FakeInstaller), closest family Iconosys, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/ContentResolver;->query,0,0.08973,0.7829,1
+api_call::android/telephony/SmsManager;->sendTextMessage,1,0.8389,0.3092,0
+permission::android.permission.READ_CONTACTS,0,0.08108,0.8026,1
+url::blackflyday.com,0,0,0.6316,1
+url::http://blackflyday.com/new/,0,0,0.6316,1
+url::http://smsreplier.net/smsreply/buzzgeodata.php,0,0,0.2303,1
+
+# test sample 497 (family FakeInstaller), closest family Iconosys, 11 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/app/NotificationManager;->notify,1,0.6097,0.006579,0
+api_call::android/telephony/SmsManager;->sendTextMessage,1,0.8389,0.3092,0
+api_call::org/apache/http/impl/client/DefaultHttpClient,1,0.5265,0.2105,0
+call::sendSMS,1,0.8714,0.4342,0
+feature::android.hardware.location.network,0,0.003243,0.5855,1
+intent::android.intent.action.BOOT_COMPLETED,1,0.6141,0.05263,0
+intent::android.intent.category.HOME,1,0.4065,0,0
+permission::android.permission.RECEIVE_SMS,1,0.8324,0.01316,0
+real_permission::android.permission.VIBRATE,1,0.6108,0.006579,0
+url::http://blackflyday.com/new/,0,0,0.6316,1
+url::smsreplier.net,0,0,1,1
+
+# test sample 498 (family FakeInstaller), closest family Iconosys, 10 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.ShowTerms,0,0,0.4803,1
+api_call::android/content/ContentResolver;->query,0,0.08973,0.7829,1
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage,0,0,0.5263,1
+call::getSimCountryIso,1,0.2022,0,0
+call::sendSMS,1,0.8714,0.4342,0
+feature::android.hardware.location,0,0.005405,0.5855,1
+feature::android.hardware.location.network,0,0.003243,0.5855,1
+permission::android.permission.READ_CONTACTS,0,0.08108,0.8026,1
+url::blackflyday.com,0,0,0.6316,1
+url::smsreplier.net,0,0,1,1
+

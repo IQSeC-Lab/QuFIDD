@@ -1,0 +1,133 @@
+# test sample 543 (family Plankton), closest family GinMaster, 21 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/ContentResolver;->query,1,0.9744,0.2774,0
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,1,0.8704,0.4088,0
+api_call::android/net/ConnectivityManager;->getNetworkInfo,0,0.0336,0.573,1
+call::Execution of external commands,0,0.272,0.7153,1
+call::Read/Write External Storage,0,0.5488,1,1
+call::getSubscriberId,0,0.0672,1,1
+feature::android.hardware.location,1,0.7456,0.219,0
+feature::android.hardware.location.gps,1,0.6688,0.1314,0
+feature::android.hardware.location.network,1,0.7344,0.208,0
+feature::android.hardware.telephony,1,0.2176,0.08029,0
+permission::android.permission.ACCESS_FINE_LOCATION,1,0.6688,0.1314,0
+permission::android.permission.GET_ACCOUNTS,1,0.272,0.0219,0
+permission::android.permission.WAKE_LOCK,1,0.6448,0.1679,0
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS,1,0.9104,0,0
+real_permission::android.permission.GET_TASKS,0,0.0224,0.2737,1
+real_permission::android.permission.WAKE_LOCK,1,0.8192,0.3905,0
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS,1,0.656,0.007299,0
+url::https://ws.tapjoyads.com/connect?,1,0.0304,0.00365,0
+url::schemas.android.com,1,0.3008,0.4416,0
+url::ws.tapjoyads.com,1,0.0304,0.00365,0
+url::www.gstatic.com,1,0.2208,0.1825,0
+
+# test sample 547 (family Plankton), closest family GinMaster, 36 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::com.millennialmedia.android.MMAdViewOverlayActivity,1,0.0448,0.04745,0
+api_call::android/app/NotificationManager;->notify,0,0.8816,0.7299,1
+api_call::android/content/ContentResolver;->query,1,0.9744,0.2774,0
+api_call::android/location/LocationManager;->getLastKnownLocation,1,0.672,0.08029,0
+api_call::android/media/MediaPlayer;->start,1,0.2224,0.2591,0
+api_call::android/net/wifi/WifiManager;->getConnectionInfo,1,1,0.2007,0
+api_call::android/os/Vibrator;->vibrate,1,0.0608,0.1168,0
+call::Cipher(AES/CBC/PKCS5Padding),1,0.2224,0.4599,0
+call::Execution of external commands,0,0.272,0.7153,1
+call::getSubscriberId,0,0.0672,1,1
+feature::android.hardware.location.gps,1,0.6688,0.1314,0
+feature::android.hardware.location.network,1,0.7344,0.208,0
+intent::android.intent.action.USER_PRESENT,0,0.0112,0.2482,1
+permission::android.permission.ACCESS_FINE_LOCATION,1,0.6688,0.1314,0
+permission::android.permission.GET_TASKS,0,0.0608,0.281,1
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS,1,0.9088,0,0
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS,1,0.9104,0,0
+real_permission::android.permission.ACCESS_WIFI_STATE,1,1,0.2372,0
+real_permission::android.permission.GET_TASKS,0,0.0224,0.2737,1
+real_permission::android.permission.WAKE_LOCK,1,0.8192,0.3905,0
+url::ads.mp.mydas.mobi,1,0.0544,0.0365,0
+url::androidsdk.ads.mp.mydas.mobi,1,0.0528,0.06204,0
+url::cvt.mydas.mobi,1,0.0528,0.06204,0
+url::http://ads.mp.mydas.mobi/appConfigServlet?apid%3D,1,0.0512,0.0365,0
+url::http://androidsdk.ads.mp.mydas.mobi/getAd.php5?,1,0.0528,0.06204,0
+url::http://androidsdk.ads.mp.mydas.mobi/getAd.php5?sdkapid%3D,1,0.0528,0.0365,0
+url::http://cvt.mydas.mobi/handleConversion?goalId%3D,1,0.0528,0.06204,0
+url::http://market.android.com,1,0.5904,0.06204,0
+url::http://millennialmedia.com/android/schema,1,0.0528,0.0365,0
+url::http://schemas.android.com/apk/lib/com.google.ads,1,0.2,0.1496,0
+url::https://market.android.com,1,0.5872,0.06204,0
+url::i.w.inmobi.com,1,0.0608,0.01825,0
+url::localhost,1,0.0992,0.06569,0
+url::market.android.com,1,0.768,0.1606,0
+url::millennialmedia.com,1,0.0528,0.0365,0
+url::schemas.android.com,1,0.3008,0.4416,0
+
+# test sample 550 (family Plankton), closest family GinMaster, 26 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/app/ActivityManager;->getRunningTasks,0,0.0176,0.2664,1
+api_call::android/content/Context;->startActivity,0,0.072,0.7263,1
+api_call::android/content/Context;->startService,1,0.8352,0.03285,0
+api_call::android/location/LocationManager;->getLastKnownLocation,1,0.672,0.08029,0
+api_call::android/webkit/WebView,0,0.2016,0.2847,1
+api_call::java/lang/Runtime;->exec,0,0.272,0.7153,1
+call::Execution of external commands,0,0.272,0.7153,1
+call::Read/Write External Storage,0,0.5488,1,1
+call::getSubscriberId,0,0.0672,1,1
+feature::android.hardware.location,1,0.7456,0.219,0
+feature::android.hardware.location.network,1,0.7344,0.208,0
+intent::android.intent.action.USER_PRESENT,0,0.0112,0.2482,1
+permission::android.permission.ACCESS_COARSE_LOCATION,1,0.7344,0.1788,0
+permission::android.permission.ACCESS_FINE_LOCATION,1,0.6688,0.1314,0
+permission::android.permission.CALL_PHONE,1,0.1216,0.03285,0
+permission::android.permission.GET_ACCOUNTS,1,0.272,0.0219,0
+permission::android.permission.INSTALL_PACKAGES,1,0.0304,0.01095,0
+permission::android.permission.SET_WALLPAPER,1,0.16,0.2883,0
+permission::android.permission.WAKE_LOCK,1,0.6448,0.1679,0
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS,1,0.9104,0,0
+real_permission::android.permission.ACCESS_WIFI_STATE,1,1,0.2372,0
+real_permission::android.permission.GET_TASKS,0,0.0224,0.2737,1
+real_permission::android.permission.READ_LOGS,0,0.272,0.7153,1
+real_permission::android.permission.WAKE_LOCK,1,0.8192,0.3905,0
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS,1,0.656,0.007299,0
+service_receiver::.BootReceiver,1,0.1696,0,0
+
+# test sample 551 (family Plankton), closest family GinMaster, 14 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/app/ActivityManager;->getRunningTasks,0,0.0176,0.2664,1
+api_call::android/content/Context;->startActivity,0,0.072,0.7263,1
+api_call::android/webkit/WebView,0,0.2016,0.2847,1
+api_call::java/lang/Runtime;->exec,0,0.272,0.7153,1
+call::Execution of external commands,0,0.272,0.7153,1
+call::Read/Write External Storage,0,0.5488,1,1
+call::getSubscriberId,0,0.0672,1,1
+intent::android.intent.action.BOOT_COMPLETED,0,0.8512,0.6168,1
+intent::android.intent.action.USER_PRESENT,0,0.0112,0.2482,1
+permission::android.permission.ACCESS_NETWORK_STATE,0,0.9392,0.9927,1
+permission::android.permission.GET_TASKS,0,0.0608,0.281,1
+permission::android.permission.WRITE_EXTERNAL_STORAGE,0,0.6672,1,1
+real_permission::android.permission.ACCESS_NETWORK_STATE,0,0.9392,0.9927,1
+url::market.android.com,1,0.768,0.1606,0
+
+# test sample 553 (family Plankton), closest family GinMaster, 21 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/app/ActivityManager;->getRunningTasks,0,0.0176,0.2664,1
+api_call::android/content/Context;->startActivity,0,0.072,0.7263,1
+api_call::android/media/MediaPlayer;->start,1,0.2224,0.2591,0
+api_call::android/net/ConnectivityManager;->getNetworkInfo,0,0.0336,0.573,1
+api_call::android/net/wifi/WifiManager;->getConnectionInfo,1,1,0.2007,0
+api_call::java/lang/Runtime;->exec,0,0.272,0.7153,1
+api_call::java/net/URL;->openStream,1,0.5952,0.0146,0
+call::Execution of external commands,0,0.272,0.7153,1
+call::Read/Write External Storage,0,0.5488,1,1
+call::getPackageInfo,0,0.6176,1,1
+call::getSubscriberId,0,0.0672,1,1
+intent::android.intent.action.BOOT_COMPLETED,0,0.8512,0.6168,1
+intent::android.intent.action.USER_PRESENT,0,0.0112,0.2482,1
+permission::android.permission.ACCESS_NETWORK_STATE,0,0.9392,0.9927,1
+permission::android.permission.GET_TASKS,0,0.0608,0.281,1
+permission::android.permission.RECEIVE_BOOT_COMPLETED,0,0.8448,0.6058,1
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS,1,0.9088,0,0
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS,1,0.9104,0,0
+real_permission::android.permission.ACCESS_FINE_LOCATION,0,0.9312,0.3212,1
+real_permission::android.permission.ACCESS_WIFI_STATE,1,1,0.2372,0
+real_permission::android.permission.READ_CONTACTS,1,0.984,0.292,0
+

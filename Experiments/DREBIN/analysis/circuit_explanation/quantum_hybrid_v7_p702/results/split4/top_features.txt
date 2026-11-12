@@ -1,0 +1,85 @@
+# test sample 597 (BaseBridge), nearest family Kmin, score 0.5648 = s0(x_ref) 0.2496 + PCs [-0.0042, -0.0022, -0.0158, -0.0012, -0.0033, 0.0295, 0.2127, 0.0998]
+permission::android.permission.RECEIVE_MMS,attribution +0.06473,value 0,reference 1
+permission::android.permission.SET_WALLPAPER,attribution +0.0525,value 0,reference 1
+feature::android.hardware.wifi,attribution +0.04869,value 1,reference 0
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.04524,value 1,reference 0
+call::Read/Write External Storage,attribution +0.03245,value 0,reference 1
+permission::android.permission.DISABLE_KEYGUARD,attribution +0.03218,value 1,reference 0
+real_permission::android.permission.RESTART_PACKAGES,attribution +0.03194,value 1,reference 0
+api_call::android/app/ActivityManager;->restartPackage,attribution +0.03178,value 1,reference 0
+permission::android.permission.RESTART_PACKAGES,attribution +0.03055,value 1,reference 0
+permission::android.permission.WRITE_SETTINGS,attribution +0.02822,value 0,reference 1
+provider::android.provider.Telephony.SMS_RECEIVED,attribution +0.02696,value 1,reference 0
+call::printStackTrace,attribution +0.01931,value 0,reference 1
+url::su.5k3g.com,attribution +0.01629,value 0,reference 1
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage,attribution +0.01511,value 0,reference 1
+url::http://su.5k3g.com/portal/m/c5/0.ashx?,attribution +0.01459,value 0,reference 1
+
+# test sample 601 (BaseBridge), nearest family DroidKungFu, score 0.6609 = s0(x_ref) 0.4307 + PCs [-0.1111, 0.3222, -0.0049, 0.0574, 0.0303, 0.0805, -0.0415, -0.1027]
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.06492,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->getConnectionInfo,attribution +0.06191,value 0,reference 1
+api_call::android/content/ContentResolver;->query,attribution +0.05386,value 0,reference 1
+permission::android.permission.READ_LOGS,attribution +0.05143,value 1,reference 0
+call::Cipher(DESede),attribution +0.04694,value 0,reference 1
+url::beta.vpon.com,attribution +0.04694,value 0,reference 1
+url::http://beta.vpon.com/api/api/webviewAdClick,attribution +0.04694,value 0,reference 1
+url::http://beta.vpon.com/api/api/webviewAdReq,attribution +0.04694,value 0,reference 1
+url::http://beta.vpon.com/api/api/webviewSdkError,attribution +0.04694,value 0,reference 1
+url::http://cn.ad.adon.vpon.com/api/swebviewSdkError,attribution +0.04694,value 0,reference 1
+url::http://cn.ad.adon.vpon.com/api/webviewAdClick,attribution +0.04694,value 0,reference 1
+url::http://cn.ad.adon.vpon.com/api/webviewAdReq,attribution +0.04694,value 0,reference 1
+url::http://maps.google,attribution +0.04694,value 0,reference 1
+url::http://tw.ad.adon.vpon.com/api/webviewAdClick,attribution +0.04694,value 0,reference 1
+url::http://tw.ad.adon.vpon.com/api/webviewAdReq,attribution +0.04694,value 0,reference 1
+
+# test sample 602 (BaseBridge), nearest family DroidKungFu, score 0.3123 = s0(x_ref) 0.4307 + PCs [-0.0292, 0.1671, -0.009, -0.0037, -0.1164, -0.0369, -0.0644, -0.026]
+feature::android.hardware.location.network,attribution +0.01908,value 0,reference 1
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution +0.01889,value 0,reference 1
+feature::android.hardware.location,attribution +0.01882,value 0,reference 1
+api_call::android/net/wifi/WifiManager;->getConnectionInfo,attribution +0.0164,value 0,reference 1
+feature::android.hardware.location.gps,attribution +0.01483,value 0,reference 1
+call::Read/Write External Storage,attribution +0.01386,value 0,reference 1
+permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.01375,value 0,reference 1
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.01131,value 0,reference 1
+call::HttpPost,attribution +0.01023,value 0,reference 1
+api_call::java/lang/Runtime;->exec,attribution +0.009995,value 0,reference 1
+call::Execution of external commands,attribution +0.009995,value 0,reference 1
+real_permission::android.permission.READ_LOGS,attribution +0.009995,value 0,reference 1
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.009077,value 0,reference 1
+call::Obfuscation(Base64),attribution +0.008948,value 0,reference 1
+feature::android.hardware.telephony,attribution +0.006226,value 1,reference 0
+
+# test sample 606 (BaseBridge), nearest family Kmin, score 0.5648 = s0(x_ref) 0.2496 + PCs [-0.0042, -0.0022, -0.0158, -0.0012, -0.0033, 0.0295, 0.2127, 0.0998]
+permission::android.permission.RECEIVE_MMS,attribution +0.06473,value 0,reference 1
+permission::android.permission.SET_WALLPAPER,attribution +0.0525,value 0,reference 1
+feature::android.hardware.wifi,attribution +0.04869,value 1,reference 0
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.04524,value 1,reference 0
+call::Read/Write External Storage,attribution +0.03245,value 0,reference 1
+permission::android.permission.DISABLE_KEYGUARD,attribution +0.03218,value 1,reference 0
+real_permission::android.permission.RESTART_PACKAGES,attribution +0.03194,value 1,reference 0
+api_call::android/app/ActivityManager;->restartPackage,attribution +0.03178,value 1,reference 0
+permission::android.permission.RESTART_PACKAGES,attribution +0.03055,value 1,reference 0
+permission::android.permission.WRITE_SETTINGS,attribution +0.02822,value 0,reference 1
+provider::android.provider.Telephony.SMS_RECEIVED,attribution +0.02696,value 1,reference 0
+call::printStackTrace,attribution +0.01931,value 0,reference 1
+url::su.5k3g.com,attribution +0.01629,value 0,reference 1
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage,attribution +0.01511,value 0,reference 1
+url::http://su.5k3g.com/portal/m/c5/0.ashx?,attribution +0.01459,value 0,reference 1
+
+# test sample 607 (BaseBridge), nearest family FakeInstaller, score 0.6457 = s0(x_ref) 0.0122 + PCs [0.038, 0.2764, -0.0169, 0.0827, 0.1993, 0.118, 0.0485, -0.1125]
+permission::android.permission.RECEIVE_BOOT_COMPLETED,attribution +0.1331,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.117,value 1,reference 0
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.1112,value 1,reference 0
+call::getSubscriberId,attribution +0.09702,value 1,reference 0
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.09025,value 1,reference 0
+feature::android.hardware.screen.portrait,attribution +0.08699,value 1,reference 0
+url::http://maps.google.com/maps?q%3D,attribution +0.0729,value 1,reference 0
+permission::android.permission.WAKE_LOCK,attribution +0.0729,value 1,reference 0
+url::maps.google.com,attribution +0.07236,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.07039,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.07035,value 1,reference 0
+permission::android.permission.READ_LOGS,attribution +0.03514,value 1,reference 0
+url::schemas.android.com,attribution +0.03242,value 1,reference 0
+call::getPackageInfo,attribution +0.02594,value 1,reference 0
+real_permission::android.permission.INTERNET,attribution +0.02542,value 1,reference 0
+

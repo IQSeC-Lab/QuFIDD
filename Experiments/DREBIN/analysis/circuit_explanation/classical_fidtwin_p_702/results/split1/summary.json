@@ -1,0 +1,36 @@
+{
+  "model": "classical_fidtwin_p_702",
+  "dataset": "Drebin",
+  "split": 1,
+  "withheld_family": "DroidKungFu",
+  "run": 0,
+  "reload_rel_diff": 4.76164255292513e-06,
+  "roc_auc": 0.7223212590302203,
+  "n_test": 1196,
+  "n_drift": 667,
+  "M3": {
+    "auc_residual": 0.853172657527569,
+    "auc_entropy": 0.701337422026227,
+    "auc_score": 0.7223212590302203,
+    "residual_gap": 0.0003132590377005652,
+    "entropy_gap": 0.15208880438322603,
+    "drifting_family_resembles": {
+      "GinMaster": 0.615043365076607,
+      "BaseBridge": 0.17150379979508443,
+      "FakeDoc": 0.06430254218041657,
+      "Plankton": 0.06050801844852849,
+      "Kmin": 0.03319514793365961,
+      "Iconosys": 0.02866849922404973,
+      "FakeInstaller": 0.02677862734165344
+    },
+    "nearest_family_of_drifting": {
+      "FakeInstaller": 0,
+      "Plankton": 7,
+      "GinMaster": 629,
+      "BaseBridge": 25,
+      "Iconosys": 0,
+      "Kmin": 4,
+      "FakeDoc": 2
+    }
+  }
+}

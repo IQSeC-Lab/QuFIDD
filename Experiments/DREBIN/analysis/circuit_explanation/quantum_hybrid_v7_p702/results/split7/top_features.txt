@@ -1,0 +1,85 @@
+# test sample 648 (FakeDoc), nearest family FakeInstaller, score 0.7715 = s0(x_ref) 0.0065 + PCs [0.3565, 0.2252, 0.1115, 0.0127, -0.0083, -0.0124, -0.008, 0.0877]
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.03409,value 1,reference 0
+feature::android.hardware.wifi,attribution +0.03337,value 1,reference 0
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.0327,value 1,reference 0
+call::Execution of external commands,attribution +0.02941,value 1,reference 0
+real_permission::android.permission.READ_LOGS,attribution +0.02941,value 1,reference 0
+api_call::java/lang/Runtime;->exec,attribution +0.02941,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.02821,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02785,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.02688,value 1,reference 0
+feature::android.hardware.location,attribution +0.02467,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.02446,value 1,reference 0
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.02362,value 1,reference 0
+call::setWifiEnabled,attribution +0.02353,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.02353,value 1,reference 0
+url::market.android.com,attribution +0.02351,value 1,reference 0
+
+# test sample 702 (FakeDoc), nearest family FakeInstaller, score 0.7715 = s0(x_ref) 0.0065 + PCs [0.3565, 0.2252, 0.1115, 0.0127, -0.0083, -0.0124, -0.008, 0.0877]
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.03409,value 1,reference 0
+feature::android.hardware.wifi,attribution +0.03337,value 1,reference 0
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.0327,value 1,reference 0
+call::Execution of external commands,attribution +0.02941,value 1,reference 0
+real_permission::android.permission.READ_LOGS,attribution +0.02941,value 1,reference 0
+api_call::java/lang/Runtime;->exec,attribution +0.02941,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.02821,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02785,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.02688,value 1,reference 0
+feature::android.hardware.location,attribution +0.02467,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.02446,value 1,reference 0
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.02362,value 1,reference 0
+call::setWifiEnabled,attribution +0.02353,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.02353,value 1,reference 0
+url::market.android.com,attribution +0.02351,value 1,reference 0
+
+# test sample 733 (FakeDoc), nearest family FakeInstaller, score 0.7715 = s0(x_ref) 0.0065 + PCs [0.3565, 0.2252, 0.1115, 0.0127, -0.0083, -0.0124, -0.008, 0.0877]
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.03409,value 1,reference 0
+feature::android.hardware.wifi,attribution +0.03337,value 1,reference 0
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.0327,value 1,reference 0
+call::Execution of external commands,attribution +0.02941,value 1,reference 0
+real_permission::android.permission.READ_LOGS,attribution +0.02941,value 1,reference 0
+api_call::java/lang/Runtime;->exec,attribution +0.02941,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.02821,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02785,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.02688,value 1,reference 0
+feature::android.hardware.location,attribution +0.02467,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.02446,value 1,reference 0
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.02362,value 1,reference 0
+call::setWifiEnabled,attribution +0.02353,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.02353,value 1,reference 0
+url::market.android.com,attribution +0.02351,value 1,reference 0
+
+# test sample 739 (FakeDoc), nearest family FakeInstaller, score 0.7715 = s0(x_ref) 0.0065 + PCs [0.3565, 0.2252, 0.1115, 0.0127, -0.0083, -0.0124, -0.008, 0.0877]
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.03409,value 1,reference 0
+feature::android.hardware.wifi,attribution +0.03337,value 1,reference 0
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.0327,value 1,reference 0
+call::Execution of external commands,attribution +0.02941,value 1,reference 0
+real_permission::android.permission.READ_LOGS,attribution +0.02941,value 1,reference 0
+api_call::java/lang/Runtime;->exec,attribution +0.02941,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.02821,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02785,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.02688,value 1,reference 0
+feature::android.hardware.location,attribution +0.02467,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.02446,value 1,reference 0
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.02362,value 1,reference 0
+call::setWifiEnabled,attribution +0.02353,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.02353,value 1,reference 0
+url::market.android.com,attribution +0.02351,value 1,reference 0
+
+# test sample 764 (FakeDoc), nearest family FakeInstaller, score 0.7715 = s0(x_ref) 0.0065 + PCs [0.3565, 0.2252, 0.1115, 0.0127, -0.0083, -0.0124, -0.008, 0.0877]
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.03409,value 1,reference 0
+feature::android.hardware.wifi,attribution +0.03337,value 1,reference 0
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.0327,value 1,reference 0
+call::Execution of external commands,attribution +0.02941,value 1,reference 0
+real_permission::android.permission.READ_LOGS,attribution +0.02941,value 1,reference 0
+api_call::java/lang/Runtime;->exec,attribution +0.02941,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.02821,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02785,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.02688,value 1,reference 0
+feature::android.hardware.location,attribution +0.02467,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.02446,value 1,reference 0
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.02362,value 1,reference 0
+call::setWifiEnabled,attribution +0.02353,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.02353,value 1,reference 0
+url::market.android.com,attribution +0.02351,value 1,reference 0
+

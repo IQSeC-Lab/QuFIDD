@@ -1,0 +1,56 @@
+# test sample 538 (family DroidKungFu), closest family GinMaster, 11 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/wifi/WifiManager;->getConnectionInfo,1,0.4438,0.1967,0
+feature::android.hardware.location,1,0.6867,0.2167,0
+feature::android.hardware.telephony,1,0.4213,0.07333,0
+permission::android.permission.READ_SMS,1,0.4123,0.01,0
+permission::android.permission.WRITE_SMS,1,0.4063,0.01,0
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,0,0.03598,0.6467,1
+real_permission::android.permission.READ_CONTACTS,1,0.6117,0.3067,0
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS,1,0.1244,0.01,0
+url::http://client.go360days.com/client.php?action%3Dsoft&soft_id%3D,0,0,0.3233,1
+url::http://client.go360days.com/request/tableclass.do,0,0,0.3233,1
+url::schemas.android.com,1,0.7856,0.4767,0
+
+# test sample 539 (family DroidKungFu), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/wifi/WifiManager;->getConnectionInfo,1,0.4438,0.1967,0
+feature::android.hardware.location.gps,1,0.4603,0.1233,0
+feature::android.hardware.wifi,1,0.8846,0.54,0
+
+# test sample 541 (family DroidKungFu), closest family GinMaster, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,1,0.7196,0.01,0
+feature::android.hardware.telephony,1,0.4213,0.07333,0
+feature::android.hardware.wifi,1,0.8846,0.54,0
+permission::android.permission.CHANGE_WIFI_STATE,1,0.7091,0.03,0
+permission::android.permission.READ_SMS,1,0.4123,0.01,0
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,0,0,0.5567,1
+real_permission::android.permission.ACCESS_WIFI_STATE,1,0.8846,0.23,0
+url::http://maps.google.com/maps?q%3D,1,0.7106,0.12,0
+url::maps.google.com,1,0.7181,0.1233,0
+
+# test sample 543 (family DroidKungFu), closest family GinMaster, 11 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/ContentResolver;->query,1,0.5922,0.2933,0
+call::sendSMS,1,0.04048,0.06667,0
+feature::android.hardware.telephony,1,0.4213,0.07333,0
+intent::android.intent.category.DEFAULT,0,0.09145,0.1867,1
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,0,0.03598,0.6467,1
+url::http://client.go360days.com/request/alert.do,0,0,0.3233,1
+url::http://maps.google.com/maps?q%3D,1,0.7106,0.12,0
+url::http://market.android.com,1,0.7031,0.06,0
+url::http://www.adwo.com,1,0.7031,0.06,0
+url::maps.google.com,1,0.7181,0.1233,0
+url::schemas.android.com,1,0.7856,0.4767,0
+
+# test sample 546 (family DroidKungFu), closest family GinMaster, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+feature::android.hardware.wifi,1,0.8846,0.54,0
+real_permission::android.permission.ACCESS_WIFI_STATE,1,0.8846,0.23,0
+real_permission::android.permission.READ_CONTACTS,1,0.6117,0.3067,0
+url::http://client.go360days.com/request/tableclass.do,0,0,0.3233,1
+url::http://schemas.android.com/apk/res/,1,0.7616,0.4067,0
+url::maps.google.com,1,0.7181,0.1233,0
+url::schemas.android.com,1,0.7856,0.4767,0
+

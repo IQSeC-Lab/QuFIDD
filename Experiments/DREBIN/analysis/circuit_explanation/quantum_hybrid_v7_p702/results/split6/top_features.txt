@@ -1,0 +1,85 @@
+# test sample 633 (Kmin), nearest family FakeInstaller, score 0.7903 = s0(x_ref) 0.0065 + PCs [0.2412, 0.1797, 0.1798, -0.0006, 0.0368, 0.0004, 0.1398, 0.0067]
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03708,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.03593,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03537,value 1,reference 0
+call::getDeviceId,attribution +0.03442,value 1,reference 0
+url::schemas.android.com,attribution +0.03278,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.03145,value 1,reference 0
+call::Read/Write External Storage,attribution +0.03109,value 1,reference 0
+call::getSubscriberId,attribution +0.02838,value 1,reference 0
+real_permission::android.permission.READ_CONTACTS,attribution +0.02756,value 1,reference 0
+real_permission::android.permission.READ_PHONE_STATE,attribution +0.02743,value 1,reference 0
+api_call::android/content/ContentResolver;->query,attribution +0.0268,value 1,reference 0
+url::maps.google.com,attribution +0.02624,value 1,reference 0
+url::http://maps.google.com/maps?q%3D,attribution +0.02616,value 1,reference 0
+url::market.android.com,attribution +0.02425,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.02366,value 1,reference 0
+
+# test sample 635 (Kmin), nearest family FakeInstaller, score 0.7903 = s0(x_ref) 0.0065 + PCs [0.2412, 0.1797, 0.1798, -0.0006, 0.0368, 0.0004, 0.1398, 0.0067]
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03708,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.03593,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03537,value 1,reference 0
+call::getDeviceId,attribution +0.03442,value 1,reference 0
+url::schemas.android.com,attribution +0.03278,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.03145,value 1,reference 0
+call::Read/Write External Storage,attribution +0.03109,value 1,reference 0
+call::getSubscriberId,attribution +0.02838,value 1,reference 0
+real_permission::android.permission.READ_CONTACTS,attribution +0.02756,value 1,reference 0
+real_permission::android.permission.READ_PHONE_STATE,attribution +0.02743,value 1,reference 0
+api_call::android/content/ContentResolver;->query,attribution +0.0268,value 1,reference 0
+url::maps.google.com,attribution +0.02624,value 1,reference 0
+url::http://maps.google.com/maps?q%3D,attribution +0.02616,value 1,reference 0
+url::market.android.com,attribution +0.02425,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.02366,value 1,reference 0
+
+# test sample 642 (Kmin), nearest family FakeInstaller, score 0.7903 = s0(x_ref) 0.0065 + PCs [0.2412, 0.1797, 0.1798, -0.0006, 0.0368, 0.0004, 0.1398, 0.0067]
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03708,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.03593,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03537,value 1,reference 0
+call::getDeviceId,attribution +0.03442,value 1,reference 0
+url::schemas.android.com,attribution +0.03278,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.03145,value 1,reference 0
+call::Read/Write External Storage,attribution +0.03109,value 1,reference 0
+call::getSubscriberId,attribution +0.02838,value 1,reference 0
+real_permission::android.permission.READ_CONTACTS,attribution +0.02756,value 1,reference 0
+real_permission::android.permission.READ_PHONE_STATE,attribution +0.02743,value 1,reference 0
+api_call::android/content/ContentResolver;->query,attribution +0.0268,value 1,reference 0
+url::maps.google.com,attribution +0.02624,value 1,reference 0
+url::http://maps.google.com/maps?q%3D,attribution +0.02616,value 1,reference 0
+url::market.android.com,attribution +0.02425,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.02366,value 1,reference 0
+
+# test sample 646 (Kmin), nearest family FakeInstaller, score 0.7903 = s0(x_ref) 0.0065 + PCs [0.2412, 0.1797, 0.1798, -0.0006, 0.0368, 0.0004, 0.1398, 0.0067]
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03708,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.03593,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03537,value 1,reference 0
+call::getDeviceId,attribution +0.03442,value 1,reference 0
+url::schemas.android.com,attribution +0.03278,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.03145,value 1,reference 0
+call::Read/Write External Storage,attribution +0.03109,value 1,reference 0
+call::getSubscriberId,attribution +0.02838,value 1,reference 0
+real_permission::android.permission.READ_CONTACTS,attribution +0.02756,value 1,reference 0
+real_permission::android.permission.READ_PHONE_STATE,attribution +0.02743,value 1,reference 0
+api_call::android/content/ContentResolver;->query,attribution +0.0268,value 1,reference 0
+url::maps.google.com,attribution +0.02624,value 1,reference 0
+url::http://maps.google.com/maps?q%3D,attribution +0.02616,value 1,reference 0
+url::market.android.com,attribution +0.02425,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.02366,value 1,reference 0
+
+# test sample 647 (Kmin), nearest family FakeInstaller, score 0.7903 = s0(x_ref) 0.0065 + PCs [0.2412, 0.1797, 0.1798, -0.0006, 0.0368, 0.0004, 0.1398, 0.0067]
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03708,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.03593,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03537,value 1,reference 0
+call::getDeviceId,attribution +0.03442,value 1,reference 0
+url::schemas.android.com,attribution +0.03278,value 1,reference 0
+real_permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.03145,value 1,reference 0
+call::Read/Write External Storage,attribution +0.03109,value 1,reference 0
+call::getSubscriberId,attribution +0.02838,value 1,reference 0
+real_permission::android.permission.READ_CONTACTS,attribution +0.02756,value 1,reference 0
+real_permission::android.permission.READ_PHONE_STATE,attribution +0.02743,value 1,reference 0
+api_call::android/content/ContentResolver;->query,attribution +0.0268,value 1,reference 0
+url::maps.google.com,attribution +0.02624,value 1,reference 0
+url::http://maps.google.com/maps?q%3D,attribution +0.02616,value 1,reference 0
+url::market.android.com,attribution +0.02425,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.02366,value 1,reference 0
+

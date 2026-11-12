@@ -1,0 +1,31 @@
+# test sample 533 (family DroidKungFu), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+permission::android.permission.WAKE_LOCK,1,0.2294,0.17,0
+url::http://schemas.android.com/apk/res/,1,0.7616,0.4067,0
+url::https://market.android.com,1,0.7031,0.06,0
+
+# test sample 535 (family DroidKungFu), closest family GinMaster, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/webkit/WebChromeClient;->onGeolocationPermissionsShowPrompt,1,0.2519,0,0
+call::getPackageInfo,0,0.7061,1,1
+url::http://10.0.0.172/,0,0,0.4833,1
+url::http://r2.adwo.com/adfs,1,0.1394,0.02667,0
+url::http://schemas.android.com/apk/res/,1,0.7616,0.4067,0
+url::https://market.android.com,1,0.7031,0.06,0
+
+# test sample 538 (family DroidKungFu), closest family GinMaster, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::HttpPost,0,0.8471,1,1
+call::getPackageInfo,0,0.7061,1,1
+real_permission::android.permission.READ_CONTACTS,1,0.6117,0.3067,0
+url::market.android.com,1,0.7316,0.1667,0
+
+# test sample 539 (family DroidKungFu), closest family GinMaster, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 546 (family DroidKungFu), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/content/ContentResolver;->query,1,0.5922,0.2933,0
+url::https://market.android.com,1,0.7031,0.06,0
+url::market.android.com,1,0.7316,0.1667,0
+

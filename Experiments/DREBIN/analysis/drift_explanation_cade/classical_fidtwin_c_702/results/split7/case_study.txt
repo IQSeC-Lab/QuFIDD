@@ -1,0 +1,65 @@
+# test sample 636 (family FakeDoc), closest family BaseBridge, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::Read/Write External Storage,1,0.9924,0.1246,0
+permission::android.permission.CALL_PHONE,0,0,0.7447,1
+permission::android.permission.CHANGE_WIFI_STATE,1,0.9924,0.00304,0
+real_permission::android.permission.CHANGE_WIFI_STATE,1,0.9848,0.00304,0
+real_permission::android.permission.READ_LOGS,1,0.9924,0.0304,0
+real_permission::android.permission.VIBRATE,1,1,0.3587,0
+
+# test sample 638 (family FakeDoc), closest family BaseBridge, 13 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.MainA,0,0,0.7629,1
+activity::com.keji.danti.Setting,0,0,0.7477,1
+api_call::java/lang/Runtime;->exec,1,0.9924,0.0304,0
+call::Execution of external commands,1,0.9924,0.0304,0
+call::sendSMS,1,0.8258,0.2006,0
+call::setWifiEnabled,1,0.9848,0.00304,0
+feature::android.hardware.screen.portrait,0,0.05303,0.9149,1
+intent::android.intent.action.INPUT_METHOD_CHANGED,0,0,0.8754,1
+intent::android.intent.action.UMS_CONNECTED,0,0,0.5866,1
+intent::android.intent.action.USER_PRESENT,0,0,0.8723,1
+permission::android.permission.WRITE_CONTACTS,0,0.007576,0.8815,1
+real_permission::android.permission.CHANGE_WIFI_STATE,1,0.9848,0.00304,0
+real_permission::android.permission.VIBRATE,1,1,0.3587,0
+
+# test sample 639 (family FakeDoc), closest family BaseBridge, 12 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::com.keji.danti.Boutique,0,0,0.7477,1
+api_call::android/app/ActivityManager;->getRunningTasks,1,0.6061,0.0152,0
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,1,0.9848,0.00304,0
+api_call::java/net/HttpURLConnection,1,0.4545,0.08815,0
+call::Execution of external commands,1,0.9924,0.0304,0
+call::HttpPost,1,0.9924,0.06079,0
+call::sendSMS,1,0.8258,0.2006,0
+intent::android.intent.action.ACTION_POWER_CONNECTED,0,0,0.8602,1
+permission::android.permission.WRITE_CONTACTS,0,0.007576,0.8815,1
+real_permission::android.permission.ACCESS_FINE_LOCATION,1,1,0.08207,0
+real_permission::android.permission.CHANGE_WIFI_STATE,1,0.9848,0.00304,0
+service_receiver::com.android.view.custom.ThirdAService,0,0,0.5714,1
+
+# test sample 640 (family FakeDoc), closest family BaseBridge, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/app/NotificationManager;->notify,1,1,0.3343,0
+api_call::java/lang/Runtime;->exec,1,0.9924,0.0304,0
+api_call::java/net/HttpURLConnection,1,0.4545,0.08815,0
+feature::android.hardware.screen.portrait,0,0.05303,0.9149,1
+intent::android.intent.action.INPUT_METHOD_CHANGED,0,0,0.8754,1
+intent::android.net.conn.CONNECTIVITY_CHANGE,0,0,0.8754,1
+permission::android.permission.CALL_PHONE,0,0,0.7447,1
+permission::android.permission.CHANGE_WIFI_STATE,1,0.9924,0.00304,0
+service_receiver::com.android.view.custom.ThirdAService,0,0,0.5714,1
+
+# test sample 641 (family FakeDoc), closest family BaseBridge, 10 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::HttpPost,1,0.9924,0.06079,0
+call::setWifiEnabled,1,0.9848,0.00304,0
+intent::android.intent.action.ACTION_POWER_CONNECTED,0,0,0.8602,1
+intent::android.intent.action.UMS_CONNECTED,0,0,0.5866,1
+intent::android.net.conn.CONNECTIVITY_CHANGE,0,0,0.8754,1
+permission::android.permission.CHANGE_WIFI_STATE,1,0.9924,0.00304,0
+permission::android.permission.READ_CONTACTS,0,0.09091,0.6322,1
+permission::android.permission.WRITE_EXTERNAL_STORAGE,1,0.9621,0.3587,0
+real_permission::android.permission.CHANGE_WIFI_STATE,1,0.9848,0.00304,0
+real_permission::android.permission.VIBRATE,1,1,0.3587,0
+

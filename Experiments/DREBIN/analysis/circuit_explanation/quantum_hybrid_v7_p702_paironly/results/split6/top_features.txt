@@ -1,0 +1,85 @@
+# test sample 633 (Kmin), nearest family Iconosys, score 0.7060 = s0(x_ref) 0.1738 + PCs [-0.0607, 0.24, 0.0832, 0.0056, 0.1176, 0.1601, -0.0522, 0.0385]
+url::schemas.android.com,attribution +0.04594,value 1,reference 0
+call::getSubscriberId,attribution +0.04352,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03131,value 1,reference 0
+url::r2.adwo.com,attribution +0.03049,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03004,value 1,reference 0
+url::http://r2.adwo.com/ad,attribution +0.02977,value 1,reference 0
+url::http://www.adwo.com,attribution +0.02951,value 1,reference 0
+url::www.adwo.com,attribution +0.02951,value 1,reference 0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,attribution +0.02825,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.02722,value 1,reference 0
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.0272,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.02502,value 1,reference 0
+api_call::android/os/PowerManager$WakeLock;->acquire,attribution +0.02445,value 0,reference 1
+real_permission::android.permission.GET_ACCOUNTS,attribution +0.01965,value 0,reference 1
+api_call::android/accounts/AccountManager;->getAccounts,attribution +0.01965,value 0,reference 1
+
+# test sample 635 (Kmin), nearest family Iconosys, score 0.7060 = s0(x_ref) 0.1738 + PCs [-0.0607, 0.24, 0.0832, 0.0056, 0.1176, 0.1601, -0.0522, 0.0385]
+url::schemas.android.com,attribution +0.04594,value 1,reference 0
+call::getSubscriberId,attribution +0.04352,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03131,value 1,reference 0
+url::r2.adwo.com,attribution +0.03049,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03004,value 1,reference 0
+url::http://r2.adwo.com/ad,attribution +0.02977,value 1,reference 0
+url::http://www.adwo.com,attribution +0.02951,value 1,reference 0
+url::www.adwo.com,attribution +0.02951,value 1,reference 0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,attribution +0.02825,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.02722,value 1,reference 0
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.0272,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.02502,value 1,reference 0
+api_call::android/os/PowerManager$WakeLock;->acquire,attribution +0.02445,value 0,reference 1
+real_permission::android.permission.GET_ACCOUNTS,attribution +0.01965,value 0,reference 1
+api_call::android/accounts/AccountManager;->getAccounts,attribution +0.01965,value 0,reference 1
+
+# test sample 642 (Kmin), nearest family Iconosys, score 0.7060 = s0(x_ref) 0.1738 + PCs [-0.0607, 0.24, 0.0832, 0.0056, 0.1176, 0.1601, -0.0522, 0.0385]
+url::schemas.android.com,attribution +0.04594,value 1,reference 0
+call::getSubscriberId,attribution +0.04352,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03131,value 1,reference 0
+url::r2.adwo.com,attribution +0.03049,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03004,value 1,reference 0
+url::http://r2.adwo.com/ad,attribution +0.02977,value 1,reference 0
+url::http://www.adwo.com,attribution +0.02951,value 1,reference 0
+url::www.adwo.com,attribution +0.02951,value 1,reference 0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,attribution +0.02825,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.02722,value 1,reference 0
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.0272,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.02502,value 1,reference 0
+api_call::android/os/PowerManager$WakeLock;->acquire,attribution +0.02445,value 0,reference 1
+real_permission::android.permission.GET_ACCOUNTS,attribution +0.01965,value 0,reference 1
+api_call::android/accounts/AccountManager;->getAccounts,attribution +0.01965,value 0,reference 1
+
+# test sample 646 (Kmin), nearest family Iconosys, score 0.7060 = s0(x_ref) 0.1738 + PCs [-0.0607, 0.24, 0.0832, 0.0056, 0.1176, 0.1601, -0.0522, 0.0385]
+url::schemas.android.com,attribution +0.04594,value 1,reference 0
+call::getSubscriberId,attribution +0.04352,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03131,value 1,reference 0
+url::r2.adwo.com,attribution +0.03049,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03004,value 1,reference 0
+url::http://r2.adwo.com/ad,attribution +0.02977,value 1,reference 0
+url::http://www.adwo.com,attribution +0.02951,value 1,reference 0
+url::www.adwo.com,attribution +0.02951,value 1,reference 0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,attribution +0.02825,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.02722,value 1,reference 0
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.0272,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.02502,value 1,reference 0
+api_call::android/os/PowerManager$WakeLock;->acquire,attribution +0.02445,value 0,reference 1
+real_permission::android.permission.GET_ACCOUNTS,attribution +0.01965,value 0,reference 1
+api_call::android/accounts/AccountManager;->getAccounts,attribution +0.01965,value 0,reference 1
+
+# test sample 647 (Kmin), nearest family Iconosys, score 0.7060 = s0(x_ref) 0.1738 + PCs [-0.0607, 0.24, 0.0832, 0.0056, 0.1176, 0.1601, -0.0522, 0.0385]
+url::schemas.android.com,attribution +0.04594,value 1,reference 0
+call::getSubscriberId,attribution +0.04352,value 1,reference 0
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03131,value 1,reference 0
+url::r2.adwo.com,attribution +0.03049,value 1,reference 0
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.03004,value 1,reference 0
+url::http://r2.adwo.com/ad,attribution +0.02977,value 1,reference 0
+url::http://www.adwo.com,attribution +0.02951,value 1,reference 0
+url::www.adwo.com,attribution +0.02951,value 1,reference 0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,attribution +0.02825,value 1,reference 0
+url::http://schemas.android.com/apk/res/,attribution +0.02722,value 1,reference 0
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.0272,value 1,reference 0
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.02502,value 1,reference 0
+api_call::android/os/PowerManager$WakeLock;->acquire,attribution +0.02445,value 0,reference 1
+real_permission::android.permission.GET_ACCOUNTS,attribution +0.01965,value 0,reference 1
+api_call::android/accounts/AccountManager;->getAccounts,attribution +0.01965,value 0,reference 1
+

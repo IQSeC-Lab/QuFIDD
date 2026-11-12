@@ -1,0 +1,85 @@
+# test sample 742 (Iconosys), nearest family FakeInstaller, score 0.5649 = s0(x_ref) 0.0104 + PCs [0.2499, 0.0266, 0.0494, 0.0314, -0.0024, 0.1634, 0.0389, -0.0026]
+feature::android.hardware.screen.portrait,attribution +0.05455,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.04196,value 1,reference 0
+call::getDeviceId,attribution +0.04102,value 1,reference 0
+call::getPackageInfo,attribution +0.03973,value 1,reference 0
+api_call::android/content/ContentResolver;->query,attribution +0.03073,value 1,reference 0
+real_permission::android.permission.READ_CONTACTS,attribution +0.03049,value 1,reference 0
+feature::android.hardware.location.network,attribution +0.0286,value 1,reference 0
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution +0.02812,value 1,reference 0
+api_call::android/webkit/WebView,attribution +0.02672,value 1,reference 0
+feature::android.hardware.location,attribution +0.02656,value 1,reference 0
+call::HttpPost,attribution +0.02564,value 1,reference 0
+feature::android.hardware.location.gps,attribution +0.02464,value 1,reference 0
+permission::android.permission.RECEIVE_SMS,attribution +0.0234,value 0,reference 1
+permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02217,value 1,reference 0
+real_permission::android.permission.INTERNET,attribution +0.01837,value 1,reference 0
+
+# test sample 748 (Iconosys), nearest family FakeInstaller, score 0.5649 = s0(x_ref) 0.0104 + PCs [0.2499, 0.0266, 0.0494, 0.0314, -0.0024, 0.1634, 0.0389, -0.0026]
+feature::android.hardware.screen.portrait,attribution +0.05455,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.04196,value 1,reference 0
+call::getDeviceId,attribution +0.04102,value 1,reference 0
+call::getPackageInfo,attribution +0.03973,value 1,reference 0
+api_call::android/content/ContentResolver;->query,attribution +0.03073,value 1,reference 0
+real_permission::android.permission.READ_CONTACTS,attribution +0.03049,value 1,reference 0
+feature::android.hardware.location.network,attribution +0.0286,value 1,reference 0
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution +0.02812,value 1,reference 0
+api_call::android/webkit/WebView,attribution +0.02672,value 1,reference 0
+feature::android.hardware.location,attribution +0.02656,value 1,reference 0
+call::HttpPost,attribution +0.02564,value 1,reference 0
+feature::android.hardware.location.gps,attribution +0.02464,value 1,reference 0
+permission::android.permission.RECEIVE_SMS,attribution +0.0234,value 0,reference 1
+permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02217,value 1,reference 0
+real_permission::android.permission.INTERNET,attribution +0.01837,value 1,reference 0
+
+# test sample 749 (Iconosys), nearest family FakeInstaller, score 0.5649 = s0(x_ref) 0.0104 + PCs [0.2499, 0.0266, 0.0494, 0.0314, -0.0024, 0.1634, 0.0389, -0.0026]
+feature::android.hardware.screen.portrait,attribution +0.05455,value 1,reference 0
+api_call::android/telephony/TelephonyManager;->getDeviceId,attribution +0.04196,value 1,reference 0
+call::getDeviceId,attribution +0.04102,value 1,reference 0
+call::getPackageInfo,attribution +0.03973,value 1,reference 0
+api_call::android/content/ContentResolver;->query,attribution +0.03073,value 1,reference 0
+real_permission::android.permission.READ_CONTACTS,attribution +0.03049,value 1,reference 0
+feature::android.hardware.location.network,attribution +0.0286,value 1,reference 0
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution +0.02812,value 1,reference 0
+api_call::android/webkit/WebView,attribution +0.02672,value 1,reference 0
+feature::android.hardware.location,attribution +0.02656,value 1,reference 0
+call::HttpPost,attribution +0.02564,value 1,reference 0
+feature::android.hardware.location.gps,attribution +0.02464,value 1,reference 0
+permission::android.permission.RECEIVE_SMS,attribution +0.0234,value 0,reference 1
+permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.02217,value 1,reference 0
+real_permission::android.permission.INTERNET,attribution +0.01837,value 1,reference 0
+
+# test sample 666 (Iconosys), nearest family BaseBridge, score 0.5436 = s0(x_ref) 0.0217 + PCs [-0.0098, -0.0017, 0.6499, 0.0093, -0.0573, -0.0297, -0.0412, 0.0024]
+url::http://maps.google.com/maps?q%3D,attribution +0.02542,value 0,reference 1
+url::schemas.android.com,attribution +0.02519,value 0,reference 1
+url::maps.google.com,attribution +0.02516,value 0,reference 1
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.02273,value 0,reference 1
+call::getSubscriberId,attribution +0.02167,value 0,reference 1
+permission::android.permission.WRITE_SMS,attribution +0.01632,value 0,reference 1
+permission::android.permission.READ_SMS,attribution +0.01525,value 0,reference 1
+permission::android.permission.WRITE_CONTACTS,attribution +0.01516,value 0,reference 1
+intent::android.intent.action.USER_PRESENT,attribution +0.01508,value 0,reference 1
+url::http://schemas.android.com/apk/res/android,attribution +0.01499,value 0,reference 1
+intent::android.intent.action.INPUT_METHOD_CHANGED,attribution +0.01497,value 0,reference 1
+intent::android.intent.action.ACTION_POWER_CONNECTED,attribution +0.01497,value 0,reference 1
+permission::android.permission.CALL_PHONE,attribution +0.01487,value 0,reference 1
+intent::android.net.conn.CONNECTIVITY_CHANGE,attribution +0.01472,value 0,reference 1
+api_call::android/content/Context;->startActivity,attribution +0.01371,value 0,reference 1
+
+# test sample 731 (Iconosys), nearest family BaseBridge, score 0.5179 = s0(x_ref) 0.0217 + PCs [-0.1012, -0.006, 0.6983, -0.0368, -0.0214, 0.0049, -0.04, -0.0018]
+url::schemas.android.com,attribution +0.02583,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.02471,value 0,reference 1
+url::maps.google.com,attribution +0.02459,value 0,reference 1
+call::getSubscriberId,attribution +0.01777,value 0,reference 1
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.01709,value 0,reference 1
+permission::android.permission.WRITE_CONTACTS,attribution +0.01487,value 0,reference 1
+intent::android.net.conn.CONNECTIVITY_CHANGE,attribution +0.01482,value 0,reference 1
+intent::android.intent.action.ACTION_POWER_CONNECTED,attribution +0.01479,value 0,reference 1
+intent::android.intent.action.INPUT_METHOD_CHANGED,attribution +0.01478,value 0,reference 1
+real_permission::android.permission.SEND_SMS,attribution +0.01436,value 1,reference 0
+intent::android.intent.action.USER_PRESENT,attribution +0.0143,value 0,reference 1
+url::http://schemas.android.com/apk/res/android,attribution +0.0142,value 0,reference 1
+permission::android.permission.CALL_PHONE,attribution +0.01367,value 0,reference 1
+activity::.MainA,attribution +0.01345,value 0,reference 1
+activity::com.keji.danti.MainA,attribution +0.01344,value 0,reference 1
+

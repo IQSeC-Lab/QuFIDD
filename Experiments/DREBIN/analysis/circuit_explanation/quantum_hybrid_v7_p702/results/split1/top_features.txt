@@ -1,0 +1,85 @@
+# test sample 536 (DroidKungFu), nearest family GinMaster, score 0.1386 = s0(x_ref) 0.3911 + PCs [0.1027, 0.0809, 0.0005, 0.2533, -0.5603, -0.0387, -0.0045, -0.0865]
+feature::android.hardware.wifi,attribution +0.01442,value 1,reference 0
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.01442,value 1,reference 0
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.01336,value 1,reference 0
+permission::android.permission.SET_WALLPAPER,attribution +0.01073,value 0,reference 1
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.00908,value 0,reference 1
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS,attribution +0.00906,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.007619,value 1,reference 0
+call::setWifiEnabled,attribution +0.007563,value 1,reference 0
+permission::android.permission.CHANGE_WIFI_STATE,attribution +0.007492,value 1,reference 0
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.007033,value 1,reference 0
+feature::android.hardware.location,attribution +0.006736,value 1,reference 0
+feature::android.hardware.location.gps,attribution +0.006154,value 1,reference 0
+permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.006154,value 1,reference 0
+call::system/bin/su,attribution +0.004327,value 1,reference 0
+url::http://market.android.com,attribution +0.003138,value 1,reference 0
+
+# test sample 539 (DroidKungFu), nearest family GinMaster, score 0.2163 = s0(x_ref) 0.3911 + PCs [0.105, -0.0237, 0.0007, 0.3101, -0.3784, 0.0074, -0.0237, -0.1722]
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution +0.02116,value 1,reference 0
+feature::android.hardware.location.network,attribution +0.02092,value 1,reference 0
+feature::android.hardware.location,attribution +0.01988,value 1,reference 0
+feature::android.hardware.location.gps,attribution +0.01957,value 1,reference 0
+permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.01957,value 1,reference 0
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS,attribution +0.01784,value 1,reference 0
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.01277,value 0,reference 1
+call::Obfuscation(Base64),attribution +0.01098,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.008044,value 0,reference 1
+call::system/bin/su,attribution +0.007684,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->getConnectionInfo,attribution +0.002128,value 1,reference 0
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.0003426,value 1,reference 0
+permission::android.permission.SET_WALLPAPER,attribution -4.121e-05,value 0,reference 1
+url::http://10.0.0.172:80,attribution -0.002581,value 0,reference 1
+url::10.0.0.172,attribution -0.002888,value 0,reference 1
+
+# test sample 541 (DroidKungFu), nearest family GinMaster, score 0.1740 = s0(x_ref) 0.3911 + PCs [0.0318, 0.07, -0.0292, 0.3149, -0.4414, -0.0437, -0.0035, -0.116]
+permission::android.permission.READ_SMS,attribution +0.03086,value 1,reference 0
+permission::android.permission.WRITE_SMS,attribution +0.01707,value 1,reference 0
+feature::android.hardware.screen.portrait,attribution +0.01359,value 0,reference 1
+feature::android.hardware.telephony,attribution +0.01184,value 1,reference 0
+activity::.Main,attribution +0.01157,value 1,reference 0
+permission::android.permission.SET_WALLPAPER,attribution +0.01037,value 0,reference 1
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.01034,value 0,reference 1
+feature::android.hardware.wifi,attribution +0.00851,value 1,reference 0
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.00851,value 1,reference 0
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution +0.007538,value 1,reference 0
+feature::android.hardware.location.network,attribution +0.007125,value 1,reference 0
+feature::android.hardware.location,attribution +0.006278,value 1,reference 0
+call::system/bin/su,attribution +0.005362,value 1,reference 0
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.004076,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.003379,value 1,reference 0
+
+# test sample 557 (DroidKungFu), nearest family GinMaster, score 0.1318 = s0(x_ref) 0.3911 + PCs [0.0233, 0.0989, 0.0053, 0.2376, -0.423, -0.0953, -0.0082, -0.0978]
+feature::android.hardware.wifi,attribution +0.01961,value 1,reference 0
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.01961,value 1,reference 0
+permission::android.permission.SET_WALLPAPER,attribution +0.01825,value 0,reference 1
+feature::android.hardware.screen.portrait,attribution +0.01687,value 0,reference 1
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.01344,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.01205,value 1,reference 0
+call::setWifiEnabled,attribution +0.01202,value 1,reference 0
+permission::android.permission.CHANGE_WIFI_STATE,attribution +0.01198,value 1,reference 0
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.01157,value 1,reference 0
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.007041,value 0,reference 1
+call::system/bin/su,attribution +0.005418,value 1,reference 0
+api_call::java/net/HttpURLConnection,attribution +0.0009274,value 1,reference 0
+api_call::android/app/ActivityManager;->getRunningTasks,attribution +0.000477,value 1,reference 0
+call::getWifiState,attribution +3.834e-05,value 1,reference 0
+real_permission::android.permission.GET_TASKS,attribution -0.0003264,value 1,reference 0
+
+# test sample 561 (DroidKungFu), nearest family GinMaster, score 0.2151 = s0(x_ref) 0.3911 + PCs [0.0068, 0.0438, 0.0131, 0.3526, -0.4063, -0.0402, -0.0159, -0.1298]
+call::getSubscriberId,attribution +0.02137,value 0,reference 1
+call::Obfuscation(Base64),attribution +0.02088,value 0,reference 1
+feature::android.hardware.screen.portrait,attribution +0.0201,value 0,reference 1
+activity::.Main,attribution +0.0155,value 1,reference 0
+permission::android.permission.SET_WALLPAPER,attribution +0.01181,value 0,reference 1
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.0114,value 0,reference 1
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.01113,value 1,reference 0
+call::setWifiEnabled,attribution +0.01108,value 1,reference 0
+permission::android.permission.CHANGE_WIFI_STATE,attribution +0.01098,value 1,reference 0
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.01049,value 1,reference 0
+feature::android.hardware.wifi,attribution +0.009182,value 1,reference 0
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.009182,value 1,reference 0
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.006571,value 1,reference 0
+call::system/bin/su,attribution +0.005566,value 1,reference 0
+call::getPackageInfo,attribution +0.002028,value 0,reference 1
+

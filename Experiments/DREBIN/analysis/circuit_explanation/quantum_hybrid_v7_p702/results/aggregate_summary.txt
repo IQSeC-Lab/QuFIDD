@@ -1,0 +1,22 @@
+quantum_hybrid_v7_p702 (Drebin) -- quantum-native drift explanation, 8/8 splits
+
+  withheld          AUC  AUC res  AUC ent  AUC s0    gap  gap s0  gap reup      err  rho E3  relD M1  relD rnd  ins M1 ins grad  ins rnd
+  FakeInstaller   0.808    0.417    0.854   0.766  0.193   0.145     0.048  1.4e-14    0.64    0.278     1.064   0.512    0.474    0.544
+  DroidKungFu     0.746    0.710    0.739   0.875  0.116   0.281    -0.165  1.1e-14    0.49    0.585     1.067   0.609    0.591    0.604
+  Plankton        0.868    0.799    0.865   0.976  0.206   0.616    -0.410  8.2e-15    0.52    0.437     1.031   0.624    0.564    0.606
+  GinMaster       0.902    0.933    0.841   0.994  0.287   0.735    -0.448  8.2e-15    0.77    0.248     1.111   0.652    0.615    0.746
+  BaseBridge      0.966    0.953    0.936   0.945  0.420   0.392     0.027  6.3e-15   -0.02    0.488     1.124   0.660    0.606    0.658
+  Iconosys        0.835    0.720    0.795   0.758  0.273   0.397    -0.124  7.9e-15   -0.30    0.509     1.076   0.708    0.633    0.672
+  Kmin            0.978    0.855    0.973   0.956  0.459   0.546    -0.087  1.5e-14    0.00    0.157     1.031   0.627    0.591    0.654
+  FakeDoc         0.968    0.955    0.811   0.914  0.394   0.475    -0.081  7.1e-15    0.31    0.287     1.016   0.652    0.585    0.694
+  MEAN            0.884    0.793    0.852   0.898  0.293   0.448    -0.155             0.30    0.374     1.065   0.630    0.582    0.647
+
+  Drift-vs-known gap per PC (amplitude part | re-upload part), mean over splits:
+    PC1:+0.049|-0.046 PC2:+0.119|-0.024 PC3:+0.088|-0.038 PC4:+0.082|-0.025 PC5:-0.023|-0.022 PC6:+0.018|-0.022 PC7:+0.001|+0.017 PC8:-0.034|+0.005
+  Pauli gap by weight: 1-qubit: +0.038, 2-qubit: +0.108, 3-qubit: +0.105
+  Re-upload gap profile (mean over splits): -0.018 -0.021 -0.002 -0.013 +0.010 -0.024 -0.019 +0.002 -0.011 -0.004 -0.004 -0.009 -0.011 -0.013 -0.011 -0.001 -0.010 -0.003 +0.008 -0.004 +0.006 -0.005 -0.003 +0.003
+
+  AUC = ROC-AUC of the drift score; AUC res / ent = of the novelty residual / profile entropy (M3); AUC s0 = of the
+  amplitude-encoding score alone; gap = mean(drifting) - mean(known); err = max error of the exact decompositions (M1, M2);
+  rho E3 = Spearman(gap of Delta_u, ROC-AUC drop when re-upload u is removed); relD = distance after replacing the top-k
+  features by x_ref / original (E1, CADE k); ins = mean known-family percentile along the insertion curve (E2, lower = better).

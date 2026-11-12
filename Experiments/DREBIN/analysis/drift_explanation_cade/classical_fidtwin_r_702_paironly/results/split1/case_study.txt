@@ -1,0 +1,30 @@
+# test sample 532 (family DroidKungFu), closest family GinMaster, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::getPackageInfo,0,0.7061,1,1
+permission::android.permission.WRITE_EXTERNAL_STORAGE,0,0.8501,1,1
+
+# test sample 535 (family DroidKungFu), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::getPackageInfo,0,0.7061,1,1
+intent::android.intent.action.USER_PRESENT,0,0,0.2967,1
+url::http://maps.google.com/maps?q%3D,1,0.7106,0.12,0
+
+# test sample 541 (family DroidKungFu), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/webkit/WebChromeClient;->onGeolocationPermissionsShowPrompt,1,0.2519,0,0
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,0,0,0.5567,1
+url::http://maps.google.com/maps?q%3D,1,0.7106,0.12,0
+
+# test sample 542 (family DroidKungFu), closest family GinMaster, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/wifi/WifiManager;->getConnectionInfo,1,0.4438,0.1967,0
+permission::android.permission.GET_TASKS,0,0.3388,0.3333,1
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,0,0.03598,0.6467,1
+
+# test sample 557 (family DroidKungFu), closest family GinMaster, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.MainActivity,1,0.1604,0.003333,0
+api_call::android/webkit/WebView,0,0.3343,0.2967,1
+feature::android.hardware.screen.portrait,0,0.5352,0.88,1
+url::maps.google.com,1,0.7181,0.1233,0
+

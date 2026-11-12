@@ -1,0 +1,139 @@
+# test sample 598 (family BaseBridge), closest family Iconosys, 50 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.FlyDay,0,0,0.07237,1
+api_call::android/content/ContentResolver;->query,0,0.3455,0.7829,1
+api_call::android/content/Context;->startActivity,0,0.6212,0.1842,1
+api_call::android/media/MediaPlayer;->start,1,0.05152,0.006579,0
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,1,0.3152,0,0
+api_call::android/os/PowerManager$WakeLock;->acquire,0,0.02121,0.6711,1
+api_call::android/telephony/SmsManager;->sendTextMessage,0,0.1727,0.3092,1
+api_call::android/telephony/TelephonyManager;->getDeviceId,0,0.7485,1,1
+api_call::android/webkit/WebView,1,0.1667,0.7039,0
+api_call::java/net/URL;->openStream,0,0.00303,0.08553,1
+call::Cipher(AES/CBC/PKCS5Padding),1,0.02121,0,0
+call::Obfuscation(Base64),1,0.06667,0,0
+call::sendSMS,0,0.2,0.4342,1
+feature::android.hardware.camera,0,0.009091,0.5592,1
+feature::android.hardware.location.network,0,0.0303,0.5855,1
+feature::android.hardware.screen.portrait,0,0.9121,0.8882,1
+permission::android.permission.ACCESS_COARSE_LOCATION,0,0.0303,0.5855,1
+permission::android.permission.CAMERA,0,0.009091,0.4868,1
+permission::android.permission.GET_ACCOUNTS,0,0,0.5921,1
+permission::android.permission.READ_CONTACTS,0,0.6303,0.8026,1
+permission::android.permission.WAKE_LOCK,0,0.7545,0.6776,1
+permission::android.permission.WRITE_SMS,0,0.8848,0.4934,1
+real_permission::android.permission.ACCESS_FINE_LOCATION,0,0.08182,0.1974,1
+real_permission::android.permission.ACCESS_NETWORK_STATE,1,0.9333,0,0
+real_permission::android.permission.READ_CONTACTS,0,0.3515,0.7829,1
+real_permission::android.permission.READ_PHONE_STATE,0,0.9303,1,1
+real_permission::android.permission.SEND_SMS,0,0.2,0.9474,1
+real_permission::android.permission.VIBRATE,1,0.3576,0.006579,0
+url::blackflyday.com,0,0,0.6316,1
+url::deals.dealbuzzer.net,0,0,0.125,1
+url::developers.facebook.com,0,0,0.1711,1
+url::http://blackflyday.com/new/,0,0,0.6316,1
+url::http://clk,1,0.00303,0,0
+url::http://deals.dealbuzzer.net/,0,0,0.125,1
+url::http://graph.facebook.com/,0,0,0.1711,1
+url::http://maps.google.com/maps?q%3D,0,0.6515,0.09211,1
+url::http://schemas.android.com/apk/res/,1,0.06061,0,0
+url::http://smsreplier.net/smsreply/regandwelcome.php,0,0,0.6447,1
+url::http://touch.facebook.com/,0,0,0.1711,1
+url::https://api.facebook.com/restserver.php,0,0.00303,0.1711,1
+url::https://graph.facebook.com/,0,0.00303,0.1711,1
+url::https://graph.facebook.com/me/feed,0,0,0.1711,1
+url::https://graph.facebook.com/oauth/authorize,0,0,0.1711,1
+url::https://www.facebook.com/connect/uiserver.php,0,0.00303,0.1711,1
+url::maps.google.com,0,0.6545,0.09211,1
+url::market.android.com,1,0.02121,0,0
+url::schemas.android.com,1,0.6939,0,0
+url::smsreplier.net,0,0,1,1
+url::touch.facebook.com,0,0,0.1711,1
+url::www.facebook.com,0,0.00303,0.1711,1
+
+# test sample 600 (family BaseBridge), closest family GinMaster, 21 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.PGlvKJiwGWPK,0,0,0.02817,1
+call::Execution of external commands,0,0.0303,0.6972,1
+call::Obfuscation(Base64),0,0.06667,0.8768,1
+call::Read/Write External Storage,0,0.1242,1,1
+call::printStackTrace,0,0.2727,1,1
+feature::android.hardware.telephony,1,0.9091,0.07746,0
+permission::android.permission.CALL_PHONE,1,0.7424,0.03169,0
+permission::android.permission.GET_TASKS,0,0.01515,0.3028,1
+permission::android.permission.READ_LOGS,1,0.5939,0.3521,0
+permission::android.permission.READ_SMS,1,0.8939,0.01056,0
+permission::android.permission.RECEIVE_SMS,1,0.7606,0.02817,0
+permission::android.permission.SEND_SMS,1,0.7667,0.01761,0
+permission::android.permission.WRITE_APN_SETTINGS,1,0.7212,0.02817,0
+permission::android.permission.WRITE_EXTERNAL_STORAGE,0,0.3576,1,1
+permission::android.permission.WRITE_SMS,1,0.8848,0.01056,0
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,0,0,0.6408,1
+real_permission::android.permission.GET_TASKS,0,0.01515,0.2993,1
+url::10.0.0.172,0,0.02121,0.5669,1
+url::http://10.0.0.172:80,0,0.006061,0.4437,1
+url::http://maps.google.com/maps?q%3D,1,0.6515,0.1232,0
+url::maps.google.com,1,0.6545,0.1268,0
+
+# test sample 602 (family BaseBridge), closest family GinMaster, 18 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.PGlvKJiwGWPK,0,0,0.02817,1
+api_call::android/app/ActivityManager;->getRunningTasks,0,0.01515,0.2923,1
+api_call::android/content/ContentResolver;->query,1,0.3455,0.2852,0
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,1,0.3152,0.419,0
+api_call::android/net/ConnectivityManager;->getNetworkInfo,0,0.5879,0.5528,1
+api_call::java/lang/Runtime;->exec,0,0.0303,0.6972,1
+call::Execution of external commands,0,0.0303,0.6972,1
+call::HttpPost,0,0.06061,1,1
+call::Obfuscation(Base64),0,0.06667,0.8768,1
+call::Read/Write External Storage,0,0.1242,1,1
+feature::android.hardware.telephony,1,0.9091,0.07746,0
+permission::android.permission.READ_SMS,1,0.8939,0.01056,0
+permission::android.permission.VIBRATE,1,0.8818,0.2042,0
+permission::android.permission.WRITE_SMS,1,0.8848,0.01056,0
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,0,0,0.588,1
+real_permission::android.permission.READ_LOGS,0,0.0303,0.6972,1
+url::10.0.0.172,0,0.02121,0.5669,1
+url::http://10.0.0.172:80,0,0.006061,0.4437,1
+
+# test sample 603 (family BaseBridge), closest family GinMaster, 19 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::java/lang/Runtime;->exec,0,0.0303,0.6972,1
+call::Execution of external commands,0,0.0303,0.6972,1
+call::HttpPost,0,0.06061,1,1
+call::Obfuscation(Base64),0,0.06667,0.8768,1
+call::Read/Write External Storage,0,0.1242,1,1
+feature::android.hardware.telephony,1,0.9091,0.07746,0
+permission::android.permission.CALL_PHONE,1,0.7424,0.03169,0
+permission::android.permission.DISABLE_KEYGUARD,1,0.7364,0.003521,0
+permission::android.permission.READ_SMS,1,0.8939,0.01056,0
+permission::android.permission.WRITE_APN_SETTINGS,1,0.7212,0.02817,0
+permission::android.permission.WRITE_SMS,1,0.8848,0.01056,0
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,0,0,0.6408,1
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,0,0,0.588,1
+provider::android.provider.Telephony.SMS_RECEIVED,1,0.7515,0.003521,0
+real_permission::android.permission.GET_TASKS,0,0.01515,0.2993,1
+real_permission::android.permission.READ_LOGS,0,0.0303,0.6972,1
+url::http://10.0.0.172:80,0,0.006061,0.4437,1
+url::http://maps.google.com/maps?q%3D,1,0.6515,0.1232,0
+url::maps.google.com,1,0.6545,0.1268,0
+
+# test sample 605 (family BaseBridge), closest family GinMaster, 16 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.PGlvKJiwGWPK,0,0,0.02817,1
+api_call::android/app/ActivityManager;->getRunningTasks,0,0.01515,0.2923,1
+api_call::android/content/ContentResolver;->query,1,0.3455,0.2852,0
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,1,0.3152,0.419,0
+api_call::java/lang/Runtime;->exec,0,0.0303,0.6972,1
+call::Execution of external commands,0,0.0303,0.6972,1
+call::HttpPost,0,0.06061,1,1
+call::Read/Write External Storage,0,0.1242,1,1
+feature::android.hardware.telephony,1,0.9091,0.07746,0
+permission::android.permission.READ_SMS,1,0.8939,0.01056,0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,0,0.7485,0.5845,1
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,0,0,0.6408,1
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,0,0,0.588,1
+real_permission::android.permission.GET_TASKS,0,0.01515,0.2993,1
+real_permission::android.permission.READ_CONTACTS,1,0.3515,0.2993,0
+url::http://10.0.0.172:80,0,0.006061,0.4437,1
+

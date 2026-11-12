@@ -1,0 +1,36 @@
+{
+  "model": "classical_fidtwin_c_702",
+  "dataset": "Drebin",
+  "split": 5,
+  "withheld_family": "Iconosys",
+  "run": 0,
+  "reload_rel_diff": 0.0001275514672438644,
+  "roc_auc": 0.8911038474350432,
+  "n_test": 784,
+  "n_drift": 152,
+  "M3": {
+    "auc_residual": 0.539088524317122,
+    "auc_entropy": 0.8798301132578281,
+    "auc_score": 0.8911038474350432,
+    "residual_gap": 0.001121170275471135,
+    "entropy_gap": 0.31233465933307814,
+    "drifting_family_resembles": {
+      "BaseBridge": 0.3631744500842167,
+      "FakeInstaller": 0.2334443407980743,
+      "GinMaster": 0.17714564233306626,
+      "DroidKungFu": 0.08991518644910776,
+      "Kmin": 0.0670060224131185,
+      "Plankton": 0.051639755747447995,
+      "FakeDoc": 0.01767460217496823
+    },
+    "nearest_family_of_drifting": {
+      "FakeInstaller": 50,
+      "DroidKungFu": 6,
+      "Plankton": 0,
+      "GinMaster": 0,
+      "BaseBridge": 96,
+      "Kmin": 0,
+      "FakeDoc": 0
+    }
+  }
+}

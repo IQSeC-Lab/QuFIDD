@@ -1,0 +1,85 @@
+# test sample 538 (Plankton), nearest family GinMaster, score 0.4830 = s0(x_ref) 0.0901 + PCs [-0.0114, 0.0122, 0.0113, 0.1689, 0.3541, -0.3742, 0.1818, 0.0502]
+feature::android.hardware.screen.portrait,attribution +0.06337,value 0,reference 1
+call::getSubscriberId,attribution +0.0599,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.05714,value 0,reference 1
+api_call::android/content/Context;->startActivity,attribution +0.04098,value 0,reference 1
+call::getPackageInfo,attribution +0.0333,value 0,reference 1
+permission::android.permission.READ_LOGS,attribution +0.03288,value 0,reference 1
+permission::android.permission.SET_WALLPAPER,attribution +0.02518,value 0,reference 1
+url::10.0.0.172,attribution +0.0231,value 0,reference 1
+call::Read/Write External Storage,attribution +0.02098,value 0,reference 1
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.01736,value 1,reference 0
+api_call::android/content/Context;->startService,attribution +0.01659,value 1,reference 0
+url::http://10.0.0.172/,attribution +0.01479,value 0,reference 1
+intent::android.intent.category.HOME,attribution +0.01359,value 1,reference 0
+url::http://10.0.0.172:80,attribution +0.01274,value 0,reference 1
+url::client.go360days.com,attribution +0.01096,value 0,reference 1
+
+# test sample 545 (Plankton), nearest family DroidKungFu, score 0.3854 = s0(x_ref) 0.3762 + PCs [0.4029, -0.0535, 0.0939, -0.086, 0.0606, -0.1187, -0.1069, -0.1831]
+intent::android.intent.action.SIG_STR,attribution +0.02552,value 0,reference 1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,attribution +0.02552,value 0,reference 1
+url::r2.adwo.com,attribution +0.01944,value 0,reference 1
+api_call::android/os/PowerManager$WakeLock;->acquire,attribution +0.01768,value 1,reference 0
+url::http://r2.adwo.com/ad,attribution +0.01746,value 0,reference 1
+url::http://www.adwo.com,attribution +0.017,value 0,reference 1
+url::www.adwo.com,attribution +0.017,value 0,reference 1
+call::system/bin/su,attribution +0.01665,value 0,reference 1
+call::getWifiState,attribution +0.01644,value 0,reference 1
+permission::android.permission.VIBRATE,attribution +0.0163,value 1,reference 0
+real_permission::android.permission.WAKE_LOCK,attribution +0.01289,value 1,reference 0
+activity::com.google.update.Dialog,attribution +0.01222,value 0,reference 1
+service_receiver::com.google.update.Receiver,attribution +0.01222,value 0,reference 1
+service_receiver::com.google.update.UpdateService,attribution +0.01222,value 0,reference 1
+call::getSubscriberId,attribution +0.01028,value 0,reference 1
+
+# test sample 547 (Plankton), nearest family GinMaster, score 0.1961 = s0(x_ref) 0.0901 + PCs [-0.0379, 0.0234, 0.0079, 0.2379, 0.0403, -0.36, 0.1894, 0.0052]
+feature::android.hardware.wifi,attribution +0.04979,value 1,reference 0
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.04835,value 1,reference 0
+api_call::android/app/NotificationManager;->notify,attribution +0.03774,value 0,reference 1
+url::schemas.android.com,attribution +0.03263,value 1,reference 0
+api_call::java/net/HttpURLConnection,attribution +0.01948,value 0,reference 1
+permission::android.permission.WAKE_LOCK,attribution +0.01743,value 1,reference 0
+call::Execution of external commands,attribution +0.01666,value 0,reference 1
+real_permission::android.permission.READ_LOGS,attribution +0.01666,value 0,reference 1
+api_call::java/lang/Runtime;->exec,attribution +0.01666,value 0,reference 1
+url::10.0.0.172,attribution +0.0138,value 0,reference 1
+url::http://10.0.0.172/,attribution +0.01185,value 0,reference 1
+url::http://10.0.0.172:80,attribution +0.009995,value 0,reference 1
+url::client.go360days.com,attribution +0.009452,value 0,reference 1
+url::http://client.go360days.com/client.php?action%3Dsoft&soft_id%3D,attribution +0.009452,value 0,reference 1
+url::http://client.go360days.com/report/down_apk.do,attribution +0.009452,value 0,reference 1
+
+# test sample 548 (Plankton), nearest family GinMaster, score 0.3354 = s0(x_ref) 0.0901 + PCs [-0.0842, -0.0005, -0.0015, 0.2462, 0.3553, -0.11, -0.1745, 0.0145]
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.02778,value 1,reference 0
+feature::android.hardware.screen.portrait,attribution +0.02051,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.0192,value 0,reference 1
+url::10.0.0.172,attribution +0.01888,value 0,reference 1
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.01756,value 1,reference 0
+feature::android.hardware.wifi,attribution +0.01538,value 1,reference 0
+url::http://10.0.0.172/,attribution +0.01437,value 0,reference 1
+url::http://10.0.0.172:80,attribution +0.01229,value 0,reference 1
+url::client.go360days.com,attribution +0.0107,value 0,reference 1
+url::http://client.go360days.com/client.php?action%3Dsoft&soft_id%3D,attribution +0.0107,value 0,reference 1
+url::http://client.go360days.com/report/down_apk.do,attribution +0.0107,value 0,reference 1
+url::http://client.go360days.com/report/first_run.do,attribution +0.0107,value 0,reference 1
+url::http://client.go360days.com/report/install_list.do,attribution +0.0107,value 0,reference 1
+url::http://client.go360days.com/report/install_success.do,attribution +0.0107,value 0,reference 1
+url::http://client.go360days.com/report/open_table.do,attribution +0.0107,value 0,reference 1
+
+# test sample 550 (Plankton), nearest family GinMaster, score 0.3411 = s0(x_ref) 0.0901 + PCs [-0.016, -0.0064, 0.0545, 0.1464, 0.2357, -0.2878, 0.1041, 0.0205]
+call::getSubscriberId,attribution +0.0327,value 0,reference 1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,attribution +0.02577,value 0,reference 1
+call::Read/Write External Storage,attribution +0.02547,value 0,reference 1
+url::10.0.0.172,attribution +0.01891,value 0,reference 1
+api_call::android/content/Context;->startActivity,attribution +0.01864,value 0,reference 1
+activity::.Main,attribution +0.015,value 1,reference 0
+url::http://10.0.0.172/,attribution +0.01248,value 0,reference 1
+permission::android.permission.INSTALL_PACKAGES,attribution +0.01121,value 1,reference 0
+url::http://10.0.0.172:80,attribution +0.01075,value 0,reference 1
+api_call::android/content/Context;->startService,attribution +0.01019,value 1,reference 0
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.01004,value 0,reference 1
+real_permission::android.permission.ACCESS_WIFI_STATE,attribution +0.009416,value 1,reference 0
+url::client.go360days.com,attribution +0.009194,value 0,reference 1
+url::http://client.go360days.com/client.php?action%3Dsoft&soft_id%3D,attribution +0.009194,value 0,reference 1
+url::http://client.go360days.com/report/down_apk.do,attribution +0.009194,value 0,reference 1
+

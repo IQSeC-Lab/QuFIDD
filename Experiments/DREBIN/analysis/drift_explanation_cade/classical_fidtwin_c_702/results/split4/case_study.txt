@@ -1,0 +1,78 @@
+# test sample 598 (family BaseBridge), closest family DroidKungFu, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/wifi/WifiManager;->getWifiState,0,0,0.4384,1
+call::Execution of external commands,0,0.0303,0.9835,1
+call::Obfuscation(Base64),1,0.06667,0.512,0
+call::getSubscriberId,0,0.9,0.8003,1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,0,0,0.8724,1
+intent::android.intent.action.BOOT_COMPLETED,0,0.8879,0.9174,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0.7212,0.9144,1
+real_permission::android.permission.ACCESS_WIFI_STATE,0,0.0303,0.8844,1
+real_permission::android.permission.READ_LOGS,0,0.0303,0.9835,1
+
+# test sample 601 (family BaseBridge), closest family DroidKungFu, 19 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::com.google.update.Dialog,0,0,0.5991,1
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,0,0.3152,0.8348,1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,1,0.5879,0.1156,0
+api_call::android/net/wifi/WifiManager;->getWifiState,0,0,0.4384,1
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,0,0.00303,0.7192,1
+api_call::android/os/PowerManager$WakeLock;->acquire,1,0.02121,0.1036,0
+api_call::android/telephony/SmsManager;->sendTextMessage,1,0.1727,0.03453,0
+call::Execution of external commands,0,0.0303,0.9835,1
+call::getWifiState,0,0.006061,0.7087,1
+call::readSMS,1,0.006061,0.001502,0
+call::sendSMS,1,0.2,0.04054,0
+feature::android.hardware.wifi,0,0.7212,0.8859,1
+intent::android.intent.action.SIG_STR,0,0,0.8724,1
+permission::android.permission.RECEIVE_SMS,1,0.7606,0.01351,0
+permission::android.permission.SEND_SMS,1,0.7667,0.02703,0
+permission::android.permission.WAKE_LOCK,1,0.7545,0.2297,0
+real_permission::android.permission.READ_LOGS,0,0.0303,0.9835,1
+real_permission::android.permission.SEND_SMS,1,0.2,0.04054,0
+url::r2.adwo.com,0,0.00303,0.7117,1
+
+# test sample 602 (family BaseBridge), closest family DroidKungFu, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::java/lang/Runtime;->exec,0,0.0303,0.9835,1
+call::Execution of external commands,0,0.0303,0.9835,1
+call::setWifiEnabled,0,0.00303,0.7192,1
+intent::android.intent.action.SIG_STR,0,0,0.8724,1
+url::https://market.android.com,0,0.006061,0.7042,1
+url::market.android.com,0,0.02121,0.7327,1
+
+# test sample 604 (family BaseBridge), closest family DroidKungFu, 15 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/location/LocationManager;->getBestProvider,0,0.03333,0.2658,1
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,0,0.3152,0.8348,1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,1,0.5879,0.1156,0
+api_call::android/net/wifi/WifiManager;->getWifiState,0,0,0.4384,1
+call::Cipher(AES),0,0.01515,0.9219,1
+call::Execution of external commands,0,0.0303,0.9835,1
+call::getWifiState,0,0.006061,0.7087,1
+call::printStackTrace,0,0.2727,0.9835,1
+feature::android.hardware.location,0,0.04848,0.6877,1
+feature::android.hardware.telephony,1,0.9091,0.4219,0
+permission::android.permission.RECEIVE_SMS,1,0.7606,0.01351,0
+permission::android.permission.SEND_SMS,1,0.7667,0.02703,0
+real_permission::android.permission.ACCESS_WIFI_STATE,0,0.0303,0.8844,1
+real_permission::android.permission.READ_LOGS,0,0.0303,0.9835,1
+url::market.android.com,0,0.02121,0.7327,1
+
+# test sample 611 (family BaseBridge), closest family DroidKungFu, 14 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,0,0.3152,0.8348,1
+api_call::android/net/ConnectivityManager;->getNetworkInfo,1,0.5879,0.1156,0
+api_call::android/net/wifi/WifiManager;->getWifiState,0,0,0.4384,1
+call::Execution of external commands,0,0.0303,0.9835,1
+call::getWifiState,0,0.006061,0.7087,1
+feature::android.hardware.location,0,0.04848,0.6877,1
+feature::android.hardware.telephony,1,0.9091,0.4219,0
+intent::android.intent.action.BATTERY_CHANGED_ACTION,0,0,0.8724,1
+intent::android.intent.action.SIG_STR,0,0,0.8724,1
+permission::android.permission.SEND_SMS,1,0.7667,0.02703,0
+permission::android.permission.WAKE_LOCK,1,0.7545,0.2297,0
+real_permission::android.permission.ACCESS_FINE_LOCATION,0,0.08182,0.8483,1
+real_permission::android.permission.ACCESS_WIFI_STATE,0,0.0303,0.8844,1
+url::market.android.com,0,0.02121,0.7327,1
+

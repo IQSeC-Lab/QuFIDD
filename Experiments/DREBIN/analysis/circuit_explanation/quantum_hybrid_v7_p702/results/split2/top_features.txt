@@ -1,0 +1,85 @@
+# test sample 538 (Plankton), nearest family GinMaster, score 0.4341 = s0(x_ref) 0.0735 + PCs [-0.1078, 0.0163, -0.0034, 0.3553, 0.2236, -0.2684, 0.125, 0.0199]
+permission::android.permission.VIBRATE,attribution +0.101,value 1,reference 0
+call::Read/Write External Storage,attribution +0.08067,value 0,reference 1
+permission::android.permission.WRITE_EXTERNAL_STORAGE,attribution +0.07791,value 0,reference 1
+feature::android.hardware.wifi,attribution +0.07596,value 1,reference 0
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.07475,value 1,reference 0
+api_call::java/lang/Runtime;->exec,attribution +0.05508,value 0,reference 1
+call::Execution of external commands,attribution +0.05508,value 0,reference 1
+real_permission::android.permission.READ_LOGS,attribution +0.05508,value 0,reference 1
+permission::android.permission.WAKE_LOCK,attribution +0.0525,value 1,reference 0
+api_call::java/net/HttpURLConnection,attribution +0.03295,value 0,reference 1
+url::10.0.0.172,attribution +0.03089,value 0,reference 1
+url::http://10.0.0.172/,attribution +0.02727,value 0,reference 1
+intent::android.intent.category.DEFAULT,attribution +0.02521,value 0,reference 1
+url::client.go360days.com,attribution +0.02179,value 0,reference 1
+url::http://client.go360days.com/client.php?action%3Dsoft&soft_id%3D,attribution +0.02179,value 0,reference 1
+
+# test sample 542 (Plankton), nearest family GinMaster, score 0.3107 = s0(x_ref) 0.0735 + PCs [-0.0894, 0.0146, -0.0007, 0.2969, 0.1521, -0.2865, 0.1375, 0.0126]
+permission::android.permission.VIBRATE,attribution +0.3078,value 1,reference 0
+feature::android.hardware.wifi,attribution +0.2447,value 1,reference 0
+permission::android.permission.ACCESS_WIFI_STATE,attribution +0.2422,value 1,reference 0
+call::Read/Write External Storage,attribution +0.1504,value 0,reference 1
+api_call::java/lang/Runtime;->exec,attribution +0.1087,value 0,reference 1
+call::Execution of external commands,attribution +0.1087,value 0,reference 1
+real_permission::android.permission.READ_LOGS,attribution +0.1087,value 0,reference 1
+api_call::java/net/HttpURLConnection,attribution +0.08489,value 0,reference 1
+intent::android.intent.category.DEFAULT,attribution +0.0629,value 0,reference 1
+url::http://10.0.0.172/,attribution +0.03882,value 0,reference 1
+url::10.0.0.172,attribution +0.03689,value 0,reference 1
+call::system/bin/su,attribution +0.03542,value 0,reference 1
+url::client.go360days.com,attribution +0.03185,value 0,reference 1
+url::http://client.go360days.com/client.php?action%3Dsoft&soft_id%3D,attribution +0.03185,value 0,reference 1
+url::http://client.go360days.com/report/down_apk.do,attribution +0.03185,value 0,reference 1
+
+# test sample 543 (Plankton), nearest family GinMaster, score 0.3250 = s0(x_ref) 0.0735 + PCs [-0.1225, -0.0269, -0.0058, 0.4529, 0.0568, -0.2229, 0.1159, 0.0038]
+call::getSubscriberId,attribution +0.04767,value 0,reference 1
+call::Read/Write External Storage,attribution +0.04204,value 0,reference 1
+call::Execution of external commands,attribution +0.02818,value 0,reference 1
+real_permission::android.permission.READ_LOGS,attribution +0.02818,value 0,reference 1
+api_call::java/lang/Runtime;->exec,attribution +0.02818,value 0,reference 1
+api_call::android/content/Context;->startActivity,attribution +0.02729,value 0,reference 1
+feature::android.hardware.telephony,attribution +0.02178,value 1,reference 0
+url::10.0.0.172,attribution +0.01995,value 0,reference 1
+url::http://10.0.0.172/,attribution +0.01612,value 0,reference 1
+api_call::java/net/HttpURLConnection,attribution +0.01529,value 0,reference 1
+url::client.go360days.com,attribution +0.01271,value 0,reference 1
+url::http://client.go360days.com/client.php?action%3Dsoft&soft_id%3D,attribution +0.01271,value 0,reference 1
+url::http://client.go360days.com/report/down_apk.do,attribution +0.01271,value 0,reference 1
+url::http://client.go360days.com/report/first_run.do,attribution +0.01271,value 0,reference 1
+url::http://client.go360days.com/report/install_list.do,attribution +0.01271,value 0,reference 1
+
+# test sample 551 (Plankton), nearest family DroidKungFu, score 0.5935 = s0(x_ref) 0.3093 + PCs [0.373, 0.0195, -0.0115, 0.0343, -0.0318, -0.0159, 0.0106, -0.094]
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo,attribution +0.01246,value 0,reference 1
+real_permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.01201,value 0,reference 1
+permission::android.permission.ACCESS_NETWORK_STATE,attribution +0.01167,value 0,reference 1
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution +0.01036,value 0,reference 1
+feature::android.hardware.location.network,attribution +0.01033,value 0,reference 1
+feature::android.hardware.location,attribution +0.009966,value 0,reference 1
+call::Read/Write External Storage,attribution +0.009786,value 0,reference 1
+api_call::java/lang/Runtime;->exec,attribution +0.008896,value 0,reference 1
+call::Execution of external commands,attribution +0.008896,value 0,reference 1
+real_permission::android.permission.READ_LOGS,attribution +0.008896,value 0,reference 1
+call::getSubscriberId,attribution +0.008159,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.007967,value 0,reference 1
+url::maps.google.com,attribution +0.007875,value 0,reference 1
+url::http://market.android.com,attribution +0.007697,value 0,reference 1
+url::http://www.adwo.com,attribution +0.007697,value 0,reference 1
+
+# test sample 552 (Plankton), nearest family DroidKungFu, score 0.4346 = s0(x_ref) 0.3093 + PCs [0.5861, -0.0524, 0.0157, -0.0433, -0.049, -0.1669, -0.0654, -0.0994]
+call::Read/Write External Storage,attribution +0.03005,value 0,reference 1
+call::Execution of external commands,attribution +0.0244,value 0,reference 1
+real_permission::android.permission.READ_LOGS,attribution +0.0244,value 0,reference 1
+api_call::java/lang/Runtime;->exec,attribution +0.0244,value 0,reference 1
+url::http://schemas.android.com/apk/res/,attribution +0.02194,value 0,reference 1
+url::r2.adwo.com,attribution +0.01985,value 0,reference 1
+call::Cipher(AES),attribution +0.01898,value 0,reference 1
+url::http://r2.adwo.com/ad,attribution +0.01772,value 0,reference 1
+url::http://www.adwo.com,attribution +0.01687,value 0,reference 1
+url::www.adwo.com,attribution +0.01687,value 0,reference 1
+intent::android.intent.action.SIG_STR,attribution +0.01581,value 0,reference 1
+intent::android.intent.action.BATTERY_CHANGED_ACTION,attribution +0.01581,value 0,reference 1
+api_call::android/location/LocationManager;->getBestProvider,attribution +0.01398,value 0,reference 1
+permission::android.permission.WRITE_EXTERNAL_STORAGE,attribution +0.01397,value 0,reference 1
+api_call::java/net/HttpURLConnection,attribution +0.01224,value 0,reference 1
+

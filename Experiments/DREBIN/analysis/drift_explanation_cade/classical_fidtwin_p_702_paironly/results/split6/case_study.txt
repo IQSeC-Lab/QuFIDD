@@ -1,0 +1,73 @@
+# test sample 637 (family Kmin), closest family BaseBridge, 10 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+call::Execution of external commands,1,0.3605,0.0304,0
+call::Read/Write External Storage,1,0.966,0.1246,0
+feature::android.hardware.wifi,0,0,0.7234,1
+intent::android.net.conn.CONNECTIVITY_CHANGE,0,0,0.8754,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0,0.7234,1
+permission::android.permission.DISABLE_KEYGUARD,0,0,0.7386,1
+permission::android.permission.WRITE_EXTERNAL_STORAGE,1,0.7755,0.3587,0
+provider::android.provider.Telephony.SMS_RECEIVED,0,0.1361,0.7538,1
+real_permission::android.permission.SEND_SMS,1,1,0.2006,0
+url::maps.google.com,0,0.4898,0.6565,1
+
+# test sample 645 (family Kmin), closest family BaseBridge, 14 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::com.keji.danti.Boutique,0,0,0.7477,1
+api_call::android/content/Context;->sendBroadcast,1,0.3197,0,0
+api_call::java/lang/Runtime;->exec,1,0.3605,0.0304,0
+call::Execution of external commands,1,0.3605,0.0304,0
+call::Read/Write External Storage,1,0.966,0.1246,0
+call::sendSMS,1,1,0.2006,0
+feature::android.hardware.wifi,0,0,0.7234,1
+intent::android.intent.action.INPUT_METHOD_CHANGED,0,0,0.8754,1
+intent::android.net.conn.CONNECTIVITY_CHANGE,0,0,0.8754,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0,0.7234,1
+permission::android.permission.RESTART_PACKAGES,0,0,0.7264,1
+permission::android.permission.WRITE_EXTERNAL_STORAGE,1,0.7755,0.3587,0
+real_permission::android.permission.SEND_SMS,1,1,0.2006,0
+url::http://maps.google.com/maps?q%3D,0,0.4898,0.6535,1
+
+# test sample 653 (family Kmin), closest family BaseBridge, 10 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::com.keji.danti.Boutique,0,0,0.7477,1
+activity::com.keji.danti.MainA,0,0,0.7477,1
+api_call::android/content/Context;->setWallpaper,1,0.4014,0,0
+call::Read/Write External Storage,1,0.966,0.1246,0
+feature::android.hardware.wifi,0,0,0.7234,1
+intent::android.intent.action.INPUT_METHOD_CHANGED,0,0,0.8754,1
+intent::android.net.conn.CONNECTIVITY_CHANGE,0,0,0.8754,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0,0.7234,1
+permission::android.permission.GET_TASKS,1,0.4558,0.0152,0
+permission::android.permission.WRITE_EXTERNAL_STORAGE,1,0.7755,0.3587,0
+
+# test sample 654 (family Kmin), closest family BaseBridge, 11 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.MainA,0,0,0.7629,1
+call::Execution of external commands,1,0.3605,0.0304,0
+call::Read/Write External Storage,1,0.966,0.1246,0
+feature::android.hardware.wifi,0,0,0.7234,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0,0.7234,1
+permission::android.permission.DISABLE_KEYGUARD,0,0,0.7386,1
+permission::android.permission.GET_TASKS,1,0.4558,0.0152,0
+permission::android.permission.RECEIVE_BOOT_COMPLETED,0,0.483,0.7508,1
+real_permission::android.permission.READ_LOGS,1,0.3605,0.0304,0
+real_permission::android.permission.SEND_SMS,1,1,0.2006,0
+url::maps.google.com,0,0.4898,0.6565,1
+
+# test sample 658 (family Kmin), closest family BaseBridge, 13 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+activity::.MainA,0,0,0.7629,1
+activity::com.keji.danti.MainA,0,0,0.7477,1
+api_call::android/content/Context;->setWallpaper,1,0.4014,0,0
+call::Execution of external commands,1,0.3605,0.0304,0
+call::Read/Write External Storage,1,0.966,0.1246,0
+feature::android.hardware.wifi,0,0,0.7234,1
+intent::android.net.conn.CONNECTIVITY_CHANGE,0,0,0.8754,1
+permission::android.permission.ACCESS_WIFI_STATE,0,0,0.7234,1
+permission::android.permission.RECEIVE_BOOT_COMPLETED,0,0.483,0.7508,1
+real_permission::android.permission.READ_LOGS,1,0.3605,0.0304,0
+real_permission::android.permission.SEND_SMS,1,1,0.2006,0
+url::http://maps.google.com/maps?q%3D,0,0.4898,0.6535,1
+url::http://mobile.91.com/soft/Android/search/1_5_0_0_,0,0,0.5015,1
+

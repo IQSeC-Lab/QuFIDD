@@ -1,0 +1,85 @@
+# test sample 530 (DroidKungFu), nearest family GinMaster, score 0.2654 = s0(x_ref) 0.4242 + PCs [-0.0307, 0.0686, -0.0257, 0.5482, -0.3948, -0.0143, -0.145, -0.1651]
+permission::android.permission.READ_SMS,attribution +0.04931,value 1,reference 0
+feature::android.hardware.telephony,attribution +0.03531,value 1,reference 0
+call::Obfuscation(Base64),attribution +0.02431,value 0,reference 1
+permission::android.permission.WRITE_SMS,attribution +0.02112,value 1,reference 0
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.01715,value 0,reference 1
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,attribution +0.012,value 0,reference 1
+call::getPackageInfo,attribution +0.009476,value 0,reference 1
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,attribution +0.008401,value 0,reference 1
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.005557,value 1,reference 0
+call::setWifiEnabled,attribution +0.00548,value 1,reference 0
+permission::android.permission.CHANGE_WIFI_STATE,attribution +0.005188,value 1,reference 0
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.004752,value 1,reference 0
+permission::android.permission.SET_WALLPAPER,attribution +0.003286,value 0,reference 1
+real_permission::android.permission.SET_WALLPAPER,attribution +0.001444,value 0,reference 1
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution +0.0001998,value 1,reference 0
+
+# test sample 532 (DroidKungFu), nearest family GinMaster, score 0.1891 = s0(x_ref) 0.4242 + PCs [-0.0019, 0.0263, -0.007, 0.4697, -0.4662, -0.0224, -0.0406, -0.193]
+call::Read/Write External Storage,attribution +0.02288,value 0,reference 1
+permission::android.permission.VIBRATE,attribution +0.02015,value 1,reference 0
+call::Obfuscation(Base64),attribution +0.01724,value 0,reference 1
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.01621,value 0,reference 1
+call::getPackageInfo,attribution +0.013,value 0,reference 1
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS,attribution +0.009035,value 1,reference 0
+api_call::android/net/wifi/WifiManager;->setWifiEnabled,attribution +0.003726,value 1,reference 0
+call::setWifiEnabled,attribution +0.003635,value 1,reference 0
+permission::android.permission.CHANGE_WIFI_STATE,attribution +0.003397,value 1,reference 0
+real_permission::android.permission.CHANGE_WIFI_STATE,attribution +0.00286,value 1,reference 0
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,attribution +0.00216,value 0,reference 1
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution -0.0007105,value 1,reference 0
+url::10.0.0.172,attribution -0.001015,value 0,reference 1
+url::http://10.0.0.172:80,attribution -0.001055,value 0,reference 1
+feature::android.hardware.location.network,attribution -0.001078,value 1,reference 0
+
+# test sample 539 (DroidKungFu), nearest family GinMaster, score 0.1373 = s0(x_ref) 0.4242 + PCs [0.0291, 0.0062, 0.0057, 0.3769, -0.4813, -0.0067, -0.0002, -0.2166]
+call::Obfuscation(Base64),attribution +0.02099,value 0,reference 1
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.01734,value 0,reference 1
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS,attribution +0.01168,value 1,reference 0
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution +0.01149,value 1,reference 0
+feature::android.hardware.location.network,attribution +0.01128,value 1,reference 0
+feature::android.hardware.location.gps,attribution +0.01064,value 1,reference 0
+permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.01064,value 1,reference 0
+feature::android.hardware.location,attribution +0.01001,value 1,reference 0
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,attribution -0.0005211,value 0,reference 1
+url::http://10.0.0.172:80,attribution -0.001917,value 0,reference 1
+url::10.0.0.172,attribution -0.002051,value 0,reference 1
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,attribution -0.004138,value 0,reference 1
+url::e.domob.cn,attribution -0.004145,value 1,reference 0
+url::http://e.domob.cn/report,attribution -0.004145,value 1,reference 0
+url::http://10.0.0.172/,attribution -0.004184,value 0,reference 1
+
+# test sample 548 (DroidKungFu), nearest family GinMaster, score 0.1903 = s0(x_ref) 0.4242 + PCs [-0.1139, 0.0415, -0.0031, 0.38, -0.4365, 0.0133, -0.0008, -0.1144]
+permission::android.permission.READ_SMS,attribution +0.03896,value 1,reference 0
+feature::android.hardware.telephony,attribution +0.03173,value 1,reference 0
+call::Obfuscation(Base64),attribution +0.02942,value 0,reference 1
+permission::android.permission.WRITE_SMS,attribution +0.02408,value 1,reference 0
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,attribution +0.01651,value 0,reference 1
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.01589,value 0,reference 1
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,attribution +0.01375,value 0,reference 1
+call::getPackageInfo,attribution +0.005455,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.005391,value 1,reference 0
+url::maps.google.com,attribution +0.005071,value 1,reference 0
+permission::android.permission.WRITE_EXTERNAL_STORAGE,attribution +0.004972,value 0,reference 1
+url::10.0.0.172,attribution +0.0009193,value 0,reference 1
+url::http://10.0.0.172:80,attribution +0.0006782,value 0,reference 1
+url::http://10.0.0.172/,attribution -0.0003362,value 0,reference 1
+permission::android.permission.SET_WALLPAPER,attribution -0.0006488,value 0,reference 1
+
+# test sample 553 (DroidKungFu), nearest family GinMaster, score 0.1599 = s0(x_ref) 0.4242 + PCs [-0.1513, 0.0347, -0.0298, 0.3238, -0.3479, 0.0033, 0.0334, -0.1304]
+call::Obfuscation(Base64),attribution +0.04449,value 0,reference 1
+permission::com.android.launcher.permission.INSTALL_SHORTCUT,attribution +0.02657,value 0,reference 1
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT,attribution +0.02372,value 0,reference 1
+call::Cipher(AES/CBC/PKCS5Padding),attribution +0.01976,value 0,reference 1
+feature::android.hardware.screen.portrait,attribution +0.01651,value 0,reference 1
+permission::android.permission.VIBRATE,attribution +0.0159,value 1,reference 0
+api_call::java/net/HttpURLConnection,attribution +0.0151,value 1,reference 0
+url::10.0.0.172,attribution +0.004935,value 0,reference 1
+url::http://10.0.0.172:80,attribution +0.003863,value 0,reference 1
+api_call::org/apache/http/impl/client/DefaultHttpClient,attribution +0.003559,value 0,reference 1
+url::http://10.0.0.172/,attribution +0.003511,value 0,reference 1
+url::client.go360days.com,attribution -7.154e-05,value 0,reference 1
+url::http://client.go360days.com/client.php?action%3Dsoft&soft_id%3D,attribution -7.154e-05,value 0,reference 1
+url::http://client.go360days.com/report/down_apk.do,attribution -7.154e-05,value 0,reference 1
+url::http://client.go360days.com/report/first_run.do,attribution -7.154e-05,value 0,reference 1
+

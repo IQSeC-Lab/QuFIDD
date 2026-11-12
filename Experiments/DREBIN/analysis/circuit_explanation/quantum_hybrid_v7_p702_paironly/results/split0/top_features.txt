@@ -1,0 +1,85 @@
+# test sample 479 (FakeInstaller), nearest family BaseBridge, score 0.3711 = s0(x_ref) 0.0386 + PCs [0.0444, 0.2007, 0.2842, -0.0304, -0.08, -0.0779, -0.0021, -0.0062]
+real_permission::android.permission.VIBRATE,attribution +0.02006,value 1,reference 0
+api_call::android/app/NotificationManager;->notify,attribution +0.0197,value 1,reference 0
+permission::android.permission.READ_CONTACTS,attribution +0.0166,value 0,reference 1
+feature::android.hardware.screen.portrait,attribution +0.01568,value 0,reference 1
+url::http://maps.google.com/maps?q%3D,attribution +0.01554,value 0,reference 1
+url::maps.google.com,attribution +0.01541,value 0,reference 1
+permission::android.permission.WRITE_APN_SETTINGS,attribution +0.01442,value 0,reference 1
+call::printStackTrace,attribution +0.01261,value 1,reference 0
+url::schemas.android.com,attribution +0.0118,value 0,reference 1
+permission::android.permission.WRITE_SMS,attribution +0.0116,value 0,reference 1
+permission::android.permission.READ_SMS,attribution +0.01137,value 0,reference 1
+permission::android.permission.WRITE_EXTERNAL_STORAGE,attribution +0.01054,value 1,reference 0
+api_call::java/net/HttpURLConnection,attribution +0.01029,value 1,reference 0
+call::getSubscriberId,attribution +0.009987,value 0,reference 1
+permission::android.permission.WRITE_CONTACTS,attribution +0.00965,value 0,reference 1
+
+# test sample 482 (FakeInstaller), nearest family Iconosys, score 0.0948 = s0(x_ref) 0.0306 + PCs [-0.0231, -0.0002, -0.0025, -0.0078, 0.0458, 0.0081, 0.0447, -0.0009]
+url::smsreplier.net,attribution +0.009101,value 0,reference 1
+permission::android.permission.READ_CONTACTS,attribution +0.00895,value 0,reference 1
+url::http://smsreplier.net/smsreply/regandwelcome.php,attribution +0.006559,value 0,reference 1
+url::blackflyday.com,attribution +0.00646,value 0,reference 1
+url::http://blackflyday.com/new/,attribution +0.00646,value 0,reference 1
+feature::android.hardware.camera,attribution +0.005898,value 0,reference 1
+api_call::android/telephony/SmsManager;->sendTextMessage,attribution +0.005854,value 1,reference 0
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage,attribution +0.005206,value 0,reference 1
+permission::android.permission.CAMERA,attribution +0.005165,value 0,reference 1
+activity::.ShowTerms,attribution +0.00513,value 0,reference 1
+call::sendSMS,attribution +0.004749,value 1,reference 0
+api_call::android/webkit/WebView,attribution +0.00381,value 0,reference 1
+permission::android.permission.READ_SMS,attribution +0.003485,value 0,reference 1
+permission::android.permission.WRITE_SMS,attribution +0.003338,value 0,reference 1
+intent::android.intent.action.SENDTO,attribution +0.002814,value 0,reference 1
+
+# test sample 488 (FakeInstaller), nearest family Iconosys, score 0.0948 = s0(x_ref) 0.0306 + PCs [-0.0231, -0.0002, -0.0025, -0.0078, 0.0458, 0.0081, 0.0447, -0.0009]
+url::smsreplier.net,attribution +0.009101,value 0,reference 1
+permission::android.permission.READ_CONTACTS,attribution +0.00895,value 0,reference 1
+url::http://smsreplier.net/smsreply/regandwelcome.php,attribution +0.006559,value 0,reference 1
+url::blackflyday.com,attribution +0.00646,value 0,reference 1
+url::http://blackflyday.com/new/,attribution +0.00646,value 0,reference 1
+feature::android.hardware.camera,attribution +0.005898,value 0,reference 1
+api_call::android/telephony/SmsManager;->sendTextMessage,attribution +0.005854,value 1,reference 0
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage,attribution +0.005206,value 0,reference 1
+permission::android.permission.CAMERA,attribution +0.005165,value 0,reference 1
+activity::.ShowTerms,attribution +0.00513,value 0,reference 1
+call::sendSMS,attribution +0.004749,value 1,reference 0
+api_call::android/webkit/WebView,attribution +0.00381,value 0,reference 1
+permission::android.permission.READ_SMS,attribution +0.003485,value 0,reference 1
+permission::android.permission.WRITE_SMS,attribution +0.003338,value 0,reference 1
+intent::android.intent.action.SENDTO,attribution +0.002814,value 0,reference 1
+
+# test sample 497 (FakeInstaller), nearest family Iconosys, score 0.4341 = s0(x_ref) 0.0306 + PCs [-0.0174, 0.0002, 0.002, 0.0074, 0.0887, 0.0007, 0.2198, 0.1021]
+api_call::android/app/NotificationManager;->notify,attribution +0.03024,value 1,reference 0
+feature::android.hardware.location,attribution +0.02727,value 0,reference 1
+real_permission::android.permission.VIBRATE,attribution +0.027,value 1,reference 0
+permission::android.permission.ACCESS_COARSE_LOCATION,attribution +0.02638,value 0,reference 1
+feature::android.hardware.location.network,attribution +0.02627,value 0,reference 1
+intent::android.intent.action.BOOT_COMPLETED,attribution +0.02459,value 1,reference 0
+call::sendSMS,attribution +0.02359,value 1,reference 0
+permission::android.permission.RECEIVE_SMS,attribution +0.02071,value 1,reference 0
+permission::android.permission.WRITE_SMS,attribution +0.01971,value 0,reference 1
+feature::android.hardware.location.gps,attribution +0.01903,value 0,reference 1
+permission::android.permission.ACCESS_FINE_LOCATION,attribution +0.01765,value 0,reference 1
+url::smsreplier.net,attribution +0.0166,value 0,reference 1
+api_call::android/telephony/SmsManager;->sendTextMessage,attribution +0.01584,value 1,reference 0
+url::http://smsreplier.net/smsreply/regandwelcome.php,attribution +0.01342,value 0,reference 1
+url::blackflyday.com,attribution +0.01331,value 0,reference 1
+
+# test sample 498 (FakeInstaller), nearest family Iconosys, score 0.1723 = s0(x_ref) 0.0306 + PCs [-0.031, -0.0074, 0.0018, -0.0183, 0.0654, 0.014, 0.1033, 0.014]
+url::smsreplier.net,attribution +0.01608,value 0,reference 1
+permission::android.permission.RECEIVE_SMS,attribution +0.01292,value 1,reference 0
+url::http://smsreplier.net/smsreply/regandwelcome.php,attribution +0.01163,value 0,reference 1
+url::blackflyday.com,attribution +0.01146,value 0,reference 1
+url::http://blackflyday.com/new/,attribution +0.01146,value 0,reference 1
+feature::android.hardware.camera,attribution +0.01039,value 0,reference 1
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage,attribution +0.01001,value 0,reference 1
+permission::android.permission.CAMERA,attribution +0.009097,value 0,reference 1
+activity::.ShowTerms,attribution +0.009078,value 0,reference 1
+api_call::android/os/PowerManager$WakeLock;->acquire,attribution +0.008078,value 0,reference 1
+intent::android.intent.category.DEFAULT,attribution +0.008062,value 0,reference 1
+api_call::android/app/Activity;->startActivity,attribution +0.007179,value 1,reference 0
+permission::android.permission.READ_CONTACTS,attribution +0.007159,value 0,reference 1
+intent::android.intent.action.SENDTO,attribution +0.004975,value 0,reference 1
+call::getPackageInfo,attribution +0.00466,value 0,reference 1
+
