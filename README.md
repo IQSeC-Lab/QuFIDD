@@ -1,4 +1,4 @@
-# QuFiDD: Quantum Fidelity-based Drift Detector
+# QuFiDD: Quantum Fidelity Geometry for Malware Drift Detection in Hilbert Space
 
 Code, configurations and results for **QuFiDD**, a variational quantum drift detector for malware concept drift. QuFiDD encodes each sample as a quantum state, represents each known family by a pure-state prototype, and scores a test sample by its fidelity distance to the closest prototype. It is compared against capacity-matched quantum-inspired classical detectors (QiCD) and CADE-style classical detectors (CM). Every model uses the same 8-dimensional PCA input and about 700 parameters.
 
