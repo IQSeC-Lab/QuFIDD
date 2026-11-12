@@ -1,0 +1,43 @@
+# test sample 16 (family zbot), closest family sality, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[249],0.00264913,0.2677,0.4716,0.958599
+byte_entropy_histogram[252],0.002645,0.2807,0.4924,0.97697
+general[6],1,0.883,0.7509,0
+
+# test sample 17 (family zbot), closest family sality, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 96 (family zbot), closest family sality, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+general[6],1,0.883,0.7509,0
+header[16],1,0.408,0.315,0
+
+# test sample 102 (family zbot), closest family ramnit, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+header[16],1,0.408,0.4118,0
+
+# test sample 122 (family zbot), closest family ramnit, 22 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[97],0.118694,0.1387,0.1052,0.391562
+byte_entropy_histogram[246],0.0140787,0.2614,0.2683,0.304893
+byte_entropy_histogram[247],0.0165599,0.2558,0.27,0.299944
+byte_entropy_histogram[250],0.0146711,0.253,0.262,0.333578
+strings[31],0.329945,0.1119,0.1536,0.0792062
+header[15],1,0.7025,0.7059,0.5
+header[16],1,0.408,0.4118,0
+header[60],0.142857,0.5634,0.4698,1
+section[242],0,0.05683,0.1036,0.333333
+imports[231],1,0.942,0.8755,0.5
+imports[247],0.5,0.4495,0.4464,0
+imports[271],0.5,0.4988,0.5108,0.75
+imports[367],0.2,0.2672,0.2617,0.6
+imports[626],0.5,0.549,0.4017,0.25
+imports[761],0.5,0.496,0.4917,0.25
+imports[793],0.5,0.5042,0.5327,0.75
+imports[893],0.4,0.4484,0.4991,0.8
+imports[901],0.571429,0.4274,0.4686,0.428571
+imports[926],0.5,0.4913,0.4725,0.333333
+imports[945],0.6,0.6058,0.6244,0.8
+imports[1006],0.6,0.5748,0.5576,0.2
+imports[1190],0.4,0.448,0.4284,0.6
+

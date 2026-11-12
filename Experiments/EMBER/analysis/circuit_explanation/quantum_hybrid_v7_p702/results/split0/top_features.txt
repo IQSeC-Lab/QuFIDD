@@ -1,0 +1,85 @@
+# test sample 1 (xtrat), nearest family sality, score 0.3481 = s0(x_ref) 0.0678 + PCs [0.0108, 0.0506, 0.0083, 0.0496, 0.088, 0.0003, 0.0475, 0.0252]
+header[39],attribution +0.06591,value 1,reference 0
+section[194],attribution +0.064,value 0.666667,reference 0
+section[158],attribution +0.03605,value 0.5,reference 0
+imports[43],attribution +0.0268,value 1,reference 0.5
+byte_entropy_histogram[242],attribution +0.02227,value 0.839303,reference 0.605934
+section[164],attribution +0.01692,value 0,reference 0.333333
+byte_entropy_histogram[248],attribution +0.01533,value 0.797911,reference 0.611451
+byte_entropy_histogram[244],attribution +0.01519,value 0.818337,reference 0.636074
+byte_entropy_histogram[252],attribution +0.01513,value 0.852621,reference 0.694357
+byte_entropy_histogram[240],attribution +0.0142,value 0.629074,reference 0.304867
+byte_entropy_histogram[247],attribution +0.01266,value 0.796214,reference 0.67283
+byte_entropy_histogram[245],attribution +0.01232,value 0.670621,reference 0.511276
+byte_entropy_histogram[241],attribution +0.01187,value 0.636091,reference 0.467746
+byte_entropy_histogram[254],attribution +0.01131,value 0.696259,reference 0.556429
+byte_entropy_histogram[246],attribution +0.01127,value 0.791692,reference 0.679005
+
+# test sample 2 (xtrat), nearest family sality, score 0.3482 = s0(x_ref) 0.0678 + PCs [0.0108, 0.0506, 0.0083, 0.0497, 0.088, 0.0003, 0.0475, 0.0252]
+header[39],attribution +0.06595,value 1,reference 0
+section[194],attribution +0.06402,value 0.666667,reference 0
+section[158],attribution +0.03606,value 0.5,reference 0
+imports[43],attribution +0.02685,value 1,reference 0.5
+byte_entropy_histogram[242],attribution +0.02226,value 0.839164,reference 0.605934
+section[164],attribution +0.01693,value 0,reference 0.333333
+byte_entropy_histogram[248],attribution +0.01532,value 0.797782,reference 0.611451
+byte_entropy_histogram[244],attribution +0.01517,value 0.818086,reference 0.636074
+byte_entropy_histogram[252],attribution +0.01511,value 0.852426,reference 0.694357
+byte_entropy_histogram[240],attribution +0.0142,value 0.629146,reference 0.304867
+byte_entropy_histogram[247],attribution +0.01266,value 0.796237,reference 0.67283
+byte_entropy_histogram[245],attribution +0.01231,value 0.670498,reference 0.511276
+byte_entropy_histogram[241],attribution +0.01186,value 0.635953,reference 0.467746
+byte_entropy_histogram[254],attribution +0.01132,value 0.696373,reference 0.556429
+byte_entropy_histogram[246],attribution +0.01126,value 0.791528,reference 0.679005
+
+# test sample 6 (xtrat), nearest family sality, score 0.3485 = s0(x_ref) 0.0678 + PCs [0.0107, 0.0507, 0.0083, 0.0499, 0.088, 0.0003, 0.0476, 0.0252]
+header[39],attribution +0.06596,value 1,reference 0
+section[194],attribution +0.06405,value 0.666667,reference 0
+section[158],attribution +0.03608,value 0.5,reference 0
+imports[43],attribution +0.02686,value 1,reference 0.5
+byte_entropy_histogram[242],attribution +0.02222,value 0.838892,reference 0.605934
+section[164],attribution +0.01693,value 0,reference 0.333333
+byte_entropy_histogram[248],attribution +0.01531,value 0.797787,reference 0.611451
+byte_entropy_histogram[244],attribution +0.01514,value 0.817877,reference 0.636074
+byte_entropy_histogram[252],attribution +0.01512,value 0.852642,reference 0.694357
+byte_entropy_histogram[240],attribution +0.0142,value 0.629393,reference 0.304867
+byte_entropy_histogram[247],attribution +0.01274,value 0.797028,reference 0.67283
+byte_entropy_histogram[245],attribution +0.01234,value 0.670865,reference 0.511276
+byte_entropy_histogram[241],attribution +0.01184,value 0.635825,reference 0.467746
+byte_entropy_histogram[254],attribution +0.01128,value 0.696005,reference 0.556429
+byte_entropy_histogram[246],attribution +0.01124,value 0.791384,reference 0.679005
+
+# test sample 48 (xtrat), nearest family sality, score 0.3480 = s0(x_ref) 0.0678 + PCs [0.0109, 0.0505, 0.0083, 0.0496, 0.088, 0.0003, 0.0475, 0.0251]
+header[39],attribution +0.06588,value 1,reference 0
+section[194],attribution +0.06393,value 0.666667,reference 0
+section[158],attribution +0.03601,value 0.5,reference 0
+imports[43],attribution +0.02682,value 1,reference 0.5
+byte_entropy_histogram[242],attribution +0.0222,value 0.838797,reference 0.605934
+section[164],attribution +0.0169,value 0,reference 0.333333
+byte_entropy_histogram[248],attribution +0.0153,value 0.79775,reference 0.611451
+byte_entropy_histogram[244],attribution +0.01513,value 0.817785,reference 0.636074
+byte_entropy_histogram[252],attribution +0.01512,value 0.852737,reference 0.694357
+byte_entropy_histogram[240],attribution +0.01416,value 0.628537,reference 0.304867
+byte_entropy_histogram[247],attribution +0.01271,value 0.796825,reference 0.67283
+byte_entropy_histogram[245],attribution +0.01231,value 0.670557,reference 0.511276
+byte_entropy_histogram[241],attribution +0.01186,value 0.636245,reference 0.467746
+byte_entropy_histogram[254],attribution +0.01131,value 0.696385,reference 0.556429
+byte_entropy_histogram[246],attribution +0.01126,value 0.79169,reference 0.679005
+
+# test sample 75 (xtrat), nearest family sality, score 0.3482 = s0(x_ref) 0.0678 + PCs [0.0107, 0.0508, 0.0082, 0.0498, 0.0879, 0.0004, 0.0474, 0.0252]
+header[39],attribution +0.06604,value 1,reference 0
+section[194],attribution +0.06422,value 0.666667,reference 0
+section[158],attribution +0.03619,value 0.5,reference 0
+imports[43],attribution +0.02686,value 1,reference 0.5
+byte_entropy_histogram[242],attribution +0.02233,value 0.839274,reference 0.605934
+section[164],attribution +0.01698,value 0,reference 0.333333
+byte_entropy_histogram[248],attribution +0.01537,value 0.797833,reference 0.611451
+byte_entropy_histogram[244],attribution +0.01521,value 0.81806,reference 0.636074
+byte_entropy_histogram[252],attribution +0.01511,value 0.851993,reference 0.694357
+byte_entropy_histogram[240],attribution +0.01428,value 0.629979,reference 0.304867
+byte_entropy_histogram[247],attribution +0.01271,value 0.796356,reference 0.67283
+byte_entropy_histogram[245],attribution +0.0124,value 0.671145,reference 0.511276
+byte_entropy_histogram[241],attribution +0.01191,value 0.636224,reference 0.467746
+byte_entropy_histogram[254],attribution +0.01131,value 0.695879,reference 0.556429
+byte_entropy_histogram[246],attribution +0.01121,value 0.790728,reference 0.679005
+

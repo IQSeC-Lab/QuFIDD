@@ -1,0 +1,57 @@
+# test sample 1 (family xtrat), closest family sality, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[117],0.0004724,0.0006686,0.009917,0.0598456
+header[39],1,0.997,0.9469,0
+section[158],0.5,0.493,0.05308,0
+section[164],0,0.004667,0.2971,0.333333
+section[194],0.666667,0.6543,0.04704,0
+imports[30],1,0.99,0.6279,0.5
+imports[428],0.666667,0.666,0.649,0.333333
+imports[618],0.5,0.4997,0.4071,0.25
+
+# test sample 2 (family xtrat), closest family sality, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[248],0.797782,0.781,0.4233,0.611451
+header[39],1,0.997,0.9469,0
+section[158],0.5,0.493,0.05308,0
+section[164],0,0.004667,0.2971,0.333333
+section[194],0.666667,0.6543,0.04704,0
+imports[30],1,0.99,0.6279,0.5
+imports[618],0.5,0.4997,0.4071,0.25
+imports[685],0.666667,0.6667,0.6715,1
+
+# test sample 6 (family xtrat), closest family sality, 10 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[112],0.00105273,0.001444,0.01739,0.0588104
+byte_entropy_histogram[118],0.000170429,0.0006041,0.027,0.0386905
+byte_entropy_histogram[119],0.000277162,0.0007002,0.02867,0.0397727
+strings[87],0.107362,0.1158,0.3091,0.18723
+header[39],1,0.997,0.9469,0
+section[158],0.5,0.493,0.05308,0
+section[194],0.666667,0.6543,0.04704,0
+imports[30],1,0.99,0.6279,0.5
+imports[428],0.666667,0.666,0.649,0.333333
+imports[618],0.5,0.4997,0.4071,0.25
+
+# test sample 48 (family xtrat), closest family sality, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[0],0.055458,0.06018,0.178,0.135724
+byte_entropy_histogram[119],0.000276283,0.0007002,0.02867,0.0397727
+strings[87],0.10808,0.1158,0.3091,0.18723
+header[39],1,0.997,0.9469,0
+section[158],0.5,0.493,0.05308,0
+section[194],0.666667,0.6543,0.04704,0
+imports[30],1,0.99,0.6279,0.5
+imports[618],0.5,0.4997,0.4071,0.25
+
+# test sample 75 (family xtrat), closest family sality, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[0],0.0557793,0.06018,0.178,0.135724
+byte_entropy_histogram[119],0.000277751,0.0007002,0.02867,0.0397727
+header[39],1,0.997,0.9469,0
+section[158],0.5,0.493,0.05308,0
+section[194],0.666667,0.6543,0.04704,0
+imports[30],1,0.99,0.6279,0.5
+imports[428],0.666667,0.666,0.649,0.333333
+imports[618],0.5,0.4997,0.4071,0.25
+

@@ -1,0 +1,36 @@
+{
+  "model": "classical_fidtwin_r_702",
+  "dataset": "EMBER",
+  "split": 1,
+  "withheld_family": "zbot",
+  "run": 0,
+  "reload_rel_diff": 1.7496447480851283e-05,
+  "roc_auc": 0.8690307142857142,
+  "n_test": 2400,
+  "n_drift": 1000,
+  "M3": {
+    "auc_residual": 0.7793685714285714,
+    "auc_entropy": 0.82596,
+    "auc_score": 0.8690307142857142,
+    "residual_gap": 0.003735667752520536,
+    "entropy_gap": 0.23993975128064454,
+    "drifting_family_resembles": {
+      "sality": 0.29406080552459535,
+      "ramnit": 0.2842924689617372,
+      "wapomi": 0.17079414635742604,
+      "lethic": 0.08688489428360466,
+      "ursnif": 0.07609764788481631,
+      "kovter": 0.06526291482538786,
+      "xtrat": 0.02260712216243282
+    },
+    "nearest_family_of_drifting": {
+      "xtrat": 0,
+      "ramnit": 425,
+      "sality": 378,
+      "wapomi": 25,
+      "lethic": 77,
+      "ursnif": 52,
+      "kovter": 43
+    }
+  }
+}

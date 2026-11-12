@@ -1,0 +1,32 @@
+# test sample 50 (family kovter), closest family sality, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[250],0.00439595,0.08765,0.4192,0.447475
+
+# test sample 57 (family kovter), closest family sality, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[251],0.00394781,0.09462,0.4549,0.494433
+
+# test sample 74 (family kovter), closest family sality, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 90 (family kovter), closest family sality, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 94 (family kovter), closest family zbot, 15 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[0],0.0489058,0.4176,0.255,0.202597
+byte_histogram[149],0.119001,0.07908,0.06796,0.0663693
+byte_entropy_histogram[240],0.355034,0.05375,0.1406,0.00297744
+byte_entropy_histogram[242],0.685226,0.09063,0.2413,0.00315879
+byte_entropy_histogram[244],0.678126,0.09179,0.2449,0.00349724
+byte_entropy_histogram[245],0.675246,0.09116,0.2439,0.00416872
+byte_entropy_histogram[247],0.732764,0.09627,0.2587,0.00369624
+byte_entropy_histogram[249],0.698023,0.08744,0.2441,0.00295924
+byte_entropy_histogram[251],0.75804,0.09462,0.2616,0.00226671
+general[5],1,0.832,0.3029,0
+header[16],1,0.067,0.4062,0
+section[158],0,0.4265,0.06791,0.5
+section[167],0,0.002,0.08293,1
+section[252],1,0.9975,0.9032,0.5
+imports[616],0,0.3357,0.3734,0.333333
+

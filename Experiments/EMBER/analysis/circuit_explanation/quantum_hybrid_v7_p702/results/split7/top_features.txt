@@ -1,0 +1,85 @@
+# test sample 31 (kovter), nearest family ramnit, score 0.3740 = s0(x_ref) 0.2824 + PCs [0.091, -0.1876, 0.1708, -0.0283, 0.0096, -0.0218, 0.0043, 0.0535]
+header[11],attribution +0.1273,value 1,reference 0
+header[16],attribution +0.08362,value 0,reference 1
+header[15],attribution +0.08356,value 0,reference 1
+byte_entropy_histogram[231],attribution +0.005392,value 0.140594,reference 0.229107
+byte_histogram[105],attribution +0.004928,value 0.0439823,reference 0.509101
+byte_entropy_histogram[207],attribution +0.004555,value 0.186353,reference 0.00876234
+section[194],attribution +0.003758,value 0.666667,reference 0
+byte_entropy_histogram[223],attribution +0.003736,value 0.39115,reference 0.0230538
+imports[852],attribution +0.003666,value 0.25,reference 0.75
+byte_histogram[67],attribution +0.003493,value 0.0796504,reference 0.806075
+imports[720],attribution +0.003339,value 0.4,reference 0.6
+byte_histogram[109],attribution +0.003326,value 0.026513,reference 0.575937
+imports[707],attribution +0.003296,value 0.25,reference 0.5
+byte_histogram[133],attribution +0.002877,value 0.320704,reference 0.121606
+imports[676],attribution +0.002872,value 0.6,reference 0.4
+
+# test sample 52 (kovter), nearest family zbot, score 0.3582 = s0(x_ref) 0.9774 + PCs [-0.1322, 0.0638, 0.1834, -0.3723, -0.2801, 0.0274, -0.1209, 0.0117]
+imports[53],attribution +0.108,value 1,reference 0
+imports[30],attribution +0.07762,value 1,reference 0.5
+section[194],attribution +0.03997,value 0.666667,reference 0
+imports[43],attribution +0.03141,value 0.5,reference 1
+section[158],attribution +0.02527,value 0.5,reference 0
+imports[910],attribution +0.01711,value 0.6,reference 0.4
+imports[536],attribution +0.01671,value 0.666667,reference 0.333333
+byte_entropy_histogram[232],attribution +0.0159,value 0.333371,reference 0.0162124
+imports[1216],attribution +0.01461,value 0.75,reference 0.5
+imports[201],attribution +0.0135,value 0.333333,reference 0.666667
+byte_entropy_histogram[229],attribution +0.01249,value 0.241995,reference 0.00995414
+imports[765],attribution +0.01213,value 0.5,reference 0.25
+byte_entropy_histogram[239],attribution +0.01085,value 0.366017,reference 0.020085
+imports[324],attribution +0.009971,value 0.333333,reference 0.5
+section[164],attribution +0.009508,value 0,reference 0.333333
+
+# test sample 57 (kovter), nearest family ramnit, score 0.3843 = s0(x_ref) 0.2824 + PCs [0.09, -0.1791, 0.1715, -0.0276, 0.0123, -0.0209, 0.0052, 0.0505]
+header[11],attribution +0.1264,value 1,reference 0
+header[16],attribution +0.085,value 0,reference 1
+header[15],attribution +0.08496,value 0,reference 1
+byte_histogram[105],attribution +0.004888,value 0.0423749,reference 0.509101
+byte_entropy_histogram[207],attribution +0.004766,value 0.197206,reference 0.00876234
+byte_entropy_histogram[231],attribution +0.004467,value 0.155539,reference 0.229107
+section[194],attribution +0.004384,value 0.666667,reference 0
+imports[852],attribution +0.004031,value 0.25,reference 0.75
+byte_histogram[67],attribution +0.003524,value 0.0837067,reference 0.806075
+imports[707],attribution +0.003439,value 0.25,reference 0.5
+byte_entropy_histogram[223],attribution +0.003426,value 0.368551,reference 0.0230538
+byte_histogram[109],attribution +0.003314,value 0.0275113,reference 0.575937
+imports[720],attribution +0.003287,value 0.4,reference 0.6
+imports[837],attribution +0.002988,value 0.8,reference 0.4
+imports[676],attribution +0.002918,value 0.6,reference 0.4
+
+# test sample 60 (kovter), nearest family ramnit, score 0.3762 = s0(x_ref) 0.2824 + PCs [0.0894, -0.1781, 0.1664, -0.0283, 0.0136, -0.0236, 0.0048, 0.0497]
+header[11],attribution +0.1256,value 1,reference 0
+header[16],attribution +0.08282,value 0,reference 1
+header[15],attribution +0.08277,value 0,reference 1
+byte_entropy_histogram[207],attribution +0.005232,value 0.214833,reference 0.00876234
+byte_histogram[105],attribution +0.004817,value 0.0423842,reference 0.509101
+byte_entropy_histogram[231],attribution +0.004619,value 0.152819,reference 0.229107
+section[194],attribution +0.004141,value 0.666667,reference 0
+imports[852],attribution +0.003853,value 0.25,reference 0.75
+byte_histogram[67],attribution +0.003638,value 0.0811911,reference 0.806075
+imports[707],attribution +0.003412,value 0.25,reference 0.5
+imports[720],attribution +0.003283,value 0.4,reference 0.6
+byte_histogram[109],attribution +0.003247,value 0.0278337,reference 0.575937
+byte_entropy_histogram[223],attribution +0.003217,value 0.35018,reference 0.0230538
+section[96],attribution +0.002913,value 0.858913,reference 0.543839
+imports[676],attribution +0.002897,value 0.6,reference 0.4
+
+# test sample 65 (kovter), nearest family ramnit, score 0.3787 = s0(x_ref) 0.2824 + PCs [0.0907, -0.1844, 0.1724, -0.0278, 0.0109, -0.0215, 0.0044, 0.0516]
+header[11],attribution +0.1268,value 1,reference 0
+header[16],attribution +0.084,value 0,reference 1
+header[15],attribution +0.08395,value 0,reference 1
+byte_entropy_histogram[231],attribution +0.005212,value 0.143474,reference 0.229107
+byte_entropy_histogram[207],attribution +0.005,value 0.204917,reference 0.00876234
+byte_histogram[105],attribution +0.004927,value 0.0422,reference 0.509101
+section[194],attribution +0.004134,value 0.666667,reference 0
+imports[852],attribution +0.003857,value 0.25,reference 0.75
+byte_entropy_histogram[223],attribution +0.003568,value 0.379913,reference 0.0230538
+byte_histogram[67],attribution +0.003506,value 0.0825567,reference 0.806075
+imports[707],attribution +0.003363,value 0.25,reference 0.5
+byte_histogram[109],attribution +0.003328,value 0.0274166,reference 0.575937
+imports[720],attribution +0.003313,value 0.4,reference 0.6
+imports[676],attribution +0.002905,value 0.6,reference 0.4
+section[96],attribution +0.002893,value 0.858913,reference 0.543839
+

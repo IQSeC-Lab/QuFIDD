@@ -1,0 +1,52 @@
+# test sample 4 (family ramnit), closest family wapomi, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[21],0.16218,0.1517,0.4448,0.864814
+byte_histogram[34],0.698206,0.1588,0.08444,0.0346439
+byte_entropy_histogram[246],0.259658,0.2614,0.1917,0.0766096
+byte_entropy_histogram[247],0.223879,0.2685,0.193,0.0727557
+byte_entropy_histogram[252],0.175711,0.2754,0.2001,0.0802225
+strings[66],0.272625,0.1022,0.07583,0.0890203
+imports[536],0.222222,0.3329,0.3168,0.444444
+imports[707],0.5,0.428,0.4513,0.25
+imports[998],0.75,0.6415,0.6319,0.5
+
+# test sample 12 (family ramnit), closest family wapomi, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[109],1.19993,0.1583,0.2419,0.359048
+byte_entropy_histogram[119],0.735015,0.08239,0.03311,0.0203046
+general[2],0,0.386,0.8533,1
+imports[30],0.5,0.7085,0.6048,1
+imports[100],0.5,0.79,0.5734,1
+
+# test sample 13 (family ramnit), closest family wapomi, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[21],0.097931,0.1517,0.4448,0.864814
+byte_histogram[106],0.273993,0.2554,0.4023,0.627032
+byte_histogram[151],0.651753,0.09046,0.06234,0.0169959
+byte_histogram[180],1.04797,0.1813,0.1271,0.063728
+byte_entropy_histogram[229],0.213479,0.1862,0.4252,0.78355
+byte_entropy_histogram[230],0.109534,0.1303,0.3955,0.79866
+byte_entropy_histogram[231],0.172384,0.205,0.4539,0.796744
+byte_entropy_histogram[248],0.272935,0.2445,0.1761,0.0646487
+imports[837],0.4,0.623,0.6903,0.8
+
+# test sample 23 (family ramnit), closest family ursnif, 12 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[34],0.914485,0.1588,0.194,0.0602619
+byte_histogram[132],0.807463,0.1955,0.1403,0.054315
+byte_histogram[193],0.053993,0.07891,0.1608,1
+byte_entropy_histogram[172],0.00379065,0.008826,0.06054,0.506644
+byte_entropy_histogram[232],0.298436,0.2087,0.2223,0.0990971
+general[5],1,0.745,0.2672,0
+header[11],0,0.346,0.9885,1
+header[14],0.5,0.386,0.1247,0
+imports[30],0.5,0.7085,0.7188,1
+imports[43],0.5,0.448,0.3117,0
+imports[100],1,0.79,0.7767,0.5
+imports[618],0.125,0.2211,0.2133,0.25
+
+# test sample 45 (family ramnit), closest family zbot, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[139],0.879196,0.2603,0.1596,0.00747288
+imports[11],1,0.99,0.899,0
+

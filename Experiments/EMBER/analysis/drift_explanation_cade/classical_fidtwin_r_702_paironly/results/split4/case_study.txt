@@ -1,0 +1,26 @@
+# test sample 68 (family wapomi), closest family ramnit, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 76 (family wapomi), closest family ramnit, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+general[5],0,0.591,0.7365,1
+
+# test sample 106 (family wapomi), closest family zbot, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[0],0.604367,0.03166,0.03433,0.114516
+strings[86],0.160472,0.1792,0.1963,0.196338
+header[34],0,0.3915,0.4315,0.5
+section[98],0.566166,0.4978,0.4284,0.350157
+section[175],1,0.987,0.9222,0
+imports[25],1,0.5445,0.5012,0.5
+imports[43],0,0.28,0.5796,0.5
+imports[68],0,0.648,0.958,1
+imports[868],0.625,0.6461,0.7313,0.75
+
+# test sample 115 (family wapomi), closest family ramnit, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+imports[68],0,0.648,0.8582,1
+
+# test sample 151 (family wapomi), closest family ramnit, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+

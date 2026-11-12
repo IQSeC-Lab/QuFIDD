@@ -1,0 +1,34 @@
+quantum_hybrid_v7_p702_paironly (EMBER) -- CADE Sec. 5 explanation analysis, 8/8 splits
+
+Table 4: distance of the perturbed sample to the anchor of its closest family (mean +- std)
+  withheld           n      k           original             random           boundary               coin               cade           gradient
+  xtrat            200   13.7   0.2294 +- 0.103    0.2327 +- 0.124    0.2022 +- 0.129    0.2264 +- 0.17    0.04597 +- 0.0476   0.2217 +- 0.155 
+  zbot             200   20.0   0.2292 +- 0.126    0.2321 +- 0.128    0.3742 +- 0.157    0.2073 +- 0.155   0.05468 +- 0.0298   0.2153 +- 0.159 
+  ramnit           200   21.1   0.3255 +- 0.161    0.3371 +- 0.182    0.3678 +- 0.192    0.2845 +- 0.196   0.05382 +- 0.0532   0.2836 +- 0.187 
+  sality           200   32.1   0.3471 +- 0.149    0.4058 +- 0.215    0.4326 +- 0.244    0.4675 +- 0.276   0.05049 +- 0.0372   0.4449 +- 0.254 
+  wapomi           200   13.1    0.197 +- 0.142    0.2025 +- 0.156    0.4525 +- 0.243    0.1951 +- 0.185   0.04449 +- 0.0218   0.2106 +- 0.19  
+  lethic           200   22.7   0.2839 +- 0.129    0.2987 +- 0.151    0.4052 +- 0.266    0.3559 +- 0.168   0.09599 +- 0.063     0.311 +- 0.18  
+  ursnif           200   15.8   0.2555 +- 0.106     0.266 +- 0.132    0.3138 +- 0.119    0.3161 +- 0.227   0.06923 +- 0.0336   0.2946 +- 0.152 
+  kovter           200   42.0   0.1881 +- 0.141    0.2093 +- 0.145    0.4476 +- 0.221    0.1997 +- 0.185   0.07795 +- 0.0395   0.4179 +- 0.188 
+
+Table 6: share of perturbed samples that cross the detection boundary (distance <= median + 3.5 MAD of the closest family)
+  withheld          random  boundary      coin      cade  gradient
+  xtrat              91.2%     91.3%     92.0%     99.5%     92.5%
+  zbot               82.6%      3.0%     83.0%     91.0%     82.0%
+  ramnit             47.9%     10.6%     60.5%     95.5%     53.5%
+  sality             44.5%     12.5%     47.5%     85.5%     45.0%
+  wapomi             85.9%     11.1%     88.5%     98.0%     84.5%
+  lethic             79.4%     45.8%     52.0%     98.5%     82.0%
+  ursnif             87.3%     83.7%     83.5%     98.0%     86.0%
+  kovter             84.4%      4.3%     85.5%     96.5%     31.0%
+
+Extra: share no longer flagged at the FPR-10% boundary
+  withheld          random  boundary      coin      cade  gradient
+  xtrat              88.0%     93.6%     90.0%     99.5%     91.0%
+  zbot               49.6%     18.2%     64.0%    100.0%     68.0%
+  ramnit             35.9%     23.1%     56.0%     99.5%     53.0%
+  sality             18.3%     19.6%     33.0%     99.5%     27.5%
+  wapomi             73.0%     25.9%     81.0%    100.0%     75.0%
+  lethic             51.4%     62.5%     81.0%     99.0%     60.5%
+  ursnif             62.6%     88.4%     64.5%    100.0%     77.5%
+  kovter             85.5%     34.8%     83.5%     99.5%     36.0%

@@ -1,0 +1,16 @@
+# test sample 22 (family kovter), closest family sality, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+general[5],1,0.832,0.1494,0
+
+# test sample 23 (family kovter), closest family sality, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 31 (family kovter), closest family sality, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 36 (family kovter), closest family sality, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 50 (family kovter), closest family sality, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+

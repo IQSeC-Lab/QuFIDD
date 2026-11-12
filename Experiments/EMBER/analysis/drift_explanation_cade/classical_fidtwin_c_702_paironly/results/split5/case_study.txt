@@ -1,0 +1,63 @@
+# test sample 19 (family lethic), closest family sality, 21 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[67],0.245607,0.167,0.1378,0.0722852
+byte_entropy_histogram[241],0.366498,0.4731,0.3874,0.277737
+byte_entropy_histogram[245],0.332066,0.4115,0.3512,0.227672
+strings[44],0.167816,0.1544,0.1989,0.525722
+header[16],1,0.993,0.3076,0
+header[57],0.833333,0.8307,0.7032,0.666667
+imports[43],0,0.1815,0.4737,0.5
+imports[117],0.5,0.498,0.4412,0
+imports[328],0.5,0.4428,0.4911,0.75
+imports[373],0.4,0.3408,0.2434,0.2
+imports[484],0.6,0.5302,0.4625,0.4
+imports[508],0.75,0.649,0.4256,0.25
+imports[707],0.5,0.5017,0.3796,0.25
+imports[837],0.6,0.5768,0.6694,0.8
+imports[868],0.714286,0.7157,0.7899,0.857143
+imports[869],0.5,0.5355,0.5915,0.666667
+imports[918],0.285714,0.286,0.2749,0.142857
+imports[974],0.333333,0.3348,0.4371,0.5
+imports[1026],0.333333,0.3064,0.2471,0.111111
+imports[1245],0.5,0.4995,0.5383,1
+data_directories[20],0.25,0.1912,0.07225,0
+
+# test sample 74 (family lethic), closest family zbot, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[241],0.0926393,0.4731,0.219,0.0102254
+byte_entropy_histogram[249],0.101639,0.4993,0.2413,0.00863545
+header[15],1,0.9965,0.699,0.5
+header[16],1,0.993,0.4017,0
+imports[11],1,0.999,0.8963,0
+imports[30],0.5,0.8435,0.696,1
+imports[100],0.5,0.6775,0.7986,1
+imports[837],0.4,0.5768,0.8101,0.8
+
+# test sample 96 (family lethic), closest family sality, 11 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[193],0.120297,0.1279,0.08004,0.088926
+byte_entropy_histogram[230],0.185554,0.1025,0.0628,0.0640713
+byte_entropy_histogram[240],0.455607,0.346,0.2296,0.154117
+strings[44],0.163485,0.1544,0.1989,0.525722
+header[15],1,0.9965,0.6562,0.5
+imports[68],0,0.372,0.8064,1
+imports[373],0.4,0.3408,0.2434,0.2
+imports[707],0.5,0.5017,0.3796,0.25
+imports[837],0.6,0.5768,0.6694,0.8
+imports[1026],0.333333,0.3064,0.2471,0.111111
+data_directories[20],0.25,0.1912,0.07225,0
+
+# test sample 107 (family lethic), closest family sality, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[133],0.12984,0.2447,0.1736,0.281504
+header[16],1,0.993,0.3076,0
+imports[837],0.6,0.5768,0.6694,0.8
+imports[998],1,0.7352,0.5965,0.5
+
+# test sample 113 (family lethic), closest family sality, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+header[0],0.35532,0.4037,0.3923,0.416566
+header[15],1,0.9965,0.6562,0.5
+header[58],0.1,0.0629,0.01716,0
+imports[43],0,0.1815,0.4737,0.5
+

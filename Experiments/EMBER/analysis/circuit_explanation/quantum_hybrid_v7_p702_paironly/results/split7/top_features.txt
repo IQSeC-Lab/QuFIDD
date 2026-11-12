@@ -1,0 +1,85 @@
+# test sample 20 (kovter), nearest family zbot, score 0.1117 = s0(x_ref) 0.9774 + PCs [-0.1192, -0.0242, -0.4582, -0.2667, -0.1244, 0.2537, -0.2649, 0.1382]
+imports[30],attribution +0.6944,value 1,reference 0.5
+imports[53],attribution +0.5882,value 1,reference 0
+section[194],attribution +0.3768,value 0.666667,reference 0
+imports[43],attribution +0.3133,value 0.5,reference 1
+section[158],attribution +0.2513,value 0.5,reference 0
+imports[201],attribution +0.2176,value 0.333333,reference 0.666667
+imports[536],attribution +0.1736,value 0.666667,reference 0.333333
+imports[910],attribution +0.1527,value 0.6,reference 0.4
+imports[765],attribution +0.1287,value 0.5,reference 0.25
+imports[100],attribution +0.123,value 1,reference 0.5
+imports[395],attribution +0.1209,value 0.6,reference 0.2
+byte_entropy_histogram[232],attribution +0.1209,value 0.306778,reference 0.0162124
+imports[1216],attribution +0.1104,value 0.75,reference 0.5
+imports[678],attribution +0.107,value 0.5,reference 0
+byte_entropy_histogram[251],attribution +0.1065,value 0.00565851,reference 0.338757
+
+# test sample 34 (kovter), nearest family zbot, score 0.1205 = s0(x_ref) 0.9774 + PCs [-0.1186, -0.0227, -0.4582, -0.2676, -0.1212, 0.2535, -0.2626, 0.1405]
+imports[30],attribution +0.9665,value 1,reference 0.5
+imports[53],attribution +0.826,value 1,reference 0
+section[194],attribution +0.518,value 0.666667,reference 0
+imports[43],attribution +0.4387,value 0.5,reference 1
+section[158],attribution +0.3469,value 0.5,reference 0
+imports[201],attribution +0.304,value 0.333333,reference 0.666667
+imports[536],attribution +0.244,value 0.666667,reference 0.333333
+imports[910],attribution +0.2129,value 0.6,reference 0.4
+imports[765],attribution +0.1809,value 0.5,reference 0.25
+byte_entropy_histogram[232],attribution +0.1756,value 0.317121,reference 0.0162124
+imports[100],attribution +0.1718,value 1,reference 0.5
+imports[395],attribution +0.1701,value 0.6,reference 0.2
+imports[1216],attribution +0.1537,value 0.75,reference 0.5
+imports[678],attribution +0.1528,value 0.5,reference 0
+byte_entropy_histogram[251],attribution +0.1498,value 0.00541513,reference 0.338757
+
+# test sample 52 (kovter), nearest family zbot, score 0.1136 = s0(x_ref) 0.9774 + PCs [-0.1192, -0.0244, -0.4552, -0.2655, -0.1197, 0.2513, -0.2651, 0.134]
+imports[30],attribution +0.6871,value 1,reference 0.5
+imports[53],attribution +0.5819,value 1,reference 0
+section[194],attribution +0.3732,value 0.666667,reference 0
+imports[43],attribution +0.3094,value 0.5,reference 1
+section[158],attribution +0.2488,value 0.5,reference 0
+imports[201],attribution +0.2153,value 0.333333,reference 0.666667
+imports[536],attribution +0.1717,value 0.666667,reference 0.333333
+imports[910],attribution +0.1511,value 0.6,reference 0.4
+byte_entropy_histogram[232],attribution +0.1304,value 0.333371,reference 0.0162124
+imports[765],attribution +0.1273,value 0.5,reference 0.25
+imports[100],attribution +0.122,value 1,reference 0.5
+imports[395],attribution +0.1196,value 0.6,reference 0.2
+imports[1216],attribution +0.1092,value 0.75,reference 0.5
+imports[678],attribution +0.1057,value 0.5,reference 0
+byte_entropy_histogram[251],attribution +0.1052,value 0.00569262,reference 0.338757
+
+# test sample 58 (kovter), nearest family sality, score 0.0940 = s0(x_ref) 0.1238 + PCs [-0.0874, 0.0158, -0.0014, -0.0282, 0.026, -0.0175, -0.0108, 0.0738]
+header[34],attribution +0.311,value 0.5,reference 0
+imports[1202],attribution +0.02581,value 0.6,reference 0.4
+imports[1264],attribution +0.02387,value 0.333333,reference 0.666667
+byte_entropy_histogram[144],attribution +0.02201,value 0.0149197,reference 0.187213
+imports[1064],attribution +0.02091,value 0.25,reference 0.5
+strings[20],attribution +0.01651,value 0.0720486,reference 0.186176
+strings[66],attribution +0.01147,value 0.125084,reference 0.177287
+imports[665],attribution +0.01017,value 0,reference 0.25
+byte_entropy_histogram[230],attribution +0.009893,value 0.0132756,reference 0.0424417
+section[98],attribution +0.008177,value 0.435601,reference 0.642822
+strings[38],attribution +0.006018,value 0.124922,reference 0.192343
+byte_entropy_histogram[231],attribution +0.004894,value 0.020817,reference 0.0410636
+section[46],attribution +0.004699,value 0.876244,reference 0.942965
+section[146],attribution +0.004564,value 0.876825,reference 0.943058
+byte_entropy_histogram[226],attribution +0.004286,value 0.00809959,reference 0.0384692
+
+# test sample 75 (kovter), nearest family zbot, score 0.1123 = s0(x_ref) 0.9774 + PCs [-0.1194, -0.0249, -0.4532, -0.2645, -0.1175, 0.2498, -0.2662, 0.1307]
+imports[30],attribution +0.6265,value 1,reference 0.5
+imports[53],attribution +0.5289,value 1,reference 0
+section[194],attribution +0.3418,value 0.666667,reference 0
+imports[43],attribution +0.281,value 0.5,reference 1
+section[158],attribution +0.2276,value 0.5,reference 0
+imports[201],attribution +0.196,value 0.333333,reference 0.666667
+imports[536],attribution +0.156,value 0.666667,reference 0.333333
+imports[910],attribution +0.1376,value 0.6,reference 0.4
+byte_entropy_histogram[232],attribution +0.1201,value 0.337514,reference 0.0162124
+imports[765],attribution +0.1156,value 0.5,reference 0.25
+imports[100],attribution +0.1114,value 1,reference 0.5
+imports[395],attribution +0.1086,value 0.6,reference 0.2
+imports[1216],attribution +0.09954,value 0.75,reference 0.5
+imports[678],attribution +0.09545,value 0.5,reference 0
+imports[1198],attribution +0.0954,value 0.5,reference 0.75
+

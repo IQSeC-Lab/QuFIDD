@@ -1,0 +1,21 @@
+# test sample 34 (family wapomi), closest family ramnit, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+imports[68],1,0.648,0.8582,0
+
+# test sample 68 (family wapomi), closest family ramnit, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+imports[53],0,0.681,0.7026,1
+imports[68],1,0.648,0.8582,0
+
+# test sample 97 (family wapomi), closest family ramnit, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 232 (family wapomi), closest family ramnit, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 242 (family wapomi), closest family ramnit, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+imports[30],1,0.6065,0.7108,0.5
+imports[240],0,0.2185,0.1048,0.5
+imports[837],0.8,0.6952,0.6241,0.4
+

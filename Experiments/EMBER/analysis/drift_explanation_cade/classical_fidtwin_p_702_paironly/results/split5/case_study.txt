@@ -1,0 +1,45 @@
+# test sample 41 (family lethic), closest family ursnif, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[149],0.146422,0.1155,0.2056,0.750147
+byte_entropy_histogram[175],0.0183223,0.01639,0.185,0.418527
+byte_entropy_histogram[207],0.287333,0.05498,0.2588,0.836763
+byte_entropy_histogram[226],0.251034,0.09657,0.1926,0.0543446
+strings[51],0.0727648,0.07883,0.1012,0.0936635
+imports[45],1,1,0.7567,0
+imports[100],0.5,0.6775,0.7739,1
+imports[231],0.5,0.776,0.9675,1
+
+# test sample 65 (family lethic), closest family zbot, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+strings[44],0.119259,0.1544,0.3688,0.583812
+general[6],1,0.994,0.8854,0
+imports[53],1,0.952,0.5573,0
+
+# test sample 74 (family lethic), closest family ursnif, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[149],0.187349,0.1155,0.2056,0.750147
+general[2],0,0,0.7019,1
+imports[45],1,1,0.7567,0
+imports[53],1,0.952,0.5312,0
+
+# test sample 94 (family lethic), closest family ursnif, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[175],0.0226742,0.01639,0.185,0.418527
+byte_entropy_histogram[207],0.109036,0.05498,0.2588,0.836763
+byte_entropy_histogram[241],0.361665,0.4731,0.1556,0.0332463
+general[2],0,0,0.7019,1
+imports[45],1,1,0.7567,0
+imports[68],0,0.372,0.9223,1
+
+# test sample 135 (family lethic), closest family ursnif, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[245],0.474949,0.4115,0.1395,0.0288855
+byte_entropy_histogram[247],0.595709,0.5309,0.1706,0.0384155
+byte_entropy_histogram[250],0.58158,0.4994,0.1487,0.0313206
+byte_entropy_histogram[251],0.627465,0.5376,0.2041,0.028433
+byte_entropy_histogram[252],0.688597,0.5807,0.2141,0.0772401
+general[2],0,0,0.7019,1
+imports[45],1,1,0.7567,0
+imports[53],1,0.952,0.5312,0
+imports[68],0,0.372,0.9223,1
+

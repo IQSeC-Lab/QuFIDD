@@ -1,0 +1,45 @@
+# test sample 4 (family sality), closest family ursnif, 11 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[232],0.177156,0.1506,0.2203,0.466138
+byte_entropy_histogram[246],0.315007,0.4453,0.1669,0.0774981
+byte_entropy_histogram[247],0.347672,0.4632,0.1759,0.0821005
+byte_entropy_histogram[249],0.305084,0.4214,0.1764,0.0747682
+strings[66],0.13122,0.1011,0.06021,0.0110505
+general[2],1,0.226,0.7123,0
+section[60],0.145225,0.5241,0.5029,0.347884
+imports[30],0.5,0.6185,0.7148,1
+imports[86],1,0.015,0,0
+imports[517],0.6,0.52,0.4645,0.4
+imports[975],0.75,0.4302,0.3155,0.5
+
+# test sample 60 (family sality), closest family ramnit, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[224],0.0150133,0.08691,0.1168,0.0780844
+general[2],0,0.226,0.3889,1
+general[5],0,0.151,0.7296,1
+
+# test sample 70 (family sality), closest family zbot, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[0],0.608971,0.1865,0.2688,0.235928
+byte_entropy_histogram[230],0.0162644,0.07579,0.07299,0.0956389
+byte_entropy_histogram[231],0.0185084,0.1091,0.09404,0.169966
+byte_entropy_histogram[241],0.263984,0.3844,0.2164,0.0281187
+byte_entropy_histogram[247],0.345731,0.4632,0.259,0.0303389
+byte_entropy_histogram[249],0.306084,0.4214,0.2383,0.025899
+byte_entropy_histogram[250],0.306937,0.4197,0.2383,0.0237418
+byte_entropy_histogram[252],0.349885,0.4673,0.2643,0.0301586
+section[158],0,0.0505,0.0688,0.5
+
+# test sample 85 (family sality), closest family wapomi, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+general[2],0,0.226,0.8409,1
+
+# test sample 99 (family sality), closest family wapomi, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+general[2],0,0.226,0.8409,1
+general[5],0,0.151,0.5496,1
+header[15],1,0.317,0.224,0
+header[16],1,0.313,0.224,0
+imports[68],0,0.8,0.6389,1
+imports[845],1,0.3887,0.3647,0.333333
+

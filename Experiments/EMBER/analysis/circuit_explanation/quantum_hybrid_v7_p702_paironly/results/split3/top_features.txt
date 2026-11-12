@@ -1,0 +1,85 @@
+# test sample 23 (sality), nearest family zbot, score 0.5937 = s0(x_ref) 0.8235 + PCs [0.0377, -0.015, -0.0757, 0.0965, -0.2383, 0.0745, -0.2462, 0.1366]
+general[5],attribution +0.8971,value 0,reference 1
+header[15],attribution +0.8368,value 0,reference 1
+header[16],attribution +0.8293,value 0,reference 1
+header[14],attribution +0.3192,value 0,reference 0.5
+imports[53],attribution +0.09873,value 0.5,reference 1
+imports[100],attribution +0.06799,value 0.5,reference 1
+imports[30],attribution +0.05962,value 0.5,reference 1
+imports[247],attribution +0.04154,value 0,reference 0.5
+header[32],attribution +0.03053,value 0.666667,reference 0.333333
+section[87],attribution +0.02749,value 0.279898,reference 0.609704
+imports[43],attribution +0.02456,value 0,reference 0.5
+imports[520],attribution +0.01608,value 0.5,reference 0.75
+byte_entropy_histogram[176],attribution +0.01599,value 0.41505,reference 0
+byte_histogram[198],attribution +0.01083,value 0.059776,reference 0
+imports[730],attribution +0.009576,value 0.6,reference 0.4
+
+# test sample 47 (sality), nearest family wapomi, score 0.2601 = s0(x_ref) 0.0569 + PCs [-0.0198, -0.0904, 0.2366, 0.2502, -0.0085, -0.0731, -0.0212, -0.0706]
+general[5],attribution +0.1734,value 0,reference 1
+general[2],attribution +0.1509,value 0,reference 1
+header[11],attribution +0.1443,value 1,reference 0
+header[14],attribution +0.03276,value 0,reference 0.5
+byte_histogram[21],attribution +0.01916,value 0.139415,reference 0.71775
+section[60],attribution +0.01402,value 0.57296,reference 0.256479
+imports[1213],attribution +0.009401,value 0.75,reference 0.5
+imports[106],attribution +0.008779,value 1,reference 0.5
+imports[118],attribution +0.008501,value 0.5,reference 0
+imports[53],attribution +0.007488,value 0.5,reference 1
+imports[1149],attribution +0.006764,value 0.428571,reference 0.142857
+imports[845],attribution +0.006437,value 0.666667,reference 0.333333
+imports[512],attribution +0.006211,value 0.666667,reference 0.333333
+imports[25],attribution +0.005444,value 0,reference 0.5
+imports[670],attribution +0.005349,value 0.75,reference 0.5
+
+# test sample 54 (sality), nearest family zbot, score 0.2058 = s0(x_ref) 0.8235 + PCs [-0.1321, 0.0344, -0.2622, 0.1854, -0.3313, 0.0133, -0.1734, 0.0483]
+general[5],attribution +3.653,value 0,reference 1
+header[15],attribution +2.14,value 0,reference 1
+header[16],attribution +2.114,value 0,reference 1
+imports[892],attribution +0.3371,value 1,reference 0.25
+imports[30],attribution +0.2781,value 0.5,reference 1
+byte_entropy_histogram[139],attribution +0.2599,value 1.31271,reference 0.162556
+imports[845],attribution +0.1359,value 0.666667,reference 0.333333
+imports[512],attribution +0.1339,value 0.666667,reference 0.333333
+imports[657],attribution +0.1277,value 1,reference 0.5
+imports[1213],attribution +0.1231,value 0.75,reference 0.5
+imports[807],attribution +0.1051,value 0.285714,reference 0.571429
+imports[1203],attribution +0.09394,value 0.666667,reference 0.333333
+section[60],attribution +0.07931,value 0.57296,reference 0.487509
+byte_entropy_histogram[166],attribution +0.07362,value 0.169419,reference 0
+imports[1149],attribution +0.07272,value 0.428571,reference 0.285714
+
+# test sample 79 (sality), nearest family zbot, score 0.3808 = s0(x_ref) 0.8235 + PCs [-0.7622, 0.0303, -0.031, 0.4618, -0.2195, -0.0243, -0.0542, 0.1564]
+byte_histogram[0],attribution +0.03414,value 0.0221891,reference 0.659203
+imports[231],attribution +0.03031,value 0.5,reference 1
+imports[100],attribution +0.02996,value 0.5,reference 1
+byte_entropy_histogram[119],attribution +0.01628,value 0,reference 0.947977
+byte_entropy_histogram[118],attribution +0.01366,value 0,reference 0.979167
+imports[32],attribution +0.009552,value 0,reference 1
+byte_entropy_histogram[128],attribution +0.009291,value 0.00420641,reference 0.992025
+imports[117],attribution +0.009014,value 0.5,reference 0
+header[39],attribution +0.008919,value 1,reference 0
+byte_entropy_histogram[117],attribution +0.00799,value 0,reference 0.452703
+byte_entropy_histogram[112],attribution +0.007947,value 0,reference 0.437132
+strings[17],attribution +0.007382,value 0.186896,reference 0.546405
+imports[998],attribution +0.006933,value 0.75,reference 0.5
+header[57],attribution +0.006724,value 0.833333,reference 0.666667
+header[58],attribution +0.004798,value 0.1,reference 0
+
+# test sample 110 (sality), nearest family ramnit, score 0.2809 = s0(x_ref) 0.0408 + PCs [0.4766, 0.0448, -0.0733, -0.0377, -0.0035, -0.0517, -0.0132, -0.1019]
+header[15],attribution +1.208,value 0,reference 1
+header[16],attribution +1.206,value 0,reference 1
+imports[30],attribution +0.1428,value 0.5,reference 1
+byte_histogram[139],attribution +0.03461,value 0.0561517,reference 0.453719
+byte_entropy_histogram[216],attribution +0.02562,value 0,reference 0.419707
+imports[822],attribution +0.02476,value 0.333333,reference 0.666667
+byte_entropy_histogram[223],attribution +0.02069,value 0,reference 0.167567
+section[69],attribution +0.01396,value 0.303632,reference 0.514193
+section[87],attribution +0.01367,value 0.609704,reference 0.426691
+imports[707],attribution +0.01294,value 0.25,reference 0.5
+byte_histogram[141],attribution +0.01286,value 0.0744212,reference 0.177787
+byte_entropy_histogram[239],attribution +0.0124,value 0,reference 0.178158
+imports[974],attribution +0.01194,value 0.5,reference 0.333333
+section[0],attribution +0.01179,value 0.0454545,reference 0.181818
+imports[538],attribution +0.00943,value 0.888889,reference 0.777778
+

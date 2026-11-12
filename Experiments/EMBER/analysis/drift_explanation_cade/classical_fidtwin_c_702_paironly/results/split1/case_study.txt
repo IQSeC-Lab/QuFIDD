@@ -1,0 +1,25 @@
+# test sample 1 (family zbot), closest family sality, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+header[15],1,0.7025,0.6587,0.5
+header[16],1,0.408,0.315,0
+header[60],0,0.5634,0.4723,1
+section[194],0.666667,0.1117,0.04721,0.333333
+imports[324],0.5,0.3987,0.3799,0.333333
+
+# test sample 22 (family zbot), closest family sality, 4 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+header[15],1,0.7025,0.6587,0.5
+header[16],1,0.408,0.315,0
+header[60],0,0.5634,0.4723,1
+imports[1063],0.666667,0.6647,0.593,0.333333
+
+# test sample 45 (family zbot), closest family sality, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 69 (family zbot), closest family sality, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 96 (family zbot), closest family sality, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+header[16],1,0.408,0.315,0
+

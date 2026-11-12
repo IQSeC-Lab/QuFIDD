@@ -1,0 +1,23 @@
+# test sample 50 (family wapomi), closest family sality, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+imports[53],1,0.681,0.5942,0
+
+# test sample 77 (family wapomi), closest family ramnit, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 103 (family wapomi), closest family ramnit, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+header[32],0.5,0.4165,0.4034,0
+
+# test sample 109 (family wapomi), closest family ramnit, 0 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+
+# test sample 135 (family wapomi), closest family ramnit, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[111],0.174673,0.1476,0.105,0.535179
+byte_entropy_histogram[247],0.0698317,0.1811,0.2753,0.489858
+byte_entropy_histogram[249],0.061921,0.1677,0.2514,0.395714
+byte_entropy_histogram[252],0.0778151,0.1878,0.2824,0.353434
+header[34],0.5,0.3915,0.5527,1
+imports[869],0.666667,0.5572,0.5772,0.5
+

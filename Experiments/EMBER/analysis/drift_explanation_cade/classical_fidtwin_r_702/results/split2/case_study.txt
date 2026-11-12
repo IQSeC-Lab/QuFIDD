@@ -1,0 +1,61 @@
+# test sample 19 (family ramnit), closest family ursnif, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[247],0.333632,0.2685,0.1695,0.0461191
+byte_entropy_histogram[250],0.362163,0.2499,0.1482,0.0380123
+byte_entropy_histogram[251],0.384128,0.2714,0.2102,0.0414727
+byte_entropy_histogram[252],0.395418,0.2754,0.2128,0.0513616
+general[5],1,0.745,0.2672,0
+imports[30],1,0.7085,0.7188,0.5
+imports[45],1,0.996,0.7532,0
+imports[68],0,0.86,0.9198,1
+imports[100],1,0.79,0.7767,0.5
+
+# test sample 29 (family ramnit), closest family wapomi, 12 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[21],0.107327,0.1517,0.4448,0.720499
+byte_histogram[25],0.0705362,0.1495,0.3308,0.537221
+byte_histogram[106],0.260292,0.2554,0.4023,0.601339
+byte_entropy_histogram[229],0.2503,0.1862,0.4252,0.620145
+byte_entropy_histogram[230],0.118345,0.1303,0.3955,0.646391
+byte_entropy_histogram[231],0.276068,0.205,0.4539,0.639009
+general[5],0,0.745,0.5512,1
+header[11],1,0.346,0.5265,0
+header[16],1,0.419,0.2219,0
+imports[8],0,0.4645,0.4803,0.5
+imports[21],0,0.99,0.9815,1
+imports[240],1,0.221,0.4451,0
+
+# test sample 36 (family ramnit), closest family ursnif, 5 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[186],0.0683982,0.04972,0.1754,0.25528
+general[5],1,0.745,0.2672,0
+header[11],0,0.346,0.9885,1
+section[90],-0.193,0.4985,0.502,0.502482
+imports[96],1,0.09,0.04326,0
+
+# test sample 44 (family ramnit), closest family ursnif, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[237],0.0357348,0.1015,0.1811,0.0868815
+general[2],0,0.386,0.6985,1
+general[5],1,0.745,0.2672,0
+header[11],0,0.346,0.9885,1
+header[14],0.5,0.386,0.1247,0
+imports[45],1,0.996,0.7532,0
+imports[837],0.8,0.623,0.5415,0.4
+imports[872],0.8,0.7508,0.7641,0.6
+
+# test sample 54 (family ramnit), closest family wapomi, 12 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[0],0.581577,0.2171,0.1736,0.119894
+byte_histogram[21],0.0670658,0.1517,0.4448,0.720499
+byte_histogram[25],0.0575594,0.1495,0.3308,0.537221
+byte_histogram[116],0.219167,0.2714,0.3141,0.356534
+byte_entropy_histogram[226],0.110852,0.1612,0.3099,0.471323
+byte_entropy_histogram[229],0.102249,0.1862,0.4252,0.620145
+byte_entropy_histogram[230],0.109454,0.1303,0.3955,0.646391
+byte_entropy_histogram[231],0.160504,0.205,0.4539,0.639009
+byte_entropy_histogram[232],0.168646,0.2087,0.3196,0.360201
+header[39],1,0.979,0.9112,0
+imports[68],1,0.86,0.6449,0
+imports[231],1,0.75,0.73,0
+

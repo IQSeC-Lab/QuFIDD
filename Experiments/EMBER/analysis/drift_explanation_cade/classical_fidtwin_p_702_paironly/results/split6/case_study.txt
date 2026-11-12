@@ -1,0 +1,36 @@
+# test sample 11 (family ursnif), closest family sality, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+header[15],1,0.967,0.6574,0.5
+
+# test sample 20 (family ursnif), closest family zbot, 3 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+general[5],1,0.271,0.3061,0
+header[39],1,0.996,0.7842,0
+imports[773],0,0.3906,0.4507,0.4
+
+# test sample 66 (family ursnif), closest family sality, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[21],0.0574747,0.06988,0.1103,0.0985513
+byte_entropy_histogram[226],0.0619577,0.1899,0.08192,0.247905
+byte_entropy_histogram[241],0.0946514,0.1239,0.3213,0.31428
+byte_entropy_histogram[242],0.144545,0.18,0.4181,0.414681
+byte_entropy_histogram[248],0.273286,0.2178,0.4184,0.431628
+byte_entropy_histogram[249],0.14674,0.1696,0.4235,0.407904
+byte_entropy_histogram[250],0.0889995,0.1424,0.4215,0.4255
+byte_entropy_histogram[251],0.0883462,0.1974,0.4471,0.454816
+header[34],0,0.3115,0.4356,0.5
+
+# test sample 74 (family ursnif), closest family sality, 2 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[231],0.082963,0.2139,0.1069,0.28098
+general[7],0,0.034,0.3244,1
+
+# test sample 108 (family ursnif), closest family zbot, 6 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[55],0.0801932,0.07866,0.1016,0.237797
+byte_histogram[216],0.115882,0.07984,0.08199,0.0259407
+byte_entropy_histogram[241],0.452063,0.1239,0.1885,0.00123893
+imports[68],0,0.927,0.9636,1
+imports[118],0,0.4805,0.4962,0.5
+imports[837],0.6,0.5396,0.805,0.8
+

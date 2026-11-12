@@ -1,0 +1,68 @@
+{
+  "model": "cade_enc_8_702_proto",
+  "dataset": "EMBER",
+  "split": 2,
+  "run": 0,
+  "withheld_family": "ramnit",
+  "best_inspection_count": 1359,
+  "precision_at_stop": 0.6460632818248713,
+  "n_explained": 200,
+  "n_explained_drift": 137,
+  "n_features": 487,
+  "reload_rel_diff": 1.876488561929255e-07,
+  "k_mean": 52.835,
+  "k_std": 17.528484674951226,
+  "d_orig_mean": 2.5461944009778774,
+  "d_orig_std": 0.8708110513875712,
+  "boundary": {
+    "n": 6,
+    "d_mean": 4.26271533951033,
+    "d_std": 1.2770430822794305,
+    "d_orig_mean": 3.8435170256399656,
+    "rel_d_mean": 1.1090663345768752,
+    "success_mad": 0.16666666666666666,
+    "success_fpr10": 0.3333333333333333
+  },
+  "coin_K_mean": 3.425,
+  "time_s": {
+    "cade": 135.35815906524658,
+    "boundary": 9.821401596069336,
+    "coin": 613.6701800823212
+  },
+  "random": {
+    "n": 200,
+    "d_mean": 2.5273202238820547,
+    "d_std": 1.0552011721938734,
+    "d_orig_mean": 2.5461944009778774,
+    "rel_d_mean": 0.9925872992696182,
+    "success_mad": 0.9305,
+    "success_fpr10": 0.72485
+  },
+  "coin": {
+    "n": 200,
+    "d_mean": 2.3207310205171576,
+    "d_std": 1.1871103738142477,
+    "d_orig_mean": 2.5461944009778774,
+    "rel_d_mean": 0.9114508380137316,
+    "success_mad": 0.915,
+    "success_fpr10": 0.8
+  },
+  "cade": {
+    "n": 200,
+    "d_mean": 0.3315209097691894,
+    "d_std": 0.19151460015907912,
+    "d_orig_mean": 2.5461944009778774,
+    "rel_d_mean": 0.1302025130688636,
+    "success_mad": 0.995,
+    "success_fpr10": 1.0
+  },
+  "gradient": {
+    "n": 200,
+    "d_mean": 2.45461591334356,
+    "d_std": 1.3665768020781095,
+    "d_orig_mean": 2.5461944009778774,
+    "rel_d_mean": 0.9640331910245555,
+    "success_mad": 0.88,
+    "success_fpr10": 0.75
+  }
+}

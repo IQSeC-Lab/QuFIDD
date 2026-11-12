@@ -1,0 +1,12 @@
+classical_fidtwin_r_702 (EMBER) -- quantum-native drift explanation, 8/8 splits
+
+  withheld          AUC  AUC res  AUC ent
+  xtrat           0.994    0.959    0.766
+  zbot            0.869    0.779    0.826
+  ramnit          0.789    0.669    0.812
+  sality          0.905    0.726    0.872
+  wapomi          0.720    0.653    0.800
+  lethic          0.826    0.661    0.926
+  ursnif          0.858    0.463    0.724
+  kovter          0.793    0.370    0.935
+  MEAN            0.844    0.660    0.833

@@ -1,0 +1,85 @@
+# test sample 37 (ramnit), nearest family sality, score 0.3880 = s0(x_ref) 0.6038 + PCs [0.0962, -0.0187, 0.0444, -0.0734, -0.0045, 0.1053, -0.2833, -0.0819]
+general[5],attribution +0.3727,value 1,reference 0
+section[194],attribution +0.1994,value 0.666667,reference 0
+imports[30],attribution +0.1601,value 1,reference 0.5
+header[14],attribution +0.1356,value 0.5,reference 0
+header[11],attribution +0.1339,value 0,reference 1
+section[158],attribution +0.1125,value 0.5,reference 0
+section[164],attribution +0.112,value 0,reference 0.5
+imports[53],attribution +0.1027,value 1,reference 0.5
+byte_entropy_histogram[240],attribution +0.06227,value 0.560468,reference 0.0813206
+section[198],attribution +0.04868,value 0.333333,reference 0.666667
+byte_entropy_histogram[248],attribution +0.04682,value 0.729628,reference 0.153216
+byte_entropy_histogram[251],attribution +0.04606,value 0.774175,reference 0.172716
+byte_entropy_histogram[244],attribution +0.04517,value 0.796159,reference 0.156077
+byte_entropy_histogram[252],attribution +0.04319,value 0.849509,reference 0.175704
+byte_entropy_histogram[242],attribution +0.04137,value 0.794833,reference 0.158601
+
+# test sample 44 (ramnit), nearest family ursnif, score 0.3496 = s0(x_ref) 0.1178 + PCs [-0.0498, 0.1876, -0.0274, -0.061, 0.0992, 0.0779, 0.1116, -0.1063]
+general[2],attribution +1.732,value 0,reference 1
+imports[106],attribution +1.428,value 0,reference 1
+imports[53],attribution +0.2222,value 1,reference 0.5
+byte_entropy_histogram[213],attribution +0.1754,value 0.841898,reference 0.322593
+imports[696],attribution +0.1699,value 0.75,reference 0.25
+imports[100],attribution +0.1542,value 1,reference 0.5
+byte_entropy_histogram[216],attribution +0.1317,value 0.513893,reference 0.238438
+imports[872],attribution +0.1159,value 0.8,reference 0.6
+imports[894],attribution +0.1123,value 1,reference 0.666667
+byte_entropy_histogram[221],attribution +0.1064,value 0.650216,reference 0.129795
+byte_entropy_histogram[222],attribution +0.09197,value 0.468213,reference 0.26405
+imports[892],attribution +0.09185,value 0.25,reference 0.5
+imports[1011],attribution +0.08618,value 0.714286,reference 0.428571
+byte_histogram[85],attribution +0.07396,value 0.561255,reference 0.128498
+byte_histogram[16],attribution +0.06471,value 0.320932,reference 0.133057
+
+# test sample 75 (ramnit), nearest family sality, score 0.3178 = s0(x_ref) 0.6038 + PCs [-0.2124, 0.1894, 0.076, -0.0186, -0.0112, -0.3369, 0.0378, -0.01]
+header[16],attribution +1.478,value 1,reference 0
+general[2],attribution +1.033,value 1,reference 0
+imports[43],attribution +0.3765,value 0,reference 0.5
+header[15],attribution +0.3684,value 1,reference 0.5
+imports[373],attribution +0.1478,value 0.666667,reference 0.333333
+header[11],attribution +0.09852,value 0,reference 1
+data_directories[20],attribution +0.09083,value 0.25,reference 0
+imports[536],attribution +0.08022,value 0.222222,reference 0.444444
+imports[517],attribution +0.06581,value 0.2,reference 0.4
+imports[921],attribution +0.06383,value 0.333333,reference 0.666667
+byte_histogram[16],attribution +0.05723,value 0.7844,reference 0.216939
+section[96],attribution +0.05694,value 0.518767,reference 0.705107
+imports[405],attribution +0.05255,value 1,reference 0.666667
+imports[25],attribution +0.04313,value 0.5,reference 0
+byte_entropy_histogram[231],attribution +0.03467,value 0.581234,reference 0.359852
+
+# test sample 76 (ramnit), nearest family wapomi, score 0.1408 = s0(x_ref) 0.5179 + PCs [-0.0847, 0.0059, -0.3172, -0.0209, 0.0112, 0.0113, 0.004, 0.0133]
+imports[43],attribution +0.02048,value 0.5,reference 0
+header[36],attribution +0.01355,value 1,reference 0
+header[39],attribution +0.007061,value 0,reference 1
+byte_histogram[139],attribution +0.00464,value 0.152269,reference 0.380823
+imports[604],attribution +0.003069,value 0.333333,reference 0.666667
+byte_entropy_histogram[118],attribution +0.002923,value 0.202693,reference 0.0355458
+byte_entropy_histogram[213],attribution +0.002618,value 0.0405865,reference 0.249019
+imports[1213],attribution +0.002451,value 0.5,reference 0.25
+byte_histogram[133],attribution +0.002437,value 0.185073,reference 0.248481
+imports[1117],attribution +0.00238,value 0.333333,reference 0.666667
+byte_histogram[69],attribution +0.002327,value 0.102831,reference 0.209231
+byte_entropy_histogram[216],attribution +0.00227,value 0.0526828,reference 0.241337
+imports[400],attribution +0.002265,value 0.666667,reference 1
+imports[649],attribution +0.002028,value 0.25,reference 0.5
+byte_entropy_histogram[119],attribution +0.001895,value 0.181269,reference 0.0391148
+
+# test sample 97 (ramnit), nearest family ursnif, score 0.5978 = s0(x_ref) 0.1178 + PCs [0.3929, 0.0175, -0.043, 0.1365, 0.0356, 0.0111, -0.0268, -0.0438]
+general[2],attribution +0.1422,value 0,reference 1
+byte_histogram[234],attribution +0.05769,value 2.32817,reference 0.129957
+imports[30],attribution +0.05692,value 1,reference 0.5
+byte_histogram[174],attribution +0.05558,value 2.4675,reference 0.161941
+byte_histogram[176],attribution +0.05538,value 1.75934,reference 0.134297
+imports[106],attribution +0.03557,value 0,reference 1
+imports[53],attribution +0.02834,value 1,reference 0.5
+byte_histogram[155],attribution +0.02664,value 1.77245,reference 0.120335
+byte_entropy_histogram[242],attribution +0.02379,value 0.533973,reference 0.240254
+byte_entropy_histogram[243],attribution +0.02075,value 0.545775,reference 0.267496
+byte_histogram[132],attribution +0.02061,value 1.25771,reference 0.153604
+byte_entropy_histogram[250],attribution +0.01884,value 0.474701,reference 0.214181
+byte_entropy_histogram[251],attribution +0.0159,value 0.414682,reference 0.225251
+byte_histogram[35],attribution +0.01584,value 2.71299,reference 0.112471
+byte_entropy_histogram[245],attribution +0.014,value 0.394725,reference 0.183634
+

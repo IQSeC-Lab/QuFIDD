@@ -1,0 +1,85 @@
+# test sample 23 (lethic), nearest family zbot, score 0.3290 = s0(x_ref) 0.8907 + PCs [-0.2216, -0.1422, -0.2131, -0.0968, -0.0943, -0.0295, -0.0081, 0.244]
+imports[53],attribution +0.1381,value 1,reference 0
+imports[30],attribution +0.1064,value 1,reference 0.5
+byte_histogram[198],attribution +0.03673,value 0.0997061,reference 0.723541
+imports[3],attribution +0.03312,value 0.5,reference 1
+byte_entropy_histogram[232],attribution +0.02685,value 0.205019,reference 0.0162124
+imports[398],attribution +0.02496,value 0.333333,reference 0
+imports[837],attribution +0.02466,value 0.6,reference 1
+byte_entropy_histogram[230],attribution +0.02293,value 0.185478,reference 0.0164224
+strings[44],attribution +0.02031,value 0.151553,reference 0.936375
+byte_entropy_histogram[229],attribution +0.01818,value 0.123108,reference 0.00995414
+imports[201],attribution +0.01778,value 0.333333,reference 0.666667
+imports[530],attribution +0.0168,value 0.6,reference 0.4
+byte_entropy_histogram[239],attribution +0.01568,value 0.145967,reference 0.020085
+byte_entropy_histogram[231],attribution +0.0155,value 0.121736,reference 0.0183679
+strings[49],attribution +0.01548,value 0.0973091,reference 0.586999
+
+# test sample 25 (lethic), nearest family zbot, score 0.0995 = s0(x_ref) 0.8907 + PCs [-0.2427, -0.0603, -0.1656, -0.1554, -0.1912, -0.1241, -0.0561, 0.2043]
+header[34],attribution +0.01853,value 0,reference 0.5
+byte_histogram[198],attribution +0.01542,value 0.121313,reference 0.723541
+imports[3],attribution +0.01451,value 0.5,reference 1
+imports[398],attribution +0.01252,value 0.333333,reference 0
+imports[530],attribution +0.009571,value 0.6,reference 0.4
+imports[837],attribution +0.00886,value 0.6,reference 1
+section[69],attribution +0.008314,value 0.303632,reference 0.523439
+imports[872],attribution +0.007853,value 0.6,reference 1
+section[96],attribution +0.007068,value 0.858913,reference 0.724078
+byte_entropy_histogram[119],attribution +0.006878,value 0,reference 0.147391
+imports[560],attribution +0.00602,value 0.666667,reference 0.333333
+section[87],attribution +0.005026,value 0.609704,reference 0.41569
+imports[658],attribution +0.004889,value 0.4,reference 0.6
+strings[49],attribution +0.004513,value 0.0755247,reference 0.586999
+imports[685],attribution +0.004432,value 0.666667,reference 0.333333
+
+# test sample 37 (lethic), nearest family zbot, score 0.3290 = s0(x_ref) 0.8907 + PCs [-0.2196, -0.1432, -0.2135, -0.0961, -0.0961, -0.0294, -0.0081, 0.2445]
+imports[53],attribution +0.1544,value 1,reference 0
+imports[30],attribution +0.1149,value 1,reference 0.5
+byte_histogram[198],attribution +0.03871,value 0.100341,reference 0.723541
+imports[3],attribution +0.03519,value 0.5,reference 1
+byte_entropy_histogram[232],attribution +0.02762,value 0.205048,reference 0.0162124
+imports[398],attribution +0.02633,value 0.333333,reference 0
+imports[837],attribution +0.0261,value 0.6,reference 1
+byte_entropy_histogram[230],attribution +0.02394,value 0.185565,reference 0.0164224
+strings[44],attribution +0.02163,value 0.161667,reference 0.936375
+imports[201],attribution +0.01902,value 0.333333,reference 0.666667
+byte_entropy_histogram[229],attribution +0.01885,value 0.123068,reference 0.00995414
+imports[530],attribution +0.01761,value 0.6,reference 0.4
+strings[49],attribution +0.0164,value 0.0996207,reference 0.586999
+byte_entropy_histogram[231],attribution +0.01616,value 0.121605,reference 0.0183679
+byte_entropy_histogram[239],attribution +0.01606,value 0.145902,reference 0.020085
+
+# test sample 64 (lethic), nearest family sality, score 0.2423 = s0(x_ref) 0.8495 + PCs [-0.0607, -0.1787, 0.1044, -0.1632, 0.1727, -0.489, -0.0408, 0.0482]
+byte_entropy_histogram[240],attribution +0.02159,value 0.109267,reference 0.534104
+byte_histogram[0],attribution +0.02059,value 0.282978,reference 0.0746896
+header[34],attribution +0.01672,value 0,reference 0.5
+byte_entropy_histogram[248],attribution +0.01643,value 0.0578415,reference 0.730732
+byte_entropy_histogram[244],attribution +0.01552,value 0.0657912,reference 0.748409
+byte_histogram[69],attribution +0.0145,value 0.245436,reference 0.0811402
+byte_entropy_histogram[242],attribution +0.01427,value 0.0688486,reference 0.740993
+byte_histogram[133],attribution +0.01419,value 0.302201,reference 0.127553
+byte_entropy_histogram[223],attribution +0.01399,value 0.333659,reference 0.0251583
+byte_histogram[139],attribution +0.01361,value 0.327284,reference 0.0768431
+byte_entropy_histogram[252],attribution +0.01308,value 0.0676123,reference 0.727756
+byte_entropy_histogram[216],attribution +0.01229,value 0.299036,reference 0.0096645
+byte_entropy_histogram[241],attribution +0.01063,value 0.0560031,reference 0.705996
+byte_entropy_histogram[251],attribution +0.01035,value 0.0630467,reference 0.621146
+strings[31],attribution +0.008828,value 0.0813675,reference 0.256626
+
+# test sample 72 (lethic), nearest family zbot, score 0.3298 = s0(x_ref) 0.8907 + PCs [-0.2179, -0.1426, -0.2132, -0.0973, -0.0976, -0.0293, -0.008, 0.2448]
+imports[53],attribution +0.1304,value 1,reference 0
+imports[30],attribution +0.1022,value 1,reference 0.5
+byte_histogram[198],attribution +0.03549,value 0.102708,reference 0.723541
+imports[3],attribution +0.03198,value 0.5,reference 1
+byte_entropy_histogram[232],attribution +0.02627,value 0.205107,reference 0.0162124
+imports[398],attribution +0.0242,value 0.333333,reference 0
+imports[837],attribution +0.02368,value 0.6,reference 1
+byte_entropy_histogram[230],attribution +0.02225,value 0.185489,reference 0.0164224
+strings[44],attribution +0.01924,value 0.159244,reference 0.936375
+byte_entropy_histogram[229],attribution +0.01769,value 0.123033,reference 0.00995414
+imports[201],attribution +0.01718,value 0.333333,reference 0.666667
+imports[530],attribution +0.01632,value 0.6,reference 0.4
+byte_entropy_histogram[239],attribution +0.01537,value 0.145932,reference 0.020085
+byte_entropy_histogram[231],attribution +0.01501,value 0.121591,reference 0.0183679
+strings[49],attribution +0.01494,value 0.0958805,reference 0.586999
+

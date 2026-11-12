@@ -1,0 +1,59 @@
+# test sample 19 (family zbot), closest family wapomi, 10 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[225],0.0102709,0.1168,0.4575,0.783542
+byte_entropy_histogram[228],0.0151076,0.1095,0.5185,0.915235
+byte_entropy_histogram[231],0.0121636,0.08895,0.4232,0.705595
+header[15],1,0.7025,0.6197,0.5
+header[16],1,0.408,0.2395,0
+section[164],0,0.2743,0.3222,0.333333
+section[172],1,0.515,0.5,0.5
+section[194],0.666667,0.1117,0.02481,0
+imports[68],1,0.962,0.6166,0
+imports[231],1,0.942,0.8617,0.5
+
+# test sample 24 (family zbot), closest family sality, 9 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_histogram[149],0.0862759,0.07878,0.1042,0.044729
+byte_entropy_histogram[231],0.0183679,0.08895,0.1065,0.293585
+header[15],0.5,0.7025,0.6587,1
+header[16],0,0.408,0.315,1
+imports[68],1,0.962,0.8107,0
+imports[306],0.5,0.4908,0.4643,0.25
+imports[539],0.5,0.4963,0.4679,0
+imports[566],0.75,0.5742,0.5501,0.5
+imports[1063],0.666667,0.6647,0.593,0
+
+# test sample 71 (family zbot), closest family sality, 17 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[247],0.0123008,0.2558,0.4548,0.0694708
+general[7],0,0.022,0.3199,1
+section[164],0,0.2743,0.2975,0.333333
+imports[30],1,0.698,0.6184,0.5
+imports[100],1,0.801,0.7241,0.5
+imports[117],0,0.355,0.4463,0.5
+imports[360],0.5,0.5205,0.5525,0.75
+imports[419],0.5,0.504,0.4857,0.75
+imports[568],0.333333,0.345,0.3734,0.666667
+imports[643],0.4,0.4062,0.43,0.8
+imports[684],0.666667,0.6293,0.5661,0
+imports[762],0.5,0.4942,0.4933,0.25
+imports[864],0.333333,0.335,0.3561,1
+imports[892],0.25,0.2817,0.3315,0.5
+imports[987],0.4,0.4598,0.4967,0.6
+imports[1066],0.4,0.4332,0.4606,0.6
+imports[1227],0.6,0.5918,0.5556,0.2
+
+# test sample 90 (family zbot), closest family sality, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+header[15],0.5,0.7025,0.6587,1
+header[16],0,0.408,0.315,1
+imports[68],1,0.962,0.8107,0
+imports[383],0.25,0.4467,0.5379,1
+imports[667],0.6,0.5722,0.5067,0.2
+imports[684],0.666667,0.6293,0.5661,0
+imports[691],0.75,0.7345,0.6453,0.25
+
+# test sample 118 (family zbot), closest family sality, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+imports[68],1,0.962,0.8107,0
+

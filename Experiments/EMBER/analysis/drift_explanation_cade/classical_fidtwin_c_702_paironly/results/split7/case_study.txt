@@ -1,0 +1,45 @@
+# test sample 8 (family kovter), closest family sality, 8 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[247],0.00610885,0.09627,0.4499,0.722788
+byte_entropy_histogram[248],0.00771956,0.08751,0.4113,0.666885
+byte_entropy_histogram[250],0.0054767,0.08765,0.4192,0.711987
+byte_entropy_histogram[251],0.00643379,0.09462,0.4549,0.732186
+byte_entropy_histogram[252],0.00606959,0.09625,0.4661,0.708606
+byte_entropy_histogram[254],0.00545715,0.07803,0.376,0.573358
+general[5],1,0.832,0.1494,0
+header[14],1,0.8685,0.1179,0
+
+# test sample 34 (family kovter), closest family sality, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[245],0.00429718,0.09116,0.4136,0.611848
+byte_entropy_histogram[246],0.00526574,0.09531,0.444,0.660457
+byte_entropy_histogram[247],0.00457439,0.09627,0.4499,0.722788
+byte_entropy_histogram[249],0.00449565,0.08744,0.4212,0.704351
+byte_entropy_histogram[254],0.00423439,0.07803,0.376,0.573358
+general[5],1,0.832,0.1494,0
+header[14],1,0.8685,0.1179,0
+
+# test sample 63 (family kovter), closest family sality, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[242],0.00682369,0.09063,0.4155,0.683373
+byte_entropy_histogram[246],0.00752663,0.09531,0.444,0.660457
+byte_entropy_histogram[247],0.00617589,0.09627,0.4499,0.722788
+byte_entropy_histogram[251],0.00658395,0.09462,0.4549,0.732186
+byte_entropy_histogram[254],0.00589868,0.07803,0.376,0.573358
+general[5],1,0.832,0.1494,0
+header[14],1,0.8685,0.1179,0
+
+# test sample 74 (family kovter), closest family sality, 1 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+section[60],0.264955,0.5259,0.5329,0.581383
+
+# test sample 91 (family kovter), closest family sality, 7 features
+feature,value,avg_in_real_family_test,avg_in_closest_family_train,closest_sample_value
+byte_entropy_histogram[244],0.00690157,0.09179,0.4178,0.648827
+byte_entropy_histogram[245],0.00737343,0.09116,0.4136,0.611848
+byte_entropy_histogram[247],0.00619434,0.09627,0.4499,0.722788
+byte_entropy_histogram[249],0.00518441,0.08744,0.4212,0.704351
+general[5],1,0.832,0.1494,0
+header[14],1,0.8685,0.1179,0
+section[158],0.5,0.4265,0.05309,0
+
